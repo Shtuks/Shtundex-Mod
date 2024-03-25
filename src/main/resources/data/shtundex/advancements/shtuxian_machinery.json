@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "shtundex:shtunder_prism"
+    },
+    "title": {
+      "translate": "advancements.shtuxian_machinery.title"
+    },
+    "description": {
+      "translate": "advancements.shtuxian_machinery.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "shtuxian_machinery": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "shtundex:shtunder_prism"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "shtundex:catsteel_catsteel"
+}

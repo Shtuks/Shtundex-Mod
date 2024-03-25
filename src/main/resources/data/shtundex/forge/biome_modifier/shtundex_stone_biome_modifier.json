@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "shtundex:shtuxian_forest",
+    "shtundex:shtuxian_outlands",
+    "lush_caves"
+  ],
+  "features": "shtundex:shtundex_stone",
+  "step": "underground_ores"
+}

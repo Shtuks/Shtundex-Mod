@@ -1,0 +1,112 @@
+{
+  "_fv": 57,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "energy1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy7"
+          },
+          "anchorPoint": "CENTER",
+          "x": 205,
+          "y": 189
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy6"
+          },
+          "anchorPoint": "CENTER",
+          "x": 205,
+          "y": 189
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy5"
+          },
+          "anchorPoint": "CENTER",
+          "x": 205,
+          "y": 189
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy4"
+          },
+          "anchorPoint": "CENTER",
+          "x": 205,
+          "y": 189
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 205,
+          "y": 189
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Energy2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 205,
+          "y": 189
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energy7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ShtuxianEnergyGui"
+          },
+          "anchorPoint": "CENTER",
+          "x": 205,
+          "y": 189
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "ShtukCheck"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

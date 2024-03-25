@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:catsteel_bar"
+    }
+  },
+  "result": {
+    "item": "shtundex:catsteel_nugget",
+    "count": 9
+  }
+}

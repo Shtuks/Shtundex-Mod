@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "bc ",
+    "bb "
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:the_stick"
+    },
+    "b": {
+      "item": "shtundex:catsteel_plate"
+    },
+    "c": {
+      "item": "shtundex:recharger"
+    }
+  },
+  "result": {
+    "item": "shtundex:catsteel_drill_handle",
+    "count": 1
+  }
+}

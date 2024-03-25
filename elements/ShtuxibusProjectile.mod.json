@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:TestEmpty"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.firework.large_blast"
+    },
+    "igniteFire": true,
+    "power": 5.0,
+    "damage": 100.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "ShtuxibusProjectileKoghdaSnariadPopadaietVBlok"
+    },
+    "onHitsPlayer": {
+      "name": "ShtuxibusProjectileKoghdaSnariadPopadaietVIghroka"
+    },
+    "onHitsEntity": {
+      "name": "ShtuxibusProjectileKoghdaSnariadPopadaietVSushchnost"
+    }
+  }
+}

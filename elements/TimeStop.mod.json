@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Time stop",
+    "icon": "clock_00.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onStarted": {
+      "name": "TimeStopPriNalozhieniiEffiekta"
+    },
+    "onExpired": {
+      "name": "TimeStopPriIstiechieniiEffiekta"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "shtundex:advanced_shtuk_parts"
+    },
+    "title": {
+      "translate": "advancements.level_2_shtuk.title"
+    },
+    "description": {
+      "translate": "advancements.level_2_shtuk.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "level_2_shtuk": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "shtundex:omniruler"
+}

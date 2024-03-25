@@ -1,0 +1,7 @@
+{
+  "parent": "shtundex:custom/staff1",
+  "textures": {
+    "0": "shtundex:block/staff",
+    "particle": "shtundex:item/blaster"
+  }
+}

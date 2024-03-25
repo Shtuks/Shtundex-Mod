@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.NETHER_STAR"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.firework.large_blast"
+    },
+    "igniteFire": true,
+    "power": 3.0,
+    "damage": 10.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": ""
+  }
+}

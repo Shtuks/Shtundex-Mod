@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="shtundex"
+version="0.0.5"
+displayName="Shtundex"
+displayURL="https://modrinth.com/mod/shtundex-mod"
+logoFile="logo.png"
+credits="Textures - spizjeno from Fargo's Mod, Thaumic Tinkerer, IC2. Sound - spizjeno from Calamity Mod. Music - spizjeno from Extra Botany, Fargo's Mod."
+authors="MaONAHK9955, StarlightCat, FormulaOak15915"
+
+[[dependencies.shtundex]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.shtundex]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.shtundex]]
+    modId="caelus"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.shtundex]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.shtundex]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

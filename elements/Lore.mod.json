@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Lore",
+    "icon": {
+      "value": "CUSTOM:LoreCatsteel"
+    },
+    "showSearch": false
+  }
+}

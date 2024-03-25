@@ -1,0 +1,43 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "catdrill",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Cat Steel Drill",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Shtundex"
+    },
+    "harvestLevel": 20,
+    "efficiency": 30.0,
+    "attackSpeed": 2.0,
+    "enchantability": 50,
+    "damageVsEntity": 18.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "TAG:minecraft:any_catsteel"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "CatSteelDrillPriPoluchieniiPriedmietaPoRietsieptu"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "CatSteelDrillPriRazrushieniiBlokaInstrumientom"
+    }
+  }
+}

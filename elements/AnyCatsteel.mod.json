@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CatsteelBlade"
+      },
+      {
+        "value": "CUSTOM:CatsteelPlate"
+      },
+      {
+        "value": "CUSTOM:CatsteelBar"
+      },
+      {
+        "value": "CUSTOM:Kotium"
+      },
+      {
+        "value": "CUSTOM:CatCloth"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "any_catsteel",
+    "namespace": "minecraft"
+  }
+}

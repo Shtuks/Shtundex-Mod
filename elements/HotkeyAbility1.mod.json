@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD1",
+    "keyBindingName": "Shtuxian Shield",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "HotkeyAbility1true"
+    }
+  }
+}

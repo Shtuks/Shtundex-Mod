@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:cat_cloth"
+    },
+    "b": {
+      "item": "shtundex:shtuxian_energy"
+    },
+    "c": {
+      "item": "shtundex:the_stick"
+    }
+  },
+  "result": {
+    "item": "shtundex:shtuxian_handle",
+    "count": 1
+  }
+}

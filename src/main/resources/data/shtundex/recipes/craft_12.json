@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:catsteel_bar"
+    },
+    "b": {
+      "item": "shtundex:netherite_gear"
+    },
+    "c": {
+      "item": "shtundex:the_stick"
+    }
+  },
+  "result": {
+    "item": "shtundex:cursed_catsteel_mechanism",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:chtuxlagor_piece"
+    }
+  },
+  "result": {
+    "item": "shtundex:chtuxlagor_shard",
+    "count": 1
+  }
+}

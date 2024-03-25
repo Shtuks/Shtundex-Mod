@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "shtundex:block/press"
+    },
+    "facing=east": {
+      "model": "shtundex:block/press",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "shtundex:block/press",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "shtundex:block/press",
+      "y": 270
+    }
+  }
+}

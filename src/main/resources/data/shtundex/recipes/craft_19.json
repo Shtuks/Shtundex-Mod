@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "shtundex:shtunder_prism"
+    }
+  },
+  "result": {
+    "item": "shtundex:recharger",
+    "count": 16
+  }
+}

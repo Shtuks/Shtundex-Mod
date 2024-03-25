@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 20.0,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s was crushed like a bug by superior being.",
+    "itemDeathMessage": "%1$s was erased by %2$s using \"PAWS OF OMINVERSAL DESTRUCTION\"",
+    "playerDeathMessage": "%1$s died whilst trying to escape his fate."
+  }
+}

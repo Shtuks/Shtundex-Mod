@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:deepslate",
+    "minecraft:moss_block",
+    "minecraft:dirt",
+    "minecraft:cobbled_deepslate"
+  ]
+}

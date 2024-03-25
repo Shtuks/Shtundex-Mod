@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CatsteelPlate"
+      },
+      {
+        "value": "CUSTOM:CatsteelArmor.boots"
+      },
+      {
+        "value": "CUSTOM:CatsteelPlate"
+      },
+      {
+        "value": "CUSTOM:ShtunderPrism"
+      },
+      {
+        "value": "CUSTOM:CatClotArmor.boots"
+      },
+      {
+        "value": "CUSTOM:ShtunderPrism"
+      },
+      {
+        "value": "CUSTOM:CatsteelPlate"
+      },
+      {
+        "value": "CUSTOM:ShtuxianEnergy"
+      },
+      {
+        "value": "CUSTOM:CatsteelPlate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CATHightTechSuit.boots"
+    },
+    "name": "craft_16",
+    "namespace": "mod"
+  }
+}

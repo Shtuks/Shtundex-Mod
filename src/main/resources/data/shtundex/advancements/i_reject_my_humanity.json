@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "shtundex:shtuk_cybernetic_parts"
+    },
+    "title": {
+      "translate": "advancements.i_reject_my_humanity.title"
+    },
+    "description": {
+      "translate": "advancements.i_reject_my_humanity.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "i_reject_my_humanity": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "shtundex:catsteel_catsteel"
+}

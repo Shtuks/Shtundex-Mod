@@ -1,0 +1,7 @@
+{
+  "parent": "shtundex:custom/proj1",
+  "textures": {
+    "0": "shtundex:block/texture",
+    "particle": "shtundex:item/testempty"
+  }
+}

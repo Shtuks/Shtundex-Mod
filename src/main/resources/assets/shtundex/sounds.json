@@ -1,0 +1,42 @@
+{
+  "swordland": {
+    "sounds": [
+      {
+        "name": "shtundex:swordland",
+        "stream": true
+      }
+    ]
+  },
+  "timestopza": {
+    "sounds": [
+      {
+        "name": "shtundex:time_stop_sound_effect_audio-extractor.net",
+        "stream": false
+      }
+    ]
+  },
+  "timeres": {
+    "sounds": [
+      {
+        "name": "shtundex:za_warudo_the_world__time_resume_audio-extractor.net",
+        "stream": false
+      }
+    ]
+  },
+  "abilitysound": {
+    "sounds": [
+      {
+        "name": "shtundex:terraria-calamity-sound-effect-_adrenaline_",
+        "stream": false
+      }
+    ]
+  },
+  "blastsound": {
+    "sounds": [
+      {
+        "name": "shtundex:undertale_-gaster-blaster-sound-effect_1_",
+        "stream": false
+      }
+    ]
+  }
+}

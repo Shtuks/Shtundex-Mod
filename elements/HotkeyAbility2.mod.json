@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD2",
+    "keyBindingName": "Shtuxian Rage",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "HotkeyAbility2PriNazhatiiKlavishi"
+    }
+  }
+}

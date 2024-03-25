@@ -1,0 +1,102 @@
+{
+  "_fv": 57,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "ichorclothhelmgem",
+    "enableBody": true,
+    "textureBody": "ichorclothchestgem",
+    "enableLeggings": true,
+    "textureLeggings": "ichorclothlegsgem",
+    "enableBoots": true,
+    "textureBoots": "ichorclothbootsgem",
+    "onHelmetTick": {
+      "name": "CaatHelmTrue"
+    },
+    "onBodyTick": {
+      "name": "Caatnagrud"
+    },
+    "onLeggingsTick": {
+      "name": "CaatHelm"
+    },
+    "onBootsTick": {
+      "name": "CaatBoots"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Shtundex"
+    },
+    "armorTextureFile": "ichorgem_",
+    "helmetName": "CatClot Helmet",
+    "bodyName": "CatClot Chestplate",
+    "leggingsName": "CatClot Leggings",
+    "bootsName": "CatClot Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "helmetPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": true
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "maxDamage": 512,
+    "damageValueHelmet": 128,
+    "damageValueBody": 128,
+    "damageValueLeggings": 128,
+    "damageValueBoots": 128,
+    "enchantability": 50,
+    "toughness": 5.0,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CatCloth"
+      }
+    ]
+  }
+}

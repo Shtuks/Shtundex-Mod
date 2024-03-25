@@ -1,0 +1,26 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "sherrymemorial",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 11,
+    "separation": 10,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ShtuxianForest"
+      },
+      {
+        "value": "CUSTOM:ShtuxianOutlands"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Swordland",
+    "rarity": "EPIC",
+    "texture": "shtuxianplate",
+    "description": "Dr.Shtuxibus Theme",
+    "creativeTab": {
+      "value": "CUSTOM:Shtundex"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "music": {
+      "value": "CUSTOM:swordland"
+    },
+    "lengthInTicks": 6200,
+    "analogOutput": 15
+  }
+}

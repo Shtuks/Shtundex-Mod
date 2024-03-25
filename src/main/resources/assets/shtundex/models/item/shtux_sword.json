@@ -1,0 +1,8 @@
+{
+  "parent": "shtundex:custom/shtuxibus_sword",
+  "textures": {
+    "0": "shtundex:block/blade",
+    "1": "shtundex:block/deco",
+    "particle": "shtundex:item/ichorsword"
+  }
+}

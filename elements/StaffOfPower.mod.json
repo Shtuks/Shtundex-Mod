@@ -1,0 +1,130 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_gm_1",
+          "text": "GM 1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Gm1butin"
+          },
+          "width": 45,
+          "height": 20,
+          "x": 130,
+          "y": 55
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_gm_0",
+          "text": "GM 0",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Gm0butin"
+          },
+          "width": 45,
+          "height": 20,
+          "x": 130,
+          "y": 77
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_test",
+          "text": "TEST",
+          "isUndecorated": false,
+          "width": 46,
+          "height": 20,
+          "x": 248,
+          "y": 55
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_god_mode",
+          "text": "God Mode",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Godmode"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 129,
+          "y": 111
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_shtuk_mode",
+          "text": "Shtuk Mode [WIP]",
+          "isUndecorated": false,
+          "width": 77,
+          "height": 20,
+          "x": 234,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_chtuxlagor",
+          "text": {
+            "fixedValue": "World Control Panel"
+          },
+          "color": {
+            "value": -13312,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 41
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "220px-white-noise-mv255-240x180.png",
+          "use1Xscale": false,
+          "x": 106,
+          "y": 38
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_fly",
+          "text": "Fly",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "FlightPriNalozhieniiEffiekta"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 129,
+          "y": 135
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:deepslate_emerald_ore"
+    },
+    "b": {
+      "item": "shtundex:shtunder_prism"
+    }
+  },
+  "result": {
+    "item": "shtundex:shtuxian_curse",
+    "count": 1
+  }
+}

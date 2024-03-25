@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "shtundex:block/16585079-pack_l",
+    "particle": "shtundex:block/16585079-pack_l"
+  },
+  "render_type": "solid"
+}

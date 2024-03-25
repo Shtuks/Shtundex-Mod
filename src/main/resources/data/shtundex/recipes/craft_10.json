@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:shtuxian_handle"
+    },
+    {
+      "item": "shtundex:catsteel_blade"
+    }
+  ],
+  "result": {
+    "item": "shtundex:shtux_sword",
+    "count": 1
+  }
+}

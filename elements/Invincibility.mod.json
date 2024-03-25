@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Invinvibility",
+    "icon": "resistance_je2_be2.png",
+    "color": {
+      "value": -6684673,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "InvincibilityPriNalozhieniiEffiekta"
+    },
+    "onExpired": {
+      "name": "InvincibilityPriIstiechieniiEffiekta"
+    }
+  }
+}

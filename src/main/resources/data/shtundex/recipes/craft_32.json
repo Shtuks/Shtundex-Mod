@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:catsteel_block"
+    }
+  ],
+  "result": {
+    "item": "shtundex:catsteel_bar",
+    "count": 9
+  }
+}

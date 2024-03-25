@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "shtundex:catsteel_bar"
+    },
+    "title": {
+      "translate": "advancements.catsteel_catsteel.title"
+    },
+    "description": {
+      "translate": "advancements.catsteel_catsteel.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "catsteel_catsteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "shtundex:catsteel_bar"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "shtundex:entities/achivements"
+    ]
+  },
+  "parent": "shtundex:shtundex_ach"
+}

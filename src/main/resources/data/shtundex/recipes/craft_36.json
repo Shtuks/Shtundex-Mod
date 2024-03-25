@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "shtundex:flour"
+    },
+    "c": {
+      "item": "minecraft:sweet_berries"
+    },
+    "d": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "e": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "shtundex:berry_pie",
+    "count": 1
+  }
+}

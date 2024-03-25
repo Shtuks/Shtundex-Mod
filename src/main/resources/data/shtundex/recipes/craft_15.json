@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:catsteel_plate"
+    },
+    "b": {
+      "item": "shtundex:catsteel_armor_helmet"
+    },
+    "c": {
+      "item": "shtundex:shtunder_prism"
+    },
+    "d": {
+      "item": "shtundex:cat_clot_armor_helmet"
+    },
+    "e": {
+      "item": "shtundex:shtuxian_energy"
+    }
+  },
+  "result": {
+    "item": "shtundex:cat_hight_tech_suit_helmet",
+    "count": 1
+  }
+}

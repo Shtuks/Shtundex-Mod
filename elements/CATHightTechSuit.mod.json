@@ -1,0 +1,106 @@
+{
+  "_fv": 57,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "quantum_helmet",
+    "enableBody": true,
+    "textureBody": "quantum_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "quantum_leggings",
+    "enableBoots": true,
+    "textureBoots": "quantum_boots",
+    "onHelmetTick": {
+      "name": "CATHightTechSuitKazhdyiTikDliaShliema"
+    },
+    "onBodyTick": {
+      "name": "CATHightTechSuitKazhdyiTikDliaNaghrudnika"
+    },
+    "onLeggingsTick": {
+      "name": "CATHightTechSuitKazhdyiTikDliaPonozhiei"
+    },
+    "onBootsTick": {
+      "name": "CATHightTechSuitKazhdyiTikDliaBotinok"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Shtundex"
+    },
+    "armorTextureFile": "cattechsuit",
+    "helmetName": "Шлем C.A.T",
+    "bodyName": "Нагрудник C.A.T",
+    "leggingsName": "Поножи C.A.T",
+    "bootsName": "Ботинки C.A.T",
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "From the heaven to hell, i am the superior."
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "Now i became a death. A destroyer of the worlds."
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "Shtuxian technologies was too powerful. Enougth for gods to fear."
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "Nothing wait you in the end of your journey."
+      ]
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "helmetPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": true
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "maxDamage": 1024,
+    "damageValueHelmet": 256,
+    "damageValueBody": 256,
+    "damageValueLeggings": 256,
+    "damageValueBoots": 256,
+    "enchantability": 100,
+    "toughness": 10.0,
+    "knockbackResistance": 1.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "shtundex:catsteel_block"
+  },
+  "base": {
+    "item": "minecraft:crafting_table"
+  },
+  "addition": {
+    "item": "shtundex:shtunder_prism"
+  },
+  "result": {
+    "item": "shtundex:catsteel_workbench_block"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "ichorshovelgem1",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Catsteel Shovel",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Shtundex"
+    },
+    "harvestLevel": 10,
+    "efficiency": 20.0,
+    "attackSpeed": 2.0,
+    "enchantability": 70,
+    "damageVsEntity": 10.0,
+    "usageCount": 16000,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CatsteelBar"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

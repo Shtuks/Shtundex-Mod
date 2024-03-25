@@ -1,0 +1,55 @@
+{
+  "_fv": 57,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:ShtuxianForest"
+      },
+      {
+        "value": "CUSTOM:ShtuxianOutlands"
+      },
+      {
+        "value": "lush_caves"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.DEEPSLATE"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "Blocks.DEEPSLATE_EMERALD_ORE"
+    },
+    "portalParticles": {
+      "value": "TOTEM"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Shtundex World Portal Igniter",
+    "specialInformation": {
+      "fixedValue": [
+        "Something out of this world.",
+        "Ignites emerald portal."
+      ]
+    },
+    "igniterTab": {
+      "value": "CUSTOM:Shtundex"
+    },
+    "texture": "catamulet",
+    "portalTexture": "portshtux",
+    "enablePortal": true
+  }
+}

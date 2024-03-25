@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:kotium"
+    },
+    "b": {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "result": {
+    "item": "shtundex:shtundex_world",
+    "count": 1
+  }
+}

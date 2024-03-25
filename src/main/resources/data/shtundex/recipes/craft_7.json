@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:kotium"
+    },
+    "b": {
+      "item": "shtundex:catsteel_bar"
+    }
+  },
+  "result": {
+    "item": "shtundex:catsteel_blade",
+    "count": 1
+  }
+}

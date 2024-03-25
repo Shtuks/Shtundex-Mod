@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:catsteel_bar"
+    },
+    "b": {
+      "item": "shtundex:the_stick"
+    }
+  },
+  "result": {
+    "item": "shtundex:catsteel_pickaxe",
+    "count": 1
+  }
+}

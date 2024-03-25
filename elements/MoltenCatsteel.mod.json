@@ -1,0 +1,45 @@
+{
+  "_fv": 57,
+  "_type": "fluid",
+  "definition": {
+    "name": "Molten Catsteel",
+    "bucketName": "Molten Catsteel Capsule",
+    "textureStill": "moltencatsteel",
+    "textureFlowing": "moltencatsteel",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "DRIP_LAVA"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 5000,
+    "temperature": 5000,
+    "type": "LAVA",
+    "generateBucket": true,
+    "textureBucket": "catsteelcapsule",
+    "creativeTab": {
+      "value": "CUSTOM:Shtundex"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 460.0,
+    "luminance": 15,
+    "lightOpacity": 1,
+    "emissiveRendering": true,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "TNT"
+  }
+}

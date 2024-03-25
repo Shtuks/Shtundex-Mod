@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a b",
+    "cdc",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ancient_debris"
+    },
+    "b": {
+      "item": "minecraft:spruce_sapling"
+    },
+    "c": {
+      "item": "shtundex:catsteel_nugget"
+    },
+    "d": {
+      "item": "minecraft:moss_block"
+    },
+    "e": {
+      "item": "shtundex:shtundex_stone"
+    }
+  },
+  "result": {
+    "item": "shtundex:shtundex_world_blessing",
+    "count": 1
+  }
+}

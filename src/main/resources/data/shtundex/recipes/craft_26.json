@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:catsteel_drill_handle"
+    },
+    {
+      "item": "shtundex:catsteel_drill_head"
+    }
+  ],
+  "result": {
+    "item": "shtundex:cat_steel_drill",
+    "count": 1
+  }
+}

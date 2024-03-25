@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:cat_cloth"
+    },
+    "b": {
+      "item": "shtundex:catsteel_plate"
+    },
+    "c": {
+      "item": "shtundex:shtunder_prism"
+    }
+  },
+  "result": {
+    "item": "shtundex:cat_clot_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:chtuxlagor_blaster"
+    }
+  ],
+  "result": {
+    "item": "shtundex:shtux_staff_of_power",
+    "count": 1
+  }
+}

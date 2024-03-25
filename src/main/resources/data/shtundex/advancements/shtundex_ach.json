@@ -1,0 +1,32 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "shtundex:kotium"
+    },
+    "title": {
+      "translate": "advancements.shtundex_ach.title"
+    },
+    "description": {
+      "translate": "advancements.shtundex_ach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shtundex_ach": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "shtundex:shtundex_world"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "shtundex:ach_2"
+    ]
+  }
+}

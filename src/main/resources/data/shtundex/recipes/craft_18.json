@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:shtunder_prism"
+    },
+    "b": {
+      "item": "shtundex:netherite_gear"
+    },
+    "c": {
+      "item": "shtundex:catsteel_plate"
+    },
+    "d": {
+      "item": "shtundex:cursed_catsteel_mechanism"
+    },
+    "e": {
+      "item": "shtundex:kotium"
+    }
+  },
+  "result": {
+    "item": "shtundex:shtuk_cybernetic_parts",
+    "count": 1
+  }
+}

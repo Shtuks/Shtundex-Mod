@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:TestEmpty"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.firework.large_blast"
+    },
+    "igniteFire": true,
+    "power": 3.0,
+    "damage": 50.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsEntity": {
+      "name": "ShtuxianColiderKoghdaSnariadPopadaietVSushchnost"
+    }
+  }
+}

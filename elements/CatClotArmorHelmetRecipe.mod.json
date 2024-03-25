@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CatCloth"
+      },
+      {
+        "value": "CUSTOM:ShtunderPrism"
+      },
+      {
+        "value": "CUSTOM:CatCloth"
+      },
+      {
+        "value": "CUSTOM:CatCloth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CatCloth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CatClotArmor.helmet"
+    },
+    "name": "cat_clot_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

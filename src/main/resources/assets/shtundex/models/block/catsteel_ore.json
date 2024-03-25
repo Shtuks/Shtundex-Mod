@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "shtundex:block/catsteelore",
+    "particle": "shtundex:block/catsteelore"
+  },
+  "render_type": "solid"
+}
