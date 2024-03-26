@@ -2,8 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "staff",
-        "missing": ""
+        "missing": "staf2"
       },
       "name": "default"
     }

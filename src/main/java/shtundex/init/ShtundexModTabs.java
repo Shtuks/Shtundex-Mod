@@ -151,5 +151,9 @@ public class ShtundexModTabs {
 			tabData.accept(ShtundexModBlocks.TIN_ORE.get().asItem());
 			tabData.accept(ShtundexModBlocks.TIN_BLOCK.get().asItem());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(ShtundexModItems.TEST_BANANA_SPAWN_EGG.get());
+		}
 	}
 }

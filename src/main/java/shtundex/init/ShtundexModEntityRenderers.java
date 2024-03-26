@@ -4,6 +4,7 @@
  */
 package shtundex.init;
 
+import shtundex.client.renderer.TestBananaRenderer;
 import shtundex.client.renderer.ShtuxibusEXRenderer;
 import shtundex.client.renderer.ShtQ7V3Renderer;
 import shtundex.client.renderer.ShtPrigaiteRenderer;
@@ -33,5 +34,6 @@ public class ShtundexModEntityRenderers {
 		event.registerEntityRenderer(ShtundexModEntities.BLACK_HOLE.get(), BlackHoleRenderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.DR_SHTUXIBUS_REMATCH.get(), DrShtuxibusRematchRenderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.DR_SHTUXIBUS_2.get(), DrShtuxibus2Renderer::new);
+		event.registerEntityRenderer(ShtundexModEntities.TEST_BANANA.get(), TestBananaRenderer::new);
 	}
 }

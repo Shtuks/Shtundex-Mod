@@ -4,6 +4,7 @@
  */
 package shtundex.init;
 
+import shtundex.entity.TestBananaEntity;
 import shtundex.entity.ShtuxibusProjectileEntity;
 import shtundex.entity.ShtuxibusEXEntity;
 import shtundex.entity.ShtuxianColiderEntity;
@@ -52,6 +53,10 @@ public class ShtundexModEntities {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(DrShtuxibusRematchEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<DrShtuxibus2Entity>> DR_SHTUXIBUS_2 = register("dr_shtuxibus_2", EntityType.Builder.<DrShtuxibus2Entity>of(DrShtuxibus2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(DrShtuxibus2Entity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<TestBananaEntity>> TEST_BANANA = register("test_banana",
+			EntityType.Builder.<TestBananaEntity>of(TestBananaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TestBananaEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -67,6 +72,7 @@ public class ShtundexModEntities {
 			BlackHoleEntity.init();
 			DrShtuxibusRematchEntity.init();
 			DrShtuxibus2Entity.init();
+			TestBananaEntity.init();
 		});
 	}
 
@@ -79,5 +85,6 @@ public class ShtundexModEntities {
 		event.put(BLACK_HOLE.get(), BlackHoleEntity.createAttributes().build());
 		event.put(DR_SHTUXIBUS_REMATCH.get(), DrShtuxibusRematchEntity.createAttributes().build());
 		event.put(DR_SHTUXIBUS_2.get(), DrShtuxibus2Entity.createAttributes().build());
+		event.put(TEST_BANANA.get(), TestBananaEntity.createAttributes().build());
 	}
 }
