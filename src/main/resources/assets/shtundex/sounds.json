@@ -38,5 +38,21 @@
         "stream": false
       }
     ]
+  },
+  "shtux1teme": {
+    "sounds": [
+      {
+        "name": "shtundex:dusted_prologue_-_fargos_souls_dlc_audio-extractor.net",
+        "stream": false
+      }
+    ]
+  },
+  "shtux2theme": {
+    "sounds": [
+      {
+        "name": "shtundex:masochist_mode_mutant_phase_2_theme_-_storia_audio-extractor.net",
+        "stream": false
+      }
+    ]
   }
 }

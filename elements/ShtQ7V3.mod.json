@@ -124,7 +124,7 @@
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
-    "ranged": true,
+    "ranged": false,
     "rangedAttackItem": {
       "value": ""
     },

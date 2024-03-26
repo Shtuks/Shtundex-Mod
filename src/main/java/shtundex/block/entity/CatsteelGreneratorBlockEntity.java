@@ -100,7 +100,7 @@ public class CatsteelGreneratorBlockEntity extends RandomizableContainerBlockEnt
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Catsteel Grenerator");
+		return Component.literal("Catsteel Grenerator [WIP]");
 	}
 
 	@Override

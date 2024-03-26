@@ -2,10 +2,10 @@
 package shtundex.entity;
 
 import shtundex.procedures.DrShtuxibusPriRanieniiSushchnostiProcedure;
-import shtundex.procedures.DrShtuxibusPriObnovlieniiTikaSushchnostiProcedure;
 import shtundex.procedures.DrShtuxibusPriNachalnomPrizyvieSushchnostiProcedure;
 import shtundex.procedures.DrShtuxibusHealVampProcedure;
 import shtundex.procedures.DrShtuxibusCheckProcedure;
+import shtundex.procedures.DrShtuxibu2phaseProcedure;
 
 import shtundex.init.ShtundexModItems;
 import shtundex.init.ShtundexModEntities;
@@ -158,7 +158,7 @@ public class DrShtuxibusEntity extends Monster implements RangedAttackMob {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		DrShtuxibusPriObnovlieniiTikaSushchnostiProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		DrShtuxibu2phaseProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override

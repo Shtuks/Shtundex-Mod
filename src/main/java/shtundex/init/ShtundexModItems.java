@@ -7,6 +7,7 @@ package shtundex.init;
 import shtundex.item.WrenchItem;
 import shtundex.item.UraniumIngotItem;
 import shtundex.item.UraniumDustItem;
+import shtundex.item.UnfinishedCatsteelCircuitItem;
 import shtundex.item.TreasureBag2Item;
 import shtundex.item.TreasureBag1Item;
 import shtundex.item.TinIngotItem;
@@ -60,6 +61,8 @@ import shtundex.item.CursedCatsteelMechanismItem;
 import shtundex.item.CopperDustItem;
 import shtundex.item.CoinPressSchemeItem;
 import shtundex.item.ClothItem;
+import shtundex.item.CircuitPrsssItem;
+import shtundex.item.CircuitItem;
 import shtundex.item.ChtuxlagorShardItem;
 import shtundex.item.ChtuxlagorPieceItem;
 import shtundex.item.ChtuxlagorBlessingCuriosItem;
@@ -215,6 +218,9 @@ public class ShtundexModItems {
 	public static final RegistryObject<Item> HAZMAT_BOOTS = REGISTRY.register("hazmat_boots", () -> new HazmatItem.Boots());
 	public static final RegistryObject<Item> LEAD_PLATE = REGISTRY.register("lead_plate", () -> new LeadPlateItem());
 	public static final RegistryObject<Item> GEIGER_COUNT = REGISTRY.register("geiger_count", () -> new GeigerCountItem());
+	public static final RegistryObject<Item> CIRCUIT = REGISTRY.register("circuit", () -> new CircuitItem());
+	public static final RegistryObject<Item> UNFINISHED_CATSTEEL_CIRCUIT = REGISTRY.register("unfinished_catsteel_circuit", () -> new UnfinishedCatsteelCircuitItem());
+	public static final RegistryObject<Item> CIRCUIT_PRSSS = REGISTRY.register("circuit_prsss", () -> new CircuitPrsssItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

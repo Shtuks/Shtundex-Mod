@@ -129,6 +129,9 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.HAZMAT_BOOTS.get());
 				tabData.accept(ShtundexModItems.LEAD_PLATE.get());
 				tabData.accept(ShtundexModItems.GEIGER_COUNT.get());
+				tabData.accept(ShtundexModItems.CIRCUIT.get());
+				tabData.accept(ShtundexModItems.UNFINISHED_CATSTEEL_CIRCUIT.get());
+				tabData.accept(ShtundexModItems.CIRCUIT_PRSSS.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_CATSTEEL.get())).displayItems((parameters, tabData) -> {

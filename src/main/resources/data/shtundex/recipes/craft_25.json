@@ -3,7 +3,7 @@
   "category": "misc",
   "pattern": [
     "  a",
-    "bc ",
+    "bcd",
     "bb "
   ],
   "key": {
@@ -15,6 +15,9 @@
     },
     "c": {
       "item": "shtundex:recharger"
+    },
+    "d": {
+      "item": "shtundex:circuit"
     }
   },
   "result": {

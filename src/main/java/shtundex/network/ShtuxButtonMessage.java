@@ -4,6 +4,7 @@ package shtundex.network;
 import shtundex.world.inventory.ShtuxMenu;
 
 import shtundex.procedures.ShtuxCraft1Procedure;
+import shtundex.procedures.RematchProcedure;
 
 import shtundex.ShtundexMod;
 
@@ -65,6 +66,10 @@ public class ShtuxButtonMessage {
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
 		if (buttonID == 0) {
+
+			RematchProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 1) {
 
 			ShtuxCraft1Procedure.execute(entity);
 		}

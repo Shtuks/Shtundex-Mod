@@ -2,24 +2,27 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a ",
-    "bcd",
-    " e "
+    "aba",
+    "cde",
+    "afa"
   ],
   "key": {
     "a": {
-      "item": "shtundex:shtunder_prism"
+      "item": "shtundex:circuit"
     },
     "b": {
-      "item": "shtundex:netherite_gear"
+      "item": "shtundex:shtunder_prism"
     },
     "c": {
-      "item": "shtundex:catsteel_plate"
+      "item": "shtundex:netherite_gear"
     },
     "d": {
-      "item": "shtundex:cursed_catsteel_mechanism"
+      "item": "shtundex:catsteel_plate"
     },
     "e": {
+      "item": "shtundex:cursed_catsteel_mechanism"
+    },
+    "f": {
       "item": "shtundex:kotium"
     }
   },

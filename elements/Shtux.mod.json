@@ -130,6 +130,21 @@
           "x": 277,
           "y": 73
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_rematch",
+          "text": "Rematch",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Rematch"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 136,
+          "y": 95
+        }
       }
     ],
     "gridSettings": {

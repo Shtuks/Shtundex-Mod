@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smithing",
+    "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
@@ -10,16 +10,36 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smithingInputStack": {
-      "value": "Blocks.CRAFTING_TABLE"
-    },
-    "smithingInputAdditionStack": {
-      "value": "CUSTOM:ShtunderPrism"
-    },
-    "smithingInputTemplateStack": {
-      "value": "CUSTOM:CatsteelBlock"
-    },
-    "smithingReturnStack": {
+    "recipeSlots": [
+      {
+        "value": "Blocks.CRAFTING_TABLE"
+      },
+      {
+        "value": "CUSTOM:CatsteelPlate"
+      },
+      {
+        "value": "Blocks.ENCHANTING_TABLE"
+      },
+      {
+        "value": "CUSTOM:Circuit"
+      },
+      {
+        "value": "Blocks.COMMAND_BLOCK"
+      },
+      {
+        "value": "CUSTOM:Circuit"
+      },
+      {
+        "value": "Blocks.SMITHING_TABLE"
+      },
+      {
+        "value": "CUSTOM:CatsteelBlock"
+      },
+      {
+        "value": "Blocks.BLAST_FURNACE"
+      }
+    ],
+    "recipeReturnStack": {
       "value": "CUSTOM:CatsteelWorkbenchBlock"
     },
     "name": "craft_42",

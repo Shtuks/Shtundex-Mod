@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Circuit"
       },
       {
         "value": "CUSTOM:ShtunderPrism"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Circuit"
       },
       {
         "value": "CUSTOM:NetheriteGear"
@@ -30,13 +30,13 @@
         "value": "CUSTOM:CursedCatsteelMechanism"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Circuit"
       },
       {
         "value": "CUSTOM:Kotium"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Circuit"
       }
     ],
     "recipeReturnStack": {

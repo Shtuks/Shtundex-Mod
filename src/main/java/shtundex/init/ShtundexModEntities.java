@@ -9,7 +9,9 @@ import shtundex.entity.ShtuxibusEXEntity;
 import shtundex.entity.ShtuxianColiderEntity;
 import shtundex.entity.ShtQ7V3Entity;
 import shtundex.entity.ShtPrigaiteEntity;
+import shtundex.entity.DrShtuxibusRematchEntity;
 import shtundex.entity.DrShtuxibusEntity;
+import shtundex.entity.DrShtuxibus2Entity;
 import shtundex.entity.BlasterProjEntity;
 import shtundex.entity.BlackHoleEntity;
 
@@ -46,6 +48,10 @@ public class ShtundexModEntities {
 			.setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(ShtPrigaiteEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<BlackHoleEntity>> BLACK_HOLE = register("black_hole", EntityType.Builder.<BlackHoleEntity>of(BlackHoleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128)
 			.setUpdateInterval(3).setCustomClientFactory(BlackHoleEntity::new).fireImmune().sized(0.4f, 0.7f));
+	public static final RegistryObject<EntityType<DrShtuxibusRematchEntity>> DR_SHTUXIBUS_REMATCH = register("dr_shtuxibus_rematch", EntityType.Builder.<DrShtuxibusRematchEntity>of(DrShtuxibusRematchEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(DrShtuxibusRematchEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<DrShtuxibus2Entity>> DR_SHTUXIBUS_2 = register("dr_shtuxibus_2", EntityType.Builder.<DrShtuxibus2Entity>of(DrShtuxibus2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(DrShtuxibus2Entity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -59,6 +65,8 @@ public class ShtundexModEntities {
 			ShtQ7V3Entity.init();
 			ShtPrigaiteEntity.init();
 			BlackHoleEntity.init();
+			DrShtuxibusRematchEntity.init();
+			DrShtuxibus2Entity.init();
 		});
 	}
 
@@ -69,5 +77,7 @@ public class ShtundexModEntities {
 		event.put(SHT_Q_7_V_3.get(), ShtQ7V3Entity.createAttributes().build());
 		event.put(SHT_PRIGAITE.get(), ShtPrigaiteEntity.createAttributes().build());
 		event.put(BLACK_HOLE.get(), BlackHoleEntity.createAttributes().build());
+		event.put(DR_SHTUXIBUS_REMATCH.get(), DrShtuxibusRematchEntity.createAttributes().build());
+		event.put(DR_SHTUXIBUS_2.get(), DrShtuxibus2Entity.createAttributes().build());
 	}
 }

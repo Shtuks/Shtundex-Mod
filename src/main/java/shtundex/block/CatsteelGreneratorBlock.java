@@ -95,7 +95,7 @@ public class CatsteelGreneratorBlock extends Block implements EntityBlock {
 			NetworkHooks.openScreen(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Catsteel Grenerator");
+					return Component.literal("Catsteel Grenerator [WIP]");
 				}
 
 				@Override

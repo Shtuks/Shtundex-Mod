@@ -1,15 +1,39 @@
 {
-  "type": "minecraft:smithing_transform",
-  "template": {
-    "item": "shtundex:catsteel_block"
-  },
-  "base": {
-    "item": "minecraft:crafting_table"
-  },
-  "addition": {
-    "item": "shtundex:shtunder_prism"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fgh"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:crafting_table"
+    },
+    "b": {
+      "item": "shtundex:catsteel_plate"
+    },
+    "c": {
+      "item": "minecraft:enchanting_table"
+    },
+    "d": {
+      "item": "shtundex:circuit"
+    },
+    "e": {
+      "item": "minecraft:command_block"
+    },
+    "f": {
+      "item": "minecraft:smithing_table"
+    },
+    "g": {
+      "item": "shtundex:catsteel_block"
+    },
+    "h": {
+      "item": "minecraft:blast_furnace"
+    }
   },
   "result": {
-    "item": "shtundex:catsteel_workbench_block"
+    "item": "shtundex:catsteel_workbench_block",
+    "count": 1
   }
 }

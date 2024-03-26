@@ -20,4 +20,6 @@ public class ShtundexModSounds {
 	public static final RegistryObject<SoundEvent> TIMERES = REGISTRY.register("timeres", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("shtundex", "timeres")));
 	public static final RegistryObject<SoundEvent> ABILITYSOUND = REGISTRY.register("abilitysound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("shtundex", "abilitysound")));
 	public static final RegistryObject<SoundEvent> BLASTSOUND = REGISTRY.register("blastsound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("shtundex", "blastsound")));
+	public static final RegistryObject<SoundEvent> SHTUX1TEME = REGISTRY.register("shtux1teme", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("shtundex", "shtux1teme")));
+	public static final RegistryObject<SoundEvent> SHTUX2THEME = REGISTRY.register("shtux2theme", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("shtundex", "shtux2theme")));
 }

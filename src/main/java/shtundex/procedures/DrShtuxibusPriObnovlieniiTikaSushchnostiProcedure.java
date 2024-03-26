@@ -19,13 +19,9 @@ public class DrShtuxibusPriObnovlieniiTikaSushchnostiProcedure {
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 					"stopsound @a neutral");
 		if (!world.isClientSide() && world.getServer() != null)
-			world.getServer().getPlayerList().broadcastSystemMessage(
-					Component.literal("<Shtuxibus> You just some other being that trying to mimic Chtux'lag'or's power! You are nothing. The only reason why i still not erased you from reality is because you the second owner of shtuxite soul."),
-					false);
+			world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> Burn in the flames of Shtuxian Abyss! "), false);
 		if (!world.isClientSide() && world.getServer() != null)
 			world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> Fine. Take your loot and get away from me."), false);
-		if (!world.isClientSide() && world.getServer() != null)
-			world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> Burn in the flames of Shtuxian Abyss! "), false);
 		if (world instanceof ServerLevel _level) {
 			Entity entityToSpawn = ShtundexModEntities.SHTUXIBUS_EX.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 			if (entityToSpawn != null) {

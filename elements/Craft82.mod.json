@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CatsteelNugget"
+      },
+      {
+        "value": "CUSTOM:CatsteelNugget"
+      },
+      {
+        "value": "CUSTOM:CatsteelNugget"
+      },
+      {
+        "value": "CUSTOM:ShtunderPrism"
+      },
+      {
+        "value": "CUSTOM:CatsteelPlate"
+      },
+      {
+        "value": "CUSTOM:ShtunderPrism"
+      },
+      {
+        "value": "CUSTOM:CatsteelNugget"
+      },
+      {
+        "value": "CUSTOM:CatsteelNugget"
+      },
+      {
+        "value": "CUSTOM:CatsteelNugget"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnfinishedCatsteelCircuit"
+    },
+    "name": "craft_82",
+    "namespace": "mod"
+  }
+}

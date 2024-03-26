@@ -1,11 +1,7 @@
 package shtundex.procedures;
 
-import shtundex.init.ShtundexModMobEffects;
-
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffectInstance;
 
 public class ShtundexWorldBlessingBaubleIsEquippedProcedure {
 	public static void execute(Entity entity) {
@@ -15,7 +11,5 @@ public class ShtundexWorldBlessingBaubleIsEquippedProcedure {
 			_player.getAbilities().mayfly = true;
 			_player.onUpdateAbilities();
 		}
-		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.FLIGHT.get(), 120, 1, false, false));
 	}
 }

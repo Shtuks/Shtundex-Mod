@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:catsteel_nugget"
+    },
+    {
+      "item": "shtundex:catsteel_nugget"
+    },
+    {
+      "item": "shtundex:catsteel_nugget"
+    },
+    {
+      "item": "shtundex:shtunder_prism"
+    },
+    {
+      "item": "shtundex:catsteel_plate"
+    },
+    {
+      "item": "shtundex:shtunder_prism"
+    },
+    {
+      "item": "shtundex:catsteel_nugget"
+    },
+    {
+      "item": "shtundex:catsteel_nugget"
+    },
+    {
+      "item": "shtundex:catsteel_nugget"
+    }
+  ],
+  "result": {
+    "item": "shtundex:unfinished_catsteel_circuit",
+    "count": 3
+  }
+}

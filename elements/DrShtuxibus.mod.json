@@ -116,7 +116,7 @@
     },
     "entityDataEntries": [],
     "whenMobDies": {
-      "name": "DrShtuxibusPriObnovlieniiTikaSushchnosti"
+      "name": "DrShtuxibu2phase"
     },
     "whenMobIsHurt": {
       "name": "DrShtuxibusPriRanieniiSushchnosti"

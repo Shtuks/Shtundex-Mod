@@ -36,6 +36,37 @@ public class RadCheckProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
+		if (!(entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(ShtundexModMobEffects.ANTIRAD.get()))) {
+			if ((entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ShtundexModItems.URANIUM_INGOT.get())) : false)
+					|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ShtundexModItems.URANIUM_DUST.get())) : false)) {
+				{
+					double _setval = (entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).Radiation + 1;
+					entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Radiation = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+			}
+			if ((entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ShtundexModItems.DEPELLETED_CATSTEEL.get())) : false)
+					|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ShtundexModBlocks.URANIUM_BLOCK.get())) : false)) {
+				{
+					double _setval = (entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).Radiation + 5;
+					entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Radiation = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+			}
+			if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ShtundexModItems.CATSTEEL_PILL.get())) : false) {
+				{
+					double _setval = (entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).Radiation + 10;
+					entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Radiation = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+			}
+		}
 		if ((entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).Radiation >= 500) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 60, 1, false, false));
@@ -61,19 +92,6 @@ public class RadCheckProcedure {
 				_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 60, 4, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 60, 4, false, false));
-		}
-		if ((entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ShtundexModItems.URANIUM_INGOT.get())) : false)
-				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ShtundexModBlocks.URANIUM_BLOCK.get())) : false)
-				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ShtundexModItems.URANIUM_DUST.get())) : false)
-				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ShtundexModItems.CATSTEEL_PILL.get())) : false)
-				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ShtundexModItems.DEPELLETED_CATSTEEL.get())) : false)) {
-			{
-				double _setval = (entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).Radiation + 1;
-				entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.Radiation = _setval;
-					capability.syncPlayerVariables(entity);
-				});
-			}
 		}
 	}
 }

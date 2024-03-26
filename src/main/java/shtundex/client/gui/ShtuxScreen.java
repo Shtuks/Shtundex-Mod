@@ -13,6 +13,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.ImageButton;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import java.util.HashMap;
@@ -24,6 +25,7 @@ public class ShtuxScreen extends AbstractContainerScreen<ShtuxMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	Button button_rematch;
 	ImageButton imagebutton_arroww;
 
 	public ShtuxScreen(ShtuxMenu container, Inventory inventory, Component text) {
@@ -88,10 +90,18 @@ public class ShtuxScreen extends AbstractContainerScreen<ShtuxMenu> {
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_arroww = new ImageButton(this.leftPos + 86, this.topPos + 36, 32, 16, 0, 0, 16, new ResourceLocation("shtundex:textures/screens/atlas/imagebutton_arroww.png"), 32, 32, e -> {
+		button_rematch = Button.builder(Component.translatable("gui.shtundex.shtux.button_rematch"), e -> {
 			if (true) {
 				ShtundexMod.PACKET_HANDLER.sendToServer(new ShtuxButtonMessage(0, x, y, z));
 				ShtuxButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}).bounds(this.leftPos + 10, this.topPos + 58, 61, 20).build();
+		guistate.put("button:button_rematch", button_rematch);
+		this.addRenderableWidget(button_rematch);
+		imagebutton_arroww = new ImageButton(this.leftPos + 86, this.topPos + 36, 32, 16, 0, 0, 16, new ResourceLocation("shtundex:textures/screens/atlas/imagebutton_arroww.png"), 32, 32, e -> {
+			if (true) {
+				ShtundexMod.PACKET_HANDLER.sendToServer(new ShtuxButtonMessage(1, x, y, z));
+				ShtuxButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		});
 		guistate.put("button:imagebutton_arroww", imagebutton_arroww);
