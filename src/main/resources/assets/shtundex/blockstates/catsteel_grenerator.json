@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "shtundex:block/catsteel_grenerator"
+    },
+    "facing=east": {
+      "model": "shtundex:block/catsteel_grenerator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "shtundex:block/catsteel_grenerator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "shtundex:block/catsteel_grenerator",
+      "y": 270
+    }
+  }
+}

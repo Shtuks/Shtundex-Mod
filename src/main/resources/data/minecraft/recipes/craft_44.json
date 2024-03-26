@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "shtundex:flour"
+    },
+    "c": {
+      "item": "minecraft:pumpkin"
+    },
+    "d": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "minecraft:pumpkin_pie",
+    "count": 3
+  }
+}

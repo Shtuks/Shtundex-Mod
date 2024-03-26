@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:flour"
+    },
+    {
+      "item": "shtundex:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "shtundex:flour"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bread",
+    "count": 3
+  }
+}

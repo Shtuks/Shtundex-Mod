@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AntiradCloth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AntiradCloth"
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Hazmat.boots"
+    },
+    "name": "craft_81",
+    "namespace": "mod"
+  }
+}

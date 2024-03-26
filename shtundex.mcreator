@@ -601,19 +601,6 @@
       }
     },
     {
-      "name": "Craft1",
-      "type": "recipe",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/shtundex/recipes/craft_1.json"
-        ]
-      }
-    },
-    {
       "name": "ShtundexWorld",
       "type": "dimension",
       "sortid": 40,
@@ -4297,6 +4284,1483 @@
           "src/main/resources/data/shtundex/recipes/craft_42.json"
         ]
       }
+    },
+    {
+      "name": "Craft43",
+      "type": "recipe",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_43",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/craft_43.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft44",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_44",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/craft_44.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft45",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_45",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_45.json"
+        ]
+      }
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/TinIngotItem.java",
+          "src/main/resources/assets/shtundex/models/item/tin_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/blockstates/tin_ore.json",
+          "src/main/resources/data/shtundex/forge/biome_modifier/tin_ore_biome_modifier.json",
+          "src/main/java/shtundex/block/TinOreBlock.java",
+          "src/main/resources/data/shtundex/worldgen/configured_feature/tin_ore.json",
+          "src/main/resources/data/shtundex/worldgen/placed_feature/tin_ore.json",
+          "src/main/resources/assets/shtundex/models/block/tin_ore.json",
+          "src/main/resources/assets/shtundex/models/item/tin_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "TinBlock",
+      "type": "block",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/block/TinBlockBlock.java",
+          "src/main/resources/assets/shtundex/models/item/tin_block.json",
+          "src/main/resources/assets/shtundex/blockstates/tin_block.json",
+          "src/main/resources/assets/shtundex/models/block/tin_block.json"
+        ]
+      }
+    },
+    {
+      "name": "TinOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/tin_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TinBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/tin_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TinOreSmelting",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/tin_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "TinDust",
+      "type": "item",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/TinDustItem.java",
+          "src/main/resources/assets/shtundex/models/item/tin_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperDust",
+      "type": "item",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/CopperDustItem.java",
+          "src/main/resources/assets/shtundex/models/item/copper_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "BronzeDust",
+      "type": "item",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/bronze_dust.json",
+          "src/main/java/shtundex/item/BronzeDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft46",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_46",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_46.json"
+        ]
+      }
+    },
+    {
+      "name": "Macerator",
+      "type": "block",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "macerator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/macerator.json",
+          "src/main/resources/assets/shtundex/models/block/macerator.json",
+          "src/main/java/shtundex/block/entity/MaceratorBlockEntity.java",
+          "src/main/resources/assets/shtundex/blockstates/macerator.json",
+          "src/main/java/shtundex/block/MaceratorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateTinOre",
+      "type": "block",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/forge/biome_modifier/deepslate_tin_ore_biome_modifier.json",
+          "src/main/resources/data/shtundex/worldgen/configured_feature/deepslate_tin_ore.json",
+          "src/main/resources/assets/shtundex/models/block/deepslate_tin_ore.json",
+          "src/main/resources/assets/shtundex/models/item/deepslate_tin_ore.json",
+          "src/main/resources/assets/shtundex/blockstates/deepslate_tin_ore.json",
+          "src/main/java/shtundex/block/DeepslateTinOreBlock.java",
+          "src/main/resources/data/shtundex/worldgen/placed_feature/deepslate_tin_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft47",
+      "type": "recipe",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_47",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_47.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft48",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_48",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_48.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft49",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_49",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_49.json"
+        ]
+      }
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/BronzeIngotItem.java",
+          "src/main/resources/assets/shtundex/models/item/bronze_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft1",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft50",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_50",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_50.json"
+        ]
+      }
+    },
+    {
+      "name": "CatsteelDust",
+      "type": "item",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/CatsteelDustItem.java",
+          "src/main/resources/assets/shtundex/models/item/catsteel_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft51",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_51",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_51.json"
+        ]
+      }
+    },
+    {
+      "name": "MacerProc",
+      "type": "procedure",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "macer_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/MacerProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GrindingBall",
+      "type": "item",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinding_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/GrindingBallItem.java",
+          "src/main/resources/assets/shtundex/models/item/grinding_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft52",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_52",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_52.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft53",
+      "type": "recipe",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_53",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_53.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft54",
+      "type": "recipe",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_54",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_54.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft55",
+      "type": "recipe",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_55",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_55.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft56",
+      "type": "recipe",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_56",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_56.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTin",
+      "type": "item",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/RawTinItem.java",
+          "src/main/resources/assets/shtundex/models/item/raw_tin.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft57",
+      "type": "recipe",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_57",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_57.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft58",
+      "type": "recipe",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_58",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_58.json"
+        ]
+      }
+    },
+    {
+      "name": "Wrench",
+      "type": "tool",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/WrenchItem.java",
+          "src/main/resources/assets/shtundex/models/item/wrench.json"
+        ]
+      }
+    },
+    {
+      "name": "Catsteelgengui",
+      "type": "gui",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteelgengui",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/world/inventory/CatsteelgenguiMenu.java",
+          "src/main/java/shtundex/client/gui/CatsteelgenguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "CatsteelGrenerator",
+      "type": "block",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_grenerator",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/block/entity/CatsteelGreneratorBlockEntity.java",
+          "src/main/resources/assets/shtundex/models/block/catsteel_grenerator.json",
+          "src/main/resources/assets/shtundex/blockstates/catsteel_grenerator.json",
+          "src/main/resources/assets/shtundex/models/item/catsteel_grenerator.json",
+          "src/main/java/shtundex/block/CatsteelGreneratorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "EnergyChech1",
+      "type": "procedure",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_chech_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/shtundex/procedures/EnergyChech1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CatPosion",
+      "type": "damagetype",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_posion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/damage_type/cat_posion.json"
+        ]
+      }
+    },
+    {
+      "name": "CatsteelPosionKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_posion_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelPosionKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CatsteelPosion",
+      "type": "potioneffect",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_posion",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/CatsteelPosionMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "CatsteelPill",
+      "type": "item",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_pill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/catsteel_pill.json",
+          "src/main/java/shtundex/item/CatsteelPillItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CatsteelgenguiKazhdyiTikPokaIntierfieisOtkryt",
+      "type": "procedure",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteelgengui_kazhdyi_tik_poka_intierfieis_otkryt",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelgenguiKazhdyiTikPokaIntierfieisOtkrytProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DepelletedCatsteel",
+      "type": "item",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depelleted_catsteel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/depelleted_catsteel.json",
+          "src/main/java/shtundex/item/DepelletedCatsteelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CatsteelPillKazhdyiTikVRukie",
+      "type": "procedure",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_pill_kazhdyi_tik_v_rukie",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelPillKazhdyiTikVRukieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronDust",
+      "type": "item",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/iron_dust.json",
+          "src/main/java/shtundex/item/IronDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldDust",
+      "type": "item",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/gold_dust.json",
+          "src/main/java/shtundex/item/GoldDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft59",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_59",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_59.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft60",
+      "type": "recipe",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_60",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_60.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft61",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_61",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_61.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft62",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_62",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_62.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/UraniumIngotItem.java",
+          "src/main/resources/assets/shtundex/models/item/uranium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/worldgen/configured_feature/uranium_ore.json",
+          "src/main/java/shtundex/block/UraniumOreBlock.java",
+          "src/main/resources/assets/shtundex/blockstates/uranium_ore.json",
+          "src/main/resources/data/shtundex/worldgen/placed_feature/uranium_ore.json",
+          "src/main/resources/assets/shtundex/models/item/uranium_ore.json",
+          "src/main/resources/data/shtundex/forge/biome_modifier/uranium_ore_biome_modifier.json",
+          "src/main/resources/assets/shtundex/models/block/uranium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumBlock",
+      "type": "block",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/blockstates/uranium_block.json",
+          "src/main/resources/assets/shtundex/models/block/uranium_block.json",
+          "src/main/java/shtundex/block/UraniumBlockBlock.java",
+          "src/main/resources/assets/shtundex/models/item/uranium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/uranium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/uranium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOreSmelting",
+      "type": "recipe",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/uranium_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateUraniumOre",
+      "type": "block",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/worldgen/placed_feature/deepslate_uranium_ore.json",
+          "src/main/resources/assets/shtundex/blockstates/deepslate_uranium_ore.json",
+          "src/main/resources/assets/shtundex/models/item/deepslate_uranium_ore.json",
+          "src/main/java/shtundex/block/DeepslateUraniumOreBlock.java",
+          "src/main/resources/data/shtundex/worldgen/configured_feature/deepslate_uranium_ore.json",
+          "src/main/resources/assets/shtundex/models/block/deepslate_uranium_ore.json",
+          "src/main/resources/data/shtundex/forge/biome_modifier/deepslate_uranium_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft63",
+      "type": "recipe",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_63",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_63.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft64",
+      "type": "recipe",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_64",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_64.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft65",
+      "type": "recipe",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_65",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_65.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft66",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_66",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_66.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumDust",
+      "type": "item",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/uranium_dust.json",
+          "src/main/java/shtundex/item/UraniumDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RawUranium",
+      "type": "item",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_uranium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/raw_uranium.json",
+          "src/main/java/shtundex/item/RawUraniumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft67",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_67",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_67.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft68",
+      "type": "recipe",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_68",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_68.json"
+        ]
+      }
+    },
+    {
+      "name": "Macergui",
+      "type": "gui",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "macergui",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/network/MacerguiButtonMessage.java",
+          "src/main/java/shtundex/client/gui/MacerguiScreen.java",
+          "src/main/java/shtundex/world/inventory/MacerguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft69",
+      "type": "recipe",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_69",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_69.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft70",
+      "type": "recipe",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_70",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_70.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/LeadIngotItem.java",
+          "src/main/resources/assets/shtundex/models/item/lead_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/worldgen/configured_feature/lead_ore.json",
+          "src/main/resources/data/shtundex/worldgen/placed_feature/lead_ore.json",
+          "src/main/resources/assets/shtundex/models/block/lead_ore.json",
+          "src/main/resources/assets/shtundex/models/item/lead_ore.json",
+          "src/main/resources/data/shtundex/forge/biome_modifier/lead_ore_biome_modifier.json",
+          "src/main/java/shtundex/block/LeadOreBlock.java",
+          "src/main/resources/assets/shtundex/blockstates/lead_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadBlock",
+      "type": "block",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/blockstates/lead_block.json",
+          "src/main/resources/assets/shtundex/models/item/lead_block.json",
+          "src/main/java/shtundex/block/LeadBlockBlock.java",
+          "src/main/resources/assets/shtundex/models/block/lead_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/lead_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/lead_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadOreSmelting",
+      "type": "recipe",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/lead_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "RawLead",
+      "type": "item",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_lead",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/raw_lead.json",
+          "src/main/java/shtundex/item/RawLeadItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateLeadOre",
+      "type": "block",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_lead_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/blockstates/deepslate_lead_ore.json",
+          "src/main/resources/data/shtundex/worldgen/configured_feature/deepslate_lead_ore.json",
+          "src/main/resources/assets/shtundex/models/item/deepslate_lead_ore.json",
+          "src/main/resources/data/shtundex/forge/biome_modifier/deepslate_lead_ore_biome_modifier.json",
+          "src/main/resources/assets/shtundex/models/block/deepslate_lead_ore.json",
+          "src/main/java/shtundex/block/DeepslateLeadOreBlock.java",
+          "src/main/resources/data/shtundex/worldgen/placed_feature/deepslate_lead_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft71",
+      "type": "recipe",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_71",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_71.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft72",
+      "type": "recipe",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_72",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_72.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft73",
+      "type": "recipe",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_73",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_73.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft74",
+      "type": "recipe",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_74",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_74.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft75",
+      "type": "recipe",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_75",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_75.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadDust",
+      "type": "item",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/LeadDustItem.java",
+          "src/main/resources/assets/shtundex/models/item/lead_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft76",
+      "type": "recipe",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_76",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_76.json"
+        ]
+      }
+    },
+    {
+      "name": "AntiradCloth",
+      "type": "item",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antirad_cloth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/antirad_cloth.json",
+          "src/main/java/shtundex/item/AntiradClothItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hazmat",
+      "type": "armor",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/hazmat_chestplate.json",
+          "src/main/resources/assets/shtundex/models/item/hazmat_leggings.json",
+          "src/main/resources/assets/shtundex/models/item/hazmat_helmet.json",
+          "src/main/resources/assets/shtundex/models/item/hazmat_boots.json",
+          "src/main/java/shtundex/item/HazmatItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft77",
+      "type": "recipe",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_77",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_77.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadPlate",
+      "type": "item",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/lead_plate.json",
+          "src/main/java/shtundex/item/LeadPlateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft78",
+      "type": "recipe",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_78",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_78.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft79",
+      "type": "recipe",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_79",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_79.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft80",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_80",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_80.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft81",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_81",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_81.json"
+        ]
+      }
+    },
+    {
+      "name": "Antirad",
+      "type": "potioneffect",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antirad",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/AntiradMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "HazmatKazhdyiTikDliaNaghrudnika",
+      "type": "procedure",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_kazhdyi_tik_dlia_naghrudnika",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/HazmatKazhdyiTikDliaNaghrudnikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radioactivee",
+      "type": "tag",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/radioactivee.json"
+        ]
+      }
+    },
+    {
+      "name": "Radiation",
+      "type": "potioneffect",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/RadiationMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Irradiated",
+      "type": "damagetype",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irradiated",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/damage_type/irradiated.json"
+        ]
+      }
+    },
+    {
+      "name": "RadiationKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/RadiationKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeigerCountPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geiger_count_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/GeigerCountPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadCheck",
+      "type": "procedure",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rad_check",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/RadCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeigerCount",
+      "type": "item",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geiger_count",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/GeigerCountItem.java",
+          "src/main/resources/assets/shtundex/models/item/geiger_count.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -4317,6 +5781,12 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "Radiation",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -4363,8 +5833,10 @@
   ],
   "language_map": {
     "ru_ru": {
+      "item.shtundex.uranium_dust": "Uranium Dust",
       "item_group.shtundex.lore": "История",
       "item.shtundex.chtuxlagor_blessing_curios": "Благославление Штукс\u0027лаг\u0027ора",
+      "item.shtundex.catsteel_dust": "Catsteel Dust",
       "item.shtundex.treasure_bag_1": "Ящик с сокровищами",
       "item.shtundex.treasure_bag_2": "Ящик с сокровищами",
       "subtitles.theme_menu": "",
@@ -4379,8 +5851,10 @@
       "advancements.shtundex_ach.title": "Штундекс!",
       "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
       "item_group.shtundex.shtundex": "Штундекс",
+      "item.shtundex.hazmat_leggings": "Поножи Hazmat",
       "subtitles.abilitysound": "",
       "item.minecraft.potion.effect.shtuxian_blood": "Штучиная кровь",
+      "item.shtundex.antirad_cloth": "Antirad Cloth",
       "gui.shtundex.staff_of_power.button_fly": "Полет",
       "item.shtundex.cat_clot_armor_leggings": "Кототканевые шаровары",
       "item.shtundex.shtuxian_curse": "Штуксианское проклятие",
@@ -4390,19 +5864,33 @@
       "key.shtundex.hotkey_ability_1": "Штучиный щит",
       "item.shtundex.catsteel_axe": "Котосталевый топор",
       "key.shtundex.dash_key": "Штучиный рывок",
+      "block.shtundex.lead_ore": "Lead Ore",
+      "effect.shtundex.antirad": "Antirad",
       "subtitles.timeres": "",
+      "block.shtundex.deepslate_lead_ore": "Lead Ore",
+      "death.attack.cat_posion": "%1$s was melted in bath of omega radiation.",
+      "item.shtundex.iron_dust": "Iron Dust",
       "effect.shtundex.flight": "Полет",
       "item.shtundex.cat_hight_tech_suit_chestplate": "Нагрудник C.A.T",
+      "item.shtundex.gold_dust": "Gold Dust",
+      "block.shtundex.tin_ore": "Tin Ore",
+      "gui.shtundex.macergui.label_macerator": "Macerator",
+      "item.shtundex.grinding_ball": "Grinding Ball",
       "biome.shtundex.shtuxian_forest": "Штуксианский лес",
       "item.shtundex.human_cells": "Живые клетки",
       "item.shtundex.advanced_shtuk_parts": "Продвинутые части Ш.Т.У.К.а",
       "block.shtundex.catsteel_workbench_block": "Catsteel Workbench Block",
+      "death.attack.cat_posion.player": "%1$s died whilst trying to escape nature laws.",
       "item.shtundex.coin_press_scheme": "Пресс монеты",
       "key.shtundex.hotkey_ability_2": "Штучиная ярость",
+      "item.shtundex.tin_ingot": "Tin",
       "item.shtundex.catsteel_drill_handle": "Ручка котосталевого бура",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Др. Штуксибус",
+      "item.shtundex.hazmat_chestplate": "Нагрудник Hazmat",
       "key.shtundex.norm_dash": "Рывок",
+      "item.shtundex.raw_lead": "Raw Lead",
       "item.shtundex.catsteel_apple": "Котосталевое яблоко",
+      "item.shtundex.geiger_count": "Geiger Count",
       "entity.shtundex.dr_shtuxibus": "Др. Штуксибус",
       "gui.shtundex.staff_of_power.button_gm_0": "ГМ 1",
       "item.shtundex.swordland.desc": "Dr.Shtuxibus Theme",
@@ -4410,7 +5898,10 @@
       "item.shtundex.plate_press": "Plate Press",
       "item.shtundex.chtuxlagor_shard": "Осколок Штукс\u0027лаг\u0027ора",
       "block.shtundex.crate": "Ящик",
+      "item.shtundex.tin_dust": "Tin Dust",
       "gui.shtundex.catsteel_workbench.label_catsteel_workbench": "Catsteel Workbench",
+      "item.shtundex.uranium_ingot": "Uranium",
+      "item.shtundex.raw_uranium": "Raw Uranium",
       "key.shtundex.za_warduo": "За Варррдуо! [WIP]",
       "item.shtundex.shtux_sword": "Меч Штуксибуса",
       "effect.shtundex.time_stop": "Остановка времени",
@@ -4418,6 +5909,7 @@
       "item.shtundex.catsteel_nugget": "Котосталевый самородок",
       "item.shtundex.swordland": "Swordland",
       "block.shtundex.press": "Press",
+      "block.shtundex.lead_block": "Block of Lead",
       "item.shtundex.catsteel_drill_head": "Котосталевая буровая часть",
       "item.shtundex.cursed_catsteel_mechanism": "Проклятый котосталевый механизм",
       "entity.shtundex.sht_prigaite": "Sht-Q7 V 3",
@@ -4426,7 +5918,13 @@
       "death.attack.shtuxian_damage": "%1$s был раздавлен словно букашка, превосходящим существом.",
       "item.shtundex.lore_shtuxibus": "История - Др. Штуксибус",
       "item.shtundex.shtuxite_blaster": "Штукситовый бластер",
+      "item.shtundex.hazmat_boots": "Ботинки Hazmat",
       "item.shtundex.berry_pie": "Ягодный пирог",
+      "gui.shtundex.catsteelgengui.label_catsteel_generator": "Catsteel Generator",
+      "item.shtundex.lead_dust": "Lead Dust",
+      "block.shtundex.deepslate_uranium_ore": "Uranium Ore",
+      "death.attack.irradiated.item": "%1$s was irradiated by %2$s using %3$s",
+      "block.shtundex.tin_block": "Block of Tin",
       "advancements.catsteel_catsteel.title": "Котосталь? Котосталь!",
       "item.shtundex.shtuxian_energy": "Штуксианская энергия",
       "advancements.omniruler.title": "Высший правитель.",
@@ -4455,59 +5953,81 @@
       "item.shtundex.shtunder_prism": "Штуксианская призма",
       "entity.shtundex.shtuxibus_ex": "Shtuxibus EX",
       "item.shtundex.shtun_stone_sword": "Меч из штучиного камня",
+      "item.shtundex.catsteel_pill": "Catsteel Pill",
       "item.shtundex.catsteel_armor_boots": "Котосталевые сапоги",
       "block.shtundex.catsteel_block": "Блок котостали",
+      "effect.shtundex.catsteel_posion": "Catsteel Posion",
       "item.shtundex.shtux_staff_of_power": "Посох Кошачей Силы",
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Взрывная штучиная кровь",
       "item.shtundex.chtuxlagor_blaster": "Бластер Штукс\u0027лаг\u0027ора",
       "advancements.catsteel_catsteel.descr": "Сделайте первые шаги к абсолютной силе.",
       "advancements.omniruler.descr": "Победить КОШАЧЕЕ БОЖЕСТВО и заполучить его меч.",
+      "item.shtundex.bronze_ingot": "Bronze Ingot",
       "gui.shtundex.staff_of_power.button_god_mode": "Режим бога",
       "effect.shtundex.cooldown": "Перезарядка способности",
+      "item.shtundex.depelleted_catsteel": "Depelleted Catsteel",
+      "block.shtundex.uranium_ore": "Uranium Ore",
       "item.shtundex.catsteel_shovel": "Котосталевая лопата",
       "gui.shtundex.press_gui.label_press": "Press",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "Панель управления миром",
       "item.shtundex.catsteel_armor_chestplate": "Котосталевый нагрудник",
+      "block.shtundex.catsteel_grenerator": "Catsteel Grenerator",
       "item.shtundex.recharger": "Зарядник",
       "key.shtundex.double_jump_key": "Двойной прыжок [WIP]",
       "item.shtundex.cloth": "Ткань",
       "item.shtundex.shtundex_world_blessing": "Shtundex World Blessing",
       "item.shtundex.shtun_stone_hoe": "Мотыга из штучиного камня",
+      "block.shtundex.uranium_block": "Block of Uranium",
       "death.attack.shtuxian_damage.item": "%1$s был стерт %2$s из реальности",
       "item.shtundex.nether_star_staff": "Посох звезды незера",
       "item.shtundex.test_empty": "Test Empt",
       "advancements.shtuxian_machinery.title": "Штуксианская технология.",
       "key.shtundex.hotkry_ability_4": "Штучиная регенерация",
+      "item.shtundex.lead_ingot": "Lead",
       "gui.shtundex.staff_of_power.button_shtuk_mode": "Режим Ш.Т.У.Ка [WIP]",
       "gui.shtundex.shtux.label_empty": "",
       "gui.shtundex.staff_of_power.button_test": "Тест",
       "item.shtundex.molten_catsteel_bucket": "Капсула с расплавленой котосталью",
+      "item.shtundex.copper_dust": "Copper Dust",
+      "item.shtundex.bronze_dust": "Bronze Dust",
       "item.shtundex.cat_clot_armor_boots": "Кототканевые сапоги",
       "advancements.shtuxian_machinery.descr": "Победить SHT-Q7 v3 и заполучить штуксианскую призму.",
       "item.shtundex.catsteel_plate": "Котосталевая пластина",
+      "item.shtundex.lead_plate": "Lead Plate",
+      "item.shtundex.wrench": "Wrench",
       "item.shtundex.lore_shtundex_world": "История - Мир Штундекса",
+      "block.shtundex.deepslate_tin_ore": "Tin Ore",
       "block.shtundex.catsteel_ore": "Руда котостали",
       "fluid.shtundex.molten_catsteel": "Расплавленая котосталь",
       "item.shtundex.netherite_gear": "Алмазная шестерня",
+      "death.attack.cat_posion.item": "%1$s was killed by %2$s using omega radiation.",
       "key.shtundex.back_dash": "Рывок назад",
+      "item.shtundex.raw_tin": "Raw Tin",
       "item.shtundex.shtun_stone_shovel": "Лопата из штучиного камня",
       "item.shtundex.the_stick": "The Палка",
+      "item.shtundex.hazmat_helmet": "Шлем Hazmat",
+      "death.attack.irradiated": "%1$s irradiated.",
       "item.shtundex.catsteel_sword": "Котосталевый меч",
       "biome.shtundex.shtuxian_outlands": "Штучиные пустоши",
       "item.shtundex.catsteel_coin": "Монета из котостали",
       "item.shtundex.cat_clot_armor_helmet": "Кототканевый капюшон",
+      "effect.shtundex.radiation": "Radiation",
       "item.shtundex.cat_clot_armor_chestplate": "Кототканевая мантия",
       "item.shtundex.cat_cloth": "Кототкань",
       "item.shtundex.shtuxite_soul": "Штукситовая душа",
       "advancements.level_2_shtuk.descr": "Стань богом.",
       "item.shtundex.shtundex_world": "Мульти-измеренский пространственный активатор",
       "item.shtundex.catsteel_armor_helmet": "Котосталевый шлем",
+      "death.attack.irradiated.player": "%1$s irradiated whilst trying to escape %2$s",
       "key.shtundex.ability_hotkey_3": "Штучиный луч",
+      "block.shtundex.macerator": "Macerator",
       "item.shtundex.empty_syrgine": "Пустой шприц"
     },
     "en_us": {
+      "item.shtundex.uranium_dust": "Uranium Dust",
       "item_group.shtundex.lore": "Lore",
       "item.shtundex.chtuxlagor_blessing_curios": "Chtuxlagor Blessing Curios",
+      "item.shtundex.catsteel_dust": "Catsteel Dust",
       "item.shtundex.treasure_bag_1": "Loot Box",
       "item.shtundex.treasure_bag_2": "Loot Box",
       "entity.shtundex.black_hole": "Black Hole",
@@ -4522,8 +6042,10 @@
       "advancements.shtundex_ach.title": "Shtundex!",
       "advancements.i_reject_my_humanity.title": "I reject my humanity!",
       "item_group.shtundex.shtundex": "Shtundex",
+      "item.shtundex.hazmat_leggings": "Поножи Hazmat",
       "subtitles.abilitysound": "",
       "item.minecraft.potion.effect.shtuxian_blood": "Shtuxian blood",
+      "item.shtundex.antirad_cloth": "Antirad Cloth",
       "gui.shtundex.staff_of_power.button_fly": "Flight",
       "item.shtundex.cat_clot_armor_leggings": "Catcloth leggins",
       "item.shtundex.catsteel_bar": "Catsteel ingot",
@@ -4533,19 +6055,33 @@
       "key.shtundex.hotkey_ability_1": "Shtuxian shield",
       "item.shtundex.catsteel_axe": "Catsteel axe",
       "key.shtundex.dash_key": "Shtuxian Dash",
+      "block.shtundex.lead_ore": "Lead Ore",
+      "effect.shtundex.antirad": "Antirad",
       "subtitles.timeres": "",
+      "block.shtundex.deepslate_lead_ore": "Lead Ore",
+      "death.attack.cat_posion": "%1$s was melted in bath of omega radiation.",
+      "item.shtundex.iron_dust": "Iron Dust",
       "effect.shtundex.flight": "Flight",
       "item.shtundex.cat_hight_tech_suit_chestplate": "C.A.T Chestplate",
+      "item.shtundex.gold_dust": "Gold Dust",
+      "block.shtundex.tin_ore": "Tin Ore",
+      "gui.shtundex.macergui.label_macerator": "Macerator",
+      "item.shtundex.grinding_ball": "Grinding Ball",
       "biome.shtundex.shtuxian_forest": "Shtuxian Forest",
       "item.shtundex.human_cells": "Bodycells",
       "item.shtundex.advanced_shtuk_parts": "Advanced S.H.T.U.K parts",
       "block.shtundex.catsteel_workbench_block": "Catsteel Workbench Block",
+      "death.attack.cat_posion.player": "%1$s died whilst trying to escape nature laws.",
       "item.shtundex.coin_press_scheme": "Coin press",
       "key.shtundex.hotkey_ability_2": "Shtuxian rage",
+      "item.shtundex.tin_ingot": "Tin",
       "item.shtundex.catsteel_drill_handle": "Catsteel drill handle",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Shtuxibus",
+      "item.shtundex.hazmat_chestplate": "Нагрудник Hazmat",
       "key.shtundex.norm_dash": "Dash",
+      "item.shtundex.raw_lead": "Raw Lead",
       "item.shtundex.catsteel_apple": "Catsteel apple",
+      "item.shtundex.geiger_count": "Geiger Count",
       "entity.shtundex.dr_shtuxibus": "Dr.Shtuxibus",
       "gui.shtundex.staff_of_power.button_gm_0": "GM1",
       "item.shtundex.swordland.desc": "Dr.Shtuxibus Theme",
@@ -4553,7 +6089,10 @@
       "item.shtundex.plate_press": "Plate Press",
       "item.shtundex.chtuxlagor_shard": "Chtux\u0027lag\u0027or shard",
       "block.shtundex.crate": "Crate",
+      "item.shtundex.tin_dust": "Tin Dust",
       "gui.shtundex.catsteel_workbench.label_catsteel_workbench": "Catsteel Workbench",
+      "item.shtundex.uranium_ingot": "Uranium Ingot",
+      "item.shtundex.raw_uranium": "Raw Uranium",
       "key.shtundex.za_warduo": "Za Warduo! [WIP]",
       "item.shtundex.shtux_sword": "Shtuxibus Sword",
       "effect.shtundex.time_stop": "Time Stop",
@@ -4561,6 +6100,7 @@
       "item.shtundex.catsteel_nugget": "Catsteel nugget",
       "item.shtundex.swordland": "Swordland",
       "block.shtundex.press": "Press",
+      "block.shtundex.lead_block": "Block of Lead",
       "item.shtundex.catsteel_drill_head": "Catsteel drill hed",
       "item.shtundex.cursed_catsteel_mechanism": "Cursed catsteel mechanism",
       "entity.shtundex.sht_prigaite": "Sht-Q7 v3",
@@ -4569,7 +6109,13 @@
       "death.attack.shtuxian_damage": "%1$s was crushed like a bug by superior being.",
       "item.shtundex.lore_shtuxibus": "Lore - Dr.Shtuxibus",
       "item.shtundex.shtuxite_blaster": "Shtuxite blaster",
+      "item.shtundex.hazmat_boots": "Ботинки Hazmat",
       "item.shtundex.berry_pie": "Berry pie",
+      "gui.shtundex.catsteelgengui.label_catsteel_generator": "Catsteel Generator",
+      "item.shtundex.lead_dust": "Lead Dust",
+      "block.shtundex.deepslate_uranium_ore": "Uranium Ore",
+      "death.attack.irradiated.item": "%1$s was irradiated by %2$s using %3$s",
+      "block.shtundex.tin_block": "Block of Tin",
       "advancements.catsteel_catsteel.title": "Catsteel? Catsteel!",
       "item.shtundex.shtuxian_energy": "Shtuxian energy",
       "advancements.omniruler.title": "Omniruler!",
@@ -4598,54 +6144,74 @@
       "item.shtundex.shtunder_prism": "Shtunder prism",
       "entity.shtundex.shtuxibus_ex": "Shtuxibus EX",
       "item.shtundex.shtun_stone_sword": "ShtunStone sword",
+      "item.shtundex.catsteel_pill": "Catsteel Pill",
       "item.shtundex.catsteel_armor_boots": "Catsteel boots",
       "block.shtundex.catsteel_block": "Catsteel block",
+      "effect.shtundex.catsteel_posion": "Catsteel Posion",
       "item.shtundex.shtux_staff_of_power": "Staff of Cats Power",
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Splash shtuxian blood",
       "item.shtundex.chtuxlagor_blaster": "Chtux\u0027lag\u0027or blaster",
       "advancements.catsteel_catsteel.descr": "Make first steps to absolute power.",
       "advancements.omniruler.descr": "Defeat CAT DEITY and get his blade.",
+      "item.shtundex.bronze_ingot": "Bronze Ingot",
       "gui.shtundex.staff_of_power.button_god_mode": "Godmode",
       "effect.shtundex.cooldown": "Cooldown",
+      "item.shtundex.depelleted_catsteel": "Depelleted Catsteel",
+      "block.shtundex.uranium_ore": "Uranium Ore",
       "item.shtundex.catsteel_shovel": "Catsteel shovel",
       "gui.shtundex.press_gui.label_press": "Press",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "World control panel",
       "item.shtundex.catsteel_armor_chestplate": "Catsteel chestplate",
+      "block.shtundex.catsteel_grenerator": "Catsteel Grenerator",
       "item.shtundex.recharger": "Recharger",
       "key.shtundex.double_jump_key": "Double jump [WIP]",
       "item.shtundex.cloth": "Cloth",
       "item.shtundex.shtundex_world_blessing": "Shtundex World Blessing",
       "item.shtundex.shtun_stone_hoe": "ShtunStone hoe",
+      "block.shtundex.uranium_block": "Block of Uranium",
       "death.attack.shtuxian_damage.item": "%1$s was erased by %2$s from reality.",
       "item.shtundex.nether_star_staff": "Nether star staff",
       "item.shtundex.test_empty": "Test Empt",
       "advancements.shtuxian_machinery.title": "Shtuxian Machinery",
       "key.shtundex.hotkry_ability_4": "Shtuxian regeneration",
+      "item.shtundex.lead_ingot": "Lead",
       "gui.shtundex.staff_of_power.button_shtuk_mode": "S.H.T.U.K mode [WIP]",
       "gui.shtundex.shtux.label_empty": "",
       "gui.shtundex.staff_of_power.button_test": "Test",
       "item.shtundex.molten_catsteel_bucket": "Molten catsteel capsule",
+      "item.shtundex.copper_dust": "Copper Dust",
+      "item.shtundex.bronze_dust": "Bronze Dust",
       "item.shtundex.cat_clot_armor_boots": "Catcloth boots",
       "advancements.shtuxian_machinery.descr": "Defeat Sht-Q7 v3 and get shtuxian prisms.",
       "item.shtundex.catsteel_plate": "Catsteel plate",
+      "item.shtundex.lead_plate": "Lead Plate",
+      "item.shtundex.wrench": "Wrench",
       "item.shtundex.lore_shtundex_world": "Lore - Shtundex World",
+      "block.shtundex.deepslate_tin_ore": "Deepslate Tin Ore",
       "block.shtundex.catsteel_ore": "Catsteel ore",
       "fluid.shtundex.molten_catsteel": "Molten catsteel",
       "item.shtundex.netherite_gear": "Diamond gear",
+      "death.attack.cat_posion.item": "%1$s was killed by %2$s using omega radiation.",
       "key.shtundex.back_dash": "Back dash",
+      "item.shtundex.raw_tin": "Raw Tin",
       "item.shtundex.shtun_stone_shovel": "ShtunStone shovel",
       "item.shtundex.the_stick": "The Stick",
+      "item.shtundex.hazmat_helmet": "Шлем Hazmat",
+      "death.attack.irradiated": "%1$s irradiated.",
       "item.shtundex.catsteel_sword": "Catsteel sword",
       "biome.shtundex.shtuxian_outlands": "Shtuxian Wastelands",
       "item.shtundex.catsteel_coin": "Catsteel coin",
       "item.shtundex.cat_clot_armor_helmet": "Catcloth hood",
+      "effect.shtundex.radiation": "Radiation",
       "item.shtundex.cat_clot_armor_chestplate": "Catcloth mantle",
       "item.shtundex.cat_cloth": "Catcloth",
       "item.shtundex.shtuxite_soul": "Shtuxiate soul",
       "advancements.level_2_shtuk.descr": "Become a GOD.",
       "item.shtundex.shtundex_world": "Multidimentional space activator",
       "item.shtundex.catsteel_armor_helmet": "Catsteel helmet",
+      "death.attack.irradiated.player": "%1$s irradiated whilst trying to escape %2$s",
       "key.shtundex.ability_hotkey_3": "Shtuxian Ray",
+      "block.shtundex.macerator": "Macerator",
       "item.shtundex.empty_syrgine": "Empty syrgine"
     }
   },

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "shtundex:uranium_dust",
+    "shtundex:uranium_ingot",
+    "shtundex:uranium_block",
+    "shtundex:depelleted_catsteel",
+    "shtundex:catsteel_pill"
+  ]
+}

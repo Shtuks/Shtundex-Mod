@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:piston"
+    },
+    "c": {
+      "tag": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "shtundex:press",
+    "count": 1
+  }
+}

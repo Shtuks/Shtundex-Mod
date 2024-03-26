@@ -38,7 +38,7 @@ public class BecomingaShtuk2Procedure {
 				});
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 60, 10, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 10, false, false));
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("shtundex:level_2_shtuk"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

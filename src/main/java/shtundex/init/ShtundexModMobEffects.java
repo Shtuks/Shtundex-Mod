@@ -5,9 +5,12 @@
 package shtundex.init;
 
 import shtundex.potion.TimeStopMobEffect;
+import shtundex.potion.RadiationMobEffect;
 import shtundex.potion.InvincibilityMobEffect;
 import shtundex.potion.FlightMobEffect;
 import shtundex.potion.CooldownMobEffect;
+import shtundex.potion.CatsteelPosionMobEffect;
+import shtundex.potion.AntiradMobEffect;
 
 import shtundex.ShtundexMod;
 
@@ -23,4 +26,7 @@ public class ShtundexModMobEffects {
 	public static final RegistryObject<MobEffect> COOLDOWN = REGISTRY.register("cooldown", () -> new CooldownMobEffect());
 	public static final RegistryObject<MobEffect> TIME_STOP = REGISTRY.register("time_stop", () -> new TimeStopMobEffect());
 	public static final RegistryObject<MobEffect> INVINCIBILITY = REGISTRY.register("invincibility", () -> new InvincibilityMobEffect());
+	public static final RegistryObject<MobEffect> CATSTEEL_POSION = REGISTRY.register("catsteel_posion", () -> new CatsteelPosionMobEffect());
+	public static final RegistryObject<MobEffect> ANTIRAD = REGISTRY.register("antirad", () -> new AntiradMobEffect());
+	public static final RegistryObject<MobEffect> RADIATION = REGISTRY.register("radiation", () -> new RadiationMobEffect());
 }

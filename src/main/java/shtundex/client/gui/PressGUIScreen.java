@@ -24,7 +24,6 @@ public class PressGUIScreen extends AbstractContainerScreen<PressGUIMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	ImageButton imagebutton_platepress;
 	ImageButton imagebutton_srrownaoborot;
 
 	public PressGUIScreen(PressGUIMenu container, Inventory inventory, Component text) {
@@ -56,6 +55,8 @@ public class PressGUIScreen extends AbstractContainerScreen<PressGUIMenu> {
 
 		guiGraphics.blit(new ResourceLocation("shtundex:textures/screens/fire2.png"), this.leftPos + 151, this.topPos + 55, 0, 0, 16, 16, 16, 16);
 
+		guiGraphics.blit(new ResourceLocation("shtundex:textures/screens/platepress.png"), this.leftPos + 124, this.topPos + 55, 0, 0, 16, 16, 16, 16);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -86,14 +87,10 @@ public class PressGUIScreen extends AbstractContainerScreen<PressGUIMenu> {
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_platepress = new ImageButton(this.leftPos + 124, this.topPos + 55, 16, 16, 0, 0, 16, new ResourceLocation("shtundex:textures/screens/atlas/imagebutton_platepress.png"), 16, 32, e -> {
-		});
-		guistate.put("button:imagebutton_platepress", imagebutton_platepress);
-		this.addRenderableWidget(imagebutton_platepress);
-		imagebutton_srrownaoborot = new ImageButton(this.leftPos + 53, this.topPos + 34, 32, 16, 0, 0, 16, new ResourceLocation("shtundex:textures/screens/atlas/imagebutton_srrownaoborot.png"), 32, 32, e -> {
+		imagebutton_srrownaoborot = new ImageButton(this.leftPos + 64, this.topPos + 35, 32, 16, 0, 0, 16, new ResourceLocation("shtundex:textures/screens/atlas/imagebutton_srrownaoborot.png"), 32, 32, e -> {
 			if (true) {
-				ShtundexMod.PACKET_HANDLER.sendToServer(new PressGUIButtonMessage(1, x, y, z));
-				PressGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
+				ShtundexMod.PACKET_HANDLER.sendToServer(new PressGUIButtonMessage(0, x, y, z));
+				PressGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		});
 		guistate.put("button:imagebutton_srrownaoborot", imagebutton_srrownaoborot);

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:antirad_cloth"
+    },
+    "b": {
+      "item": "shtundex:lead_plate"
+    },
+    "c": {
+      "tag": "forge:stained_glass_panes"
+    }
+  },
+  "result": {
+    "item": "shtundex:hazmat_helmet",
+    "count": 1
+  }
+}

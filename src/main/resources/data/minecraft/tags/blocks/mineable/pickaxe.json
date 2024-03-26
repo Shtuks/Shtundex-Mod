@@ -5,6 +5,16 @@
     "shtundex:shtundex_stone",
     "shtundex:alphalt",
     "shtundex:catsteel_block",
-    "shtundex:press"
+    "shtundex:press",
+    "shtundex:tin_ore",
+    "shtundex:tin_block",
+    "shtundex:macerator",
+    "shtundex:deepslate_tin_ore",
+    "shtundex:uranium_ore",
+    "shtundex:uranium_block",
+    "shtundex:deepslate_uranium_ore",
+    "shtundex:lead_ore",
+    "shtundex:lead_block",
+    "shtundex:deepslate_lead_ore"
   ]
 }

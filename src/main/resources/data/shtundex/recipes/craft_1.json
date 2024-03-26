@@ -2,9 +2,9 @@
   "type": "minecraft:smelting",
   "category": "misc",
   "experience": 1,
-  "cookingtime": 2000,
+  "cookingtime": 200,
   "ingredient": {
-    "item": "shtundex:catsteel_ore"
+    "item": "shtundex:bronze_dust"
   },
-  "result": "shtundex:catsteel_bar"
+  "result": "shtundex:bronze_ingot"
 }

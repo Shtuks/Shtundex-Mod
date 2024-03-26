@@ -130,15 +130,6 @@
           "x": 277,
           "y": 73
         }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "blackie.png",
-          "use1Xscale": false,
-          "x": 126,
-          "y": 38
-        }
       }
     ],
     "gridSettings": {

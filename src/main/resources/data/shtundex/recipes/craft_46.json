@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:copper_dust"
+    },
+    {
+      "item": "shtundex:tin_dust"
+    }
+  ],
+  "result": {
+    "item": "shtundex:bronze_dust",
+    "count": 2
+  }
+}

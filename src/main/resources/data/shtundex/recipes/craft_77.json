@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:cloth"
+    },
+    {
+      "item": "shtundex:lead_dust"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "item": "shtundex:antirad_cloth",
+    "count": 1
+  }
+}

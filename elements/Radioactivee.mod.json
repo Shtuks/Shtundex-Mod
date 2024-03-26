@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:UraniumDust"
+      },
+      {
+        "value": "CUSTOM:UraniumIngot"
+      },
+      {
+        "value": "CUSTOM:UraniumBlock"
+      },
+      {
+        "value": "CUSTOM:DepelletedCatsteel"
+      },
+      {
+        "value": "CUSTOM:CatsteelPill"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "radioactivee",
+    "namespace": "forge"
+  }
+}

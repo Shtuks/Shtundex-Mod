@@ -7,6 +7,8 @@ package shtundex.init;
 import shtundex.client.gui.StaffOfPowerScreen;
 import shtundex.client.gui.ShtuxScreen;
 import shtundex.client.gui.PressGUIScreen;
+import shtundex.client.gui.MacerguiScreen;
+import shtundex.client.gui.CatsteelgenguiScreen;
 import shtundex.client.gui.CatsteelWorkbenchScreen;
 
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -25,6 +27,8 @@ public class ShtundexModScreens {
 			MenuScreens.register(ShtundexModMenus.SHTUX.get(), ShtuxScreen::new);
 			MenuScreens.register(ShtundexModMenus.PRESS_GUI.get(), PressGUIScreen::new);
 			MenuScreens.register(ShtundexModMenus.CATSTEEL_WORKBENCH.get(), CatsteelWorkbenchScreen::new);
+			MenuScreens.register(ShtundexModMenus.CATSTEELGENGUI.get(), CatsteelgenguiScreen::new);
+			MenuScreens.register(ShtundexModMenus.MACERGUI.get(), MacerguiScreen::new);
 		});
 	}
 }

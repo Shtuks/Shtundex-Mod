@@ -92,16 +92,6 @@
         }
       },
       {
-        "type": "imagebutton",
-        "data": {
-          "name": "imagebutton_platepress",
-          "image": "platepress.png",
-          "hoveredImage": "",
-          "x": 250,
-          "y": 92
-        }
-      },
-      {
         "type": "image",
         "data": {
           "image": "fire2.png",
@@ -119,8 +109,17 @@
           "onClick": {
             "name": "Pressproc"
           },
-          "x": 179,
-          "y": 71
+          "x": 190,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "platepress.png",
+          "use1Xscale": false,
+          "x": 250,
+          "y": 92
         }
       }
     ],
@@ -129,7 +128,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

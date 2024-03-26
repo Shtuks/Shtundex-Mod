@@ -2,6 +2,7 @@ package shtundex.procedures;
 
 import shtundex.network.ShtundexModVariables;
 
+import shtundex.init.ShtundexModMobEffects;
 import shtundex.init.ShtundexModItems;
 
 import net.minecraft.world.phys.Vec3;
@@ -58,11 +59,15 @@ public class OoppositeProcedure {
 				capability.syncPlayerVariables(entity);
 			});
 		}
-		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), (float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) - 5));
+		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), (float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) - 11));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 500, 10, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 500, 10, false, false));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.CATSTEEL_POSION.get(), 500, 20, false, false));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.RADIATION.get(), 500, 10, false, false));
 		if (entity instanceof Player _player) {
 			ItemStack _stktoremove = new ItemStack(ShtundexModItems.HUMAN_CELLS.get());
 			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());

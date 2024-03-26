@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:antirad_cloth"
+    },
+    "b": {
+      "item": "shtundex:lead_plate"
+    }
+  },
+  "result": {
+    "item": "shtundex:hazmat_chestplate",
+    "count": 1
+  }
+}

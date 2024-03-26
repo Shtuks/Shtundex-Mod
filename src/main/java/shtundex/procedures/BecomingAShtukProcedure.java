@@ -2,6 +2,7 @@ package shtundex.procedures;
 
 import shtundex.network.ShtundexModVariables;
 
+import shtundex.init.ShtundexModMobEffects;
 import shtundex.init.ShtundexModItems;
 
 import net.minecraft.world.level.LevelAccessor;
@@ -30,7 +31,7 @@ public class BecomingAShtukProcedure {
 				_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 360, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 360, 1, false, false));
-			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.WITHER)), (float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) - 5));
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.FELL_OUT_OF_WORLD)), (float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) - 6));
 			{
 				boolean _setval = true;
 				entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -47,7 +48,7 @@ public class BecomingAShtukProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 1000, 10, false, false));
+				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.CATSTEEL_POSION.get(), 1000, 1, false, false));
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(ShtundexModItems.SHTUK_CYBERNETIC_PARTS.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());

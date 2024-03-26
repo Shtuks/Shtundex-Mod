@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:uranium_ingot"
+    }
+  },
+  "result": {
+    "item": "shtundex:uranium_block",
+    "count": 1
+  }
+}

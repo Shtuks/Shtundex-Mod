@@ -1,0 +1,46 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "wrench",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Wrench",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Shtundex"
+    },
+    "harvestLevel": 1,
+    "efficiency": 20.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [
+      {
+        "value": "CUSTOM:Macerator"
+      },
+      {
+        "value": "CUSTOM:Press"
+      },
+      {
+        "value": "CUSTOM:CatsteelGrenerator"
+      },
+      {
+        "value": "CUSTOM:CatsteelWorkbenchBlock"
+      }
+    ],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "shtundex:lead_block",
+    "count": 1
+  }
+}

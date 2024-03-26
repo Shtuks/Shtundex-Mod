@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:uranium_block"
+    }
+  ],
+  "result": {
+    "item": "shtundex:uranium_ingot",
+    "count": 9
+  }
+}

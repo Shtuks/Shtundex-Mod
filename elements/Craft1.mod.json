@@ -7,14 +7,14 @@
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 1.0,
-    "cookingTime": 2000,
+    "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:CatsteelOre"
+      "value": "CUSTOM:BronzeDust"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:CatsteelBar"
+      "value": "CUSTOM:BronzeIngot"
     },
     "name": "craft_1",
     "namespace": "mod"

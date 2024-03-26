@@ -5,7 +5,9 @@
 package shtundex.init;
 
 import shtundex.block.entity.PressBlockEntity;
+import shtundex.block.entity.MaceratorBlockEntity;
 import shtundex.block.entity.CatsteelWorkbenchBlockBlockEntity;
+import shtundex.block.entity.CatsteelGreneratorBlockEntity;
 
 import shtundex.ShtundexMod;
 
@@ -20,6 +22,8 @@ public class ShtundexModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, ShtundexMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> PRESS = register("press", ShtundexModBlocks.PRESS, PressBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CATSTEEL_WORKBENCH_BLOCK = register("catsteel_workbench_block", ShtundexModBlocks.CATSTEEL_WORKBENCH_BLOCK, CatsteelWorkbenchBlockBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> MACERATOR = register("macerator", ShtundexModBlocks.MACERATOR, MaceratorBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> CATSTEEL_GRENERATOR = register("catsteel_grenerator", ShtundexModBlocks.CATSTEEL_GRENERATOR, CatsteelGreneratorBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

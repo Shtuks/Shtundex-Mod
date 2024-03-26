@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.8,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:UraniumDust"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:UraniumIngot"
+    },
+    "name": "craft_69",
+    "namespace": "mod"
+  }
+}

@@ -2,6 +2,8 @@ package shtundex.procedures;
 
 import shtundex.network.ShtundexModVariables;
 
+import shtundex.init.ShtundexModMobEffects;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
@@ -63,6 +65,22 @@ public class AdvShtukCheckallProcedure {
 				_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 60, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 20, 3, false, false));
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(ShtundexModMobEffects.RADIATION.get());
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.BLINDNESS);
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.WEAKNESS);
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.POISON);
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.WITHER);
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.DIG_SLOWDOWN);
+			if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ShtundexModMobEffects.CATSTEEL_POSION.get()) ? _livEnt.getEffect(ShtundexModMobEffects.CATSTEEL_POSION.get()).getAmplifier() : 0) < 10) {
+				if (entity instanceof LivingEntity _entity)
+					_entity.removeEffect(ShtundexModMobEffects.CATSTEEL_POSION.get());
+			}
 		}
 	}
 }

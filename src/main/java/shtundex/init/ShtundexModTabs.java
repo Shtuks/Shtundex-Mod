@@ -8,12 +8,17 @@ import shtundex.ShtundexMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ShtundexModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ShtundexMod.MODID);
 	public static final RegistryObject<CreativeModeTab> SHTUNDEX = REGISTRY.register("shtundex",
@@ -89,6 +94,41 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.PLATE_PRESS.get());
 				tabData.accept(ShtundexModBlocks.PRESS.get().asItem());
 				tabData.accept(ShtundexModBlocks.CATSTEEL_WORKBENCH_BLOCK.get().asItem());
+				tabData.accept(ShtundexModItems.TIN_INGOT.get());
+				tabData.accept(ShtundexModItems.TIN_DUST.get());
+				tabData.accept(ShtundexModItems.COPPER_DUST.get());
+				tabData.accept(ShtundexModItems.BRONZE_DUST.get());
+				tabData.accept(ShtundexModBlocks.MACERATOR.get().asItem());
+				tabData.accept(ShtundexModBlocks.DEEPSLATE_TIN_ORE.get().asItem());
+				tabData.accept(ShtundexModItems.BRONZE_INGOT.get());
+				tabData.accept(ShtundexModItems.CATSTEEL_DUST.get());
+				tabData.accept(ShtundexModItems.GRINDING_BALL.get());
+				tabData.accept(ShtundexModItems.RAW_TIN.get());
+				tabData.accept(ShtundexModItems.WRENCH.get());
+				tabData.accept(ShtundexModBlocks.CATSTEEL_GRENERATOR.get().asItem());
+				tabData.accept(ShtundexModItems.CATSTEEL_PILL.get());
+				tabData.accept(ShtundexModItems.DEPELLETED_CATSTEEL.get());
+				tabData.accept(ShtundexModItems.IRON_DUST.get());
+				tabData.accept(ShtundexModItems.GOLD_DUST.get());
+				tabData.accept(ShtundexModBlocks.URANIUM_ORE.get().asItem());
+				tabData.accept(ShtundexModBlocks.URANIUM_BLOCK.get().asItem());
+				tabData.accept(ShtundexModItems.URANIUM_INGOT.get());
+				tabData.accept(ShtundexModBlocks.DEEPSLATE_URANIUM_ORE.get().asItem());
+				tabData.accept(ShtundexModItems.URANIUM_DUST.get());
+				tabData.accept(ShtundexModItems.RAW_URANIUM.get());
+				tabData.accept(ShtundexModBlocks.LEAD_ORE.get().asItem());
+				tabData.accept(ShtundexModBlocks.LEAD_BLOCK.get().asItem());
+				tabData.accept(ShtundexModItems.LEAD_INGOT.get());
+				tabData.accept(ShtundexModItems.RAW_LEAD.get());
+				tabData.accept(ShtundexModBlocks.DEEPSLATE_LEAD_ORE.get().asItem());
+				tabData.accept(ShtundexModItems.LEAD_DUST.get());
+				tabData.accept(ShtundexModItems.ANTIRAD_CLOTH.get());
+				tabData.accept(ShtundexModItems.HAZMAT_HELMET.get());
+				tabData.accept(ShtundexModItems.HAZMAT_CHESTPLATE.get());
+				tabData.accept(ShtundexModItems.HAZMAT_LEGGINGS.get());
+				tabData.accept(ShtundexModItems.HAZMAT_BOOTS.get());
+				tabData.accept(ShtundexModItems.LEAD_PLATE.get());
+				tabData.accept(ShtundexModItems.GEIGER_COUNT.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_CATSTEEL.get())).displayItems((parameters, tabData) -> {
@@ -100,4 +140,13 @@ public class ShtundexModTabs {
 			})
 
 					.build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(ShtundexModBlocks.TIN_ORE.get().asItem());
+			tabData.accept(ShtundexModBlocks.TIN_BLOCK.get().asItem());
+		}
+	}
 }

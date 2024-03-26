@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "b b",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:antirad_cloth"
+    },
+    "b": {
+      "item": "shtundex:lead_plate"
+    },
+    "c": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "shtundex:hazmat_boots",
+    "count": 1
+  }
+}
