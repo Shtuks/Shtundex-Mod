@@ -5936,10 +5936,45 @@
       "registry_name": "test_banana",
       "metadata": {
         "files": [
-          "src/main/resources/data/shtundex/forge/biome_modifier/test_banana_biome_modifier.json",
           "src/main/java/shtundex/client/renderer/TestBananaRenderer.java",
-          "src/main/java/shtundex/entity/TestBananaEntity.java",
-          "src/main/resources/assets/shtundex/models/item/test_banana_spawn_egg.json"
+          "src/main/java/shtundex/entity/TestBananaEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CatsteelStimulantsPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_stimulants_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelStimulantsPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CatsteelStimulants",
+      "type": "item",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_stimulants",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/catsteel_stimulants.json",
+          "src/main/java/shtundex/item/CatsteelStimulantsItem.java"
         ]
       }
     }
@@ -6024,7 +6059,7 @@
       "files": [
         "masochist_mode_mutant_phase_2_theme_-_storia_audio-extractor.net"
       ],
-      "category": "neutral",
+      "category": "music",
       "subtitle": ""
     }
   ],
@@ -6081,7 +6116,6 @@
       "advancements.omniruler.title": "Высший правитель.",
       "block.shtundex.shtundex_stone": "Штучиный камень",
       "item.shtundex.chtuxlagor_piece": "Кусочек Штукс\u0027лаг\u0027ора",
-      "item.shtundex.test_banana_spawn_egg": "Test Banana Spawn Egg",
       "subtitles.timestopza": "",
       "item.shtundex.catsteel_armor_leggings": "Котосталевые поножи",
       "subtitles.blastsound": "",
@@ -6091,6 +6125,7 @@
       "advancements.level_2_shtuk.title": "Ш.Т.У.К 2го уровня",
       "item.shtundex.shtuk_cybernetic_parts": "Кибернетические запчасти Ш.Т.У.К.А",
       "death.attack.shtuxian_damage.player": "%1$s умер пытаясь убежать от судьбы",
+      "item.shtundex.catsteel_stimulants": "Catsteel Stimulants",
       "item.shtundex.shtunder_prism": "Штуксианская призма",
       "item.shtundex.cat_hight_tech_suit_boots": "Ботинки C.A.T",
       "item.shtundex.shtun_stone_sword": "Меч из штучиного камня",
@@ -6282,7 +6317,6 @@
       "advancements.omniruler.title": "Omniruler",
       "block.shtundex.shtundex_stone": "Shtundex Stone",
       "item.shtundex.chtuxlagor_piece": "Chtuxlagor Piece",
-      "item.shtundex.test_banana_spawn_egg": "Test Banana Spawn Egg",
       "subtitles.timestopza": "",
       "item.shtundex.catsteel_armor_leggings": "Catsteel Leggings",
       "subtitles.blastsound": "",
@@ -6292,6 +6326,7 @@
       "advancements.level_2_shtuk.title": "Level 2 Shtuk",
       "item.shtundex.shtuk_cybernetic_parts": "Shtuk Cybernetic Parts",
       "death.attack.shtuxian_damage.player": "%1$s died whilst trying to escape his fate.",
+      "item.shtundex.catsteel_stimulants": "Catsteel Stimulants",
       "item.shtundex.shtunder_prism": "Shtunder Prism",
       "item.shtundex.cat_hight_tech_suit_boots": "Ботинки C.A.T",
       "item.shtundex.shtun_stone_sword": "ShtunStone Sword",

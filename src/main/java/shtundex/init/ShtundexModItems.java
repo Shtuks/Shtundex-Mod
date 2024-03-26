@@ -68,6 +68,7 @@ import shtundex.item.ChtuxlagorPieceItem;
 import shtundex.item.ChtuxlagorBlessingCuriosItem;
 import shtundex.item.ChtuxlagorBlasterItem;
 import shtundex.item.CatsteelSwordItem;
+import shtundex.item.CatsteelStimulantsItem;
 import shtundex.item.CatsteelShovelItem;
 import shtundex.item.CatsteelPlateItem;
 import shtundex.item.CatsteelPillItem;
@@ -97,7 +98,6 @@ import shtundex.ShtundexMod;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -222,7 +222,7 @@ public class ShtundexModItems {
 	public static final RegistryObject<Item> CIRCUIT = REGISTRY.register("circuit", () -> new CircuitItem());
 	public static final RegistryObject<Item> UNFINISHED_CATSTEEL_CIRCUIT = REGISTRY.register("unfinished_catsteel_circuit", () -> new UnfinishedCatsteelCircuitItem());
 	public static final RegistryObject<Item> CIRCUIT_PRSSS = REGISTRY.register("circuit_prsss", () -> new CircuitPrsssItem());
-	public static final RegistryObject<Item> TEST_BANANA_SPAWN_EGG = REGISTRY.register("test_banana_spawn_egg", () -> new ForgeSpawnEggItem(ShtundexModEntities.TEST_BANANA, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> CATSTEEL_STIMULANTS = REGISTRY.register("catsteel_stimulants", () -> new CatsteelStimulantsItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

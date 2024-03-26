@@ -132,6 +132,7 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.CIRCUIT.get());
 				tabData.accept(ShtundexModItems.UNFINISHED_CATSTEEL_CIRCUIT.get());
 				tabData.accept(ShtundexModItems.CIRCUIT_PRSSS.get());
+				tabData.accept(ShtundexModItems.CATSTEEL_STIMULANTS.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_CATSTEEL.get())).displayItems((parameters, tabData) -> {
@@ -150,10 +151,6 @@ public class ShtundexModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(ShtundexModBlocks.TIN_ORE.get().asItem());
 			tabData.accept(ShtundexModBlocks.TIN_BLOCK.get().asItem());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(ShtundexModItems.TEST_BANANA_SPAWN_EGG.get());
 		}
 	}
 }
