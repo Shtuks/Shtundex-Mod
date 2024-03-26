@@ -2,9 +2,9 @@
   "_fv": 57,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "err",
-    "customModelName": "Normal",
+    "customModelName": "staf2:default",
     "customProperties": {},
     "states": [],
     "name": "Shtux Staff Of Power",

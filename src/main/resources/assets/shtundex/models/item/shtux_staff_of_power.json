@@ -1,6 +1,8 @@
 {
-  "parent": "item/generated",
+  "parent": "shtundex:custom/staf2",
   "textures": {
-    "layer0": "shtundex:item/err"
+    "1": "shtundex:block/staff",
+    "missing": "shtundex:block/",
+    "particle": "shtundex:item/err"
   }
 }
