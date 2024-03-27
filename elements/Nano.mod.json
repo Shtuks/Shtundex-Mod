@@ -26,21 +26,29 @@
       "value": "CUSTOM:Shtundex"
     },
     "armorTextureFile": "nano__",
-    "helmetName": "Шлем Nano",
-    "bodyName": "Нагрудник Nano",
-    "leggingsName": "Поножи Nano",
-    "bootsName": "Ботинки Nano",
+    "helmetName": "Nano helm",
+    "bodyName": "Nano chestplate",
+    "leggingsName": "Nano leggins",
+    "bootsName": "Nano boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Night vision"
+      ]
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "+ 40% Damage reduction"
+      ]
     },
     "leggingsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "+ 40% speed"
+      ]
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "+ 50% jump heigh"
+      ]
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",

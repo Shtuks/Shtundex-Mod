@@ -80,6 +80,7 @@ import shtundex.item.ChtuxlagorBlasterItem;
 import shtundex.item.CatsteelSwordItem;
 import shtundex.item.CatsteelStimulantsItem;
 import shtundex.item.CatsteelShovelItem;
+import shtundex.item.CatsteelShieldItem;
 import shtundex.item.CatsteelPlateItem;
 import shtundex.item.CatsteelPillItem;
 import shtundex.item.CatsteelPickaxeItem;
@@ -246,6 +247,7 @@ public class ShtundexModItems {
 	public static final RegistryObject<Item> ENERGY_CRYSTAL = REGISTRY.register("energy_crystal", () -> new EnergyCrystalItem());
 	public static final RegistryObject<Item> SHTUXIAN_KIT = REGISTRY.register("shtuxian_kit", () -> new ShtuxianKitItem());
 	public static final RegistryObject<Item> CHTUXLAGOR_KIT = REGISTRY.register("chtuxlagor_kit", () -> new ChtuxlagorKitItem());
+	public static final RegistryObject<Item> CATSTEEL_SHIELD = REGISTRY.register("catsteel_shield", () -> new CatsteelShieldItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

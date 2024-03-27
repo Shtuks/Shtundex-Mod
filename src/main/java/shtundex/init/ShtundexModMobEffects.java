@@ -5,6 +5,7 @@
 package shtundex.init;
 
 import shtundex.potion.TimeStopMobEffect;
+import shtundex.potion.ShtukModeCDMobEffect;
 import shtundex.potion.RadiationMobEffect;
 import shtundex.potion.InvincibilityMobEffect;
 import shtundex.potion.HtucMobEffect;
@@ -33,4 +34,5 @@ public class ShtundexModMobEffects {
 	public static final RegistryObject<MobEffect> RADIATION = REGISTRY.register("radiation", () -> new RadiationMobEffect());
 	public static final RegistryObject<MobEffect> HTUC = REGISTRY.register("htuc", () -> new HtucMobEffect());
 	public static final RegistryObject<MobEffect> CHTUXLAGOR_PRESENCE = REGISTRY.register("chtuxlagor_presence", () -> new ChtuxlagorPresenceMobEffect());
+	public static final RegistryObject<MobEffect> SHTUK_MODE_CD = REGISTRY.register("shtuk_mode_cd", () -> new ShtukModeCDMobEffect());
 }

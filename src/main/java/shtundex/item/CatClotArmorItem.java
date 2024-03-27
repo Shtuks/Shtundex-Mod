@@ -80,6 +80,8 @@ public abstract class CatClotArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("Night vision, Increaced swim speed"));
+			list.add(Component.literal("You will never need food."));
 		}
 
 		@Override
@@ -109,6 +111,8 @@ public abstract class CatClotArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("Flight, +12 base damage, +200% mining speed"));
+			list.add(Component.literal("+80% Damage Reduction, +20 absorbtion"));
 		}
 
 		@Override
@@ -138,6 +142,8 @@ public abstract class CatClotArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("+200% speed, big regeneration increacement"));
+			list.add(Component.literal("You move underwater same like on normal blocks, no water mining slowness"));
 		}
 
 		@Override
@@ -167,6 +173,7 @@ public abstract class CatClotArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("x2 jump speed"));
 		}
 
 		@Override

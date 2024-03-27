@@ -26,28 +26,36 @@
       "value": "CUSTOM:Shtundex"
     },
     "armorTextureFile": "cattechsuit",
-    "helmetName": "Шлем C.A.T",
-    "bodyName": "Нагрудник C.A.T",
-    "leggingsName": "Поножи C.A.T",
-    "bootsName": "Ботинки C.A.T",
+    "helmetName": "C.A.T Helmet",
+    "bodyName": "C.A.T Chestplate",
+    "leggingsName": "C.A.T leggins",
+    "bootsName": "C.A.T boots",
     "helmetSpecialInformation": {
       "fixedValue": [
-        "From the heaven to hell, i am the superior."
+        "From the heaven to hell, i am the superior.",
+        "Night vision, Increaced swim speed",
+        "You will never need food."
       ]
     },
     "bodySpecialInformation": {
       "fixedValue": [
-        "Now i became a death. A destroyer of the worlds."
+        "Now i became a death. A destroyer of the worlds.",
+        "+16 base damage, Radiation protection",
+        "Flight, +200% mining speed",
+        "+100% Damage Reduction, +30 absorbtion"
       ]
     },
     "leggingsSpecialInformation": {
       "fixedValue": [
-        "Shtuxian technologies was too powerful. Enougth for gods to fear."
+        "Shtuxian technologies was too powerful. Enougth for gods to fear.",
+        "+ 220% speed, extreme regeneration increacement",
+        "You move underwater same like on normal blocks, no water mining slowness"
       ]
     },
     "bootsSpecialInformation": {
       "fixedValue": [
-        "Nothing wait you in the end of your journey."
+        "Nothing wait you in the end.",
+        "x2 jump hight"
       ]
     },
     "helmetModelName": "Default",

@@ -145,6 +145,7 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.ENERGY_CRYSTAL.get());
 				tabData.accept(ShtundexModItems.SHTUXIAN_KIT.get());
 				tabData.accept(ShtundexModItems.CHTUXLAGOR_KIT.get());
+				tabData.accept(ShtundexModItems.CATSTEEL_SHIELD.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_CATSTEEL.get())).displayItems((parameters, tabData) -> {

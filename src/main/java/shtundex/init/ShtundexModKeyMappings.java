@@ -5,12 +5,14 @@
 package shtundex.init;
 
 import shtundex.network.ZaWarduoMessage;
+import shtundex.network.ShieldDashKeyMessage;
 import shtundex.network.NormDashMessage;
 import shtundex.network.HotkryAbility4Message;
 import shtundex.network.HotkeyAbility2Message;
 import shtundex.network.HotkeyAbility1Message;
 import shtundex.network.DoubleJumpKeyMessage;
 import shtundex.network.DashKeyMessage;
+import shtundex.network.BackdashKeyMessage;
 import shtundex.network.AbilityHotkey3Message;
 
 import shtundex.ShtundexMod;
@@ -132,6 +134,32 @@ public class ShtundexModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping SHIELD_DASH_KEY = new KeyMapping("key.shtundex.shield_dash_key", GLFW.GLFW_KEY_KP_9, "key.categories.movement") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				ShtundexMod.PACKET_HANDLER.sendToServer(new ShieldDashKeyMessage(0, 0));
+				ShieldDashKeyMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
+	public static final KeyMapping BACKDASH_KEY = new KeyMapping("key.shtundex.backdash_key", GLFW.GLFW_KEY_KP_7, "key.categories.movement") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				ShtundexMod.PACKET_HANDLER.sendToServer(new BackdashKeyMessage(0, 0));
+				BackdashKeyMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
@@ -143,6 +171,8 @@ public class ShtundexModKeyMappings {
 		event.register(DOUBLE_JUMP_KEY);
 		event.register(ABILITY_HOTKEY_3);
 		event.register(HOTKRY_ABILITY_4);
+		event.register(SHIELD_DASH_KEY);
+		event.register(BACKDASH_KEY);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -158,6 +188,8 @@ public class ShtundexModKeyMappings {
 				DOUBLE_JUMP_KEY.consumeClick();
 				ABILITY_HOTKEY_3.consumeClick();
 				HOTKRY_ABILITY_4.consumeClick();
+				SHIELD_DASH_KEY.consumeClick();
+				BACKDASH_KEY.consumeClick();
 			}
 		}
 	}

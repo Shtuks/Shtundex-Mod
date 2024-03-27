@@ -9,12 +9,12 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.network.chat.Component;
 
-public class NormdasshProcedure {
+public class BackdshProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
 		if (!(entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(ShtundexModMobEffects.COOLDOWN.get()))) {
-			entity.setDeltaMovement(new Vec3((1.3 * entity.getLookAngle().x), (1.2 * entity.getLookAngle().y), (1.3 * entity.getLookAngle().z)));
+			entity.setDeltaMovement(new Vec3(((-1.3) * entity.getLookAngle().x), ((-1.2) * entity.getLookAngle().y), ((-1.3) * entity.getLookAngle().z)));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.COOLDOWN.get(), 60, 1, false, false));
 		} else {

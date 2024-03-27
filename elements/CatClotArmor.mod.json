@@ -31,16 +31,27 @@
     "leggingsName": "CatClot Leggings",
     "bootsName": "CatClot Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Night vision, Increaced swim speed",
+        "You will never need food."
+      ]
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Flight, +12 base damage, +200% mining speed",
+        "+80% Damage Reduction, +20 absorbtion"
+      ]
     },
     "leggingsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "+200% speed, big regeneration increacement",
+        "You move underwater same like on normal blocks, no water mining slowness"
+      ]
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "x2 jump speed"
+      ]
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",

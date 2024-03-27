@@ -2,11 +2,11 @@
   "_fv": 57,
   "_type": "keybind",
   "definition": {
-    "triggerKey": "SPACE",
-    "keyBindingName": "Double Jump",
+    "triggerKey": "NUMPAD7",
+    "keyBindingName": "Back dash",
     "keyBindingCategoryKey": "movement",
     "onKeyPressed": {
-      "name": "Dubljump"
+      "name": "Backdsh"
     }
   }
 }

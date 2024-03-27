@@ -2,11 +2,11 @@
   "_fv": 57,
   "_type": "keybind",
   "definition": {
-    "triggerKey": "SPACE",
-    "keyBindingName": "Double Jump",
+    "triggerKey": "NUMPAD9",
+    "keyBindingName": "Shield Dash",
     "keyBindingCategoryKey": "movement",
     "onKeyPressed": {
-      "name": "Dubljump"
+      "name": "ShieldDash"
     }
   }
 }

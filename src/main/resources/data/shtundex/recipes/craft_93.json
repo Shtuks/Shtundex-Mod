@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "cac"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:catsteel_bar"
+    },
+    "b": {
+      "item": "shtundex:catsteel_plate"
+    },
+    "c": {
+      "item": "shtundex:cat_cloth"
+    }
+  },
+  "result": {
+    "item": "shtundex:catsteel_shield",
+    "count": 1
+  }
+}

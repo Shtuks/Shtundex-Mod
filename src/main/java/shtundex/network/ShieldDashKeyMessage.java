@@ -1,7 +1,7 @@
 
 package shtundex.network;
 
-import shtundex.procedures.DubljumpProcedure;
+import shtundex.procedures.ShieldDashProcedure;
 
 import shtundex.ShtundexMod;
 
@@ -17,25 +17,25 @@ import net.minecraft.network.FriendlyByteBuf;
 import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class DoubleJumpKeyMessage {
+public class ShieldDashKeyMessage {
 	int type, pressedms;
 
-	public DoubleJumpKeyMessage(int type, int pressedms) {
+	public ShieldDashKeyMessage(int type, int pressedms) {
 		this.type = type;
 		this.pressedms = pressedms;
 	}
 
-	public DoubleJumpKeyMessage(FriendlyByteBuf buffer) {
+	public ShieldDashKeyMessage(FriendlyByteBuf buffer) {
 		this.type = buffer.readInt();
 		this.pressedms = buffer.readInt();
 	}
 
-	public static void buffer(DoubleJumpKeyMessage message, FriendlyByteBuf buffer) {
+	public static void buffer(ShieldDashKeyMessage message, FriendlyByteBuf buffer) {
 		buffer.writeInt(message.type);
 		buffer.writeInt(message.pressedms);
 	}
 
-	public static void handler(DoubleJumpKeyMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
+	public static void handler(ShieldDashKeyMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
 		NetworkEvent.Context context = contextSupplier.get();
 		context.enqueueWork(() -> {
 			pressAction(context.getSender(), message.type, message.pressedms);
@@ -53,12 +53,12 @@ public class DoubleJumpKeyMessage {
 			return;
 		if (type == 0) {
 
-			DubljumpProcedure.execute(world, x, y, z, entity);
+			ShieldDashProcedure.execute(world, x, y, z, entity);
 		}
 	}
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		ShtundexMod.addNetworkMessage(DoubleJumpKeyMessage.class, DoubleJumpKeyMessage::buffer, DoubleJumpKeyMessage::new, DoubleJumpKeyMessage::handler);
+		ShtundexMod.addNetworkMessage(ShieldDashKeyMessage.class, ShieldDashKeyMessage::buffer, ShieldDashKeyMessage::new, ShieldDashKeyMessage::handler);
 	}
 }

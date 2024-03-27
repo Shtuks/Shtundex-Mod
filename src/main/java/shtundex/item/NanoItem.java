@@ -80,6 +80,7 @@ public abstract class NanoItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("Night vision"));
 		}
 
 		@Override
@@ -109,6 +110,7 @@ public abstract class NanoItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("+ 40% Damage reduction"));
 		}
 
 		@Override
@@ -138,6 +140,7 @@ public abstract class NanoItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("+ 40% speed"));
 		}
 
 		@Override
@@ -167,6 +170,7 @@ public abstract class NanoItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("+ 50% jump heigh"));
 		}
 
 		@Override

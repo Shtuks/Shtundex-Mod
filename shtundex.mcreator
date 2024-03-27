@@ -2227,9 +2227,6 @@
       "locked_code": false,
       "registry_name": "double_jump_key_pri_nazhatii_klavishi",
       "metadata": {
-        "files": [
-          "src/main/java/shtundex/procedures/DoubleJumpKeyPriNazhatiiKlavishiProcedure.java"
-        ],
         "dependencies": []
       }
     },
@@ -6651,6 +6648,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -6667,6 +6676,187 @@
       "metadata": {
         "files": [
           "src/main/resources/data/curios/tags/items/ram_shield.json"
+        ]
+      }
+    },
+    {
+      "name": "ShieldDashKey",
+      "type": "keybind",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shield_dash_key",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/network/ShieldDashKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "CatsteelShieldBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_shield_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelShieldBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CatsteelShieldBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_shield_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelShieldBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CatsteelShield",
+      "type": "curiosbauble",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/catsteel_shield.json",
+          "src/main/java/shtundex/item/CatsteelShieldItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dubljump",
+      "type": "procedure",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dubljump",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/DubljumpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BackdashKey",
+      "type": "keybind",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backdash_key",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/network/BackdashKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Backdsh",
+      "type": "procedure",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backdsh",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BackdshProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DJrecharge",
+      "type": "procedure",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_jrecharge",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/DJrechargeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShtukModeCD",
+      "type": "potioneffect",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuk_mode_cd",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/ShtukModeCDMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft93",
+      "type": "recipe",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_93",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_93.json"
         ]
       }
     }
@@ -6695,6 +6885,18 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "CatsteelShiel",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "isonblock",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -6845,7 +7047,7 @@
       "gui.shtundex.staff_of_power.label_chtuxlagor": "Панель управления миром",
       "item.shtundex.catsteel_armor_chestplate": "Котосталевый нагрудник",
       "block.shtundex.catsteel_grenerator": "Котосталевый реактор",
-      "item.shtundex.chtuxlagor_kit": "Chtuxlagor Kit",
+      "item.shtundex.chtuxlagor_kit": "Набор Штукс\u0027лаг\u0027ора",
       "item.shtundex.cloth": "Ткань",
       "item.shtundex.diamond_dust": "Алмазная пыль",
       "item.shtundex.shtun_stone_hoe": "Мотыга из штучиного камня",
@@ -6861,7 +7063,7 @@
       "item.shtundex.lore_shtundex_world": "История - Мир Штундекса",
       "block.shtundex.deepslate_tin_ore": "Глубинносланцевая оловянная руда",
       "block.shtundex.catsteel_ore": "Руда котостали",
-      "item.shtundex.coal_dust": "угольная пыль",
+      "item.shtundex.coal_dust": "Угольная пыль",
       "death.attack.cat_posion.item": "%1$s был убит %2$s используя поток реликтового излучения.",
       "item.shtundex.raw_tin": "Сырое олово",
       "item.shtundex.shtun_stone_shovel": "Лопата из штучиного камня",
@@ -6875,7 +7077,9 @@
       "item.shtundex.shtundex_world": "Мульти-измеренский пространственный активатор",
       "item.shtundex.catsteel_armor_helmet": "Котосталевый шлем",
       "death.attack.irradiated.player": "%1$s был облучен пытаясь избежать %2$s",
+      "item.shtundex.catsteel_shield": "Котосталевый щит",
       "key.shtundex.ability_hotkey_3": "Штучиный луч",
+      "effect.shtundex.shtuk_mode_cd": "Перезарядка штучиной способности",
       "item.shtundex.nano_leggings": "Поножи Nano",
       "item.shtundex.chtuxlagor_blessing_curios": "Благославление Штукс\u0027лаг\u0027ора",
       "item.shtundex.catsteel_dust": "Котосталевая пыль",
@@ -6930,9 +7134,11 @@
       "item.shtundex.lore_shtuxibus": "История - Др. Штуксибус",
       "item.shtundex.shtuxite_blaster": "Штукситовый бластер",
       "item.shtundex.lead_dust": "Свинцовая пыль",
+      "key.shtundex.shield_dash_key": "Рывок щита",
       "block.shtundex.deepslate_uranium_ore": "Глубинносланцевая урановая руда",
       "advancements.catsteel_catsteel.title": "Котосталь? Котосталь!",
       "item.shtundex.cat_hight_tech_suit_leggings": "Поножи C.A.T",
+      "key.shtundex.backdash_key": "Рывок назад",
       "item.shtundex.lore_chtuxlagor": "История - Штукс\u0027лаг\u0027ор",
       "subtitles.shtux1": "",
       "subtitles.shtux2": "",
@@ -6969,7 +7175,7 @@
       "item.shtundex.bronze_dust": "Бронзовая пыль",
       "item.shtundex.catsteel_plate": "Котосталевая пластина",
       "item.shtundex.lead_plate": "Свинцовая пластина",
-      "item.shtundex.shtuxian_kit": "Shtuxian Kit",
+      "item.shtundex.shtuxian_kit": "Штучиный набор",
       "fluid.shtundex.molten_catsteel": "Расплавленая котосталь",
       "item.shtundex.nanosaber_active": "Наносабля",
       "item.shtundex.netherite_gear": "Алмазная шестерня",
@@ -6989,8 +7195,8 @@
       "item.shtundex.unfinished_catsteel_circuit": "Unfinished Catsteel Circuit",
       "item.shtundex.flour": "Flour",
       "item.shtundex.kotium": "Kotium",
-      "advancements.shtundex_ach.title": "Shtundex!",
       "advancements.i_reject_my_humanity.title": "I Reject My Humanity!",
+      "advancements.shtundex_ach.title": "Shtundex!",
       "item_group.shtundex.shtundex": "Shtundex",
       "item.shtundex.nanosaber": "Nanosaber",
       "item.shtundex.cat_clot_armor_leggings": "CatClot Leggings",
@@ -7001,8 +7207,8 @@
       "effect.shtundex.antirad": "Antirad",
       "subtitles.timeres": "",
       "curios.identifier.ram_shield": "Ram Shield",
-      "death.attack.cat_posion": "%1$s was melted in bath of omega radiation.",
       "item.shtundex.iron_dust": "Iron Dust",
+      "death.attack.cat_posion": "%1$s was melted in bath of omega radiation.",
       "block.shtundex.tin_ore": "Tin Ore",
       "gui.shtundex.macergui.label_macerator": "Macerator",
       "item.shtundex.human_cells": "Organic Cells",
@@ -7021,7 +7227,7 @@
       "item.shtundex.circuit_prsss": "Circuit Prsss",
       "item.shtundex.plate_press": "Plate Press",
       "item.shtundex.tin_dust": "Tin Dust",
-      "item.shtundex.nano_helmet": "Шлем Nano",
+      "item.shtundex.nano_helmet": "Nano helm",
       "item.shtundex.uranium_ingot": "Uranium Ingot",
       "item.shtundex.shtux_sword": "Shtux Sword",
       "effect.shtundex.chtuxlagor_presence": "Chtux\u0027lag\u0027or\u0027s presence",
@@ -7044,22 +7250,22 @@
       "item.shtundex.chtuxlagor_piece": "Chtuxlagor Piece",
       "subtitles.timestopza": "",
       "item.shtundex.catsteel_armor_leggings": "Catsteel Leggings",
-      "subtitles.blastsound": "",
       "item.shtundex.lore_catsteel": "Lore - Catsteel",
+      "subtitles.blastsound": "",
       "advancements.i_reject_my_humanity.descr": "Become a S.H.T.U.K.",
       "item.minecraft.lingering_potion.effect.shtuxian_blood": "Lingering Shtuxian Blood",
       "advancements.level_2_shtuk.title": "Level 2 Shtuk",
       "item.shtundex.shtuk_cybernetic_parts": "Shtuk Cybernetic Parts",
       "death.attack.shtuxian_damage.player": "%1$s died whilst trying to escape his fate.",
       "item.shtundex.catsteel_stimulants": "Catsteel Stimulants",
+      "item.shtundex.cat_hight_tech_suit_boots": "C.A.T boots",
       "item.shtundex.shtunder_prism": "Shtunder Prism",
-      "item.shtundex.cat_hight_tech_suit_boots": "C.A.T bots",
       "item.shtundex.shtun_stone_sword": "ShtunStone Sword",
       "item.shtundex.catsteel_armor_boots": "Catsteel Boots",
       "item.shtundex.chtuxlagor_blaster": "Chtuxlagor Blaster",
       "advancements.omniruler.descr": "Defeat GOD OF CATS and get his blade.",
       "gui.shtundex.staff_of_power.button_god_mode": "God Mode",
-      "item.shtundex.nano_boots": "Ботинки Nano",
+      "item.shtundex.nano_boots": "Nano boots",
       "entity.shtundex.chtuxlagor": "Chtuxlagor",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "World Control Panel",
       "item.shtundex.catsteel_armor_chestplate": "Catsteel Chestplate",
@@ -7094,8 +7300,10 @@
       "item.shtundex.shtundex_world": "Shtundex World Portal Igniter",
       "item.shtundex.catsteel_armor_helmet": "Catsteel Helmet",
       "death.attack.irradiated.player": "%1$s irradiated whilst trying to escape %2$s",
+      "item.shtundex.catsteel_shield": "Catsteel Shield",
       "key.shtundex.ability_hotkey_3": "Shtuxian ray",
-      "item.shtundex.nano_leggings": "Поножи Nano",
+      "effect.shtundex.shtuk_mode_cd": "Shtuk Ability CD",
+      "item.shtundex.nano_leggings": "Nano leggins",
       "item.shtundex.chtuxlagor_blessing_curios": "Chtuxlagor Blessing Curios",
       "item.shtundex.catsteel_dust": "Catsteel Dust",
       "item.shtundex.treasure_bag_1": "Treasure Bag 1",
@@ -7116,13 +7324,13 @@
       "gui.shtundex.staff_of_power.button_fly": "Fly",
       "subtitles.nanoactive": "",
       "item.shtundex.catsteel_bar": "Catsteel Bar",
-      "item.shtundex.cat_hight_tech_suit_helmet": "C.A.T helmet",
+      "item.shtundex.cat_hight_tech_suit_helmet": "C.A.T Helmet",
       "item.shtundex.shtun_stone_pickaxe": "ShtunStone Pickaxe",
       "item.shtundex.circuit": "Circuit",
       "block.shtundex.lead_ore": "Lead Ore",
       "block.shtundex.deepslate_lead_ore": "Lead Ore",
       "effect.shtundex.flight": "Flight",
-      "item.shtundex.cat_hight_tech_suit_chestplate": "C.A.T chestplate",
+      "item.shtundex.cat_hight_tech_suit_chestplate": "C.A.T Chestplate",
       "item.shtundex.gold_dust": "Gold Dust",
       "item.shtundex.grinding_ball": "Grinding Ball",
       "biome.shtundex.shtuxian_forest": "Shtuxian Forest",
@@ -7149,9 +7357,11 @@
       "item.shtundex.lore_shtuxibus": "Lore - Shtuxibus",
       "item.shtundex.shtuxite_blaster": "Shtuxite Blaster",
       "item.shtundex.lead_dust": "Lead Dust",
+      "key.shtundex.shield_dash_key": "Shield Dash",
       "block.shtundex.deepslate_uranium_ore": "Uranium Ore",
       "advancements.catsteel_catsteel.title": "Catsteel? Catsteel!",
       "item.shtundex.cat_hight_tech_suit_leggings": "C.A.T leggins",
+      "key.shtundex.backdash_key": "Back dash",
       "item.shtundex.lore_chtuxlagor": "Lore - Chtuxlagor",
       "subtitles.shtux1": "",
       "subtitles.shtux2": "",
@@ -7192,7 +7402,7 @@
       "fluid.shtundex.molten_catsteel": "Molten Catsteel",
       "item.shtundex.nanosaber_active": "Nanosaber",
       "item.shtundex.netherite_gear": "Diamond Gear",
-      "item.shtundex.nano_chestplate": "Нагрудник Nano",
+      "item.shtundex.nano_chestplate": "Nano chestplate",
       "key.shtundex.back_dash": "Back dash",
       "item.shtundex.the_stick": "The Stick",
       "biome.shtundex.shtuxian_outlands": "Shtuxian Outlands",

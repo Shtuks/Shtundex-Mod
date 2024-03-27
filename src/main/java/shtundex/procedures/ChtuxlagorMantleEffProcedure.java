@@ -19,9 +19,9 @@ public class ChtuxlagorMantleEffProcedure {
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.FLIGHT.get(), 40, 1, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 60, 5, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 60, 99, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 60, 5, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 60, 99, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 60, 99, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
@@ -32,6 +32,8 @@ public class ChtuxlagorMantleEffProcedure {
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 2, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 99, false, false));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 60, 99, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 60, 99, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())

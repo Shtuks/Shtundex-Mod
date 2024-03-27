@@ -69,8 +69,10 @@ public class ShtundexModVariables {
 			clone.shtuxianenergy = original.shtuxianenergy;
 			clone.isshtuk = original.isshtuk;
 			clone.isadvancedshtuk = original.isadvancedshtuk;
+			clone.CatsteelShiel = original.CatsteelShiel;
 			if (!event.isWasDeath()) {
 				clone.Radiation = original.Radiation;
+				clone.isonblock = original.isonblock;
 			}
 		}
 	}
@@ -110,6 +112,8 @@ public class ShtundexModVariables {
 		public boolean isshtuk = false;
 		public boolean isadvancedshtuk = false;
 		public double Radiation = 0;
+		public boolean CatsteelShiel = false;
+		public boolean isonblock = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -122,6 +126,8 @@ public class ShtundexModVariables {
 			nbt.putBoolean("isshtuk", isshtuk);
 			nbt.putBoolean("isadvancedshtuk", isadvancedshtuk);
 			nbt.putDouble("Radiation", Radiation);
+			nbt.putBoolean("CatsteelShiel", CatsteelShiel);
+			nbt.putBoolean("isonblock", isonblock);
 			return nbt;
 		}
 
@@ -131,6 +137,8 @@ public class ShtundexModVariables {
 			isshtuk = nbt.getBoolean("isshtuk");
 			isadvancedshtuk = nbt.getBoolean("isadvancedshtuk");
 			Radiation = nbt.getDouble("Radiation");
+			CatsteelShiel = nbt.getBoolean("CatsteelShiel");
+			isonblock = nbt.getBoolean("isonblock");
 		}
 	}
 
@@ -159,6 +167,8 @@ public class ShtundexModVariables {
 					variables.isshtuk = message.data.isshtuk;
 					variables.isadvancedshtuk = message.data.isadvancedshtuk;
 					variables.Radiation = message.data.Radiation;
+					variables.CatsteelShiel = message.data.CatsteelShiel;
+					variables.isonblock = message.data.isonblock;
 				}
 			});
 			context.setPacketHandled(true);
