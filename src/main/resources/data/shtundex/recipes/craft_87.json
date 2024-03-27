@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:bronze_dust"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "shtundex:copper_dust"
+    },
+    "d": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "shtundex:energy_crystal",
+    "count": 1
+  }
+}

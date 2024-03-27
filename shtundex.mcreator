@@ -1749,7 +1749,12 @@
         "files": [
           "src/main/java/shtundex/procedures/ShtuxSwordKazhdyiTikVRukieProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
@@ -6099,20 +6104,8 @@
         ],
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
@@ -6137,6 +6130,265 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "Craft83",
+      "type": "recipe",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_83",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_83.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalDust",
+      "type": "item",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/CoalDustItem.java",
+          "src/main/resources/assets/shtundex/models/item/coal_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "NanofiberCloth",
+      "type": "item",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nanofiber_cloth",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/NanofiberClothItem.java",
+          "src/main/resources/assets/shtundex/models/item/nanofiber_cloth.json"
+        ]
+      }
+    },
+    {
+      "name": "Nanosaber",
+      "type": "tool",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nanosaber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/nanosaber.json",
+          "src/main/java/shtundex/item/NanosaberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NanosaberActive",
+      "type": "tool",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nanosaber_active",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/NanosaberActiveItem.java",
+          "src/main/resources/assets/shtundex/models/item/nanosaber_active.json"
+        ]
+      }
+    },
+    {
+      "name": "NanosaberActivePriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nanosaber_active_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/NanosaberActivePriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NanosaberPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nanosaber_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/NanosaberPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Craft84",
+      "type": "recipe",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_84",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_84.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft85",
+      "type": "recipe",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_85",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_85.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondDust",
+      "type": "item",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/DiamondDustItem.java",
+          "src/main/resources/assets/shtundex/models/item/diamond_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "Nano",
+      "type": "armor",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/nano_helmet.json",
+          "src/main/java/shtundex/item/NanoItem.java",
+          "src/main/resources/assets/shtundex/models/item/nano_leggings.json",
+          "src/main/resources/assets/shtundex/models/item/nano_boots.json",
+          "src/main/resources/assets/shtundex/models/item/nano_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "EnergyCrystal",
+      "type": "item",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/energy_crystal.json",
+          "src/main/java/shtundex/item/EnergyCrystalItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft87",
+      "type": "recipe",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_87",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_87.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft86",
+      "type": "recipe",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_86",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_86.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft88",
+      "type": "recipe",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_88",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_88.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft89",
+      "type": "recipe",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_89",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_89.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft90",
+      "type": "recipe",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_90",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_90.json"
         ]
       }
     }
@@ -6223,6 +6475,14 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "nanoactive",
+      "files": [
+        "lightsaber_activation_with_sound_audio-extractor.net"
+      ],
+      "category": "player",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -6232,9 +6492,10 @@
       "item.shtundex.unfinished_catsteel_circuit": "Незаконченая котосталевая мткросхема",
       "item.shtundex.flour": "Мука",
       "item.shtundex.kotium": "Котий",
-      "advancements.shtundex_ach.title": "Штундекс!",
       "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
+      "advancements.shtundex_ach.title": "Штундекс!",
       "item_group.shtundex.shtundex": "Штундекс",
+      "item.shtundex.nanosaber": "Наносабля",
       "item.shtundex.cat_clot_armor_leggings": "Кототканевые шаровары",
       "item.shtundex.shtuxian_curse": "Штуксианское проклятие",
       "key.shtundex.hotkey_ability_1": "Штучиный щит",
@@ -6242,10 +6503,10 @@
       "key.shtundex.dash_key": "Штучиный рывок",
       "effect.shtundex.antirad": "Антирад",
       "subtitles.timeres": "",
-      "death.attack.cat_posion": "%1$s был расплавлен в потоке реликтового излучения.",
       "item.shtundex.iron_dust": "Железная пыль",
-      "block.shtundex.tin_ore": "Оловянная руда",
+      "death.attack.cat_posion": "%1$s был расплавлен в потоке реликтового излучения.",
       "gui.shtundex.macergui.label_macerator": "Дробитель",
+      "block.shtundex.tin_ore": "Оловянная руда",
       "item.shtundex.human_cells": "Живые клетки",
       "item.shtundex.advanced_shtuk_parts": "Продвинутые части Ш.Т.У.К.а",
       "entity.shtundex.dr_shtuxibus_rematch": "Др. Штуксибус",
@@ -6254,7 +6515,7 @@
       "key.shtundex.hotkey_ability_2": "Штучиная ярость",
       "item.shtundex.tin_ingot": "Оловянный слиток",
       "item.shtundex.catsteel_drill_handle": "Ручка котосталевого бура",
-      "gui.shtundex.shtux.button_rematch": "Рематч",
+      "gui.shtundex.shtux.button_rematch": "Рематч [WIP]",
       "key.shtundex.norm_dash": "Рывок",
       "item.shtundex.raw_lead": "Сырой свинец",
       "item.shtundex.catsteel_apple": "Котосталевое яблоко",
@@ -6262,13 +6523,16 @@
       "item.shtundex.circuit_prsss": "Пресс микросхемы",
       "item.shtundex.plate_press": "Пресс пластины",
       "item.shtundex.tin_dust": "Оловянная пыль",
+      "item.shtundex.nano_helmet": "Шлем Nano",
       "item.shtundex.uranium_ingot": "Урановый слиток",
       "item.shtundex.shtux_sword": "Меч Штуксибуса",
-      "effect.shtundex.chtuxlagor_presence": "Chtux\u0027lag\u0027or\u0027s presence",
+      "effect.shtundex.chtuxlagor_presence": "Присутствие Штукс\u0027лаг\u0027ора",
       "item.shtundex.catsteel_nugget": "Котосталевый самородок",
       "item.shtundex.swordland": "Swordland",
       "item.shtundex.catsteel_drill_head": "Котосталевая буровая часть",
+      "item.shtundex.nanofiber_cloth": "Углепластик",
       "item.shtundex.cursed_catsteel_mechanism": "Проклятый котосталевый механизм",
+      "item.shtundex.energy_crystal": "Energy Crystal",
       "entity.shtundex.test_banana": "Test Banana",
       "item.shtundex.hazmat_boots": "Защитные ботинки",
       "item.shtundex.berry_pie": "Ягодный пирог",
@@ -6282,26 +6546,28 @@
       "item.shtundex.chtuxlagor_piece": "Кусочек Штукс\u0027лаг\u0027ора",
       "subtitles.timestopza": "",
       "item.shtundex.catsteel_armor_leggings": "Котосталевые поножи",
-      "subtitles.blastsound": "",
       "item.shtundex.lore_catsteel": "История - Котосталь",
+      "subtitles.blastsound": "",
       "advancements.i_reject_my_humanity.descr": "Стань Ш.Т.У.Ком",
       "item.minecraft.lingering_potion.effect.shtuxian_blood": "Осядающая штучиная кровь",
       "advancements.level_2_shtuk.title": "Ш.Т.У.К 2го уровня",
       "item.shtundex.shtuk_cybernetic_parts": "Кибернетические запчасти Ш.Т.У.К.А",
       "death.attack.shtuxian_damage.player": "%1$s умер пытаясь убежать от судьбы",
       "item.shtundex.catsteel_stimulants": "Catsteel Stimulants",
-      "item.shtundex.shtunder_prism": "Штуксианская призма",
       "item.shtundex.cat_hight_tech_suit_boots": "Ботинки C.A.T",
+      "item.shtundex.shtunder_prism": "Штуксианская призма",
       "item.shtundex.shtun_stone_sword": "Меч из штучиного камня",
       "item.shtundex.catsteel_armor_boots": "Котосталевые сапоги",
       "item.shtundex.chtuxlagor_blaster": "Бластер Штукс\u0027лаг\u0027ора",
       "advancements.omniruler.descr": "Победить КОШАЧЕЕ БОЖЕСТВО и заполучить его меч.",
       "gui.shtundex.staff_of_power.button_god_mode": "Режим бога",
-      "entity.shtundex.chtuxlagor": "Chtuxlagor",
+      "item.shtundex.nano_boots": "Ботинки Nano",
+      "entity.shtundex.chtuxlagor": "Штукс\u0027лаг\u0027ор",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "Панель управления миром",
       "item.shtundex.catsteel_armor_chestplate": "Котосталевый нагрудник",
       "block.shtundex.catsteel_grenerator": "Котосталевый реактор",
       "item.shtundex.cloth": "Ткань",
+      "item.shtundex.diamond_dust": "Diamond Dust",
       "item.shtundex.shtun_stone_hoe": "Мотыга из штучиного камня",
       "block.shtundex.uranium_block": "Урановый блок",
       "death.attack.shtuxian_damage.item": "%1$s был стерт %2$s из реальности",
@@ -6315,6 +6581,7 @@
       "item.shtundex.lore_shtundex_world": "История - Мир Штундекса",
       "block.shtundex.deepslate_tin_ore": "Глубинносланцевая оловянная руда",
       "block.shtundex.catsteel_ore": "Руда котостали",
+      "item.shtundex.coal_dust": "угольная пыль",
       "death.attack.cat_posion.item": "%1$s был убит %2$s используя поток реликтового излучения.",
       "item.shtundex.raw_tin": "Сырое олово",
       "item.shtundex.shtun_stone_shovel": "Лопата из штучиного камня",
@@ -6329,6 +6596,7 @@
       "item.shtundex.catsteel_armor_helmet": "Котосталевый шлем",
       "death.attack.irradiated.player": "%1$s был облучен пытаясь избежать %2$s",
       "key.shtundex.ability_hotkey_3": "Штучиный луч",
+      "item.shtundex.nano_leggings": "Поножи Nano",
       "item.shtundex.chtuxlagor_blessing_curios": "Благославление Штукс\u0027лаг\u0027ора",
       "item.shtundex.catsteel_dust": "Котосталевая пыль",
       "item.shtundex.treasure_bag_1": "Ящик с сокровищами",
@@ -6347,6 +6615,7 @@
       "item.minecraft.potion.effect.shtuxian_blood": "Штучиная кровь",
       "item.shtundex.antirad_cloth": "Противорадиационная ткань",
       "gui.shtundex.staff_of_power.button_fly": "Полет",
+      "subtitles.nanoactive": "",
       "item.shtundex.catsteel_bar": "Слиток котостали",
       "item.shtundex.cat_hight_tech_suit_helmet": "Шлем C.A.T",
       "item.shtundex.shtun_stone_pickaxe": "Кирка из штучиного камня",
@@ -6394,7 +6663,7 @@
       "item.shtundex.lore_shtq_7v_3": "История - Sht-Q7 v3",
       "item.shtundex.catsteel_pickaxe": "Котосталевая кирка",
       "entity.shtundex.shtuxibus_ex": "Shtuxibus EX",
-      "item.shtundex.chtuxlagor_mantle_chestplate": "Chtux\u0027lag\u0027or Mantle",
+      "item.shtundex.chtuxlagor_mantle_chestplate": "Мантия Штукс\u0027лаг\u0027ора",
       "item.shtundex.catsteel_pill": "Котосталевая пеллета",
       "block.shtundex.catsteel_block": "Блок котостали",
       "effect.shtundex.catsteel_posion": "Реликтовое излучение котостали",
@@ -6410,7 +6679,7 @@
       "gui.shtundex.press_gui.label_press": "Персс",
       "item.shtundex.recharger": "Зарядник",
       "key.shtundex.double_jump_key": "Двойной прыжок [WIP]",
-      "item.shtundex.shtundex_world_blessing": "Shtundex World Blessing",
+      "item.shtundex.shtundex_world_blessing": "Благославление Штундекса",
       "item.shtundex.nether_star_staff": "Посох звезды незера",
       "advancements.shtuxian_machinery.title": "Штуксианская технология.",
       "key.shtundex.hotkry_ability_4": "Штучиная регенерация",
@@ -6421,7 +6690,9 @@
       "item.shtundex.catsteel_plate": "Котосталевая пластина",
       "item.shtundex.lead_plate": "Свинцовая пластина",
       "fluid.shtundex.molten_catsteel": "Расплавленая котосталь",
+      "item.shtundex.nanosaber_active": "Наносабля",
       "item.shtundex.netherite_gear": "Алмазная шестерня",
+      "item.shtundex.nano_chestplate": "Нагрудник Nano",
       "key.shtundex.back_dash": "Рывок назад",
       "item.shtundex.the_stick": "The Палка",
       "biome.shtundex.shtuxian_outlands": "Штучиные пустоши",
@@ -6440,6 +6711,7 @@
       "advancements.shtundex_ach.title": "Shtundex!",
       "advancements.i_reject_my_humanity.title": "I Reject My Humanity!",
       "item_group.shtundex.shtundex": "Shtundex",
+      "item.shtundex.nanosaber": "Nanosaber",
       "item.shtundex.cat_clot_armor_leggings": "CatClot Leggings",
       "item.shtundex.shtuxian_curse": "Shtuxian Curse",
       "key.shtundex.hotkey_ability_1": "Shtuxian Shield",
@@ -6467,13 +6739,16 @@
       "item.shtundex.circuit_prsss": "Circuit Prsss",
       "item.shtundex.plate_press": "Plate Press",
       "item.shtundex.tin_dust": "Tin Dust",
+      "item.shtundex.nano_helmet": "Шлем Nano",
       "item.shtundex.uranium_ingot": "Uranium Ingot",
       "item.shtundex.shtux_sword": "Shtux Sword",
       "effect.shtundex.chtuxlagor_presence": "Chtux\u0027lag\u0027or\u0027s presence",
       "item.shtundex.catsteel_nugget": "Catsteel Nugget",
       "item.shtundex.swordland": "Swordland",
       "item.shtundex.catsteel_drill_head": "Catsteel Drill Head",
+      "item.shtundex.nanofiber_cloth": "Nanofiber Cloth",
       "item.shtundex.cursed_catsteel_mechanism": "Cursed Catsteel Mechanism",
+      "item.shtundex.energy_crystal": "Energy Crystal",
       "entity.shtundex.test_banana": "Test Banana",
       "item.shtundex.hazmat_boots": "Ботинки Hazmat",
       "item.shtundex.berry_pie": "Berry Pie",
@@ -6502,11 +6777,13 @@
       "item.shtundex.chtuxlagor_blaster": "Chtuxlagor Blaster",
       "advancements.omniruler.descr": "Defeat GOD OF CATS and get his blade.",
       "gui.shtundex.staff_of_power.button_god_mode": "God Mode",
+      "item.shtundex.nano_boots": "Ботинки Nano",
       "entity.shtundex.chtuxlagor": "Chtuxlagor",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "World Control Panel",
       "item.shtundex.catsteel_armor_chestplate": "Catsteel Chestplate",
       "block.shtundex.catsteel_grenerator": "Catsteel Grenerator [WIP]",
       "item.shtundex.cloth": "Cloth",
+      "item.shtundex.diamond_dust": "Diamond Dust",
       "item.shtundex.shtun_stone_hoe": "ShtunStone Hoe",
       "block.shtundex.uranium_block": "Block of Uranium",
       "death.attack.shtuxian_damage.item": "%1$s was erased by %2$s using \"PAWS OF OMINVERSAL DESTRUCTION\"",
@@ -6520,6 +6797,7 @@
       "item.shtundex.lore_shtundex_world": "Lore - Shtundex World",
       "block.shtundex.deepslate_tin_ore": "Deepslate Tin Ore",
       "block.shtundex.catsteel_ore": "Catsteel Ore",
+      "item.shtundex.coal_dust": "Coal Dust",
       "death.attack.cat_posion.item": "%1$s was killed by %2$s using omega radiation.",
       "item.shtundex.raw_tin": "Raw Tin",
       "item.shtundex.shtun_stone_shovel": "ShtunStone Shovel",
@@ -6534,6 +6812,7 @@
       "item.shtundex.catsteel_armor_helmet": "Catsteel Helmet",
       "death.attack.irradiated.player": "%1$s irradiated whilst trying to escape %2$s",
       "key.shtundex.ability_hotkey_3": "Shtuxian ray",
+      "item.shtundex.nano_leggings": "Поножи Nano",
       "item.shtundex.chtuxlagor_blessing_curios": "Chtuxlagor Blessing Curios",
       "item.shtundex.catsteel_dust": "Catsteel Dust",
       "item.shtundex.treasure_bag_1": "Treasure Bag 1",
@@ -6552,6 +6831,7 @@
       "item.minecraft.potion.effect.shtuxian_blood": "Shtuxian Blood",
       "item.shtundex.antirad_cloth": "Antirad Cloth",
       "gui.shtundex.staff_of_power.button_fly": "Fly",
+      "subtitles.nanoactive": "",
       "item.shtundex.catsteel_bar": "Catsteel Bar",
       "item.shtundex.cat_hight_tech_suit_helmet": "Шлем C.A.T",
       "item.shtundex.shtun_stone_pickaxe": "ShtunStone Pickaxe",
@@ -6626,7 +6906,9 @@
       "item.shtundex.catsteel_plate": "Catsteel Plate",
       "item.shtundex.lead_plate": "Lead Plate",
       "fluid.shtundex.molten_catsteel": "Molten Catsteel",
+      "item.shtundex.nanosaber_active": "Nanosaber",
       "item.shtundex.netherite_gear": "Diamond Gear",
+      "item.shtundex.nano_chestplate": "Нагрудник Nano",
       "key.shtundex.back_dash": "Back dash",
       "item.shtundex.the_stick": "The Stick",
       "biome.shtundex.shtuxian_outlands": "Shtuxian Outlands",

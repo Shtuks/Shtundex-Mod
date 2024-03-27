@@ -135,7 +135,7 @@ public class ChtuxlagorEntity extends PathfinderMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		ChtuxlagorPriObnovlieniiTikaSushchnostiProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		ChtuxlagorPriObnovlieniiTikaSushchnostiProcedure.execute(this);
 	}
 
 	@Override

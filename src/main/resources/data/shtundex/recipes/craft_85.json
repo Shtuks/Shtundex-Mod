@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "b": {
+      "item": "shtundex:nanofiber_cloth"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "shtundex:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "shtundex:nanosaber",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:nanofiber_cloth"
+    },
+    "b": {
+      "item": "shtundex:energy_crystal"
+    },
+    "c": {
+      "tag": "forge:stained_glass_panes"
+    }
+  },
+  "result": {
+    "item": "shtundex:nano_helmet",
+    "count": 1
+  }
+}

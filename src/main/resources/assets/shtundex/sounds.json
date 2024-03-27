@@ -54,5 +54,13 @@
         "stream": true
       }
     ]
+  },
+  "nanoactive": {
+    "sounds": [
+      {
+        "name": "shtundex:lightsaber_activation_with_sound_audio-extractor.net",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:coal_dust"
+    },
+    {
+      "item": "shtundex:coal_dust"
+    },
+    {
+      "item": "shtundex:diamond_dust"
+    },
+    {
+      "item": "shtundex:coal_dust"
+    },
+    {
+      "item": "shtundex:coal_dust"
+    }
+  ],
+  "result": {
+    "item": "shtundex:nanofiber_cloth",
+    "count": 1
+  }
+}

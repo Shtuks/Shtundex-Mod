@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:nanofiber_cloth"
+    },
+    "b": {
+      "item": "shtundex:energy_crystal"
+    }
+  },
+  "result": {
+    "item": "shtundex:nano_leggings",
+    "count": 1
+  }
+}
