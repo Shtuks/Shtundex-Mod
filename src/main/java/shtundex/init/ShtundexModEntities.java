@@ -13,6 +13,7 @@ import shtundex.entity.ShtPrigaiteEntity;
 import shtundex.entity.DrShtuxibusRematchEntity;
 import shtundex.entity.DrShtuxibusEntity;
 import shtundex.entity.DrShtuxibus2Entity;
+import shtundex.entity.ChtuxlagorEntity;
 import shtundex.entity.BlasterProjEntity;
 import shtundex.entity.BlackHoleEntity;
 
@@ -57,6 +58,8 @@ public class ShtundexModEntities {
 			EntityType.Builder.<TestBananaEntity>of(TestBananaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TestBananaEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ChtuxlagorEntity>> CHTUXLAGOR = register("chtuxlagor", EntityType.Builder.<ChtuxlagorEntity>of(ChtuxlagorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+			.setUpdateInterval(3).setCustomClientFactory(ChtuxlagorEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -73,6 +76,7 @@ public class ShtundexModEntities {
 			DrShtuxibusRematchEntity.init();
 			DrShtuxibus2Entity.init();
 			TestBananaEntity.init();
+			ChtuxlagorEntity.init();
 		});
 	}
 
@@ -86,5 +90,6 @@ public class ShtundexModEntities {
 		event.put(DR_SHTUXIBUS_REMATCH.get(), DrShtuxibusRematchEntity.createAttributes().build());
 		event.put(DR_SHTUXIBUS_2.get(), DrShtuxibus2Entity.createAttributes().build());
 		event.put(TEST_BANANA.get(), TestBananaEntity.createAttributes().build());
+		event.put(CHTUXLAGOR.get(), ChtuxlagorEntity.createAttributes().build());
 	}
 }

@@ -11,6 +11,7 @@ import shtundex.client.renderer.ShtPrigaiteRenderer;
 import shtundex.client.renderer.DrShtuxibusRenderer;
 import shtundex.client.renderer.DrShtuxibusRematchRenderer;
 import shtundex.client.renderer.DrShtuxibus2Renderer;
+import shtundex.client.renderer.ChtuxlagorRenderer;
 import shtundex.client.renderer.BlackHoleRenderer;
 
 import net.minecraftforge.fml.common.Mod;
@@ -35,5 +36,6 @@ public class ShtundexModEntityRenderers {
 		event.registerEntityRenderer(ShtundexModEntities.DR_SHTUXIBUS_REMATCH.get(), DrShtuxibusRematchRenderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.DR_SHTUXIBUS_2.get(), DrShtuxibus2Renderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.TEST_BANANA.get(), TestBananaRenderer::new);
+		event.registerEntityRenderer(ShtundexModEntities.CHTUXLAGOR.get(), ChtuxlagorRenderer::new);
 	}
 }

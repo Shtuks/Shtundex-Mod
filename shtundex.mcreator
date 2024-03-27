@@ -5977,6 +5977,168 @@
           "src/main/java/shtundex/item/CatsteelStimulantsItem.java"
         ]
       }
+    },
+    {
+      "name": "ChtuxlagorMantle",
+      "type": "armor",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chtuxlagor_mantle",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/ChtuxlagorMantleItem.java",
+          "src/main/resources/assets/shtundex/models/item/chtuxlagor_mantle_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "ChtuxlagorMantleEff",
+      "type": "procedure",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chtuxlagor_mantle_eff",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ChtuxlagorMantleEffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Htuc",
+      "type": "potioneffect",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "htuc",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/HtucMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ChtuxlagorPresenceKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chtuxlagor_presence_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ChtuxlagorPresenceKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChtuxlagorPresence",
+      "type": "potioneffect",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chtuxlagor_presence",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/ChtuxlagorPresenceMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Chtuxlagor",
+      "type": "livingentity",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chtuxlagor",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/client/renderer/ChtuxlagorRenderer.java",
+          "src/main/java/shtundex/entity/ChtuxlagorEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ChtuxlagorPriObnovlieniiTikaSushchnosti",
+      "type": "procedure",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chtuxlagor_pri_obnovlienii_tika_sushchnosti",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ChtuxlagorPriObnovlieniiTikaSushchnostiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chtuxlagorkillingall",
+      "type": "procedure",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chtuxlagorkillingall",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ChtuxlagorkillingallProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -6102,6 +6264,7 @@
       "item.shtundex.tin_dust": "Оловянная пыль",
       "item.shtundex.uranium_ingot": "Урановый слиток",
       "item.shtundex.shtux_sword": "Меч Штуксибуса",
+      "effect.shtundex.chtuxlagor_presence": "Chtux\u0027lag\u0027or\u0027s presence",
       "item.shtundex.catsteel_nugget": "Котосталевый самородок",
       "item.shtundex.swordland": "Swordland",
       "item.shtundex.catsteel_drill_head": "Котосталевая буровая часть",
@@ -6112,6 +6275,7 @@
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Котосталевый генератор",
       "death.attack.irradiated.item": "%1$s облучен %2$s используя %3$s",
       "block.shtundex.tin_block": "Блок олова",
+      "effect.shtundex.htuc": "chs",
       "item.shtundex.shtuxian_energy": "Штуксианская энергия",
       "advancements.omniruler.title": "Высший правитель.",
       "block.shtundex.shtundex_stone": "Штучиный камень",
@@ -6133,6 +6297,7 @@
       "item.shtundex.chtuxlagor_blaster": "Бластер Штукс\u0027лаг\u0027ора",
       "advancements.omniruler.descr": "Победить КОШАЧЕЕ БОЖЕСТВО и заполучить его меч.",
       "gui.shtundex.staff_of_power.button_god_mode": "Режим бога",
+      "entity.shtundex.chtuxlagor": "Chtuxlagor",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "Панель управления миром",
       "item.shtundex.catsteel_armor_chestplate": "Котосталевый нагрудник",
       "block.shtundex.catsteel_grenerator": "Котосталевый реактор",
@@ -6229,6 +6394,7 @@
       "item.shtundex.lore_shtq_7v_3": "История - Sht-Q7 v3",
       "item.shtundex.catsteel_pickaxe": "Котосталевая кирка",
       "entity.shtundex.shtuxibus_ex": "Shtuxibus EX",
+      "item.shtundex.chtuxlagor_mantle_chestplate": "Chtux\u0027lag\u0027or Mantle",
       "item.shtundex.catsteel_pill": "Котосталевая пеллета",
       "block.shtundex.catsteel_block": "Блок котостали",
       "effect.shtundex.catsteel_posion": "Реликтовое излучение котостали",
@@ -6303,6 +6469,7 @@
       "item.shtundex.tin_dust": "Tin Dust",
       "item.shtundex.uranium_ingot": "Uranium Ingot",
       "item.shtundex.shtux_sword": "Shtux Sword",
+      "effect.shtundex.chtuxlagor_presence": "Chtux\u0027lag\u0027or\u0027s presence",
       "item.shtundex.catsteel_nugget": "Catsteel Nugget",
       "item.shtundex.swordland": "Swordland",
       "item.shtundex.catsteel_drill_head": "Catsteel Drill Head",
@@ -6313,6 +6480,7 @@
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Catsteel Generator",
       "death.attack.irradiated.item": "%1$s was irradiated by %2$s using %3$s",
       "block.shtundex.tin_block": "Block of Tin",
+      "effect.shtundex.htuc": "chs",
       "item.shtundex.shtuxian_energy": "Shtuxian Energy",
       "advancements.omniruler.title": "Omniruler",
       "block.shtundex.shtundex_stone": "Shtundex Stone",
@@ -6334,6 +6502,7 @@
       "item.shtundex.chtuxlagor_blaster": "Chtuxlagor Blaster",
       "advancements.omniruler.descr": "Defeat GOD OF CATS and get his blade.",
       "gui.shtundex.staff_of_power.button_god_mode": "God Mode",
+      "entity.shtundex.chtuxlagor": "Chtuxlagor",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "World Control Panel",
       "item.shtundex.catsteel_armor_chestplate": "Catsteel Chestplate",
       "block.shtundex.catsteel_grenerator": "Catsteel Grenerator [WIP]",
@@ -6430,6 +6599,7 @@
       "item.shtundex.lore_shtq_7v_3": "Lore - Sht-Q7 v3",
       "item.shtundex.catsteel_pickaxe": "Catsteel Pickaxe",
       "entity.shtundex.shtuxibus_ex": "Shtuxibus EX",
+      "item.shtundex.chtuxlagor_mantle_chestplate": "Chtux\u0027lag\u0027or Mantle",
       "item.shtundex.catsteel_pill": "Catsteel Pill",
       "block.shtundex.catsteel_block": "Catsteel Block",
       "effect.shtundex.catsteel_posion": "Catsteel Posion",

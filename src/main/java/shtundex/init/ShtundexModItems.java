@@ -65,6 +65,7 @@ import shtundex.item.CircuitPrsssItem;
 import shtundex.item.CircuitItem;
 import shtundex.item.ChtuxlagorShardItem;
 import shtundex.item.ChtuxlagorPieceItem;
+import shtundex.item.ChtuxlagorMantleItem;
 import shtundex.item.ChtuxlagorBlessingCuriosItem;
 import shtundex.item.ChtuxlagorBlasterItem;
 import shtundex.item.CatsteelSwordItem;
@@ -223,6 +224,7 @@ public class ShtundexModItems {
 	public static final RegistryObject<Item> UNFINISHED_CATSTEEL_CIRCUIT = REGISTRY.register("unfinished_catsteel_circuit", () -> new UnfinishedCatsteelCircuitItem());
 	public static final RegistryObject<Item> CIRCUIT_PRSSS = REGISTRY.register("circuit_prsss", () -> new CircuitPrsssItem());
 	public static final RegistryObject<Item> CATSTEEL_STIMULANTS = REGISTRY.register("catsteel_stimulants", () -> new CatsteelStimulantsItem());
+	public static final RegistryObject<Item> CHTUXLAGOR_MANTLE_CHESTPLATE = REGISTRY.register("chtuxlagor_mantle_chestplate", () -> new ChtuxlagorMantleItem.Chestplate());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

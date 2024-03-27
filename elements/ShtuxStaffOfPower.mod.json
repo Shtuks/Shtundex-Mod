@@ -15,7 +15,7 @@
     "stackSize": 1,
     "enchantability": 100,
     "useDuration": 0,
-    "toolType": 190.0,
+    "toolType": 128000.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
@@ -25,7 +25,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": true,
-    "damageVsEntity": 1024.0,
+    "damageVsEntity": 128000.0,
     "specialInformation": {
       "fixedValue": []
     },

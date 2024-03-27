@@ -5,6 +5,8 @@
 package shtundex.init;
 
 import shtundex.client.model.Modelbanana;
+import shtundex.client.model.ModelCustomModel;
+import shtundex.client.model.ModelChtuxlagorMantle;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -16,5 +18,7 @@ public class ShtundexModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelbanana.LAYER_LOCATION, Modelbanana::createBodyLayer);
+		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
+		event.registerLayerDefinition(ModelChtuxlagorMantle.LAYER_LOCATION, ModelChtuxlagorMantle::createBodyLayer);
 	}
 }

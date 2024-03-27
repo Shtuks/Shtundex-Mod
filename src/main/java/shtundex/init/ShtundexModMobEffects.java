@@ -7,8 +7,10 @@ package shtundex.init;
 import shtundex.potion.TimeStopMobEffect;
 import shtundex.potion.RadiationMobEffect;
 import shtundex.potion.InvincibilityMobEffect;
+import shtundex.potion.HtucMobEffect;
 import shtundex.potion.FlightMobEffect;
 import shtundex.potion.CooldownMobEffect;
+import shtundex.potion.ChtuxlagorPresenceMobEffect;
 import shtundex.potion.CatsteelPosionMobEffect;
 import shtundex.potion.AntiradMobEffect;
 
@@ -29,4 +31,6 @@ public class ShtundexModMobEffects {
 	public static final RegistryObject<MobEffect> CATSTEEL_POSION = REGISTRY.register("catsteel_posion", () -> new CatsteelPosionMobEffect());
 	public static final RegistryObject<MobEffect> ANTIRAD = REGISTRY.register("antirad", () -> new AntiradMobEffect());
 	public static final RegistryObject<MobEffect> RADIATION = REGISTRY.register("radiation", () -> new RadiationMobEffect());
+	public static final RegistryObject<MobEffect> HTUC = REGISTRY.register("htuc", () -> new HtucMobEffect());
+	public static final RegistryObject<MobEffect> CHTUXLAGOR_PRESENCE = REGISTRY.register("chtuxlagor_presence", () -> new ChtuxlagorPresenceMobEffect());
 }

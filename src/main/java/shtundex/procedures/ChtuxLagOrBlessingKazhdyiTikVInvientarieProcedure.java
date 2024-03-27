@@ -12,5 +12,7 @@ public class ChtuxLagOrBlessingKazhdyiTikVInvientarieProcedure {
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.INVINCIBILITY.get(), 60, 1, false, false));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.HTUC.get(), 60, 1, false, false));
 	}
 }

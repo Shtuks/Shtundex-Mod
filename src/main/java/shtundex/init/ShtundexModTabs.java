@@ -152,5 +152,9 @@ public class ShtundexModTabs {
 			tabData.accept(ShtundexModBlocks.TIN_ORE.get().asItem());
 			tabData.accept(ShtundexModBlocks.TIN_BLOCK.get().asItem());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(ShtundexModItems.CHTUXLAGOR_MANTLE_CHESTPLATE.get());
+		}
 	}
 }
