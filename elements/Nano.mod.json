@@ -10,6 +10,18 @@
     "textureLeggings": "nanopants",
     "enableBoots": true,
     "textureBoots": "nanoboots",
+    "onHelmetTick": {
+      "name": "NanoKazhdyiTikDliaShliema"
+    },
+    "onBodyTick": {
+      "name": "NanoKazhdyiTikDliaNaghrudnika"
+    },
+    "onLeggingsTick": {
+      "name": "NanoKazhdyiTikDliaPonozhiei"
+    },
+    "onBootsTick": {
+      "name": "NanoKazhdyiTikDliaBotinok"
+    },
     "creativeTab": {
       "value": "CUSTOM:Shtundex"
     },
@@ -76,7 +88,7 @@
     "damageValueLeggings": 8,
     "damageValueBoots": 5,
     "enchantability": 45,
-    "toughness": 0.0,
+    "toughness": 4.0,
     "knockbackResistance": 0.2,
     "equipSound": {
       "value": ""

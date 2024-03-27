@@ -133,16 +133,18 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.UNFINISHED_CATSTEEL_CIRCUIT.get());
 				tabData.accept(ShtundexModItems.CIRCUIT_PRSSS.get());
 				tabData.accept(ShtundexModItems.CATSTEEL_STIMULANTS.get());
+				tabData.accept(ShtundexModItems.CHTUXLAGOR_MANTLE_CHESTPLATE.get());
 				tabData.accept(ShtundexModItems.COAL_DUST.get());
 				tabData.accept(ShtundexModItems.NANOFIBER_CLOTH.get());
 				tabData.accept(ShtundexModItems.NANOSABER.get());
-				tabData.accept(ShtundexModItems.NANOSABER_ACTIVE.get());
 				tabData.accept(ShtundexModItems.DIAMOND_DUST.get());
 				tabData.accept(ShtundexModItems.NANO_HELMET.get());
 				tabData.accept(ShtundexModItems.NANO_CHESTPLATE.get());
 				tabData.accept(ShtundexModItems.NANO_LEGGINGS.get());
 				tabData.accept(ShtundexModItems.NANO_BOOTS.get());
 				tabData.accept(ShtundexModItems.ENERGY_CRYSTAL.get());
+				tabData.accept(ShtundexModItems.SHTUXIAN_KIT.get());
+				tabData.accept(ShtundexModItems.CHTUXLAGOR_KIT.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_CATSTEEL.get())).displayItems((parameters, tabData) -> {
@@ -161,10 +163,6 @@ public class ShtundexModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(ShtundexModBlocks.TIN_ORE.get().asItem());
 			tabData.accept(ShtundexModBlocks.TIN_BLOCK.get().asItem());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(ShtundexModItems.CHTUXLAGOR_MANTLE_CHESTPLATE.get());
 		}
 	}
 }

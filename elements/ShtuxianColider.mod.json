@@ -13,8 +13,8 @@
     "power": 3.0,
     "damage": 50.0,
     "knockback": 5,
-    "entityModel": "Default",
-    "customModelTexture": "",
+    "entityModel": "Modelmodel_Converted",
+    "customModelTexture": "blade.png",
     "onHitsEntity": {
       "name": "ShtuxianColiderKoghdaSnariadPopadaietVSushchnost"
     }

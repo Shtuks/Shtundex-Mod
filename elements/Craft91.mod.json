@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CatsteelPlate"
+      },
+      {
+        "value": "CUSTOM:CatsteelPill"
+      },
+      {
+        "value": "CUSTOM:CatsteelPlate"
+      },
+      {
+        "value": "CUSTOM:CatsteelPlate"
+      },
+      {
+        "value": "CUSTOM:ChtuxlagorShard"
+      },
+      {
+        "value": "CUSTOM:CatsteelPlate"
+      },
+      {
+        "value": "CUSTOM:Circuit"
+      },
+      {
+        "value": "CUSTOM:Circuit"
+      },
+      {
+        "value": "CUSTOM:Circuit"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.COMMAND_BLOCK"
+    },
+    "name": "craft_91",
+    "namespace": "mod"
+  }
+}

@@ -17,6 +17,7 @@ import shtundex.item.TestEmptyItem;
 import shtundex.item.SwordlandItem;
 import shtundex.item.ShtuxiteSoulItem;
 import shtundex.item.ShtuxiteBlasterItem;
+import shtundex.item.ShtuxianKitItem;
 import shtundex.item.ShtuxianHandleItem;
 import shtundex.item.ShtuxianEnergyItem;
 import shtundex.item.ShtuxianCurseItem;
@@ -73,6 +74,7 @@ import shtundex.item.CircuitItem;
 import shtundex.item.ChtuxlagorShardItem;
 import shtundex.item.ChtuxlagorPieceItem;
 import shtundex.item.ChtuxlagorMantleItem;
+import shtundex.item.ChtuxlagorKitItem;
 import shtundex.item.ChtuxlagorBlessingCuriosItem;
 import shtundex.item.ChtuxlagorBlasterItem;
 import shtundex.item.CatsteelSwordItem;
@@ -242,6 +244,8 @@ public class ShtundexModItems {
 	public static final RegistryObject<Item> NANO_LEGGINGS = REGISTRY.register("nano_leggings", () -> new NanoItem.Leggings());
 	public static final RegistryObject<Item> NANO_BOOTS = REGISTRY.register("nano_boots", () -> new NanoItem.Boots());
 	public static final RegistryObject<Item> ENERGY_CRYSTAL = REGISTRY.register("energy_crystal", () -> new EnergyCrystalItem());
+	public static final RegistryObject<Item> SHTUXIAN_KIT = REGISTRY.register("shtuxian_kit", () -> new ShtuxianKitItem());
+	public static final RegistryObject<Item> CHTUXLAGOR_KIT = REGISTRY.register("chtuxlagor_kit", () -> new ChtuxlagorKitItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

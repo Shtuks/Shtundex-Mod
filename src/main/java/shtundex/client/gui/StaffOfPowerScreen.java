@@ -119,6 +119,10 @@ public class StaffOfPowerScreen extends AbstractContainerScreen<StaffOfPowerMenu
 		guistate.put("button:button_god_mode", button_god_mode);
 		this.addRenderableWidget(button_god_mode);
 		button_shtuk_mode = Button.builder(Component.translatable("gui.shtundex.staff_of_power.button_shtuk_mode"), e -> {
+			if (true) {
+				ShtundexMod.PACKET_HANDLER.sendToServer(new StaffOfPowerButtonMessage(4, x, y, z));
+				StaffOfPowerButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
 		}).bounds(this.leftPos + 108, this.topPos + 40, 77, 20).build();
 		guistate.put("button:button_shtuk_mode", button_shtuk_mode);
 		this.addRenderableWidget(button_shtuk_mode);

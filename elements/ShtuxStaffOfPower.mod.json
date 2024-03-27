@@ -25,9 +25,11 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": true,
-    "damageVsEntity": 128000.0,
+    "damageVsEntity": 1.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Ω Chtux'lag'or Item Ω"
+      ]
     },
     "glowCondition": {
       "fixedValue": false
@@ -37,6 +39,12 @@
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
       "name": "ShtuxStaffOfPowerPriShchielchkiePKM"
+    },
+    "onRightClickedOnBlock": {
+      "name": "ShtuxStaffOfPowerPriVzmakhieSushchnostiPriedmietom"
+    },
+    "onEntityHitWith": {
+      "name": "ShtuxStaffOfPowerPriUdariePoSushchnostiPriedmietom"
     },
     "enableRanged": false,
     "shootConstantly": false,

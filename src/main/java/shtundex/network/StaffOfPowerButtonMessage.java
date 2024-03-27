@@ -3,6 +3,7 @@ package shtundex.network;
 
 import shtundex.world.inventory.StaffOfPowerMenu;
 
+import shtundex.procedures.RechargeSEProcedure;
 import shtundex.procedures.GodmodeProcedure;
 import shtundex.procedures.Gm1butinProcedure;
 import shtundex.procedures.Gm0butinProcedure;
@@ -78,6 +79,10 @@ public class StaffOfPowerButtonMessage {
 		if (buttonID == 3) {
 
 			GodmodeProcedure.execute(entity);
+		}
+		if (buttonID == 4) {
+
+			RechargeSEProcedure.execute(entity);
 		}
 		if (buttonID == 5) {
 

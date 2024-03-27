@@ -14,7 +14,7 @@
       "name": "ChtuxlagorMantleEff"
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Shtundex"
     },
     "armorTextureFile": "ichorgem_",
     "helmetName": "Шлем Chtuxlagor Mantle",
@@ -25,7 +25,9 @@
       "fixedValue": []
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Ω Chtux'Lag'Or Item Ω"
+      ]
     },
     "leggingsSpecialInformation": {
       "fixedValue": []

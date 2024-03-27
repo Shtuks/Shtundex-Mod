@@ -14,7 +14,7 @@ public class NormdasshProcedure {
 		if (entity == null)
 			return;
 		if (!(entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(ShtundexModMobEffects.COOLDOWN.get()))) {
-			entity.setDeltaMovement(new Vec3((1.5 * entity.getLookAngle().x), (1.2 * entity.getLookAngle().y), (1.5 * entity.getLookAngle().z)));
+			entity.setDeltaMovement(new Vec3((1.2 * entity.getLookAngle().x), (1.2 * entity.getLookAngle().y), (1.2 * entity.getLookAngle().z)));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.COOLDOWN.get(), 100, 1, false, false));
 		} else {

@@ -4,6 +4,7 @@
  */
 package shtundex.init;
 
+import shtundex.client.model.Modelmodel_Converted;
 import shtundex.client.model.Modelbanana;
 import shtundex.client.model.ModelCustomModel;
 import shtundex.client.model.ModelChtuxlagorMantle;
@@ -20,5 +21,6 @@ public class ShtundexModModels {
 		event.registerLayerDefinition(Modelbanana.LAYER_LOCATION, Modelbanana::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(ModelChtuxlagorMantle.LAYER_LOCATION, ModelChtuxlagorMantle::createBodyLayer);
+		event.registerLayerDefinition(Modelmodel_Converted.LAYER_LOCATION, Modelmodel_Converted::createBodyLayer);
 	}
 }

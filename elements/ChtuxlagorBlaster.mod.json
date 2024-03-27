@@ -27,7 +27,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Ω Chtux'lag'or Ω"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

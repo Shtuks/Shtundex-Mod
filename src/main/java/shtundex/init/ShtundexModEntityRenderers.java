@@ -6,6 +6,7 @@ package shtundex.init;
 
 import shtundex.client.renderer.TestBananaRenderer;
 import shtundex.client.renderer.ShtuxibusEXRenderer;
+import shtundex.client.renderer.ShtuxianColiderRenderer;
 import shtundex.client.renderer.ShtQ7V3Renderer;
 import shtundex.client.renderer.ShtPrigaiteRenderer;
 import shtundex.client.renderer.DrShtuxibusRenderer;
@@ -26,7 +27,7 @@ public class ShtundexModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ShtundexModEntities.DR_SHTUXIBUS.get(), DrShtuxibusRenderer::new);
-		event.registerEntityRenderer(ShtundexModEntities.SHTUXIAN_COLIDER.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(ShtundexModEntities.SHTUXIAN_COLIDER.get(), ShtuxianColiderRenderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.SHTUXIBUS_EX.get(), ShtuxibusEXRenderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.BLASTER_PROJ.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.SHT_Q_7_V_3.get(), ShtQ7V3Renderer::new);

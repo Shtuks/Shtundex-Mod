@@ -29,7 +29,7 @@ public class NanosaberActiveItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 33f;
+				return 23f;
 			}
 
 			public int getLevel() {

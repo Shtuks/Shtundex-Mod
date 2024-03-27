@@ -14,7 +14,7 @@
         "type": "button",
         "data": {
           "name": "button_gm_1",
-          "text": "GM 1",
+          "text": "GM 0",
           "isUndecorated": false,
           "onClick": {
             "name": "Gm1butin"
@@ -29,7 +29,7 @@
         "type": "button",
         "data": {
           "name": "button_gm_0",
-          "text": "GM 0",
+          "text": "GM 1",
           "isUndecorated": false,
           "onClick": {
             "name": "Gm0butin"
@@ -71,8 +71,11 @@
         "type": "button",
         "data": {
           "name": "button_shtuk_mode",
-          "text": "Shtuk Mode [WIP]",
+          "text": "Recharge SE",
           "isUndecorated": false,
+          "onClick": {
+            "name": "RechargeSE"
+          },
           "width": 77,
           "height": 20,
           "x": 234,

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:catsteel_plate"
+    },
+    "b": {
+      "item": "shtundex:catsteel_pill"
+    },
+    "c": {
+      "item": "shtundex:chtuxlagor_shard"
+    },
+    "d": {
+      "item": "shtundex:circuit"
+    }
+  },
+  "result": {
+    "item": "minecraft:command_block",
+    "count": 1
+  }
+}

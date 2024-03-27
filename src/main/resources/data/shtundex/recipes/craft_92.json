@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:empty_syrgine"
+    },
+    {
+      "item": "shtundex:catsteel_nugget"
+    }
+  ],
+  "result": {
+    "item": "shtundex:catsteel_stimulants",
+    "count": 1
+  }
+}

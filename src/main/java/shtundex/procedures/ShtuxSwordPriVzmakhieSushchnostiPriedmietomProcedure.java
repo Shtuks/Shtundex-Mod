@@ -24,8 +24,6 @@ public class ShtuxSwordPriVzmakhieSushchnostiPriedmietomProcedure {
 						entityToSpawn.setKnockback(knockback);
 						entityToSpawn.setSilent(true);
 						entityToSpawn.setPierceLevel(piercing);
-						entityToSpawn.setSecondsOnFire(100);
-						entityToSpawn.setCritArrow(true);
 						return entityToSpawn;
 					}
 				}.getArrow(projectileLevel, 50, 1, (byte) 5);
