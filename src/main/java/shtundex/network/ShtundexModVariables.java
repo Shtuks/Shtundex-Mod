@@ -73,6 +73,7 @@ public class ShtundexModVariables {
 			if (!event.isWasDeath()) {
 				clone.Radiation = original.Radiation;
 				clone.isonblock = original.isonblock;
+				clone.ranech = original.ranech;
 			}
 		}
 	}
@@ -114,6 +115,7 @@ public class ShtundexModVariables {
 		public double Radiation = 0;
 		public boolean CatsteelShiel = false;
 		public boolean isonblock = false;
+		public boolean ranech = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -128,6 +130,7 @@ public class ShtundexModVariables {
 			nbt.putDouble("Radiation", Radiation);
 			nbt.putBoolean("CatsteelShiel", CatsteelShiel);
 			nbt.putBoolean("isonblock", isonblock);
+			nbt.putBoolean("ranech", ranech);
 			return nbt;
 		}
 
@@ -139,6 +142,7 @@ public class ShtundexModVariables {
 			Radiation = nbt.getDouble("Radiation");
 			CatsteelShiel = nbt.getBoolean("CatsteelShiel");
 			isonblock = nbt.getBoolean("isonblock");
+			ranech = nbt.getBoolean("ranech");
 		}
 	}
 
@@ -169,6 +173,7 @@ public class ShtundexModVariables {
 					variables.Radiation = message.data.Radiation;
 					variables.CatsteelShiel = message.data.CatsteelShiel;
 					variables.isonblock = message.data.isonblock;
+					variables.ranech = message.data.ranech;
 				}
 			});
 			context.setPacketHandled(true);

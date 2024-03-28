@@ -111,6 +111,7 @@ public abstract class NanoItem extends ArmorItem {
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
 			list.add(Component.literal("+ 40% Damage reduction"));
+			list.add(Component.literal("Jetpack"));
 		}
 
 		@Override

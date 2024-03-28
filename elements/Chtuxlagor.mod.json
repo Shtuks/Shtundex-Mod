@@ -115,8 +115,14 @@
       "value": ""
     },
     "entityDataEntries": [],
+    "whenMobDies": {
+      "name": "ChtuxlagorPriGibieliSushchnosti"
+    },
     "onMobTickUpdate": {
       "name": "ChtuxlagorPriObnovlieniiTikaSushchnosti"
+    },
+    "onInitialSpawn": {
+      "name": "ChtuxlagorPriNachalnomPrizyvieSushchnosti"
     },
     "hasAI": true,
     "aiBase": "(none)",

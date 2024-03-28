@@ -81,7 +81,7 @@ public class CatsteelgenguiKazhdyiTikPokaIntierfieisOtkrytProcedure {
 			}
 			{
 				ItemStack _ist = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY);
-				if (_ist.hurt(-1, RandomSource.create(), null)) {
+				if (_ist.hurt(-10, RandomSource.create(), null)) {
 					_ist.shrink(1);
 					_ist.setDamageValue(0);
 				}

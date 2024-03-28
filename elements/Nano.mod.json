@@ -37,7 +37,8 @@
     },
     "bodySpecialInformation": {
       "fixedValue": [
-        "+ 40% Damage reduction"
+        "+ 40% Damage reduction",
+        "Jetpack"
       ]
     },
     "leggingsSpecialInformation": {

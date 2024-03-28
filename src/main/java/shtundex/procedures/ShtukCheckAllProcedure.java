@@ -60,7 +60,7 @@ public class ShtukCheckAllProcedure {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 20, 3, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 80, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 120, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 20, 1, false, false));
 			if (entity instanceof LivingEntity _entity)

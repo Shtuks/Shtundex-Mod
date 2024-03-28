@@ -6993,6 +6993,167 @@
           "src/main/java/shtundex/jei_recipes/PressTypeRecipe.java"
         ]
       }
+    },
+    {
+      "name": "ChtuxlagorPriNachalnomPrizyvieSushchnosti",
+      "type": "procedure",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chtuxlagor_pri_nachalnom_prizyvie_sushchnosti",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ChtuxlagorPriNachalnomPrizyvieSushchnostiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChtuxlagorPriGibieliSushchnosti",
+      "type": "procedure",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chtuxlagor_pri_gibieli_sushchnosti",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ChtuxlagorPriGibieliSushchnostiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RanecPriNalozhieniiEffiekta",
+      "type": "procedure",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ranec_pri_nalozhienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/RanecPriNalozhieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RanecPriIstiechieniiEffiekta",
+      "type": "procedure",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ranec_pri_istiechienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/RanecPriIstiechieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ranec",
+      "type": "potioneffect",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ranec",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/RanecMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Ranci",
+      "type": "procedure",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ranci",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/RanciProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jetpack",
+      "type": "keybind",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetpack",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/network/JetpackMessage.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -7028,6 +7189,12 @@
     },
     {
       "name": "isonblock",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "ranech",
       "type": "logic",
       "scope": "player_lifetime",
       "value": "false"
@@ -7170,6 +7337,7 @@
       "item.shtundex.shtuk_cybernetic_parts": "Кибернетические запчасти Ш.Т.У.К.А",
       "death.attack.shtuxian_damage.player": "%1$s умер пытаясь убежать от судьбы",
       "item.shtundex.catsteel_stimulants": "Котосталевые стимулянты",
+      "effect.shtundex.ranec": "Ranec",
       "item.shtundex.shtunder_prism": "Штуксианская призма",
       "item.shtundex.cat_hight_tech_suit_boots": "Ботинки C.A.T",
       "item.shtundex.shtun_stone_sword": "Меч из штучиного камня",
@@ -7293,6 +7461,7 @@
       "item.shtundex.shtux_staff_of_power": "Посох Кошачей Силы",
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Взрывная штучиная кровь",
       "advancements.catsteel_catsteel.descr": "Сделайте первые шаги к абсолютной силе.",
+      "key.shtundex.jetpack": "Jetpack",
       "item.shtundex.bronze_ingot": "Бронзовый слиток",
       "effect.shtundex.cooldown": "Перезарядка способности",
       "item.shtundex.depelleted_catsteel": "Распавшаяся котосталь",
@@ -7396,6 +7565,7 @@
       "item.shtundex.shtuk_cybernetic_parts": "Shtuk Cybernetic Parts",
       "death.attack.shtuxian_damage.player": "%1$s died whilst trying to escape his fate.",
       "item.shtundex.catsteel_stimulants": "Catsteel Stimulants",
+      "effect.shtundex.ranec": "Ranec",
       "item.shtundex.shtunder_prism": "Shtunder Prism",
       "item.shtundex.cat_hight_tech_suit_boots": "C.A.T boots",
       "item.shtundex.shtun_stone_sword": "ShtunStone Sword",
@@ -7519,6 +7689,7 @@
       "item.shtundex.shtux_staff_of_power": "Shtux Staff Of Power",
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Splash Shtuxian Blood",
       "advancements.catsteel_catsteel.descr": "Make your first steps in goal to become most powerful.",
+      "key.shtundex.jetpack": "Jetpack",
       "item.shtundex.bronze_ingot": "Bronze Ingot",
       "effect.shtundex.cooldown": "Ability cooldown",
       "item.shtundex.depelleted_catsteel": "Depelleted Catsteel",
