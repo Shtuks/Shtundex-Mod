@@ -42,10 +42,10 @@
     "bossBarColor": "RED",
     "bossBarType": "NOTCHED_20",
     "equipmentMainHand": {
-      "value": "CUSTOM:ShtuxSword"
+      "value": "CUSTOM:ShtuxStaffOfPower"
     },
     "equipmentOffHand": {
-      "value": ""
+      "value": "CUSTOM:ChtuxlagorBlaster"
     },
     "equipmentHelmet": {
       "value": ""

@@ -57,6 +57,8 @@ public class PressGUIScreen extends AbstractContainerScreen<PressGUIMenu> {
 
 		guiGraphics.blit(new ResourceLocation("shtundex:textures/screens/platepress.png"), this.leftPos + 124, this.topPos + 55, 0, 0, 16, 16, 16, 16);
 
+		guiGraphics.blit(new ResourceLocation("shtundex:textures/screens/blackie.png"), this.leftPos + 0, this.topPos + 1, 0, 0, 176, 166, 176, 166);
+
 		RenderSystem.disableBlend();
 	}
 

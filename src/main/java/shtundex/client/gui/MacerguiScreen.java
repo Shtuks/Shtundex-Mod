@@ -57,6 +57,8 @@ public class MacerguiScreen extends AbstractContainerScreen<MacerguiMenu> {
 
 		guiGraphics.blit(new ResourceLocation("shtundex:textures/screens/grindingball.png"), this.leftPos + 123, this.topPos + 52, 0, 0, 16, 16, 16, 16);
 
+		guiGraphics.blit(new ResourceLocation("shtundex:textures/screens/blackie.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+
 		RenderSystem.disableBlend();
 	}
 

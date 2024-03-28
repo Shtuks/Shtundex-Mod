@@ -337,6 +337,15 @@
           "x": 213,
           "y": 71
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blackie.png",
+          "use1Xscale": false,
+          "x": 125,
+          "y": 38
+        }
       }
     ],
     "gridSettings": {
@@ -344,7 +353,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

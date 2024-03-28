@@ -45,7 +45,7 @@ public class ShtukCheckAllProcedure {
 						"attribute @p minecraft:generic.max_health base set 100");
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"attribute @p minecraft:generic.attack_damage base set 5");
+						"attribute @p minecraft:generic.attack_damage base set 10");
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"attribute @p minecraft:generic.armor base set 20");

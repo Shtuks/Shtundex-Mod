@@ -16,12 +16,14 @@ package shtundex;
 import shtundex.init.ShtundexModTabs;
 import shtundex.init.ShtundexModSounds;
 import shtundex.init.ShtundexModPotions;
+import shtundex.init.ShtundexModPaintings;
 import shtundex.init.ShtundexModMobEffects;
 import shtundex.init.ShtundexModMenus;
 import shtundex.init.ShtundexModItems;
 import shtundex.init.ShtundexModFluids;
 import shtundex.init.ShtundexModFluidTypes;
 import shtundex.init.ShtundexModEntities;
+import shtundex.init.ShtundexModEnchantments;
 import shtundex.init.ShtundexModBlocks;
 import shtundex.init.ShtundexModBlockEntities;
 
@@ -63,11 +65,12 @@ public class ShtundexMod {
 		ShtundexModBlockEntities.REGISTRY.register(bus);
 		ShtundexModItems.REGISTRY.register(bus);
 		ShtundexModEntities.REGISTRY.register(bus);
-
+		ShtundexModEnchantments.REGISTRY.register(bus);
 		ShtundexModTabs.REGISTRY.register(bus);
 
 		ShtundexModMobEffects.REGISTRY.register(bus);
 		ShtundexModPotions.REGISTRY.register(bus);
+		ShtundexModPaintings.REGISTRY.register(bus);
 
 		ShtundexModMenus.REGISTRY.register(bus);
 		ShtundexModFluids.REGISTRY.register(bus);

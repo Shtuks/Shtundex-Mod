@@ -67,7 +67,8 @@ public class DrShtuxibus2Entity extends Monster implements RangedAttackMob {
 		xpReward = 32000;
 		setNoAi(false);
 		setPersistenceRequired();
-		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(ShtundexModItems.SHTUX_SWORD.get()));
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(ShtundexModItems.SHTUX_STAFF_OF_POWER.get()));
+		this.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(ShtundexModItems.CHTUXLAGOR_BLASTER.get()));
 		this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(ShtundexModItems.CAT_HIGHT_TECH_SUIT_CHESTPLATE.get()));
 		this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(ShtundexModItems.CAT_HIGHT_TECH_SUIT_LEGGINGS.get()));
 		this.setItemSlot(EquipmentSlot.FEET, new ItemStack(ShtundexModItems.CAT_HIGHT_TECH_SUIT_BOOTS.get()));
@@ -254,7 +255,7 @@ public class DrShtuxibus2Entity extends Monster implements RangedAttackMob {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 1000);
+		builder = builder.add(Attributes.MAX_HEALTH, 4000);
 		builder = builder.add(Attributes.ARMOR, 100);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 100);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 64);

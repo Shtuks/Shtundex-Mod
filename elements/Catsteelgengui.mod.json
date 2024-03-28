@@ -72,6 +72,15 @@
           "x": 168,
           "y": 89
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blackie.png",
+          "use1Xscale": false,
+          "x": 127,
+          "y": 38
+        }
       }
     ],
     "onTick": {
@@ -82,7 +91,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

@@ -52,6 +52,9 @@ public class CatsteelWorkbenchScreen extends AbstractContainerScreen<CatsteelWor
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		guiGraphics.blit(new ResourceLocation("shtundex:textures/screens/blackie.png"), this.leftPos + -1, this.topPos + 1, 0, 0, 176, 166, 176, 166);
+
 		RenderSystem.disableBlend();
 	}
 

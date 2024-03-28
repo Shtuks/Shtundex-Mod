@@ -100,7 +100,7 @@
     "immuneToWither": true,
     "immuneToDragonBreath": true,
     "mobDrop": {
-      "value": "CUSTOM:TreasureBag1"
+      "value": ""
     },
     "livingSound": {
       "value": ""

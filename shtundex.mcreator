@@ -5,7 +5,7 @@
       "type": "livingentity",
       "sortid": 2,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dr_shtuxibus",
       "metadata": {
         "files": [
@@ -665,6 +665,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -684,6 +688,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -703,6 +711,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -870,6 +882,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -5859,7 +5875,7 @@
       "type": "livingentity",
       "sortid": 376,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dr_shtuxibus_2",
       "metadata": {
         "files": [
@@ -6010,6 +6026,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -6859,6 +6879,120 @@
           "src/main/resources/data/shtundex/recipes/craft_93.json"
         ]
       }
+    },
+    {
+      "name": "CatsteelArmorKazhdyiTikDliaShliema",
+      "type": "procedure",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_armor_kazhdyi_tik_dlia_shliema",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelArmorKazhdyiTikDliaShliemaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CatsteelArmorKazhdyiTikDliaNaghrudnika",
+      "type": "procedure",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_armor_kazhdyi_tik_dlia_naghrudnika",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelArmorKazhdyiTikDliaNaghrudnikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CatsteelArmorKazhdyiTikDliaPonozhiei",
+      "type": "procedure",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_armor_kazhdyi_tik_dlia_ponozhiei",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelArmorKazhdyiTikDliaPonozhieiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CatsteelArmorKazhdyiTikDliaBotinok",
+      "type": "procedure",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_armor_kazhdyi_tik_dlia_botinok",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelArmorKazhdyiTikDliaBotinokProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShtundexPaint",
+      "type": "painting",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtundex_paint",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AbsoluteUnbreaking",
+      "type": "enchantment",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absolute_unbreaking",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/enchantment/AbsoluteUnbreakingEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "PressType",
+      "type": "jeirecipetype",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "press_type",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/jei_recipes/PressTypeRecipeCategory.java",
+          "src/main/java/shtundex/jei_recipes/PressTypeRecipe.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -6972,8 +7106,8 @@
       "item.shtundex.unfinished_catsteel_circuit": "Незаконченая котосталевая мткросхема",
       "item.shtundex.flour": "Мука",
       "item.shtundex.kotium": "Котий",
-      "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
       "advancements.shtundex_ach.title": "Штундекс!",
+      "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
       "item_group.shtundex.shtundex": "Штундекс",
       "item.shtundex.nanosaber": "Наносабля",
       "item.shtundex.cat_clot_armor_leggings": "Кототканевые шаровары",
@@ -6984,8 +7118,8 @@
       "effect.shtundex.antirad": "Антирад",
       "subtitles.timeres": "",
       "curios.identifier.ram_shield": "Ram Shield",
-      "item.shtundex.iron_dust": "Железная пыль",
       "death.attack.cat_posion": "%1$s был расплавлен в потоке реликтового излучения.",
+      "item.shtundex.iron_dust": "Железная пыль",
       "gui.shtundex.macergui.label_macerator": "Дробитель",
       "block.shtundex.tin_ore": "Оловянная руда",
       "item.shtundex.human_cells": "Живые клетки",
@@ -7010,6 +7144,7 @@
       "effect.shtundex.chtuxlagor_presence": "Присутствие Штукс\u0027лаг\u0027ора",
       "item.shtundex.catsteel_nugget": "Котосталевый самородок",
       "item.shtundex.swordland": "Swordland",
+      "painting.shtundex.shtundex_paint.title": "Shtundex",
       "item.shtundex.catsteel_drill_head": "Котосталевая буровая часть",
       "item.shtundex.nanofiber_cloth": "Углепластик",
       "item.shtundex.cursed_catsteel_mechanism": "Проклятый котосталевый механизм",
@@ -7027,16 +7162,16 @@
       "item.shtundex.chtuxlagor_piece": "Кусочек Штукс\u0027лаг\u0027ора",
       "subtitles.timestopza": "",
       "item.shtundex.catsteel_armor_leggings": "Котосталевые поножи",
-      "item.shtundex.lore_catsteel": "История - Котосталь",
       "subtitles.blastsound": "",
+      "item.shtundex.lore_catsteel": "История - Котосталь",
       "advancements.i_reject_my_humanity.descr": "Стань Ш.Т.У.Ком",
       "item.minecraft.lingering_potion.effect.shtuxian_blood": "Осядающая штучиная кровь",
       "advancements.level_2_shtuk.title": "Ш.Т.У.К 2го уровня",
       "item.shtundex.shtuk_cybernetic_parts": "Кибернетические запчасти Ш.Т.У.К.А",
       "death.attack.shtuxian_damage.player": "%1$s умер пытаясь убежать от судьбы",
       "item.shtundex.catsteel_stimulants": "Котосталевые стимулянты",
-      "item.shtundex.cat_hight_tech_suit_boots": "Ботинки C.A.T",
       "item.shtundex.shtunder_prism": "Штуксианская призма",
+      "item.shtundex.cat_hight_tech_suit_boots": "Ботинки C.A.T",
       "item.shtundex.shtun_stone_sword": "Меч из штучиного камня",
       "item.shtundex.catsteel_armor_boots": "Котосталевые сапоги",
       "item.shtundex.chtuxlagor_blaster": "Бластер Штукс\u0027лаг\u0027ора",
@@ -7118,6 +7253,7 @@
       "entity.shtundex.dr_shtuxibus": "Др. Штуксибус",
       "gui.shtundex.staff_of_power.button_gm_0": "ГМ 0",
       "gui.shtundex.staff_of_power.button_gm_1": "ГМ 1",
+      "enchantment.shtundex.absolute_unbreaking": "Absolute Unbreaking",
       "item.shtundex.chtuxlagor_shard": "Осколок Штукс\u0027лаг\u0027ора",
       "block.shtundex.crate": "Ящик",
       "gui.shtundex.catsteel_workbench.label_catsteel_workbench": "Котосталевый верстак",
@@ -7173,6 +7309,7 @@
       "gui.shtundex.staff_of_power.button_test": "Тест",
       "item.shtundex.molten_catsteel_bucket": "Капсула с расплавленой котосталью",
       "item.shtundex.bronze_dust": "Бронзовая пыль",
+      "painting.shtundex.shtundex_paint.author": "StarlightCat",
       "item.shtundex.catsteel_plate": "Котосталевая пластина",
       "item.shtundex.lead_plate": "Свинцовая пластина",
       "item.shtundex.shtuxian_kit": "Штучиный набор",
@@ -7195,8 +7332,8 @@
       "item.shtundex.unfinished_catsteel_circuit": "Unfinished Catsteel Circuit",
       "item.shtundex.flour": "Flour",
       "item.shtundex.kotium": "Kotium",
-      "advancements.i_reject_my_humanity.title": "I Reject My Humanity!",
       "advancements.shtundex_ach.title": "Shtundex!",
+      "advancements.i_reject_my_humanity.title": "I Reject My Humanity!",
       "item_group.shtundex.shtundex": "Shtundex",
       "item.shtundex.nanosaber": "Nanosaber",
       "item.shtundex.cat_clot_armor_leggings": "CatClot Leggings",
@@ -7207,8 +7344,8 @@
       "effect.shtundex.antirad": "Antirad",
       "subtitles.timeres": "",
       "curios.identifier.ram_shield": "Ram Shield",
-      "item.shtundex.iron_dust": "Iron Dust",
       "death.attack.cat_posion": "%1$s was melted in bath of omega radiation.",
+      "item.shtundex.iron_dust": "Iron Dust",
       "block.shtundex.tin_ore": "Tin Ore",
       "gui.shtundex.macergui.label_macerator": "Macerator",
       "item.shtundex.human_cells": "Organic Cells",
@@ -7233,6 +7370,7 @@
       "effect.shtundex.chtuxlagor_presence": "Chtux\u0027lag\u0027or\u0027s presence",
       "item.shtundex.catsteel_nugget": "Catsteel Nugget",
       "item.shtundex.swordland": "Swordland",
+      "painting.shtundex.shtundex_paint.title": "Shtundex",
       "item.shtundex.catsteel_drill_head": "Catsteel Drill Head",
       "item.shtundex.nanofiber_cloth": "Nanofiber Cloth",
       "item.shtundex.cursed_catsteel_mechanism": "Cursed Catsteel Mechanism",
@@ -7250,16 +7388,16 @@
       "item.shtundex.chtuxlagor_piece": "Chtuxlagor Piece",
       "subtitles.timestopza": "",
       "item.shtundex.catsteel_armor_leggings": "Catsteel Leggings",
-      "item.shtundex.lore_catsteel": "Lore - Catsteel",
       "subtitles.blastsound": "",
+      "item.shtundex.lore_catsteel": "Lore - Catsteel",
       "advancements.i_reject_my_humanity.descr": "Become a S.H.T.U.K.",
       "item.minecraft.lingering_potion.effect.shtuxian_blood": "Lingering Shtuxian Blood",
       "advancements.level_2_shtuk.title": "Level 2 Shtuk",
       "item.shtundex.shtuk_cybernetic_parts": "Shtuk Cybernetic Parts",
       "death.attack.shtuxian_damage.player": "%1$s died whilst trying to escape his fate.",
       "item.shtundex.catsteel_stimulants": "Catsteel Stimulants",
-      "item.shtundex.cat_hight_tech_suit_boots": "C.A.T boots",
       "item.shtundex.shtunder_prism": "Shtunder Prism",
+      "item.shtundex.cat_hight_tech_suit_boots": "C.A.T boots",
       "item.shtundex.shtun_stone_sword": "ShtunStone Sword",
       "item.shtundex.catsteel_armor_boots": "Catsteel Boots",
       "item.shtundex.chtuxlagor_blaster": "Chtuxlagor Blaster",
@@ -7341,6 +7479,7 @@
       "entity.shtundex.dr_shtuxibus": "Dr Shtuxibus",
       "gui.shtundex.staff_of_power.button_gm_0": "GM 1",
       "gui.shtundex.staff_of_power.button_gm_1": "GM 0",
+      "enchantment.shtundex.absolute_unbreaking": "Absolute Unbreaking",
       "item.shtundex.chtuxlagor_shard": "Chtux\u0027lag\u0027or Shard",
       "block.shtundex.crate": "Crate",
       "gui.shtundex.catsteel_workbench.label_catsteel_workbench": "Catsteel Workbench",
@@ -7396,6 +7535,7 @@
       "gui.shtundex.staff_of_power.button_test": "TEST",
       "item.shtundex.molten_catsteel_bucket": "Molten Catsteel Capsule",
       "item.shtundex.bronze_dust": "Bronze Dust",
+      "painting.shtundex.shtundex_paint.author": "StarlightCat",
       "item.shtundex.catsteel_plate": "Catsteel Plate",
       "item.shtundex.lead_plate": "Lead Plate",
       "item.shtundex.shtuxian_kit": "Shtuxian Kit",
@@ -7420,7 +7560,7 @@
   "workspaceSettings": {
     "modid": "shtundex",
     "modName": "Shtundex",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "MaONAHK9955, StarlightCat, FormulaOak15915",
     "websiteURL": "https://modrinth.com/mod/shtundex-mod",
     "license": "GNU General Public License version 3 (GPLv3)",

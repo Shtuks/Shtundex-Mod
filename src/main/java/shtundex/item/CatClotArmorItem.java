@@ -98,7 +98,7 @@ public abstract class CatClotArmorItem extends ArmorItem {
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				CaatHelmTrueProcedure.execute(entity);
+				CaatHelmTrueProcedure.execute(entity, itemstack);
 			}
 		}
 	}
@@ -129,7 +129,7 @@ public abstract class CatClotArmorItem extends ArmorItem {
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				CaatnagrudProcedure.execute(entity);
+				CaatnagrudProcedure.execute(entity, itemstack);
 			}
 		}
 	}
@@ -160,7 +160,7 @@ public abstract class CatClotArmorItem extends ArmorItem {
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				CaatHelmProcedure.execute(entity);
+				CaatHelmProcedure.execute(entity, itemstack);
 			}
 		}
 	}
@@ -190,7 +190,7 @@ public abstract class CatClotArmorItem extends ArmorItem {
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				CaatBootsProcedure.execute(entity);
+				CaatBootsProcedure.execute(entity, itemstack);
 			}
 		}
 	}

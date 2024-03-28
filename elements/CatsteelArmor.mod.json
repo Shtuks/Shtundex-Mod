@@ -10,6 +10,18 @@
     "textureLeggings": "catsteellegs",
     "enableBoots": true,
     "textureBoots": "catstelboots",
+    "onHelmetTick": {
+      "name": "CatsteelArmorKazhdyiTikDliaShliema"
+    },
+    "onBodyTick": {
+      "name": "CatsteelArmorKazhdyiTikDliaNaghrudnika"
+    },
+    "onLeggingsTick": {
+      "name": "CatsteelArmorKazhdyiTikDliaPonozhiei"
+    },
+    "onBootsTick": {
+      "name": "CatsteelArmorKazhdyiTikDliaBotinok"
+    },
     "creativeTab": {
       "value": "CUSTOM:Shtundex"
     },

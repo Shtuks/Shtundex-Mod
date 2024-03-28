@@ -139,7 +139,7 @@ public class CatsteelGreneratorBlockEntity extends RandomizableContainerBlockEnt
 		return true;
 	}
 
-	private final EnergyStorage energyStorage = new EnergyStorage(40000000, 512000, 512000, 0) {
+	private final EnergyStorage energyStorage = new EnergyStorage(40000000, 99999999, 99999999, 0) {
 		@Override
 		public int receiveEnergy(int maxReceive, boolean simulate) {
 			int retval = super.receiveEnergy(maxReceive, simulate);

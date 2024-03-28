@@ -1,6 +1,11 @@
 
 package shtundex.item;
 
+import shtundex.procedures.CatsteelArmorKazhdyiTikDliaShliemaProcedure;
+import shtundex.procedures.CatsteelArmorKazhdyiTikDliaPonozhieiProcedure;
+import shtundex.procedures.CatsteelArmorKazhdyiTikDliaNaghrudnikaProcedure;
+import shtundex.procedures.CatsteelArmorKazhdyiTikDliaBotinokProcedure;
+
 import shtundex.init.ShtundexModItems;
 
 import net.minecraft.world.level.Level;
@@ -10,6 +15,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
@@ -18,6 +24,8 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
+
+import com.google.common.collect.Iterables;
 
 public abstract class CatsteelArmorItem extends ArmorItem {
 	public CatsteelArmorItem(ArmorItem.Type type, Item.Properties properties) {
@@ -83,6 +91,14 @@ public abstract class CatsteelArmorItem extends ArmorItem {
 		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
 			return true;
 		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				CatsteelArmorKazhdyiTikDliaShliemaProcedure.execute(itemstack);
+			}
+		}
 	}
 
 	public static class Chestplate extends CatsteelArmorItem {
@@ -103,6 +119,14 @@ public abstract class CatsteelArmorItem extends ArmorItem {
 		@Override
 		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
 			return true;
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				CatsteelArmorKazhdyiTikDliaNaghrudnikaProcedure.execute(itemstack);
+			}
 		}
 	}
 
@@ -125,6 +149,14 @@ public abstract class CatsteelArmorItem extends ArmorItem {
 		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
 			return true;
 		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				CatsteelArmorKazhdyiTikDliaPonozhieiProcedure.execute(itemstack);
+			}
+		}
 	}
 
 	public static class Boots extends CatsteelArmorItem {
@@ -145,6 +177,14 @@ public abstract class CatsteelArmorItem extends ArmorItem {
 		@Override
 		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
 			return true;
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				CatsteelArmorKazhdyiTikDliaBotinokProcedure.execute(itemstack);
+			}
 		}
 	}
 }
