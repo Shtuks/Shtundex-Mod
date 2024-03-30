@@ -89,8 +89,6 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.COIN_PRESS_SCHEME.get());
 				tabData.accept(ShtundexModItems.CATSTEEL_NUGGET.get());
 				tabData.accept(ShtundexModItems.SWORDLAND.get());
-				tabData.accept(ShtundexModItems.CHTUXLAGOR_BLESSING_CURIOS.get());
-				tabData.accept(ShtundexModItems.SHTUNDEX_WORLD_BLESSING.get());
 				tabData.accept(ShtundexModItems.PLATE_PRESS.get());
 				tabData.accept(ShtundexModBlocks.PRESS.get().asItem());
 				tabData.accept(ShtundexModBlocks.CATSTEEL_WORKBENCH_BLOCK.get().asItem());
@@ -145,15 +143,33 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.ENERGY_CRYSTAL.get());
 				tabData.accept(ShtundexModItems.SHTUXIAN_KIT.get());
 				tabData.accept(ShtundexModItems.CHTUXLAGOR_KIT.get());
-				tabData.accept(ShtundexModItems.CATSTEEL_SHIELD.get());
+				tabData.accept(ShtundexModBlocks.CHALK_RITUAL.get().asItem());
+				tabData.accept(ShtundexModItems.CHALK.get());
+				tabData.accept(ShtundexModItems.CAT_CORE.get());
+				tabData.accept(ShtundexModItems.NETHERITE_GEAR_TRUE.get());
+				tabData.accept(ShtundexModItems.IRON_GEAR.get());
+				tabData.accept(ShtundexModBlocks.MACHINE_CASING.get().asItem());
+				tabData.accept(ShtundexModItems.NETHERITE_CIRCUIT.get());
+				tabData.accept(ShtundexModItems.UNFINISHED_NETHERITE_CIRCUIT.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_CATSTEEL.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_SHTUXIBUS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ShtundexModItems.LORE_CATSTEEL.get());
 				tabData.accept(ShtundexModItems.LORE_SHTUXIBUS.get());
 				tabData.accept(ShtundexModItems.LORE_CHTUXLAGOR.get());
 				tabData.accept(ShtundexModItems.LORE_SHTUNDEX_WORLD.get());
 				tabData.accept(ShtundexModItems.LORE_SHTQ_7V_3.get());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> ACCESSORIES = REGISTRY.register("accessories",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.accessories")).icon(() -> new ItemStack(ShtundexModItems.CATSTEEL_SHIELD.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(ShtundexModItems.CHTUXLAGOR_BLESSING_CURIOS.get());
+				tabData.accept(ShtundexModItems.SHTUNDEX_WORLD_BLESSING.get());
+				tabData.accept(ShtundexModItems.CATSTEEL_SHIELD.get());
+				tabData.accept(ShtundexModItems.CATSTEEL_RING.get());
+				tabData.accept(ShtundexModItems.VAMPIRIC_AMULET.get());
+				tabData.accept(ShtundexModItems.TRAVELER_BOOTS.get());
 			})
 
 					.build());
@@ -164,6 +180,12 @@ public class ShtundexModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(ShtundexModBlocks.TIN_ORE.get().asItem());
 			tabData.accept(ShtundexModBlocks.TIN_BLOCK.get().asItem());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(ShtundexModItems.VAMPIRE_SPAWN_EGG.get());
+			tabData.accept(ShtundexModItems.HUMAN_SPAWN_EGG.get());
+			tabData.accept(ShtundexModItems.SHTUK_SPAWN_EGG.get());
 		}
 	}
 }

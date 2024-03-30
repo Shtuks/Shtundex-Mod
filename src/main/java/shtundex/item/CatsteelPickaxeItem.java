@@ -2,6 +2,7 @@
 package shtundex.item;
 
 import shtundex.procedures.CatsteelPickaxePriPoluchieniiPriedmietaPoRietsieptuProcedure;
+import shtundex.procedures.CatsteelArmorKazhdyiTikDliaShliemaProcedure;
 
 import shtundex.init.ShtundexModItems;
 
@@ -13,6 +14,7 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
@@ -55,5 +57,11 @@ public class CatsteelPickaxeItem extends PickaxeItem {
 	public void onCraftedBy(ItemStack itemstack, Level world, Player entity) {
 		super.onCraftedBy(itemstack, world, entity);
 		CatsteelPickaxePriPoluchieniiPriedmietaPoRietsieptuProcedure.execute(itemstack);
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		CatsteelArmorKazhdyiTikDliaShliemaProcedure.execute(itemstack);
 	}
 }

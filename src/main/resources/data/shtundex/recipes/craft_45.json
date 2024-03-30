@@ -2,19 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aba",
-    "a a",
-    "ccc"
+    " a ",
+    "bcb"
   ],
   "key": {
     "a": {
-      "item": "minecraft:iron_ingot"
-    },
-    "b": {
       "item": "minecraft:piston"
     },
+    "b": {
+      "item": "shtundex:iron_gear"
+    },
     "c": {
-      "tag": "minecraft:stone"
+      "item": "shtundex:machine_casing"
     }
   },
   "result": {

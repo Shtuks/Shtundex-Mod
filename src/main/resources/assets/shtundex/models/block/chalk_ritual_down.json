@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "shtundex:block/chtuxlagritual"
+  },
+  "render_type": "solid"
+}

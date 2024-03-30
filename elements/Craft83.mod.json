@@ -30,13 +30,13 @@
         "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "CUSTOM:MachineCasing"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "Items.IRON_INGOT"
       }
     ],
     "recipeReturnStack": {

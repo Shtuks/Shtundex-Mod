@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "shtundex:block/chalk_ritual"
+    },
+    "powered=true": {
+      "model": "shtundex:block/chalk_ritual_down"
+    }
+  }
+}

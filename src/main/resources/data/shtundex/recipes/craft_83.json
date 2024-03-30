@@ -4,7 +4,7 @@
   "pattern": [
     "aba",
     "aca",
-    "ddd"
+    "ada"
   ],
   "key": {
     "a": {
@@ -17,7 +17,7 @@
       "item": "minecraft:flint"
     },
     "d": {
-      "tag": "minecraft:stone"
+      "item": "shtundex:machine_casing"
     }
   },
   "result": {

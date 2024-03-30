@@ -12,31 +12,31 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:ShtukCyberneticParts"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ShtuxianEnergy"
+        "value": "CUSTOM:CatCore"
       },
       {
         "value": "CUSTOM:ShtukCyberneticParts"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CatCore"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ShtuxianEnergy"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CatCore"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ShtukCyberneticParts"
+      },
+      {
+        "value": "CUSTOM:CatCore"
+      },
+      {
+        "value": "CUSTOM:ShtukCyberneticParts"
       }
     ],
     "recipeReturnStack": {

@@ -2,12 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "aaa",
-    "a a"
+    "aba",
+    "aca"
   ],
   "key": {
     "a": {
       "item": "shtundex:catsteel_bar"
+    },
+    "b": {
+      "item": "shtundex:cat_core"
+    },
+    "c": {
+      "item": "minecraft:netherite_helmet"
     }
   },
   "result": {

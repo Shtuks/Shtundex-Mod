@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:bronze_dust"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:repeater"
+    },
+    "d": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "e": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "shtundex:unfinished_netherite_circuit",
+    "count": 1
+  }
+}

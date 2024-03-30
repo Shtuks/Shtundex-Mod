@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shtundex:block/machinebottom",
+    "up": "shtundex:block/machinetop",
+    "north": "shtundex:block/sidemachine",
+    "east": "shtundex:block/sidemachine",
+    "south": "shtundex:block/sidemachine",
+    "west": "shtundex:block/sidemachine",
+    "particle": "shtundex:block/machinebottom"
+  },
+  "render_type": "solid"
+}

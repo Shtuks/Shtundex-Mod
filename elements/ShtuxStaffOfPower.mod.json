@@ -25,7 +25,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": true,
-    "damageVsEntity": 1.0,
+    "damageVsEntity": 2.0,
     "specialInformation": {
       "fixedValue": [
         "Ω Chtux'lag'or Item Ω"

@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
         "value": "Blocks.PISTON"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:IronGear"
+      },
+      {
+        "value": "CUSTOM:MachineCasing"
+      },
+      {
+        "value": "CUSTOM:IronGear"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.STONE"
+        "value": ""
       }
     ],
     "recipeReturnStack": {

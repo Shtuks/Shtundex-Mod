@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "cgh"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:feather"
+    },
+    "b": {
+      "tag": "forge:heads"
+    },
+    "c": {
+      "item": "shtundex:cloth"
+    },
+    "d": {
+      "tag": "minecraft:fishes"
+    },
+    "e": {
+      "item": "minecraft:leather_boots"
+    },
+    "f": {
+      "tag": "minecraft:saplings"
+    },
+    "g": {
+      "item": "minecraft:wayfinder_armor_trim_smithing_template"
+    },
+    "h": {
+      "tag": "minecraft:leaves"
+    }
+  },
+  "result": {
+    "item": "shtundex:traveler_boots",
+    "count": 1
+  }
+}

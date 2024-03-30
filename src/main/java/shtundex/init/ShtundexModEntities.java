@@ -4,12 +4,15 @@
  */
 package shtundex.init;
 
+import shtundex.entity.VampireEntity;
 import shtundex.entity.TestBananaEntity;
 import shtundex.entity.ShtuxibusProjectileEntity;
 import shtundex.entity.ShtuxibusEXEntity;
 import shtundex.entity.ShtuxianColiderEntity;
+import shtundex.entity.ShtukEntity;
 import shtundex.entity.ShtQ7V3Entity;
 import shtundex.entity.ShtPrigaiteEntity;
+import shtundex.entity.HumanEntity;
 import shtundex.entity.DrShtuxibusRematchEntity;
 import shtundex.entity.DrShtuxibusEntity;
 import shtundex.entity.DrShtuxibus2Entity;
@@ -60,6 +63,16 @@ public class ShtundexModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<ChtuxlagorEntity>> CHTUXLAGOR = register("chtuxlagor", EntityType.Builder.<ChtuxlagorEntity>of(ChtuxlagorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 			.setUpdateInterval(3).setCustomClientFactory(ChtuxlagorEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<VampireEntity>> VAMPIRE = register("vampire",
+			EntityType.Builder.<VampireEntity>of(VampireEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(VampireEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<HumanEntity>> HUMAN = register("human",
+			EntityType.Builder.<HumanEntity>of(HumanEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HumanEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ShtukEntity>> SHTUK = register("shtuk",
+			EntityType.Builder.<ShtukEntity>of(ShtukEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ShtukEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -77,6 +90,9 @@ public class ShtundexModEntities {
 			DrShtuxibus2Entity.init();
 			TestBananaEntity.init();
 			ChtuxlagorEntity.init();
+			VampireEntity.init();
+			HumanEntity.init();
+			ShtukEntity.init();
 		});
 	}
 
@@ -91,5 +107,8 @@ public class ShtundexModEntities {
 		event.put(DR_SHTUXIBUS_2.get(), DrShtuxibus2Entity.createAttributes().build());
 		event.put(TEST_BANANA.get(), TestBananaEntity.createAttributes().build());
 		event.put(CHTUXLAGOR.get(), ChtuxlagorEntity.createAttributes().build());
+		event.put(VAMPIRE.get(), VampireEntity.createAttributes().build());
+		event.put(HUMAN.get(), HumanEntity.createAttributes().build());
+		event.put(SHTUK.get(), ShtukEntity.createAttributes().build());
 	}
 }

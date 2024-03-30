@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "shtundex:shtuxian_forest",
+    "shtundex:shtuxian_outlands"
+  ],
+  "spawners": {
+    "type": "shtundex:shtuk",
+    "weight": 7,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -28,7 +28,8 @@ public class WrenchItem extends Item {
 
 	@Override
 	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
-		return List.of(ShtundexModBlocks.MACERATOR.get(), ShtundexModBlocks.PRESS.get(), ShtundexModBlocks.CATSTEEL_GRENERATOR.get(), ShtundexModBlocks.CATSTEEL_WORKBENCH_BLOCK.get()).contains(blockstate.getBlock()) ? 20f : 1;
+		return List.of(ShtundexModBlocks.MACERATOR.get(), ShtundexModBlocks.PRESS.get(), ShtundexModBlocks.CATSTEEL_GRENERATOR.get(), ShtundexModBlocks.CATSTEEL_WORKBENCH_BLOCK.get(), ShtundexModBlocks.MACHINE_CASING.get())
+				.contains(blockstate.getBlock()) ? 20f : 1;
 	}
 
 	@Override

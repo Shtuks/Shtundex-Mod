@@ -37,7 +37,7 @@ public class DrShtuxibusUsloviieGienieratsiiSushchnostiProcedure {
 			_level.addFreshEntity(entityToSpawn);
 		}
 		if (world instanceof ServerLevel _level)
-			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + 1), z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 					"summon shtundex:dr_shtuxibus");
 		if (entity instanceof Player _player) {
 			ItemStack _stktoremove = new ItemStack(ShtundexModItems.SHTUXIAN_CURSE.get());

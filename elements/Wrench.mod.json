@@ -33,6 +33,9 @@
       },
       {
         "value": "CUSTOM:CatsteelWorkbenchBlock"
+      },
+      {
+        "value": "CUSTOM:MachineCasing"
       }
     ],
     "glowCondition": {

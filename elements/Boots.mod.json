@@ -1,0 +1,9 @@
+{
+  "_fv": 57,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "empty_armor_slot_boots.png",
+    "name": "Boots",
+    "amount": 1
+  }
+}

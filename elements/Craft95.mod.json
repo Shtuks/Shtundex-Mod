@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.SKULL"
+      },
+      {
+        "value": "CUSTOM:Cloth"
+      },
+      {
+        "value": "Items.FISH"
+      },
+      {
+        "value": "Items.LEATHER_BOOTS"
+      },
+      {
+        "value": "Blocks.SAPLING"
+      },
+      {
+        "value": "CUSTOM:Cloth"
+      },
+      {
+        "value": "Items.WAYFINDER_ARMOR_TRIM"
+      },
+      {
+        "value": "Blocks.LEAVES"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TravelerBoots"
+    },
+    "name": "craft_95",
+    "namespace": "mod"
+  }
+}

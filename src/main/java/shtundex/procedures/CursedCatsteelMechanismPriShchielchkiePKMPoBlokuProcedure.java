@@ -29,7 +29,7 @@ public class CursedCatsteelMechanismPriShchielchkiePKMPoBlokuProcedure {
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 					"title @a subtitle {\"text\":\"Sht-Q7 v3\",\"color\":\"red\",\"italic\":true}");
 		if (world instanceof ServerLevel _level) {
-			Entity entityToSpawn = ShtundexModEntities.SHT_Q_7_V_3.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+			Entity entityToSpawn = ShtundexModEntities.SHT_Q_7_V_3.get().spawn(_level, BlockPos.containing(x, y + 1, z), MobSpawnType.MOB_SUMMONED);
 			if (entityToSpawn != null) {
 				entityToSpawn.setDeltaMovement(0, 0, 0);
 			}

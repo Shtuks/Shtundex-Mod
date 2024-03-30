@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "b b",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:shtunder_prism"
+    },
+    "b": {
+      "item": "shtundex:catsteel_nugget"
+    }
+  },
+  "result": {
+    "item": "shtundex:catsteel_ring",
+    "count": 1
+  }
+}

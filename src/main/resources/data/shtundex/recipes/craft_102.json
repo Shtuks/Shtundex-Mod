@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:catsteel_plate"
+    },
+    "b": {
+      "item": "shtundex:circuit"
+    }
+  },
+  "result": {
+    "item": "shtundex:catsteel_grenerator",
+    "count": 1
+  }
+}

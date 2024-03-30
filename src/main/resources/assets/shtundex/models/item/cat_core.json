@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "shtundex:item/grid_awakened_core"
+  }
+}

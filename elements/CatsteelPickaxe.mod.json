@@ -35,6 +35,9 @@
     "damageOnCrafting": false,
     "onCrafted": {
       "name": "CatsteelPickaxePriPoluchieniiPriedmietaPoRietsieptu"
+    },
+    "onItemInInventoryTick": {
+      "name": "CatsteelArmorKazhdyiTikDliaShliema"
     }
   }
 }

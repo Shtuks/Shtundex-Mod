@@ -4,7 +4,7 @@
   "pattern": [
     " ab",
     " ca",
-    "c  "
+    "d  "
   ],
   "key": {
     "a": {
@@ -15,6 +15,9 @@
     },
     "c": {
       "item": "shtundex:the_stick"
+    },
+    "d": {
+      "item": "shtundex:cat_core"
     }
   },
   "result": {

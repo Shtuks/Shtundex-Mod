@@ -4,11 +4,14 @@
  */
 package shtundex.init;
 
+import shtundex.client.renderer.VampireRenderer;
 import shtundex.client.renderer.TestBananaRenderer;
 import shtundex.client.renderer.ShtuxibusEXRenderer;
 import shtundex.client.renderer.ShtuxianColiderRenderer;
+import shtundex.client.renderer.ShtukRenderer;
 import shtundex.client.renderer.ShtQ7V3Renderer;
 import shtundex.client.renderer.ShtPrigaiteRenderer;
+import shtundex.client.renderer.HumanRenderer;
 import shtundex.client.renderer.DrShtuxibusRenderer;
 import shtundex.client.renderer.DrShtuxibusRematchRenderer;
 import shtundex.client.renderer.DrShtuxibus2Renderer;
@@ -38,5 +41,8 @@ public class ShtundexModEntityRenderers {
 		event.registerEntityRenderer(ShtundexModEntities.DR_SHTUXIBUS_2.get(), DrShtuxibus2Renderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.TEST_BANANA.get(), TestBananaRenderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.CHTUXLAGOR.get(), ChtuxlagorRenderer::new);
+		event.registerEntityRenderer(ShtundexModEntities.VAMPIRE.get(), VampireRenderer::new);
+		event.registerEntityRenderer(ShtundexModEntities.HUMAN.get(), HumanRenderer::new);
+		event.registerEntityRenderer(ShtundexModEntities.SHTUK.get(), ShtukRenderer::new);
 	}
 }

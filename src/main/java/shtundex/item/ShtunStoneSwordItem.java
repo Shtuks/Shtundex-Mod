@@ -40,7 +40,7 @@ public class ShtunStoneSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ShtundexModBlocks.SHTUNDEX_STONE.get()));
 			}
-		}, 3, -3f, new Item.Properties().fireResistant());
+		}, 3, -2f, new Item.Properties().fireResistant());
 	}
 
 	@Override

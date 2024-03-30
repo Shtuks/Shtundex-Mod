@@ -2243,6 +2243,9 @@
       "locked_code": false,
       "registry_name": "double_jump_key_pri_nazhatii_klavishi",
       "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/DoubleJumpKeyPriNazhatiiKlavishiProcedure.java"
+        ],
         "dependencies": []
       }
     },
@@ -7154,6 +7157,478 @@
           "src/main/java/shtundex/network/JetpackMessage.java"
         ]
       }
+    },
+    {
+      "name": "CatsteelRing",
+      "type": "curiosbauble",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_ring",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/CatsteelRingItem.java",
+          "src/main/resources/assets/shtundex/models/item/catsteel_ring.json"
+        ]
+      }
+    },
+    {
+      "name": "ChalkRitual",
+      "type": "block",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_ritual",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/block/chalk_ritual.json",
+          "src/main/java/shtundex/block/ChalkRitualBlock.java",
+          "src/main/resources/assets/shtundex/models/item/chalk_ritual.json",
+          "src/main/resources/assets/shtundex/models/block/chalk_ritual_down.json",
+          "src/main/resources/assets/shtundex/blockstates/chalk_ritual.json"
+        ]
+      }
+    },
+    {
+      "name": "Chalk",
+      "type": "item",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/ChalkItem.java",
+          "src/main/resources/assets/shtundex/models/item/chalk.json"
+        ]
+      }
+    },
+    {
+      "name": "ChalkPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ChalkPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChalkRitualObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_ritual_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ChalkRitualObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VampiricAmuletWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vampiric_amulet_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/VampiricAmuletWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VampiricAmulet",
+      "type": "curiosbauble",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vampiric_amulet",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/VampiricAmuletItem.java",
+          "src/main/resources/assets/shtundex/models/item/vampiric_amulet.json"
+        ]
+      }
+    },
+    {
+      "name": "Boots",
+      "type": "curiosslot",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/boots.json"
+        ]
+      }
+    },
+    {
+      "name": "TravelerBootsWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traveler_boots_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/TravelerBootsWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TravelerBoots",
+      "type": "curiosbauble",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traveler_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/traveler_boots.json",
+          "src/main/java/shtundex/item/TravelerBootsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Accessories",
+      "type": "tab",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "accessories",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CatCore",
+      "type": "item",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/cat_core.json",
+          "src/main/java/shtundex/item/CatCoreItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft94",
+      "type": "recipe",
+      "sortid": 458,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_94",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_94.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft95",
+      "type": "recipe",
+      "sortid": 459,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_95",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_95.json"
+        ]
+      }
+    },
+    {
+      "name": "Vampire",
+      "type": "livingentity",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vampire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/vampire_spawn_egg.json",
+          "src/main/java/shtundex/entity/VampireEntity.java",
+          "src/main/java/shtundex/client/renderer/VampireRenderer.java",
+          "src/main/resources/data/shtundex/forge/biome_modifier/vampire_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Human",
+      "type": "livingentity",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "human",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/forge/biome_modifier/human_biome_modifier.json",
+          "src/main/resources/assets/shtundex/models/item/human_spawn_egg.json",
+          "src/main/java/shtundex/entity/HumanEntity.java",
+          "src/main/java/shtundex/client/renderer/HumanRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Shtuk",
+      "type": "livingentity",
+      "sortid": 462,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/shtuk_spawn_egg.json",
+          "src/main/java/shtundex/client/renderer/ShtukRenderer.java",
+          "src/main/resources/data/shtundex/forge/biome_modifier/shtuk_biome_modifier.json",
+          "src/main/java/shtundex/entity/ShtukEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft96",
+      "type": "recipe",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_96",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_96.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft97",
+      "type": "recipe",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_97",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_97.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteGearTrue",
+      "type": "item",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_gear_true",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/NetheriteGearTrueItem.java",
+          "src/main/resources/assets/shtundex/models/item/netherite_gear_true.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft98",
+      "type": "recipe",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_98",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_98.json"
+        ]
+      }
+    },
+    {
+      "name": "IronGear",
+      "type": "item",
+      "sortid": 467,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_gear",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/IronGearItem.java",
+          "src/main/resources/assets/shtundex/models/item/iron_gear.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft99",
+      "type": "recipe",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_99",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_99.json"
+        ]
+      }
+    },
+    {
+      "name": "MachineCasing",
+      "type": "block",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_casing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/block/machine_casing.json",
+          "src/main/resources/assets/shtundex/models/item/machine_casing.json",
+          "src/main/java/shtundex/block/MachineCasingBlock.java",
+          "src/main/resources/assets/shtundex/blockstates/machine_casing.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft100",
+      "type": "recipe",
+      "sortid": 470,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_100",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_100.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteCircuit",
+      "type": "item",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_circuit",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/NetheriteCircuitItem.java",
+          "src/main/resources/assets/shtundex/models/item/netherite_circuit.json"
+        ]
+      }
+    },
+    {
+      "name": "UnfinishedNetheriteCircuit",
+      "type": "item",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfinished_netherite_circuit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/unfinished_netherite_circuit.json",
+          "src/main/java/shtundex/item/UnfinishedNetheriteCircuitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft101",
+      "type": "recipe",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_101",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_101.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft102",
+      "type": "recipe",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_102",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_102.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -7276,19 +7751,23 @@
       "advancements.shtundex_ach.title": "Штундекс!",
       "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
       "item_group.shtundex.shtundex": "Штундекс",
+      "curios.identifier.boots": "Boots",
       "item.shtundex.nanosaber": "Наносабля",
       "item.shtundex.cat_clot_armor_leggings": "Кототканевые шаровары",
       "item.shtundex.shtuxian_curse": "Штуксианское проклятие",
+      "item.shtundex.netherite_gear_true": "Netherite Gear True",
       "key.shtundex.hotkey_ability_1": "Штучиный щит",
       "item.shtundex.catsteel_axe": "Котосталевый топор",
+      "item_group.shtundex.accessories": "Акскссуары",
       "key.shtundex.dash_key": "Штучиный рывок",
       "effect.shtundex.antirad": "Антирад",
       "subtitles.timeres": "",
-      "curios.identifier.ram_shield": "Ram Shield",
+      "curios.identifier.ram_shield": "Таранный щит",
       "death.attack.cat_posion": "%1$s был расплавлен в потоке реликтового излучения.",
       "item.shtundex.iron_dust": "Железная пыль",
       "gui.shtundex.macergui.label_macerator": "Дробитель",
       "block.shtundex.tin_ore": "Оловянная руда",
+      "entity.shtundex.vampire": "Vampire",
       "item.shtundex.human_cells": "Живые клетки",
       "item.shtundex.advanced_shtuk_parts": "Продвинутые части Ш.Т.У.К.а",
       "entity.shtundex.dr_shtuxibus_rematch": "Др. Штуксибус",
@@ -7301,6 +7780,7 @@
       "key.shtundex.norm_dash": "Рывок",
       "item.shtundex.raw_lead": "Сырой свинец",
       "item.shtundex.catsteel_apple": "Котосталевое яблоко",
+      "item.shtundex.netherite_circuit": "Netherite Circuit",
       "item.shtundex.swordland.desc": "Dr.Shtuxibus Theme",
       "item.shtundex.circuit_prsss": "Пресс микросхемы",
       "item.shtundex.plate_press": "Пресс пластины",
@@ -7335,9 +7815,10 @@
       "item.minecraft.lingering_potion.effect.shtuxian_blood": "Осядающая штучиная кровь",
       "advancements.level_2_shtuk.title": "Ш.Т.У.К 2го уровня",
       "item.shtundex.shtuk_cybernetic_parts": "Кибернетические запчасти Ш.Т.У.К.А",
+      "item.shtundex.catsteel_ring": "Котосталевое кольцо",
       "death.attack.shtuxian_damage.player": "%1$s умер пытаясь убежать от судьбы",
       "item.shtundex.catsteel_stimulants": "Котосталевые стимулянты",
-      "effect.shtundex.ranec": "Ranec",
+      "effect.shtundex.ranec": "Ранец",
       "item.shtundex.shtunder_prism": "Штуксианская призма",
       "item.shtundex.cat_hight_tech_suit_boots": "Ботинки C.A.T",
       "item.shtundex.shtun_stone_sword": "Меч из штучиного камня",
@@ -7346,6 +7827,7 @@
       "advancements.omniruler.descr": "Победить КОШАЧЕЕ БОЖЕСТВО и заполучить его меч.",
       "gui.shtundex.staff_of_power.button_god_mode": "Режим бога",
       "item.shtundex.nano_boots": "Ботинки Nano",
+      "item.shtundex.cat_core": "Кошачее ядро",
       "entity.shtundex.chtuxlagor": "Штукс\u0027лаг\u0027ор",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "Панель управления миром",
       "item.shtundex.catsteel_armor_chestplate": "Котосталевый нагрудник",
@@ -7373,6 +7855,8 @@
       "item.shtundex.hazmat_helmet": "Защитный шлем",
       "death.attack.irradiated": "%1$s облучен.",
       "item.shtundex.catsteel_sword": "Котосталевый меч",
+      "entity.shtundex.shtuk": "Shtuk",
+      "item.shtundex.vampire_spawn_egg": "Vampire Spawn Egg",
       "item.shtundex.catsteel_coin": "Монета из котостали",
       "item.shtundex.cat_clot_armor_helmet": "Кототканевый капюшон",
       "effect.shtundex.radiation": "Радиация",
@@ -7383,6 +7867,7 @@
       "item.shtundex.catsteel_shield": "Котосталевый щит",
       "key.shtundex.ability_hotkey_3": "Штучиный луч",
       "effect.shtundex.shtuk_mode_cd": "Перезарядка штучиной способности",
+      "block.shtundex.chalk_ritual": "Меловой ритуал",
       "item.shtundex.nano_leggings": "Поножи Nano",
       "item.shtundex.chtuxlagor_blessing_curios": "Благославление Штукс\u0027лаг\u0027ора",
       "item.shtundex.catsteel_dust": "Котосталевая пыль",
@@ -7408,6 +7893,7 @@
       "item.shtundex.shtun_stone_pickaxe": "Кирка из штучиного камня",
       "item.shtundex.circuit": "Котосталевая микросхема",
       "block.shtundex.lead_ore": "Свинцовая руда",
+      "item.shtundex.vampiric_amulet": "Вампирский амулет",
       "block.shtundex.deepslate_lead_ore": "Глубинносланцевая свинцовая руда",
       "effect.shtundex.flight": "Полет",
       "item.shtundex.cat_hight_tech_suit_chestplate": "Нагрудник C.A.T",
@@ -7419,9 +7905,11 @@
       "item.shtundex.hazmat_chestplate": "Защитный нагрудник ",
       "item.shtundex.geiger_count": "Счетчик гейгера",
       "entity.shtundex.dr_shtuxibus": "Др. Штуксибус",
+      "item.shtundex.traveler_boots": "Traveler Boots",
       "gui.shtundex.staff_of_power.button_gm_0": "ГМ 0",
+      "item.shtundex.iron_gear": "Iron Gear",
       "gui.shtundex.staff_of_power.button_gm_1": "ГМ 1",
-      "enchantment.shtundex.absolute_unbreaking": "Absolute Unbreaking",
+      "enchantment.shtundex.absolute_unbreaking": "Абсолютная неразрушимость",
       "item.shtundex.chtuxlagor_shard": "Осколок Штукс\u0027лаг\u0027ора",
       "block.shtundex.crate": "Ящик",
       "gui.shtundex.catsteel_workbench.label_catsteel_workbench": "Котосталевый верстак",
@@ -7440,8 +7928,10 @@
       "item.shtundex.lead_dust": "Свинцовая пыль",
       "key.shtundex.shield_dash_key": "Рывок щита",
       "block.shtundex.deepslate_uranium_ore": "Глубинносланцевая урановая руда",
+      "item.shtundex.unfinished_netherite_circuit": "Unfinished Netherite Circuit",
       "advancements.catsteel_catsteel.title": "Котосталь? Котосталь!",
       "item.shtundex.cat_hight_tech_suit_leggings": "Поножи C.A.T",
+      "item.shtundex.shtuk_spawn_egg": "Shtuk Spawn Egg",
       "key.shtundex.backdash_key": "Рывок назад",
       "item.shtundex.lore_chtuxlagor": "История - Штукс\u0027лаг\u0027ор",
       "subtitles.shtux1": "",
@@ -7458,10 +7948,11 @@
       "block.shtundex.catsteel_block": "Блок котостали",
       "effect.shtundex.catsteel_posion": "Реликтовое излучение котостали",
       "entity.shtundex.dr_shtuxibus_2": "Др. Штуксибус",
+      "block.shtundex.machine_casing": "Machine Casing",
       "item.shtundex.shtux_staff_of_power": "Посох Кошачей Силы",
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Взрывная штучиная кровь",
       "advancements.catsteel_catsteel.descr": "Сделайте первые шаги к абсолютной силе.",
-      "key.shtundex.jetpack": "Jetpack",
+      "key.shtundex.jetpack": "Ранец",
       "item.shtundex.bronze_ingot": "Бронзовый слиток",
       "effect.shtundex.cooldown": "Перезарядка способности",
       "item.shtundex.depelleted_catsteel": "Распавшаяся котосталь",
@@ -7470,7 +7961,9 @@
       "gui.shtundex.press_gui.label_press": "Персс",
       "item.shtundex.recharger": "Зарядник",
       "key.shtundex.double_jump_key": "Двойной прыжок [WIP]",
+      "item.shtundex.chalk": "Мел",
       "item.shtundex.shtundex_world_blessing": "Благославление Штундекса",
+      "entity.shtundex.human": "Human",
       "item.shtundex.nether_star_staff": "Посох звезды незера",
       "advancements.shtuxian_machinery.title": "Штуксианская технология.",
       "key.shtundex.hotkry_ability_4": "Штучиная регенерация",
@@ -7482,6 +7975,7 @@
       "item.shtundex.catsteel_plate": "Котосталевая пластина",
       "item.shtundex.lead_plate": "Свинцовая пластина",
       "item.shtundex.shtuxian_kit": "Штучиный набор",
+      "item.shtundex.human_spawn_egg": "Human Spawn Egg",
       "fluid.shtundex.molten_catsteel": "Расплавленая котосталь",
       "item.shtundex.nanosaber_active": "Наносабля",
       "item.shtundex.netherite_gear": "Алмазная шестерня",
@@ -7504,11 +7998,14 @@
       "advancements.shtundex_ach.title": "Shtundex!",
       "advancements.i_reject_my_humanity.title": "I Reject My Humanity!",
       "item_group.shtundex.shtundex": "Shtundex",
+      "curios.identifier.boots": "Boots",
       "item.shtundex.nanosaber": "Nanosaber",
       "item.shtundex.cat_clot_armor_leggings": "CatClot Leggings",
       "item.shtundex.shtuxian_curse": "Shtuxian Curse",
+      "item.shtundex.netherite_gear_true": "Netherite Gear",
       "key.shtundex.hotkey_ability_1": "Shtuxian Shield",
       "item.shtundex.catsteel_axe": "Catsteel Axe",
+      "item_group.shtundex.accessories": "Accessories",
       "key.shtundex.dash_key": "Shtuxian dash",
       "effect.shtundex.antirad": "Antirad",
       "subtitles.timeres": "",
@@ -7517,6 +8014,7 @@
       "item.shtundex.iron_dust": "Iron Dust",
       "block.shtundex.tin_ore": "Tin Ore",
       "gui.shtundex.macergui.label_macerator": "Macerator",
+      "entity.shtundex.vampire": "Vampire",
       "item.shtundex.human_cells": "Organic Cells",
       "item.shtundex.advanced_shtuk_parts": "Advanced Shtuk Parts",
       "entity.shtundex.dr_shtuxibus_rematch": "Dr Shtuxibus",
@@ -7529,6 +8027,7 @@
       "key.shtundex.norm_dash": "Dash",
       "item.shtundex.raw_lead": "Raw Lead",
       "item.shtundex.catsteel_apple": "Catsteel Apple",
+      "item.shtundex.netherite_circuit": "Netherite Circuit",
       "item.shtundex.swordland.desc": "Dr.Shtuxibus Theme",
       "item.shtundex.circuit_prsss": "Circuit Prsss",
       "item.shtundex.plate_press": "Plate Press",
@@ -7545,7 +8044,7 @@
       "item.shtundex.cursed_catsteel_mechanism": "Cursed Catsteel Mechanism",
       "item.shtundex.energy_crystal": "Energy Crystal",
       "entity.shtundex.test_banana": "Test Banana",
-      "item.shtundex.hazmat_boots": "Hazmat boots",
+      "item.shtundex.hazmat_boots": "Ботинки Hazmat",
       "item.shtundex.berry_pie": "Berry Pie",
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Catsteel Generator",
       "death.attack.irradiated.item": "%1$s was irradiated by %2$s using %3$s",
@@ -7557,23 +8056,25 @@
       "item.shtundex.chtuxlagor_piece": "Chtuxlagor Piece",
       "subtitles.timestopza": "",
       "item.shtundex.catsteel_armor_leggings": "Catsteel Leggings",
-      "subtitles.blastsound": "",
       "item.shtundex.lore_catsteel": "Lore - Catsteel",
+      "subtitles.blastsound": "",
       "advancements.i_reject_my_humanity.descr": "Become a S.H.T.U.K.",
       "item.minecraft.lingering_potion.effect.shtuxian_blood": "Lingering Shtuxian Blood",
       "advancements.level_2_shtuk.title": "Level 2 Shtuk",
       "item.shtundex.shtuk_cybernetic_parts": "Shtuk Cybernetic Parts",
+      "item.shtundex.catsteel_ring": "Catsteel ring of Omniversal knowgle of Shtundex World",
       "death.attack.shtuxian_damage.player": "%1$s died whilst trying to escape his fate.",
       "item.shtundex.catsteel_stimulants": "Catsteel Stimulants",
-      "effect.shtundex.ranec": "Ranec",
-      "item.shtundex.shtunder_prism": "Shtunder Prism",
+      "effect.shtundex.ranec": "Jetpack",
       "item.shtundex.cat_hight_tech_suit_boots": "C.A.T boots",
+      "item.shtundex.shtunder_prism": "Shtunder Prism",
       "item.shtundex.shtun_stone_sword": "ShtunStone Sword",
       "item.shtundex.catsteel_armor_boots": "Catsteel Boots",
       "item.shtundex.chtuxlagor_blaster": "Chtuxlagor Blaster",
       "advancements.omniruler.descr": "Defeat GOD OF CATS and get his blade.",
       "gui.shtundex.staff_of_power.button_god_mode": "God Mode",
       "item.shtundex.nano_boots": "Nano boots",
+      "item.shtundex.cat_core": "Cat Core",
       "entity.shtundex.chtuxlagor": "Chtuxlagor",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "World Control Panel",
       "item.shtundex.catsteel_armor_chestplate": "Catsteel Chestplate",
@@ -7598,9 +8099,11 @@
       "death.attack.cat_posion.item": "%1$s was killed by %2$s using omega radiation.",
       "item.shtundex.raw_tin": "Raw Tin",
       "item.shtundex.shtun_stone_shovel": "ShtunStone Shovel",
-      "item.shtundex.hazmat_helmet": "Hazmat helm",
+      "item.shtundex.hazmat_helmet": "Шлем Hazmat",
       "death.attack.irradiated": "%1$s irradiated.",
       "item.shtundex.catsteel_sword": "Catsteel Sword",
+      "entity.shtundex.shtuk": "Shtuk",
+      "item.shtundex.vampire_spawn_egg": "Vampire Spawn Egg",
       "item.shtundex.catsteel_coin": "Catsteel Coin",
       "item.shtundex.cat_clot_armor_helmet": "CatClot Helmet",
       "effect.shtundex.radiation": "Radiation",
@@ -7611,6 +8114,7 @@
       "item.shtundex.catsteel_shield": "Catsteel Shield",
       "key.shtundex.ability_hotkey_3": "Shtuxian ray",
       "effect.shtundex.shtuk_mode_cd": "Shtuk Ability CD",
+      "block.shtundex.chalk_ritual": "Chalk Ritual",
       "item.shtundex.nano_leggings": "Nano leggins",
       "item.shtundex.chtuxlagor_blessing_curios": "Chtuxlagor Blessing Curios",
       "item.shtundex.catsteel_dust": "Catsteel Dust",
@@ -7625,7 +8129,7 @@
       "block.shtundex.molten_catsteel": "Molten Catsteel",
       "entity.shtundex.sht_q_7_v_3": "Sht-Q7 V 3",
       "item.shtundex.shtun_stone_axe": "ShtunStone Axe",
-      "item.shtundex.hazmat_leggings": "Hazmat leggins",
+      "item.shtundex.hazmat_leggings": "Поножи Hazmat",
       "subtitles.abilitysound": "",
       "item.minecraft.potion.effect.shtuxian_blood": "Shtuxian Blood",
       "item.shtundex.antirad_cloth": "Antirad Cloth",
@@ -7636,6 +8140,7 @@
       "item.shtundex.shtun_stone_pickaxe": "ShtunStone Pickaxe",
       "item.shtundex.circuit": "Circuit",
       "block.shtundex.lead_ore": "Lead Ore",
+      "item.shtundex.vampiric_amulet": "Vampiric Amulet",
       "block.shtundex.deepslate_lead_ore": "Lead Ore",
       "effect.shtundex.flight": "Flight",
       "item.shtundex.cat_hight_tech_suit_chestplate": "C.A.T Chestplate",
@@ -7644,10 +8149,12 @@
       "biome.shtundex.shtuxian_forest": "Shtuxian Forest",
       "block.shtundex.catsteel_workbench_block": "Catsteel Workbench Block",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Shtuxibus",
-      "item.shtundex.hazmat_chestplate": "Hazmat chestplate",
+      "item.shtundex.hazmat_chestplate": "Нагрудник Hazmat",
       "item.shtundex.geiger_count": "Geiger Count",
       "entity.shtundex.dr_shtuxibus": "Dr Shtuxibus",
+      "item.shtundex.traveler_boots": "Traveler Boots",
       "gui.shtundex.staff_of_power.button_gm_0": "GM 1",
+      "item.shtundex.iron_gear": "Iron Gear",
       "gui.shtundex.staff_of_power.button_gm_1": "GM 0",
       "enchantment.shtundex.absolute_unbreaking": "Absolute Unbreaking",
       "item.shtundex.chtuxlagor_shard": "Chtux\u0027lag\u0027or Shard",
@@ -7668,15 +8175,17 @@
       "item.shtundex.lead_dust": "Lead Dust",
       "key.shtundex.shield_dash_key": "Shield Dash",
       "block.shtundex.deepslate_uranium_ore": "Uranium Ore",
+      "item.shtundex.unfinished_netherite_circuit": "Unfinished Netherite Circuit",
       "advancements.catsteel_catsteel.title": "Catsteel? Catsteel!",
       "item.shtundex.cat_hight_tech_suit_leggings": "C.A.T leggins",
+      "item.shtundex.shtuk_spawn_egg": "Shtuk Spawn Egg",
       "key.shtundex.backdash_key": "Back dash",
       "item.shtundex.lore_chtuxlagor": "Lore - Chtuxlagor",
       "subtitles.shtux1": "",
       "subtitles.shtux2": "",
       "item.minecraft.tipped_arrow.effect.shtuxian_blood": "Arrow of Shtuxian Blood",
       "effect.shtundex.invincibility": "Invinvibility",
-      "item.shtundex.cat_steel_drill": "Cat Steel Drill",
+      "item.shtundex.cat_steel_drill": "Catsteel Drill",
       "advancements.shtundex_ach.descr": "Achive access to the world of Shtuxian technologies.",
       "item.shtundex.lore_shtq_7v_3": "Lore - Sht-Q7 v3",
       "item.shtundex.catsteel_pickaxe": "Catsteel Pickaxe",
@@ -7686,6 +8195,7 @@
       "block.shtundex.catsteel_block": "Catsteel Block",
       "effect.shtundex.catsteel_posion": "Catsteel Posion",
       "entity.shtundex.dr_shtuxibus_2": "Dr Shtuxibus",
+      "block.shtundex.machine_casing": "Machine Casing",
       "item.shtundex.shtux_staff_of_power": "Shtux Staff Of Power",
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Splash Shtuxian Blood",
       "advancements.catsteel_catsteel.descr": "Make your first steps in goal to become most powerful.",
@@ -7698,7 +8208,9 @@
       "gui.shtundex.press_gui.label_press": "Press",
       "item.shtundex.recharger": "Recharger",
       "key.shtundex.double_jump_key": "Double Jump",
+      "item.shtundex.chalk": "Chalk",
       "item.shtundex.shtundex_world_blessing": "Shtundex World Blessing",
+      "entity.shtundex.human": "Human",
       "item.shtundex.nether_star_staff": "Nether Star Staff",
       "advancements.shtuxian_machinery.title": "Shtuxian Machinery",
       "key.shtundex.hotkry_ability_4": "Shtuxian Regeneration",
@@ -7710,6 +8222,7 @@
       "item.shtundex.catsteel_plate": "Catsteel Plate",
       "item.shtundex.lead_plate": "Lead Plate",
       "item.shtundex.shtuxian_kit": "Shtuxian Kit",
+      "item.shtundex.human_spawn_egg": "Human Spawn Egg",
       "fluid.shtundex.molten_catsteel": "Molten Catsteel",
       "item.shtundex.nanosaber_active": "Nanosaber",
       "item.shtundex.netherite_gear": "Diamond Gear",
