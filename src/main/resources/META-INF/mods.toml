@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="shtundex"
-version="0.1.2"
+version="0.1.3"
 displayName="Shtundex"
 displayURL="https://modrinth.com/mod/shtundex-mod"
 logoFile="logo.png"
