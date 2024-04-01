@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "shtundex:dark_steel_dust"
+  },
+  "result": "shtundex:dark_steel_ingot"
+}

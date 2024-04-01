@@ -130,7 +130,7 @@ public class ShtPrigaiteEntity extends Monster implements RangedAttackMob {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		ShtQ7V3PriGibieliSushchnostiProcedure.execute(this.level());
+		ShtQ7V3PriGibieliSushchnostiProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override

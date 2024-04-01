@@ -171,7 +171,7 @@ public class DrShtuxibusRematchEntity extends Monster implements RangedAttackMob
 	@Override
 	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
 		super.awardKillScore(entity, score, damageSource);
-		DrShtuxibusHealVampProcedure.execute(this.level(), entity);
+		DrShtuxibusHealVampProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entity);
 	}
 
 	@Override

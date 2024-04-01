@@ -1,6 +1,7 @@
 
 package shtundex.item;
 
+import shtundex.procedures.CatsteelSwordPriUdariePoSushchnostiInstrumientomProcedure;
 import shtundex.procedures.CatsteelArmorKazhdyiTikDliaPonozhieiProcedure;
 
 import shtundex.init.ShtundexModItems;
@@ -12,6 +13,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
@@ -44,6 +46,13 @@ public class CatsteelAxeItem extends AxeItem {
 				return Ingredient.of(new ItemStack(ShtundexModItems.CATSTEEL_BAR.get()));
 			}
 		}, 1, -2f, new Item.Properties().fireResistant());
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		CatsteelSwordPriUdariePoSushchnostiInstrumientomProcedure.execute(entity);
+		return retval;
 	}
 
 	@Override

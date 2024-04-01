@@ -3,7 +3,7 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "a a",
+    "c c",
     "a a"
   ],
   "key": {
@@ -11,6 +11,9 @@
       "item": "shtundex:nanofiber_cloth"
     },
     "b": {
+      "item": "shtundex:netherite_circuit"
+    },
+    "c": {
       "item": "shtundex:energy_crystal"
     }
   },

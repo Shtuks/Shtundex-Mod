@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EnergyCrystal"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
+        "value": "CUSTOM:EnergyCrystal"
+      },
+      {
+        "value": "CUSTOM:XenomiteShard"
+      },
+      {
+        "value": "CUSTOM:ShtundexStone"
+      },
+      {
+        "value": "CUSTOM:XenomiteShard"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ShtunderPrism"
+    },
+    "name": "craft_107",
+    "namespace": "mod"
+  }
+}

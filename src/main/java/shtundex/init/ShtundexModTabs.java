@@ -151,6 +151,18 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModBlocks.MACHINE_CASING.get().asItem());
 				tabData.accept(ShtundexModItems.NETHERITE_CIRCUIT.get());
 				tabData.accept(ShtundexModItems.UNFINISHED_NETHERITE_CIRCUIT.get());
+				tabData.accept(ShtundexModItems.XENOMITE_SHARD.get());
+				tabData.accept(ShtundexModItems.REFINED_XENIUM_PLATE.get());
+				tabData.accept(ShtundexModItems.DARK_STEEL_INGOT.get());
+				tabData.accept(ShtundexModItems.OBSIDIAN_DUST.get());
+				tabData.accept(ShtundexModItems.DARK_STEEL_DUST.get());
+				tabData.accept(ShtundexModItems.DARK_ARMOR_HELMET.get());
+				tabData.accept(ShtundexModItems.DARK_ARMOR_CHESTPLATE.get());
+				tabData.accept(ShtundexModItems.DARK_ARMOR_LEGGINGS.get());
+				tabData.accept(ShtundexModItems.DARK_ARMOR_BOOTS.get());
+				tabData.accept(ShtundexModItems.DARK_PICKAXE.get());
+				tabData.accept(ShtundexModItems.DARK_AXE.get());
+				tabData.accept(ShtundexModItems.DARK_SWORD.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_SHTUXIBUS.get())).displayItems((parameters, tabData) -> {
@@ -186,6 +198,7 @@ public class ShtundexModTabs {
 			tabData.accept(ShtundexModItems.VAMPIRE_SPAWN_EGG.get());
 			tabData.accept(ShtundexModItems.HUMAN_SPAWN_EGG.get());
 			tabData.accept(ShtundexModItems.SHTUK_SPAWN_EGG.get());
+			tabData.accept(ShtundexModItems.IRRADIATED_SLIME_SPAWN_EGG.get());
 		}
 	}
 }

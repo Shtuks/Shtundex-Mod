@@ -33,6 +33,9 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "CatsteelSwordPriUdariePoSushchnostiInstrumientom"
+    },
     "onItemInInventoryTick": {
       "name": "CatsteelArmorKazhdyiTikDliaPonozhiei"
     }

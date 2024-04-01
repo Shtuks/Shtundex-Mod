@@ -62,5 +62,13 @@
         "stream": false
       }
     ]
+  },
+  "shtq7theme": {
+    "sounds": [
+      {
+        "name": "shtundex:sakuzyo_-_steel_red_72252401",
+        "stream": false
+      }
+    ]
   }
 }

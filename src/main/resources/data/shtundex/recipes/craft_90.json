@@ -2,14 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "a a",
-    "aba"
+    "aba",
+    "aca"
   ],
   "key": {
     "a": {
       "item": "shtundex:nanofiber_cloth"
     },
     "b": {
+      "item": "shtundex:netherite_circuit"
+    },
+    "c": {
       "item": "shtundex:energy_crystal"
     }
   },

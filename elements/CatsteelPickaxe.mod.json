@@ -36,6 +36,9 @@
     "onCrafted": {
       "name": "CatsteelPickaxePriPoluchieniiPriedmietaPoRietsieptu"
     },
+    "onEntityHitWith": {
+      "name": "CatsteelSwordPriUdariePoSushchnostiInstrumientom"
+    },
     "onItemInInventoryTick": {
       "name": "CatsteelArmorKazhdyiTikDliaShliema"
     }

@@ -2,6 +2,7 @@
 package shtundex.entity;
 
 import shtundex.procedures.ShtQ7V3PriGibieliSushchnostiProcedure;
+import shtundex.procedures.DrShtuxibusHealVampProcedure;
 
 import shtundex.init.ShtundexModItems;
 import shtundex.init.ShtundexModEntities;
@@ -30,6 +31,7 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
@@ -65,14 +67,14 @@ public class ShtQ7V3Entity extends Monster {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 10, true) {
+		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 2, true) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
 		this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, Player.class, (float) 128));
-		this.goalSelector.addGoal(4, new LeapAtTargetGoal(this, (float) 0.5));
+		this.goalSelector.addGoal(4, new LeapAtTargetGoal(this, (float) 1));
 		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 1));
 		this.targetSelector.addGoal(6, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
@@ -136,7 +138,13 @@ public class ShtQ7V3Entity extends Monster {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		ShtQ7V3PriGibieliSushchnostiProcedure.execute(this.level());
+		ShtQ7V3PriGibieliSushchnostiProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+	}
+
+	@Override
+	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
+		super.awardKillScore(entity, score, damageSource);
+		DrShtuxibusHealVampProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entity);
 	}
 
 	@Override

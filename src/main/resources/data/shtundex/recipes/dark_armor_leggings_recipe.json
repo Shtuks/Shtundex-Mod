@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:refined_xenium_plate"
+    },
+    "b": {
+      "item": "shtundex:energy_crystal"
+    }
+  },
+  "result": {
+    "item": "shtundex:dark_armor_leggings",
+    "count": 1
+  }
+}

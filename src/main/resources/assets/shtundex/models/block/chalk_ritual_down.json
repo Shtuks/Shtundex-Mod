@@ -3,5 +3,5 @@
   "textures": {
     "texture": "shtundex:block/chtuxlagritual"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }

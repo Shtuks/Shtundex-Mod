@@ -9,9 +9,11 @@ import shtundex.entity.TestBananaEntity;
 import shtundex.entity.ShtuxibusProjectileEntity;
 import shtundex.entity.ShtuxibusEXEntity;
 import shtundex.entity.ShtuxianColiderEntity;
+import shtundex.entity.ShtuxSwordProjEntity;
 import shtundex.entity.ShtukEntity;
 import shtundex.entity.ShtQ7V3Entity;
 import shtundex.entity.ShtPrigaiteEntity;
+import shtundex.entity.IrradiatedSlimeEntity;
 import shtundex.entity.HumanEntity;
 import shtundex.entity.DrShtuxibusRematchEntity;
 import shtundex.entity.DrShtuxibusEntity;
@@ -73,6 +75,12 @@ public class ShtundexModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<ShtukEntity>> SHTUK = register("shtuk",
 			EntityType.Builder.<ShtukEntity>of(ShtukEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ShtukEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ShtuxSwordProjEntity>> SHTUX_SWORD_PROJ = register("shtux_sword_proj", EntityType.Builder.<ShtuxSwordProjEntity>of(ShtuxSwordProjEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ShtuxSwordProjEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<IrradiatedSlimeEntity>> IRRADIATED_SLIME = register("irradiated_slime",
+			EntityType.Builder.<IrradiatedSlimeEntity>of(IrradiatedSlimeEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(IrradiatedSlimeEntity::new)
+
+					.sized(1f, 1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -93,6 +101,8 @@ public class ShtundexModEntities {
 			VampireEntity.init();
 			HumanEntity.init();
 			ShtukEntity.init();
+			ShtuxSwordProjEntity.init();
+			IrradiatedSlimeEntity.init();
 		});
 	}
 
@@ -110,5 +120,7 @@ public class ShtundexModEntities {
 		event.put(VAMPIRE.get(), VampireEntity.createAttributes().build());
 		event.put(HUMAN.get(), HumanEntity.createAttributes().build());
 		event.put(SHTUK.get(), ShtukEntity.createAttributes().build());
+		event.put(SHTUX_SWORD_PROJ.get(), ShtuxSwordProjEntity.createAttributes().build());
+		event.put(IRRADIATED_SLIME.get(), IrradiatedSlimeEntity.createAttributes().build());
 	}
 }

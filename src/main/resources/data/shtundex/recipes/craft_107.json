@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bab",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald_block"
+    },
+    "b": {
+      "item": "shtundex:energy_crystal"
+    },
+    "c": {
+      "item": "shtundex:xenomite_shard"
+    },
+    "d": {
+      "item": "shtundex:shtundex_stone"
+    }
+  },
+  "result": {
+    "item": "shtundex:shtunder_prism",
+    "count": 1
+  }
+}

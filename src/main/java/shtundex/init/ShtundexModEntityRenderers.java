@@ -8,9 +8,11 @@ import shtundex.client.renderer.VampireRenderer;
 import shtundex.client.renderer.TestBananaRenderer;
 import shtundex.client.renderer.ShtuxibusEXRenderer;
 import shtundex.client.renderer.ShtuxianColiderRenderer;
+import shtundex.client.renderer.ShtuxSwordProjRenderer;
 import shtundex.client.renderer.ShtukRenderer;
 import shtundex.client.renderer.ShtQ7V3Renderer;
 import shtundex.client.renderer.ShtPrigaiteRenderer;
+import shtundex.client.renderer.IrradiatedSlimeRenderer;
 import shtundex.client.renderer.HumanRenderer;
 import shtundex.client.renderer.DrShtuxibusRenderer;
 import shtundex.client.renderer.DrShtuxibusRematchRenderer;
@@ -44,5 +46,7 @@ public class ShtundexModEntityRenderers {
 		event.registerEntityRenderer(ShtundexModEntities.VAMPIRE.get(), VampireRenderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.HUMAN.get(), HumanRenderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.SHTUK.get(), ShtukRenderer::new);
+		event.registerEntityRenderer(ShtundexModEntities.SHTUX_SWORD_PROJ.get(), ShtuxSwordProjRenderer::new);
+		event.registerEntityRenderer(ShtundexModEntities.IRRADIATED_SLIME.get(), IrradiatedSlimeRenderer::new);
 	}
 }

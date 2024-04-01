@@ -3,7 +3,8 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "aca"
+    "aca",
+    " d "
   ],
   "key": {
     "a": {
@@ -14,6 +15,9 @@
     },
     "c": {
       "tag": "forge:stained_glass_panes"
+    },
+    "d": {
+      "item": "shtundex:netherite_circuit"
     }
   },
   "result": {

@@ -1,6 +1,7 @@
 
 package shtundex.item;
 
+import shtundex.procedures.CatsteelSwordPriUdariePoSushchnostiInstrumientomProcedure;
 import shtundex.procedures.CatSteelDrillPriRazrushieniiBlokaInstrumientomProcedure;
 import shtundex.procedures.CatSteelDrillPriPoluchieniiPriedmietaPoRietsieptuProcedure;
 
@@ -54,6 +55,13 @@ public class CatSteelDrillItem extends PickaxeItem {
 	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 		boolean retval = super.mineBlock(itemstack, world, blockstate, pos, entity);
 		CatSteelDrillPriRazrushieniiBlokaInstrumientomProcedure.execute();
+		return retval;
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		CatsteelSwordPriUdariePoSushchnostiInstrumientomProcedure.execute(entity);
 		return retval;
 	}
 

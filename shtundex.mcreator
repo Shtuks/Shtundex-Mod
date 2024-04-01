@@ -5,14 +5,15 @@
       "type": "livingentity",
       "sortid": 2,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "dr_shtuxibus",
       "metadata": {
         "files": [
           "src/main/java/shtundex/entity/DrShtuxibusEntity.java",
           "src/main/java/shtundex/client/renderer/DrShtuxibusRenderer.java"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "ShtuxianCurse",
@@ -26,7 +27,8 @@
           "src/main/java/shtundex/item/ShtuxianCurseItem.java",
           "src/main/resources/assets/shtundex/models/item/shtuxian_curse.json"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "DrShtuxibusUsloviieGienieratsiiSushchnosti",
@@ -61,7 +63,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "DrShtuxibusPriStolknovieniiIghrokaSSushchnostiu",
@@ -92,7 +95,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "DrShtuxibusPriRanieniiSushchnosti",
@@ -127,7 +131,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "DrShtuxibusPriObnovlieniiTikaSushchnosti",
@@ -158,7 +163,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "DrShtuxibusPriNachalnomPrizyvieSushchnosti",
@@ -189,7 +195,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "ShtuxianDamage",
@@ -202,7 +209,8 @@
         "files": [
           "src/main/resources/data/shtundex/damage_type/shtuxian_damage.json"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "Flight",
@@ -215,7 +223,8 @@
         "files": [
           "src/main/java/shtundex/potion/FlightMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "FlightPriIstiechieniiEffiekta",
@@ -234,7 +243,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "CATHightTechSuitKazhdyiTikDliaNaghrudnika",
@@ -253,7 +263,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "CATHightTechSuitKazhdyiTikDliaPonozhiei",
@@ -272,7 +283,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "CATHightTechSuitKazhdyiTikDliaShliema",
@@ -291,7 +303,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "CATHightTechSuitKazhdyiTikDliaBotinok",
@@ -310,7 +323,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "CATHightTechSuit",
@@ -327,7 +341,8 @@
           "src/main/resources/assets/shtundex/models/item/cat_hight_tech_suit_boots.json",
           "src/main/resources/assets/shtundex/models/item/cat_hight_tech_suit_chestplate.json"
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "ShtuxibusSwordPriUdariePoSushchnostiInstrumientom",
@@ -346,7 +361,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "CatsteelBar",
@@ -360,7 +376,8 @@
           "src/main/resources/assets/shtundex/models/item/catsteel_bar.json",
           "src/main/java/shtundex/item/CatsteelBarItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "ShtunderPrism",
@@ -374,7 +391,8 @@
           "src/main/resources/assets/shtundex/models/item/shtunder_prism.json",
           "src/main/java/shtundex/item/ShtunderPrismItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Shtundex",
@@ -398,7 +416,8 @@
         "files": [
           "src/main/resources/data/shtundex/advancements/omniruler.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "CatCloth",
@@ -412,7 +431,8 @@
           "src/main/java/shtundex/item/CatClothItem.java",
           "src/main/resources/assets/shtundex/models/item/cat_cloth.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "CatClotArmor",
@@ -429,7 +449,8 @@
           "src/main/resources/assets/shtundex/models/item/cat_clot_armor_leggings.json",
           "src/main/resources/assets/shtundex/models/item/cat_clot_armor_boots.json"
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "CatClotArmorHelmetRecipe",
@@ -442,7 +463,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/cat_clot_armor_helmet_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatClotArmorChestplateRecipe",
@@ -455,7 +477,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/cat_clot_armor_chestplate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatClotArmorLeggingsRecipe",
@@ -468,7 +491,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/cat_clot_armor_leggings_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatClotArmorBootsRecipe",
@@ -481,7 +505,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/cat_clot_armor_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelCatsteel",
@@ -494,7 +519,8 @@
         "files": [
           "src/main/resources/data/shtundex/advancements/catsteel_catsteel.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "StaffOfPower",
@@ -509,7 +535,8 @@
           "src/main/java/shtundex/world/inventory/StaffOfPowerMenu.java",
           "src/main/java/shtundex/network/StaffOfPowerButtonMessage.java"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ShtuxianEnergy",
@@ -523,7 +550,8 @@
           "src/main/java/shtundex/item/ShtuxianEnergyItem.java",
           "src/main/resources/assets/shtundex/models/item/shtuxian_energy.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "ShtuxianColider",
@@ -537,7 +565,8 @@
           "src/main/java/shtundex/client/renderer/ShtuxianColiderRenderer.java",
           "src/main/java/shtundex/entity/ShtuxianColiderEntity.java"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "Kotium",
@@ -551,7 +580,8 @@
           "src/main/resources/assets/shtundex/models/item/kotium.json",
           "src/main/java/shtundex/item/KotiumItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "ShtuxibusEX",
@@ -565,7 +595,8 @@
           "src/main/java/shtundex/client/renderer/ShtuxibusEXRenderer.java",
           "src/main/java/shtundex/entity/ShtuxibusEXEntity.java"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "ShtuxianForest",
@@ -580,7 +611,8 @@
           "src/main/resources/data/shtundex/worldgen/biome/shtuxian_forest.json",
           "src/main/resources/data/shtundex/worldgen/configured_feature/shtuxian_forest_tree.json"
         ]
-      }
+      },
+      "path": "~/Biomes"
     },
     {
       "name": "CatsteelOre",
@@ -599,7 +631,8 @@
           "src/main/resources/data/shtundex/worldgen/placed_feature/catsteel_ore.json",
           "src/main/resources/assets/shtundex/models/block/catsteel_ore.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "ShtundexWorld",
@@ -622,7 +655,8 @@
           "src/main/java/shtundex/item/ShtundexWorldItem.java",
           "src/main/resources/assets/shtundex/models/item/shtundex_world.json"
         ]
-      }
+      },
+      "path": "~/Biomes"
     },
     {
       "name": "ShtundexAch",
@@ -635,7 +669,8 @@
         "files": [
           "src/main/resources/data/shtundex/advancements/shtundex_ach.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "Craft2",
@@ -648,7 +683,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_2.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CaatHelm",
@@ -671,7 +707,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "Caatnagrud",
@@ -694,7 +731,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "CaatHelmTrue",
@@ -717,7 +755,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "Craft3",
@@ -730,7 +769,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_3.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Cloth",
@@ -744,7 +784,8 @@
           "src/main/resources/assets/shtundex/models/item/cloth.json",
           "src/main/java/shtundex/item/ClothItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft4",
@@ -757,7 +798,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_4.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft5",
@@ -770,7 +812,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_5.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "TheStick",
@@ -784,7 +827,8 @@
           "src/main/resources/assets/shtundex/models/item/the_stick.json",
           "src/main/java/shtundex/item/TheStickItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft6",
@@ -797,7 +841,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_6.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtuxianHandle",
@@ -811,7 +856,8 @@
           "src/main/java/shtundex/item/ShtuxianHandleItem.java",
           "src/main/resources/assets/shtundex/models/item/shtuxian_handle.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "CatsteelBlade",
@@ -825,7 +871,8 @@
           "src/main/resources/assets/shtundex/models/item/catsteel_blade.json",
           "src/main/java/shtundex/item/CatsteelBladeItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft7",
@@ -838,7 +885,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_7.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft8",
@@ -851,7 +899,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_8.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtuxiteBlaster",
@@ -865,7 +914,8 @@
           "src/main/resources/assets/shtundex/models/item/shtuxite_blaster.json",
           "src/main/java/shtundex/item/ShtuxiteBlasterItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "CaatBoots",
@@ -888,7 +938,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "Craft9",
@@ -901,7 +952,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_9.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft10",
@@ -914,7 +966,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_10.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Shtux",
@@ -929,7 +982,8 @@
           "src/main/java/shtundex/client/gui/ShtuxScreen.java",
           "src/main/java/shtundex/world/inventory/ShtuxMenu.java"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "BlasterProj",
@@ -942,7 +996,8 @@
         "files": [
           "src/main/java/shtundex/entity/BlasterProjEntity.java"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "ShtQ7V3",
@@ -956,7 +1011,8 @@
           "src/main/java/shtundex/client/renderer/ShtQ7V3Renderer.java",
           "src/main/java/shtundex/entity/ShtQ7V3Entity.java"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "CursedCatsteelMechanismPriShchielchkiePKMPoBloku",
@@ -991,7 +1047,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "CursedCatsteelMechanism",
@@ -1005,7 +1062,8 @@
           "src/main/java/shtundex/item/CursedCatsteelMechanismItem.java",
           "src/main/resources/assets/shtundex/models/item/cursed_catsteel_mechanism.json"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "NetheriteGear",
@@ -1019,7 +1077,8 @@
           "src/main/resources/assets/shtundex/models/item/netherite_gear.json",
           "src/main/java/shtundex/item/NetheriteGearItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft11",
@@ -1032,7 +1091,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_11.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft12",
@@ -1045,7 +1105,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_12.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelArmor",
@@ -1062,7 +1123,8 @@
           "src/main/resources/assets/shtundex/models/item/catsteel_armor_boots.json",
           "src/main/resources/assets/shtundex/models/item/catsteel_armor_helmet.json"
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "CatsteelArmorHelmetRecipe",
@@ -1075,7 +1137,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/catsteel_armor_helmet_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelArmorChestplateRecipe",
@@ -1088,7 +1151,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/catsteel_armor_chestplate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelArmorLeggingsRecipe",
@@ -1101,7 +1165,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/catsteel_armor_leggings_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelArmorBootsRecipe",
@@ -1114,7 +1179,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/catsteel_armor_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelPlate",
@@ -1128,7 +1194,8 @@
           "src/main/resources/assets/shtundex/models/item/catsteel_plate.json",
           "src/main/java/shtundex/item/CatsteelPlateItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft13",
@@ -1141,7 +1208,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_13.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft14",
@@ -1154,7 +1222,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_14.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "AnyCatsteel",
@@ -1167,7 +1236,8 @@
         "files": [
           "src/main/resources/data/minecraft/tags/items/any_catsteel.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft15",
@@ -1180,7 +1250,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_15.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft16",
@@ -1193,7 +1264,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_16.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtuxianBlood",
@@ -1204,7 +1276,8 @@
       "registry_name": "shtuxian_blood",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "ShtuxSword",
@@ -1218,7 +1291,8 @@
           "src/main/resources/assets/shtundex/models/item/shtux_sword.json",
           "src/main/java/shtundex/item/ShtuxSwordItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "ShtuxSwordPriVzmakhieSushchnostiPriedmietom",
@@ -1237,7 +1311,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "Blasterswing",
@@ -1256,7 +1331,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "NetherStarStaffPriVzmakhieSushchnostiPriedmietom",
@@ -1275,7 +1351,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "TestEmpty",
@@ -1289,7 +1366,8 @@
           "src/main/java/shtundex/item/TestEmptyItem.java",
           "src/main/resources/assets/shtundex/models/item/test_empty.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "NetherStarStaff",
@@ -1303,7 +1381,8 @@
           "src/main/resources/assets/shtundex/models/item/nether_star_staff.json",
           "src/main/java/shtundex/item/NetherStarStaffItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "DrShtuxibusCheck",
@@ -1338,7 +1417,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "DrShtuxibusHealVamp",
@@ -1357,11 +1437,24 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "ShtuxSwordPriUdariePoSushchnostiPriedmietom",
@@ -1380,7 +1473,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "ShtuxSwordPriShchielchkiePKM",
@@ -1399,7 +1493,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "ShtuxianMachinery",
@@ -1412,7 +1507,8 @@
         "files": [
           "src/main/resources/data/shtundex/advancements/shtuxian_machinery.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "Craft17",
@@ -1425,7 +1521,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_17.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatSteelDrillPriRazrushieniiBlokaInstrumientom",
@@ -1439,7 +1536,8 @@
           "src/main/java/shtundex/procedures/CatSteelDrillPriRazrushieniiBlokaInstrumientomProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "CatSteelDrill",
@@ -1453,7 +1551,8 @@
           "src/main/java/shtundex/item/CatSteelDrillItem.java",
           "src/main/resources/assets/shtundex/models/item/cat_steel_drill.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "ShtuxStaffOfPower",
@@ -1467,7 +1566,8 @@
           "src/main/java/shtundex/item/ShtuxStaffOfPowerItem.java",
           "src/main/resources/assets/shtundex/models/item/shtux_staff_of_power.json"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ShtuxianOutlands",
@@ -1480,7 +1580,8 @@
         "files": [
           "src/main/resources/data/shtundex/worldgen/biome/shtuxian_outlands.json"
         ]
-      }
+      },
+      "path": "~/Biomes"
     },
     {
       "name": "ShtuxianColiderKoghdaSnariadPopadaietVSushchnost",
@@ -1503,7 +1604,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "ShtukGUI",
@@ -1516,7 +1618,8 @@
         "files": [
           "src/main/java/shtundex/client/screens/ShtukGUIOverlay.java"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "ShtuxianEnergyGui",
@@ -1536,7 +1639,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Energy2",
@@ -1556,7 +1660,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Energy3",
@@ -1576,7 +1681,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Energy4",
@@ -1596,7 +1702,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Energy5",
@@ -1616,7 +1723,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Energy6",
@@ -1636,7 +1744,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Energy7",
@@ -1656,7 +1765,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "ShtukCyberneticParts",
@@ -1670,7 +1780,8 @@
           "src/main/java/shtundex/item/ShtukCyberneticPartsItem.java",
           "src/main/resources/assets/shtundex/models/item/shtuk_cybernetic_parts.json"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "IRejectMyHumanity",
@@ -1683,7 +1794,8 @@
         "files": [
           "src/main/resources/data/shtundex/advancements/i_reject_my_humanity.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "BecomingAShtuk",
@@ -1706,7 +1818,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "ShtukCheck",
@@ -1726,7 +1839,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "HumanCells",
@@ -1740,7 +1854,8 @@
           "src/main/resources/assets/shtundex/models/item/human_cells.json",
           "src/main/java/shtundex/item/HumanCellsItem.java"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Craft18",
@@ -1753,7 +1868,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_18.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtuxSwordKazhdyiTikVRukie",
@@ -1772,7 +1888,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "EmptySyrgine",
@@ -1786,7 +1903,8 @@
           "src/main/resources/assets/shtundex/models/item/empty_syrgine.json",
           "src/main/java/shtundex/item/EmptySyrgineItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Deal1",
@@ -1797,7 +1915,8 @@
       "registry_name": "deal_1",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "HotkeyAbility1",
@@ -1810,7 +1929,8 @@
         "files": [
           "src/main/java/shtundex/network/HotkeyAbility1Message.java"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "HotkeyAbility2PriNazhatiiKlavishi",
@@ -1845,7 +1965,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "HotkeyAbility2",
@@ -1858,7 +1979,8 @@
         "files": [
           "src/main/java/shtundex/network/HotkeyAbility2Message.java"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Cooldown",
@@ -1871,7 +1993,8 @@
         "files": [
           "src/main/java/shtundex/potion/CooldownMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "TreasureBag1",
@@ -1885,7 +2008,8 @@
           "src/main/java/shtundex/item/TreasureBag1Item.java",
           "src/main/resources/assets/shtundex/models/item/treasure_bag_1.json"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "TreasureBag1PriShchielchkiePKM",
@@ -1904,7 +2028,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "TreasureBag2",
@@ -1918,7 +2043,8 @@
           "src/main/java/shtundex/item/TreasureBag2Item.java",
           "src/main/resources/assets/shtundex/models/item/treasure_bag_2.json"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "TreasureBag2PriShchielchkiePKM",
@@ -1937,7 +2063,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "ShtQ7V3PriGibieliSushchnosti",
@@ -1952,11 +2079,24 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "Recharger",
@@ -1970,7 +2110,8 @@
           "src/main/resources/assets/shtundex/models/item/recharger.json",
           "src/main/java/shtundex/item/RechargerItem.java"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "RechargerPriShchielchkiePKM",
@@ -1989,7 +2130,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Craft19",
@@ -2002,7 +2144,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_19.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft20",
@@ -2015,7 +2158,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_20.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "HotkeyAbility1true",
@@ -2050,7 +2194,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "ZaWarduo",
@@ -2063,7 +2208,8 @@
         "files": [
           "src/main/java/shtundex/network/ZaWarduoMessage.java"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "TimeStopPriNalozhieniiEffiekta",
@@ -2094,7 +2240,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "TimeStopPriIstiechieniiEffiekta",
@@ -2125,7 +2272,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "TimeStop",
@@ -2138,7 +2286,8 @@
         "files": [
           "src/main/java/shtundex/potion/TimeStopMobEffect.java"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Timestopproc",
@@ -2161,7 +2310,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Dash",
@@ -2184,7 +2334,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "DashKey",
@@ -2197,7 +2348,8 @@
         "files": [
           "src/main/java/shtundex/network/DashKeyMessage.java"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Normdassh",
@@ -2220,7 +2372,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Abilities"
     },
     {
       "name": "NormDash",
@@ -2233,21 +2386,8 @@
         "files": [
           "src/main/java/shtundex/network/NormDashMessage.java"
         ]
-      }
-    },
-    {
-      "name": "DoubleJumpKeyPriNazhatiiKlavishi",
-      "type": "procedure",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "double_jump_key_pri_nazhatii_klavishi",
-      "metadata": {
-        "files": [
-          "src/main/java/shtundex/procedures/DoubleJumpKeyPriNazhatiiKlavishiProcedure.java"
-        ],
-        "dependencies": []
-      }
+      },
+      "path": "~/Abilities"
     },
     {
       "name": "DoubleJumpKey",
@@ -2260,7 +2400,8 @@
         "files": [
           "src/main/java/shtundex/network/DoubleJumpKeyMessage.java"
         ]
-      }
+      },
+      "path": "~/Abilities"
     },
     {
       "name": "ShtuxibusEXPriObnovlieniiTikaSushchnosti",
@@ -2279,7 +2420,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "AbilityHotkey3PriNazhatiiKlavishi",
@@ -2314,7 +2456,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "AbilityHotkey3",
@@ -2327,7 +2470,8 @@
         "files": [
           "src/main/java/shtundex/network/AbilityHotkey3Message.java"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "HotkryAbility4",
@@ -2340,7 +2484,8 @@
         "files": [
           "src/main/java/shtundex/network/HotkryAbility4Message.java"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "ShtuxRegen",
@@ -2375,7 +2520,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "AdvancedShtukParts",
@@ -2389,7 +2535,8 @@
           "src/main/java/shtundex/item/AdvancedShtukPartsItem.java",
           "src/main/resources/assets/shtundex/models/item/advanced_shtuk_parts.json"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Level2Shtuk",
@@ -2402,7 +2549,8 @@
         "files": [
           "src/main/resources/data/shtundex/advancements/level_2_shtuk.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "Oopposite",
@@ -2437,7 +2585,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "ShtukCheckAll",
@@ -2472,7 +2621,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "BecomingaShtuk2",
@@ -2495,7 +2645,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "AdvShtukCheckall",
@@ -2530,7 +2681,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Craft21",
@@ -2543,7 +2695,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_21.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft22",
@@ -2556,7 +2709,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_22.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtuxibusProjectileKoghdaSnariadPopadaietVBlok",
@@ -2587,7 +2741,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "ShtuxibusProjectileKoghdaSnariadPopadaietVSushchnost",
@@ -2622,7 +2777,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "ShtuxibusProjectileKoghdaSnariadPopadaietVIghroka",
@@ -2657,7 +2813,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "ShtuxibusProjectile",
@@ -2670,7 +2827,8 @@
         "files": [
           "src/main/java/shtundex/entity/ShtuxibusProjectileEntity.java"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "ChtuxLagOrBlessingKazhdyiTikVInvientarie",
@@ -2689,7 +2847,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "CatsteelDrillHead",
@@ -2703,7 +2862,8 @@
           "src/main/java/shtundex/item/CatsteelDrillHeadItem.java",
           "src/main/resources/assets/shtundex/models/item/catsteel_drill_head.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "CatsteelDrillHandle",
@@ -2717,7 +2877,8 @@
           "src/main/java/shtundex/item/CatsteelDrillHandleItem.java",
           "src/main/resources/assets/shtundex/models/item/catsteel_drill_handle.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft24",
@@ -2730,7 +2891,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_24.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft25",
@@ -2743,7 +2905,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_25.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft26",
@@ -2756,7 +2919,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_26.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ChtuxlagorBlasterPriShchielchkiePKM",
@@ -2775,7 +2939,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ChtuxlagorBlaster",
@@ -2789,7 +2954,8 @@
           "src/main/resources/assets/shtundex/models/item/chtuxlagor_blaster.json",
           "src/main/java/shtundex/item/ChtuxlagorBlasterItem.java"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ShtPrigaite",
@@ -2803,7 +2969,8 @@
           "src/main/java/shtundex/entity/ShtPrigaiteEntity.java",
           "src/main/java/shtundex/client/renderer/ShtPrigaiteRenderer.java"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "BlackHolePriStolknovieniiIghrokaSSushchnostiu",
@@ -2834,7 +3001,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "BlackHolePriObnovlieniiTikaSushchnosti",
@@ -2869,7 +3037,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "BlackHole",
@@ -2883,7 +3052,8 @@
           "src/main/java/shtundex/client/renderer/BlackHoleRenderer.java",
           "src/main/java/shtundex/entity/BlackHoleEntity.java"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "ChtuxlagorBlasterPriUdariePoSushchnostiPriedmietom",
@@ -2902,7 +3072,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ShtuxStaffOfPowerPriShchielchkiePKM",
@@ -2937,7 +3108,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Gm1butin",
@@ -2968,7 +3140,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "InvincibilityPriNalozhieniiEffiekta",
@@ -2987,7 +3160,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "InvincibilityPriIstiechieniiEffiekta",
@@ -3006,7 +3180,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "Invincibility",
@@ -3019,7 +3194,8 @@
         "files": [
           "src/main/java/shtundex/potion/InvincibilityMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "Gm0butin",
@@ -3050,7 +3226,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Godmode",
@@ -3069,7 +3246,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Flybuttin",
@@ -3088,7 +3266,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "FlightPriNalozhieniiEffiekta",
@@ -3107,7 +3286,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "ChtuxlagorShard",
@@ -3121,7 +3301,8 @@
           "src/main/resources/assets/shtundex/models/item/chtuxlagor_shard.json",
           "src/main/java/shtundex/item/ChtuxlagorShardItem.java"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Craft27",
@@ -3134,7 +3315,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_27.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "LoreCatsteel",
@@ -3173,7 +3355,8 @@
           "src/main/resources/assets/shtundex/models/item/lore_shtuxibus.json",
           "src/main/java/shtundex/item/LoreShtuxibusItem.java"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "LoreChtuxlagor",
@@ -3187,7 +3370,8 @@
           "src/main/resources/assets/shtundex/models/item/lore_chtuxlagor.json",
           "src/main/java/shtundex/item/LoreChtuxlagorItem.java"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "LoreShtundexWorld",
@@ -3220,7 +3404,8 @@
           "src/main/resources/data/shtundex/worldgen/configured_feature/shtundex_stone.json",
           "src/main/resources/assets/shtundex/models/block/shtundex_stone.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Alphalt",
@@ -3236,7 +3421,8 @@
           "src/main/resources/assets/shtundex/blockstates/alphalt.json",
           "src/main/resources/assets/shtundex/models/item/alphalt.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Craft28",
@@ -3249,7 +3435,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_28.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "MoltenCatsteel",
@@ -3268,7 +3455,8 @@
           "src/main/resources/assets/shtundex/models/block/molten_catsteel.json",
           "src/main/resources/assets/shtundex/models/item/molten_catsteel_bucket.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "ShtunStonePickaxe",
@@ -3282,7 +3470,8 @@
           "src/main/java/shtundex/item/ShtunStonePickaxeItem.java",
           "src/main/resources/assets/shtundex/models/item/shtun_stone_pickaxe.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "ShtunStoneAxe",
@@ -3296,7 +3485,8 @@
           "src/main/java/shtundex/item/ShtunStoneAxeItem.java",
           "src/main/resources/assets/shtundex/models/item/shtun_stone_axe.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "ShtunStoneSword",
@@ -3310,7 +3500,8 @@
           "src/main/resources/assets/shtundex/models/item/shtun_stone_sword.json",
           "src/main/java/shtundex/item/ShtunStoneSwordItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "ShtunStoneShovel",
@@ -3324,7 +3515,8 @@
           "src/main/resources/assets/shtundex/models/item/shtun_stone_shovel.json",
           "src/main/java/shtundex/item/ShtunStoneShovelItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "ShtunStoneHoe",
@@ -3338,7 +3530,8 @@
           "src/main/resources/assets/shtundex/models/item/shtun_stone_hoe.json",
           "src/main/java/shtundex/item/ShtunStoneHoeItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "ShtunStonePickaxeRecipe",
@@ -3351,7 +3544,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/shtun_stone_pickaxe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtunStoneAxeRecipe",
@@ -3364,7 +3558,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/shtun_stone_axe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtunStoneSwordRecipe",
@@ -3377,7 +3572,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/shtun_stone_sword_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtunStoneShovelRecipe",
@@ -3390,7 +3586,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/shtun_stone_shovel_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtunStoneHoeRecipe",
@@ -3403,7 +3600,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/shtun_stone_hoe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelPickaxe",
@@ -3417,7 +3615,8 @@
           "src/main/java/shtundex/item/CatsteelPickaxeItem.java",
           "src/main/resources/assets/shtundex/models/item/catsteel_pickaxe.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "CatsteelAxe",
@@ -3431,7 +3630,8 @@
           "src/main/java/shtundex/item/CatsteelAxeItem.java",
           "src/main/resources/assets/shtundex/models/item/catsteel_axe.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "CatsteelSword",
@@ -3445,7 +3645,8 @@
           "src/main/java/shtundex/item/CatsteelSwordItem.java",
           "src/main/resources/assets/shtundex/models/item/catsteel_sword.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "CatsteelShovel",
@@ -3459,7 +3660,8 @@
           "src/main/resources/assets/shtundex/models/item/catsteel_shovel.json",
           "src/main/java/shtundex/item/CatsteelShovelItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "CatsteelPickaxeRecipe",
@@ -3472,7 +3674,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/catsteel_pickaxe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelAxeRecipe",
@@ -3485,7 +3688,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/catsteel_axe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelSwordRecipe",
@@ -3498,7 +3702,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/catsteel_sword_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelShovelRecipe",
@@ -3511,7 +3716,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/catsteel_shovel_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtuxiteSoul",
@@ -3525,7 +3731,8 @@
           "src/main/resources/assets/shtundex/models/item/shtuxite_soul.json",
           "src/main/java/shtundex/item/ShtuxiteSoulItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "CatSteelDrillPriPoluchieniiPriedmietaPoRietsieptu",
@@ -3544,7 +3751,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "CatsteelPickaxePriPoluchieniiPriedmietaPoRietsieptu",
@@ -3563,7 +3771,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "LoreShtq7v3",
@@ -3591,7 +3800,8 @@
           "src/main/java/shtundex/item/ChtuxlagorPieceItem.java",
           "src/main/resources/assets/shtundex/models/item/chtuxlagor_piece.json"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Craft29",
@@ -3604,7 +3814,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_29.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ChtuxlagorBlasterPriShchielchkiePK",
@@ -3623,7 +3834,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "CatsteelBlock",
@@ -3639,7 +3851,8 @@
           "src/main/java/shtundex/block/CatsteelBlockBlock.java",
           "src/main/resources/assets/shtundex/models/block/catsteel_block.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Craft31",
@@ -3652,7 +3865,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_31.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft32",
@@ -3665,7 +3879,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_32.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft33",
@@ -3678,7 +3893,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_33.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft34",
@@ -3691,7 +3907,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_34.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Achivements",
@@ -3704,7 +3921,8 @@
         "files": [
           "src/main/resources/data/shtundex/loot_tables/entities/achivements.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "Ach2",
@@ -3717,7 +3935,8 @@
         "files": [
           "src/main/resources/data/shtundex/loot_tables/ach_2.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "BerryPie",
@@ -3745,7 +3964,8 @@
           "src/main/java/shtundex/item/FlourItem.java",
           "src/main/resources/assets/shtundex/models/item/flour.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft35",
@@ -3758,7 +3978,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_35.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft36",
@@ -3771,7 +3992,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_36.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelApple",
@@ -3817,7 +4039,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_37.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelCoin",
@@ -3831,7 +4054,8 @@
           "src/main/resources/assets/shtundex/models/item/catsteel_coin.json",
           "src/main/java/shtundex/item/CatsteelCoinItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "AncientCity",
@@ -3846,7 +4070,8 @@
           "src/main/resources/data/shtundex/worldgen/template_pool/ancient_city.json",
           "src/main/resources/data/shtundex/worldgen/structure_set/ancient_city.json"
         ]
-      }
+      },
+      "path": "~/Biomes"
     },
     {
       "name": "ChtuxlagorMemorial",
@@ -3861,7 +4086,8 @@
           "src/main/resources/data/shtundex/worldgen/structure/chtuxlagor_memorial.json",
           "src/main/resources/data/shtundex/worldgen/template_pool/chtuxlagor_memorial.json"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Crate",
@@ -3877,7 +4103,8 @@
           "src/main/resources/assets/shtundex/models/item/crate.json",
           "src/main/resources/assets/shtundex/models/block/crate.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Crateloot",
@@ -3890,7 +4117,8 @@
         "files": [
           "src/main/resources/data/shtundex/loot_tables/blocks/crate.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "ShtuxibusEXPriShchielchkiePKMPoSushchnosti",
@@ -3925,7 +4153,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "CoinPressScheme",
@@ -3939,7 +4168,8 @@
           "src/main/java/shtundex/item/CoinPressSchemeItem.java",
           "src/main/resources/assets/shtundex/models/item/coin_press_scheme.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "CatsteelNugget",
@@ -3953,7 +4183,8 @@
           "src/main/java/shtundex/item/CatsteelNuggetItem.java",
           "src/main/resources/assets/shtundex/models/item/catsteel_nugget.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft38",
@@ -3966,7 +4197,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_38.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft39",
@@ -3979,7 +4211,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_39.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtuxCraft1",
@@ -3998,7 +4231,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "Swordland",
@@ -4025,7 +4259,8 @@
         "files": [
           "src/main/resources/data/curios/tags/items/blessing.json"
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "ChtuxlagorBlessingCurios",
@@ -4039,7 +4274,8 @@
           "src/main/java/shtundex/item/ChtuxlagorBlessingCuriosItem.java",
           "src/main/resources/assets/shtundex/models/item/chtuxlagor_blessing_curios.json"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ShtundexWorldBlessingWhileBaubleIsEquippedTick",
@@ -4058,7 +4294,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "ShtundexWorldBlessingBaubleIsEquipped",
@@ -4077,7 +4314,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "ShtundexWorldBlessing",
@@ -4091,7 +4329,8 @@
           "src/main/resources/assets/shtundex/models/item/shtundex_world_blessing.json",
           "src/main/java/shtundex/item/ShtundexWorldBlessingItem.java"
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "Craft23",
@@ -4104,7 +4343,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_23.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "PlatePress",
@@ -4118,7 +4358,8 @@
           "src/main/java/shtundex/item/PlatePressItem.java",
           "src/main/resources/assets/shtundex/models/item/plate_press.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft40",
@@ -4131,7 +4372,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_40.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft41",
@@ -4144,7 +4386,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_41.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Press",
@@ -4161,7 +4404,8 @@
           "src/main/resources/assets/shtundex/blockstates/press.json",
           "src/main/java/shtundex/block/entity/PressBlockEntity.java"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "Pressproc",
@@ -4180,7 +4424,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "PressGUI",
@@ -4195,7 +4440,8 @@
           "src/main/java/shtundex/client/gui/PressGUIScreen.java",
           "src/main/java/shtundex/world/inventory/PressGUIMenu.java"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "CatsteelWorkbench",
@@ -4210,7 +4456,8 @@
           "src/main/java/shtundex/network/CatsteelWorkbenchButtonMessage.java",
           "src/main/java/shtundex/world/inventory/CatsteelWorkbenchMenu.java"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "CatsteelWorkbenchBlock",
@@ -4227,7 +4474,8 @@
           "src/main/resources/assets/shtundex/models/item/catsteel_workbench_block.json",
           "src/main/resources/assets/shtundex/blockstates/catsteel_workbench_block.json"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "Catworkbench",
@@ -4246,7 +4494,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "Craft42",
@@ -4259,7 +4508,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_42.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft43",
@@ -4272,7 +4522,8 @@
         "files": [
           "src/main/resources/data/minecraft/recipes/craft_43.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft44",
@@ -4285,7 +4536,8 @@
         "files": [
           "src/main/resources/data/minecraft/recipes/craft_44.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft45",
@@ -4298,7 +4550,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_45.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "TinIngot",
@@ -4312,7 +4565,8 @@
           "src/main/java/shtundex/item/TinIngotItem.java",
           "src/main/resources/assets/shtundex/models/item/tin_ingot.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "TinOre",
@@ -4331,7 +4585,8 @@
           "src/main/resources/assets/shtundex/models/block/tin_ore.json",
           "src/main/resources/assets/shtundex/models/item/tin_ore.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "TinBlock",
@@ -4347,7 +4602,8 @@
           "src/main/resources/assets/shtundex/blockstates/tin_block.json",
           "src/main/resources/assets/shtundex/models/block/tin_block.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "TinOreBlockRecipe",
@@ -4360,7 +4616,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/tin_ore_block_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "TinBlockOreRecipe",
@@ -4373,7 +4630,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/tin_block_ore_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "TinOreSmelting",
@@ -4386,7 +4644,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/tin_ore_smelting.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "TinDust",
@@ -4400,7 +4659,8 @@
           "src/main/java/shtundex/item/TinDustItem.java",
           "src/main/resources/assets/shtundex/models/item/tin_dust.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "CopperDust",
@@ -4414,7 +4674,8 @@
           "src/main/java/shtundex/item/CopperDustItem.java",
           "src/main/resources/assets/shtundex/models/item/copper_dust.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "BronzeDust",
@@ -4428,7 +4689,8 @@
           "src/main/resources/assets/shtundex/models/item/bronze_dust.json",
           "src/main/java/shtundex/item/BronzeDustItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft46",
@@ -4441,7 +4703,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_46.json"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "Macerator",
@@ -4458,7 +4721,8 @@
           "src/main/resources/assets/shtundex/blockstates/macerator.json",
           "src/main/java/shtundex/block/MaceratorBlock.java"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "DeepslateTinOre",
@@ -4477,7 +4741,8 @@
           "src/main/java/shtundex/block/DeepslateTinOreBlock.java",
           "src/main/resources/data/shtundex/worldgen/placed_feature/deepslate_tin_ore.json"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "Craft47",
@@ -4490,7 +4755,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_47.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft48",
@@ -4503,7 +4769,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_48.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft49",
@@ -4516,7 +4783,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_49.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "BronzeIngot",
@@ -4530,7 +4798,8 @@
           "src/main/java/shtundex/item/BronzeIngotItem.java",
           "src/main/resources/assets/shtundex/models/item/bronze_ingot.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft1",
@@ -4543,7 +4812,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_1.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft50",
@@ -4556,7 +4826,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_50.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelDust",
@@ -4570,7 +4841,8 @@
           "src/main/java/shtundex/item/CatsteelDustItem.java",
           "src/main/resources/assets/shtundex/models/item/catsteel_dust.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft51",
@@ -4583,7 +4855,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_51.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "MacerProc",
@@ -4602,7 +4875,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "GrindingBall",
@@ -4616,7 +4890,8 @@
           "src/main/java/shtundex/item/GrindingBallItem.java",
           "src/main/resources/assets/shtundex/models/item/grinding_ball.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft52",
@@ -4629,7 +4904,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_52.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft53",
@@ -4642,7 +4918,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_53.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft54",
@@ -4655,7 +4932,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_54.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft55",
@@ -4668,7 +4946,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_55.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft56",
@@ -4681,7 +4960,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_56.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "RawTin",
@@ -4695,7 +4975,8 @@
           "src/main/java/shtundex/item/RawTinItem.java",
           "src/main/resources/assets/shtundex/models/item/raw_tin.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft57",
@@ -4708,7 +4989,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_57.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft58",
@@ -4721,7 +5003,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_58.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Wrench",
@@ -4735,7 +5018,8 @@
           "src/main/java/shtundex/item/WrenchItem.java",
           "src/main/resources/assets/shtundex/models/item/wrench.json"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "Catsteelgengui",
@@ -4749,7 +5033,8 @@
           "src/main/java/shtundex/world/inventory/CatsteelgenguiMenu.java",
           "src/main/java/shtundex/client/gui/CatsteelgenguiScreen.java"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "CatsteelGrenerator",
@@ -4766,7 +5051,8 @@
           "src/main/resources/assets/shtundex/models/item/catsteel_grenerator.json",
           "src/main/java/shtundex/block/CatsteelGreneratorBlock.java"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "EnergyChech1",
@@ -4798,7 +5084,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "CatPosion",
@@ -4811,7 +5098,8 @@
         "files": [
           "src/main/resources/data/shtundex/damage_type/cat_posion.json"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "CatsteelPosionKazhdyiTikVoVriemiaEffiekta",
@@ -4834,7 +5122,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "CatsteelPosion",
@@ -4847,7 +5136,8 @@
         "files": [
           "src/main/java/shtundex/potion/CatsteelPosionMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "CatsteelPill",
@@ -4861,7 +5151,8 @@
           "src/main/resources/assets/shtundex/models/item/catsteel_pill.json",
           "src/main/java/shtundex/item/CatsteelPillItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "CatsteelgenguiKazhdyiTikPokaIntierfieisOtkryt",
@@ -4896,7 +5187,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "DepelletedCatsteel",
@@ -4910,7 +5202,8 @@
           "src/main/resources/assets/shtundex/models/item/depelleted_catsteel.json",
           "src/main/java/shtundex/item/DepelletedCatsteelItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "CatsteelPillKazhdyiTikVRukie",
@@ -4929,7 +5222,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "IronDust",
@@ -4943,7 +5237,8 @@
           "src/main/resources/assets/shtundex/models/item/iron_dust.json",
           "src/main/java/shtundex/item/IronDustItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "GoldDust",
@@ -4957,7 +5252,8 @@
           "src/main/resources/assets/shtundex/models/item/gold_dust.json",
           "src/main/java/shtundex/item/GoldDustItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft59",
@@ -4970,7 +5266,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_59.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft60",
@@ -4983,7 +5280,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_60.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft61",
@@ -4996,7 +5294,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_61.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft62",
@@ -5009,7 +5308,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_62.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "UraniumIngot",
@@ -5023,7 +5323,8 @@
           "src/main/java/shtundex/item/UraniumIngotItem.java",
           "src/main/resources/assets/shtundex/models/item/uranium_ingot.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "UraniumOre",
@@ -5042,7 +5343,8 @@
           "src/main/resources/data/shtundex/forge/biome_modifier/uranium_ore_biome_modifier.json",
           "src/main/resources/assets/shtundex/models/block/uranium_ore.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "UraniumBlock",
@@ -5058,7 +5360,8 @@
           "src/main/java/shtundex/block/UraniumBlockBlock.java",
           "src/main/resources/assets/shtundex/models/item/uranium_block.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "UraniumOreBlockRecipe",
@@ -5071,7 +5374,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/uranium_ore_block_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "UraniumBlockOreRecipe",
@@ -5084,7 +5388,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/uranium_block_ore_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "UraniumOreSmelting",
@@ -5097,7 +5402,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/uranium_ore_smelting.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "DeepslateUraniumOre",
@@ -5116,7 +5422,8 @@
           "src/main/resources/assets/shtundex/models/block/deepslate_uranium_ore.json",
           "src/main/resources/data/shtundex/forge/biome_modifier/deepslate_uranium_ore_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Craft63",
@@ -5129,7 +5436,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_63.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft64",
@@ -5142,7 +5450,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_64.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft65",
@@ -5155,7 +5464,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_65.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft66",
@@ -5168,7 +5478,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_66.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "UraniumDust",
@@ -5182,7 +5493,8 @@
           "src/main/resources/assets/shtundex/models/item/uranium_dust.json",
           "src/main/java/shtundex/item/UraniumDustItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "RawUranium",
@@ -5196,7 +5508,8 @@
           "src/main/resources/assets/shtundex/models/item/raw_uranium.json",
           "src/main/java/shtundex/item/RawUraniumItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft67",
@@ -5209,7 +5522,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_67.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft68",
@@ -5222,7 +5536,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_68.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Macergui",
@@ -5237,7 +5552,8 @@
           "src/main/java/shtundex/client/gui/MacerguiScreen.java",
           "src/main/java/shtundex/world/inventory/MacerguiMenu.java"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "Craft69",
@@ -5250,7 +5566,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_69.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft70",
@@ -5263,7 +5580,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_70.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "LeadIngot",
@@ -5277,7 +5595,8 @@
           "src/main/java/shtundex/item/LeadIngotItem.java",
           "src/main/resources/assets/shtundex/models/item/lead_ingot.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "LeadOre",
@@ -5296,7 +5615,8 @@
           "src/main/java/shtundex/block/LeadOreBlock.java",
           "src/main/resources/assets/shtundex/blockstates/lead_ore.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "LeadBlock",
@@ -5312,7 +5632,8 @@
           "src/main/java/shtundex/block/LeadBlockBlock.java",
           "src/main/resources/assets/shtundex/models/block/lead_block.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "LeadOreBlockRecipe",
@@ -5325,7 +5646,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/lead_ore_block_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "LeadBlockOreRecipe",
@@ -5338,7 +5660,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/lead_block_ore_recipe.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "LeadOreSmelting",
@@ -5351,7 +5674,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/lead_ore_smelting.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "RawLead",
@@ -5365,7 +5689,8 @@
           "src/main/resources/assets/shtundex/models/item/raw_lead.json",
           "src/main/java/shtundex/item/RawLeadItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "DeepslateLeadOre",
@@ -5384,7 +5709,8 @@
           "src/main/java/shtundex/block/DeepslateLeadOreBlock.java",
           "src/main/resources/data/shtundex/worldgen/placed_feature/deepslate_lead_ore.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Craft71",
@@ -5397,7 +5723,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_71.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft72",
@@ -5410,7 +5737,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_72.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft73",
@@ -5423,7 +5751,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_73.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft74",
@@ -5436,7 +5765,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_74.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft75",
@@ -5449,7 +5779,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_75.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "LeadDust",
@@ -5463,7 +5794,8 @@
           "src/main/java/shtundex/item/LeadDustItem.java",
           "src/main/resources/assets/shtundex/models/item/lead_dust.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft76",
@@ -5476,7 +5808,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_76.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "AntiradCloth",
@@ -5490,7 +5823,8 @@
           "src/main/resources/assets/shtundex/models/item/antirad_cloth.json",
           "src/main/java/shtundex/item/AntiradClothItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Hazmat",
@@ -5507,7 +5841,8 @@
           "src/main/resources/assets/shtundex/models/item/hazmat_boots.json",
           "src/main/java/shtundex/item/HazmatItem.java"
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "Craft77",
@@ -5520,7 +5855,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_77.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "LeadPlate",
@@ -5534,7 +5870,8 @@
           "src/main/resources/assets/shtundex/models/item/lead_plate.json",
           "src/main/java/shtundex/item/LeadPlateItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft78",
@@ -5547,7 +5884,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_78.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft79",
@@ -5560,7 +5898,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_79.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft80",
@@ -5573,7 +5912,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_80.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft81",
@@ -5586,7 +5926,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_81.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Antirad",
@@ -5599,7 +5940,8 @@
         "files": [
           "src/main/java/shtundex/potion/AntiradMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "HazmatKazhdyiTikDliaNaghrudnika",
@@ -5618,7 +5960,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "Radioactivee",
@@ -5631,7 +5974,8 @@
         "files": [
           "src/main/resources/data/forge/tags/items/radioactivee.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Radiation",
@@ -5644,7 +5988,8 @@
         "files": [
           "src/main/java/shtundex/potion/RadiationMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "Irradiated",
@@ -5657,7 +6002,8 @@
         "files": [
           "src/main/resources/data/shtundex/damage_type/irradiated.json"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "RadiationKazhdyiTikVoVriemiaEffiekta",
@@ -5750,7 +6096,8 @@
           "src/main/resources/assets/shtundex/models/item/circuit.json",
           "src/main/java/shtundex/item/CircuitItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "UnfinishedCatsteelCircuit",
@@ -5764,7 +6111,8 @@
           "src/main/resources/assets/shtundex/models/item/unfinished_catsteel_circuit.json",
           "src/main/java/shtundex/item/UnfinishedCatsteelCircuitItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft82",
@@ -5777,7 +6125,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_82.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CircuitPrsss",
@@ -5791,7 +6140,8 @@
           "src/main/java/shtundex/item/CircuitPrsssItem.java",
           "src/main/resources/assets/shtundex/models/item/circuit_prsss.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "DrShtuxibusRematch",
@@ -5805,7 +6155,8 @@
           "src/main/java/shtundex/client/renderer/DrShtuxibusRematchRenderer.java",
           "src/main/java/shtundex/entity/DrShtuxibusRematchEntity.java"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "DrShtuxibusRematchPriNachalnomPrizyvieSushchnosti",
@@ -5836,7 +6187,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "Rematch",
@@ -5871,21 +6223,23 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "DrShtuxibus2",
       "type": "livingentity",
       "sortid": 376,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "dr_shtuxibus_2",
       "metadata": {
         "files": [
           "src/main/java/shtundex/client/renderer/DrShtuxibus2Renderer.java",
           "src/main/java/shtundex/entity/DrShtuxibus2Entity.java"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "DrShtuxibus2PriNachalnomPrizyvieSushchnosti",
@@ -5916,7 +6270,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "DrShtuxibu2phase",
@@ -5947,7 +6302,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "TestBanana",
@@ -5961,7 +6317,8 @@
           "src/main/java/shtundex/client/renderer/TestBananaRenderer.java",
           "src/main/java/shtundex/entity/TestBananaEntity.java"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "CatsteelStimulantsPriShchielchkiePKM",
@@ -5984,7 +6341,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "CatsteelStimulants",
@@ -5998,7 +6356,8 @@
           "src/main/resources/assets/shtundex/models/item/catsteel_stimulants.json",
           "src/main/java/shtundex/item/CatsteelStimulantsItem.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "ChtuxlagorMantle",
@@ -6012,7 +6371,8 @@
           "src/main/java/shtundex/item/ChtuxlagorMantleItem.java",
           "src/main/resources/assets/shtundex/models/item/chtuxlagor_mantle_chestplate.json"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ChtuxlagorMantleEff",
@@ -6035,7 +6395,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Htuc",
@@ -6048,7 +6409,8 @@
         "files": [
           "src/main/java/shtundex/potion/HtucMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ChtuxlagorPresenceKazhdyiTikVoVriemiaEffiekta",
@@ -6083,7 +6445,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ChtuxlagorPresence",
@@ -6096,7 +6459,8 @@
         "files": [
           "src/main/java/shtundex/potion/ChtuxlagorPresenceMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Chtuxlagor",
@@ -6110,7 +6474,8 @@
           "src/main/java/shtundex/client/renderer/ChtuxlagorRenderer.java",
           "src/main/java/shtundex/entity/ChtuxlagorEntity.java"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ChtuxlagorPriObnovlieniiTikaSushchnosti",
@@ -6129,7 +6494,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Chtuxlagorkillingall",
@@ -6152,7 +6518,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Craft83",
@@ -6165,7 +6532,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_83.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CoalDust",
@@ -6179,7 +6547,8 @@
           "src/main/java/shtundex/item/CoalDustItem.java",
           "src/main/resources/assets/shtundex/models/item/coal_dust.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "NanofiberCloth",
@@ -6193,7 +6562,8 @@
           "src/main/java/shtundex/item/NanofiberClothItem.java",
           "src/main/resources/assets/shtundex/models/item/nanofiber_cloth.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Nanosaber",
@@ -6207,7 +6577,8 @@
           "src/main/resources/assets/shtundex/models/item/nanosaber.json",
           "src/main/java/shtundex/item/NanosaberItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "NanosaberActive",
@@ -6221,7 +6592,8 @@
           "src/main/java/shtundex/item/NanosaberActiveItem.java",
           "src/main/resources/assets/shtundex/models/item/nanosaber_active.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "NanosaberActivePriShchielchkiePKM",
@@ -6240,7 +6612,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "NanosaberPriShchielchkiePKM",
@@ -6275,7 +6648,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "Craft84",
@@ -6288,7 +6662,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_84.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft85",
@@ -6301,7 +6676,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_85.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "DiamondDust",
@@ -6315,7 +6691,8 @@
           "src/main/java/shtundex/item/DiamondDustItem.java",
           "src/main/resources/assets/shtundex/models/item/diamond_dust.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Nano",
@@ -6332,7 +6709,8 @@
           "src/main/resources/assets/shtundex/models/item/nano_boots.json",
           "src/main/resources/assets/shtundex/models/item/nano_chestplate.json"
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "EnergyCrystal",
@@ -6346,7 +6724,8 @@
           "src/main/resources/assets/shtundex/models/item/energy_crystal.json",
           "src/main/java/shtundex/item/EnergyCrystalItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft87",
@@ -6359,7 +6738,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_87.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft86",
@@ -6372,7 +6752,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_86.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft88",
@@ -6385,7 +6766,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_88.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft89",
@@ -6398,7 +6780,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_89.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft90",
@@ -6411,7 +6794,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_90.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "ShtuxStaffOfPowerPriVzmakhieSushchnostiPriedmietom",
@@ -6442,7 +6826,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "ShtuxStaffOfPowerPriUdariePoSushchnostiPriedmietom",
@@ -6465,7 +6850,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "RechargeSE",
@@ -6484,7 +6870,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "ShtuxianKit",
@@ -6498,7 +6885,8 @@
           "src/main/resources/assets/shtundex/models/item/shtuxian_kit.json",
           "src/main/java/shtundex/item/ShtuxianKitItem.java"
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "ChtuxlagorKit",
@@ -6512,7 +6900,8 @@
           "src/main/resources/assets/shtundex/models/item/chtuxlagor_kit.json",
           "src/main/java/shtundex/item/ChtuxlagorKitItem.java"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ChtuxlagorKitPriShchielchkiePKM",
@@ -6531,7 +6920,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Shtuxiankitpkm",
@@ -6550,7 +6940,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Shtuxibus"
     },
     {
       "name": "Craft91",
@@ -6563,7 +6954,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_91.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft92",
@@ -6576,7 +6968,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_92.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "NanoKazhdyiTikDliaShliema",
@@ -6595,7 +6988,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "NanoKazhdyiTikDliaNaghrudnika",
@@ -6614,7 +7008,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "NanoKazhdyiTikDliaPonozhiei",
@@ -6633,7 +7028,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "NanoKazhdyiTikDliaBotinok",
@@ -6652,7 +7048,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "ShieldDash",
@@ -6687,7 +7084,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "RamShield",
@@ -6700,7 +7098,8 @@
         "files": [
           "src/main/resources/data/curios/tags/items/ram_shield.json"
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "ShieldDashKey",
@@ -6713,7 +7112,8 @@
         "files": [
           "src/main/java/shtundex/network/ShieldDashKeyMessage.java"
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "CatsteelShieldBaubleIsEquipped",
@@ -6732,7 +7132,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "CatsteelShieldBaubleIsUnequipped",
@@ -6751,7 +7152,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "CatsteelShield",
@@ -6765,7 +7167,8 @@
           "src/main/resources/assets/shtundex/models/item/catsteel_shield.json",
           "src/main/java/shtundex/item/CatsteelShieldItem.java"
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "Dubljump",
@@ -6800,7 +7203,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Abilities"
     },
     {
       "name": "BackdashKey",
@@ -6813,7 +7217,8 @@
         "files": [
           "src/main/java/shtundex/network/BackdashKeyMessage.java"
         ]
-      }
+      },
+      "path": "~/Abilities"
     },
     {
       "name": "Backdsh",
@@ -6836,7 +7241,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Abilities"
     },
     {
       "name": "DJrecharge",
@@ -6855,7 +7261,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Abilities"
     },
     {
       "name": "ShtukModeCD",
@@ -6868,7 +7275,8 @@
         "files": [
           "src/main/java/shtundex/potion/ShtukModeCDMobEffect.java"
         ]
-      }
+      },
+      "path": "~/S.H.T.U.K Mode"
     },
     {
       "name": "Craft93",
@@ -6881,7 +7289,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_93.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "CatsteelArmorKazhdyiTikDliaShliema",
@@ -6900,7 +7309,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "CatsteelArmorKazhdyiTikDliaNaghrudnika",
@@ -6919,7 +7329,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "CatsteelArmorKazhdyiTikDliaPonozhiei",
@@ -6938,7 +7349,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "CatsteelArmorKazhdyiTikDliaBotinok",
@@ -6957,7 +7369,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "ShtundexPaint",
@@ -7026,7 +7439,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ChtuxlagorPriGibieliSushchnosti",
@@ -7057,106 +7471,8 @@
             "type": "world"
           }
         ]
-      }
-    },
-    {
-      "name": "RanecPriNalozhieniiEffiekta",
-      "type": "procedure",
-      "sortid": 441,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ranec_pri_nalozhienii_effiekta",
-      "metadata": {
-        "files": [
-          "src/main/java/shtundex/procedures/RanecPriNalozhieniiEffiektaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "RanecPriIstiechieniiEffiekta",
-      "type": "procedure",
-      "sortid": 442,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ranec_pri_istiechienii_effiekta",
-      "metadata": {
-        "files": [
-          "src/main/java/shtundex/procedures/RanecPriIstiechieniiEffiektaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Ranec",
-      "type": "potioneffect",
-      "sortid": 443,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ranec",
-      "metadata": {
-        "files": [
-          "src/main/java/shtundex/potion/RanecMobEffect.java"
-        ]
-      }
-    },
-    {
-      "name": "Ranci",
-      "type": "procedure",
-      "sortid": 444,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ranci",
-      "metadata": {
-        "files": [
-          "src/main/java/shtundex/procedures/RanciProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Jetpack",
-      "type": "keybind",
-      "sortid": 445,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jetpack",
-      "metadata": {
-        "files": [
-          "src/main/java/shtundex/network/JetpackMessage.java"
-        ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "CatsteelRing",
@@ -7170,7 +7486,8 @@
           "src/main/java/shtundex/item/CatsteelRingItem.java",
           "src/main/resources/assets/shtundex/models/item/catsteel_ring.json"
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "ChalkRitual",
@@ -7187,7 +7504,8 @@
           "src/main/resources/assets/shtundex/models/block/chalk_ritual_down.json",
           "src/main/resources/assets/shtundex/blockstates/chalk_ritual.json"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "Chalk",
@@ -7201,7 +7519,8 @@
           "src/main/java/shtundex/item/ChalkItem.java",
           "src/main/resources/assets/shtundex/models/item/chalk.json"
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ChalkPriShchielchkiePKMPoBloku",
@@ -7236,7 +7555,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "ChalkRitualObnovlieniieTika",
@@ -7271,7 +7591,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Chtuxlagor"
     },
     {
       "name": "VampiricAmuletWhileBaubleIsEquippedTick",
@@ -7306,7 +7627,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "VampiricAmulet",
@@ -7320,7 +7642,8 @@
           "src/main/java/shtundex/item/VampiricAmuletItem.java",
           "src/main/resources/assets/shtundex/models/item/vampiric_amulet.json"
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "Boots",
@@ -7333,7 +7656,8 @@
         "files": [
           "src/main/resources/data/curios/tags/items/boots.json"
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "TravelerBootsWhileBaubleIsEquippedTick",
@@ -7352,7 +7676,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "TravelerBoots",
@@ -7366,7 +7691,8 @@
           "src/main/resources/assets/shtundex/models/item/traveler_boots.json",
           "src/main/java/shtundex/item/TravelerBootsItem.java"
         ]
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "Accessories",
@@ -7377,7 +7703,8 @@
       "registry_name": "accessories",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Accessories"
     },
     {
       "name": "CatCore",
@@ -7391,7 +7718,8 @@
           "src/main/resources/assets/shtundex/models/item/cat_core.json",
           "src/main/java/shtundex/item/CatCoreItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft94",
@@ -7404,7 +7732,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_94.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft95",
@@ -7417,7 +7746,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_95.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Vampire",
@@ -7433,7 +7763,8 @@
           "src/main/java/shtundex/client/renderer/VampireRenderer.java",
           "src/main/resources/data/shtundex/forge/biome_modifier/vampire_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "Human",
@@ -7449,7 +7780,8 @@
           "src/main/java/shtundex/entity/HumanEntity.java",
           "src/main/java/shtundex/client/renderer/HumanRenderer.java"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "Shtuk",
@@ -7465,7 +7797,8 @@
           "src/main/resources/data/shtundex/forge/biome_modifier/shtuk_biome_modifier.json",
           "src/main/java/shtundex/entity/ShtukEntity.java"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "Craft96",
@@ -7478,7 +7811,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_96.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft97",
@@ -7491,7 +7825,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_97.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "NetheriteGearTrue",
@@ -7505,7 +7840,8 @@
           "src/main/java/shtundex/item/NetheriteGearTrueItem.java",
           "src/main/resources/assets/shtundex/models/item/netherite_gear_true.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft98",
@@ -7518,7 +7854,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_98.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "IronGear",
@@ -7532,7 +7869,8 @@
           "src/main/java/shtundex/item/IronGearItem.java",
           "src/main/resources/assets/shtundex/models/item/iron_gear.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft99",
@@ -7545,7 +7883,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_99.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "MachineCasing",
@@ -7561,7 +7900,8 @@
           "src/main/java/shtundex/block/MachineCasingBlock.java",
           "src/main/resources/assets/shtundex/blockstates/machine_casing.json"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "Craft100",
@@ -7574,7 +7914,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_100.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "NetheriteCircuit",
@@ -7588,7 +7929,8 @@
           "src/main/java/shtundex/item/NetheriteCircuitItem.java",
           "src/main/resources/assets/shtundex/models/item/netherite_circuit.json"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "UnfinishedNetheriteCircuit",
@@ -7602,7 +7944,8 @@
           "src/main/resources/assets/shtundex/models/item/unfinished_netherite_circuit.json",
           "src/main/java/shtundex/item/UnfinishedNetheriteCircuitItem.java"
         ]
-      }
+      },
+      "path": "~/Materials"
     },
     {
       "name": "Craft101",
@@ -7615,7 +7958,8 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_101.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
     },
     {
       "name": "Craft102",
@@ -7628,7 +7972,476 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_102.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "ShtuxSwordProj",
+      "type": "livingentity",
+      "sortid": 475,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtux_sword_proj",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/entity/ShtuxSwordProjEntity.java",
+          "src/main/java/shtundex/client/renderer/ShtuxSwordProjRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CatsteelSwordPriUdariePoSushchnostiInstrumientom",
+      "type": "procedure",
+      "sortid": 476,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_sword_pri_udarie_po_sushchnosti_instrumientom",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelSwordPriUdariePoSushchnostiInstrumientomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "IrradiatedWasteland",
+      "type": "biome",
+      "sortid": 477,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irradiated_wasteland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/worldgen/biome/irradiated_wasteland.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "IrradiatedSlime",
+      "type": "livingentity",
+      "sortid": 478,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irradiated_slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/forge/biome_modifier/irradiated_slime_biome_modifier.json",
+          "src/main/java/shtundex/entity/IrradiatedSlimeEntity.java",
+          "src/main/resources/assets/shtundex/models/item/irradiated_slime_spawn_egg.json",
+          "src/main/java/shtundex/client/renderer/IrradiatedSlimeRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "XenomiteShard",
+      "type": "item",
+      "sortid": 479,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenomite_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/XenomiteShardItem.java",
+          "src/main/resources/assets/shtundex/models/item/xenomite_shard.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "RefinedXeniumPlate",
+      "type": "item",
+      "sortid": 480,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_xenium_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/RefinedXeniumPlateItem.java",
+          "src/main/resources/assets/shtundex/models/item/refined_xenium_plate.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "DarkSteelIngot",
+      "type": "item",
+      "sortid": 481,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/DarkSteelIngotItem.java",
+          "src/main/resources/assets/shtundex/models/item/dark_steel_ingot.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "ObsidianDust",
+      "type": "item",
+      "sortid": 482,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/ObsidianDustItem.java",
+          "src/main/resources/assets/shtundex/models/item/obsidian_dust.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "DarkSteelDust",
+      "type": "item",
+      "sortid": 483,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_steel_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/DarkSteelDustItem.java",
+          "src/main/resources/assets/shtundex/models/item/dark_steel_dust.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "Craft103",
+      "type": "recipe",
+      "sortid": 484,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_103",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_103.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft104",
+      "type": "recipe",
+      "sortid": 485,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_104",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_104.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft105",
+      "type": "recipe",
+      "sortid": 486,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_105",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_105.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft106",
+      "type": "recipe",
+      "sortid": 487,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_106",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_106.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "DarkArmor",
+      "type": "armor",
+      "sortid": 488,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/dark_armor_chestplate.json",
+          "src/main/resources/assets/shtundex/models/item/dark_armor_leggings.json",
+          "src/main/resources/assets/shtundex/models/item/dark_armor_helmet.json",
+          "src/main/java/shtundex/item/DarkArmorItem.java",
+          "src/main/resources/assets/shtundex/models/item/dark_armor_boots.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "DarkArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 489,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/dark_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "DarkArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/dark_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "DarkArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/dark_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "DarkArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 492,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/dark_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "DarkPickaxe",
+      "type": "tool",
+      "sortid": 498,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/DarkPickaxeItem.java",
+          "src/main/resources/assets/shtundex/models/item/dark_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "DarkAxe",
+      "type": "tool",
+      "sortid": 499,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/dark_axe.json",
+          "src/main/java/shtundex/item/DarkAxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "DarkSword",
+      "type": "tool",
+      "sortid": 500,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/DarkSwordItem.java",
+          "src/main/resources/assets/shtundex/models/item/dark_sword.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "DarkPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 493,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/dark_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "DarkAxeRecipe",
+      "type": "recipe",
+      "sortid": 494,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/dark_axe_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "DarkSwordRecipe",
+      "type": "recipe",
+      "sortid": 495,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/dark_sword_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "DarkSwordPriUdariePoSushchnostiInstrumientom",
+      "type": "procedure",
+      "sortid": 501,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_sword_pri_udarie_po_sushchnosti_instrumientom",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/DarkSwordPriUdariePoSushchnostiInstrumientomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "DarkArmorKazhdyiTikDliaNaghrudnika",
+      "type": "procedure",
+      "sortid": 502,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_armor_kazhdyi_tik_dlia_naghrudnika",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/DarkArmorKazhdyiTikDliaNaghrudnikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "DarkArmorKazhdyiTikDliaShliema",
+      "type": "procedure",
+      "sortid": 503,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_armor_kazhdyi_tik_dlia_shliema",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/DarkArmorKazhdyiTikDliaShliemaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "Craft107",
+      "type": "recipe",
+      "sortid": 504,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_107",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_107.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "ShtQ7V3PriGibieliOtEtoiSushchnostiDrughoi",
+      "type": "procedure",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sht_q_7_v_3_pri_gibieli_ot_etoi_sushchnosti_drughoi",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtQ7V3PriGibieliOtEtoiSushchnostiDrughoiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities"
     }
   ],
   "variable_elements": [
@@ -7739,6 +8552,14 @@
       ],
       "category": "player",
       "subtitle": ""
+    },
+    {
+      "name": "shtq7theme",
+      "files": [
+        "sakuzyo_-_steel_red_72252401"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -7746,16 +8567,17 @@
       "item.shtundex.uranium_dust": "Урановая пыль",
       "item_group.shtundex.lore": "История",
       "item.shtundex.unfinished_catsteel_circuit": "Незаконченая котосталевая мткросхема",
+      "item.shtundex.dark_armor_boots": "Темные ботинки",
       "item.shtundex.flour": "Мука",
       "item.shtundex.kotium": "Котий",
       "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
       "advancements.shtundex_ach.title": "Штундекс!",
       "item_group.shtundex.shtundex": "Штундекс",
-      "curios.identifier.boots": "Boots",
+      "curios.identifier.boots": "Ботинки",
       "item.shtundex.nanosaber": "Наносабля",
       "item.shtundex.cat_clot_armor_leggings": "Кототканевые шаровары",
       "item.shtundex.shtuxian_curse": "Штуксианское проклятие",
-      "item.shtundex.netherite_gear_true": "Netherite Gear True",
+      "item.shtundex.netherite_gear_true": "Незеритовая шестерня",
       "key.shtundex.hotkey_ability_1": "Штучиный щит",
       "item.shtundex.catsteel_axe": "Котосталевый топор",
       "item_group.shtundex.accessories": "Акскссуары",
@@ -7765,9 +8587,10 @@
       "curios.identifier.ram_shield": "Таранный щит",
       "item.shtundex.iron_dust": "Железная пыль",
       "death.attack.cat_posion": "%1$s был расплавлен в потоке реликтового излучения.",
+      "item.shtundex.dark_sword": "Темный меч",
       "gui.shtundex.macergui.label_macerator": "Дробитель",
       "block.shtundex.tin_ore": "Оловянная руда",
-      "entity.shtundex.vampire": "Vampire",
+      "entity.shtundex.vampire": "Вампир",
       "item.shtundex.human_cells": "Живые клетки",
       "item.shtundex.advanced_shtuk_parts": "Продвинутые части Ш.Т.У.К.а",
       "entity.shtundex.dr_shtuxibus_rematch": "Др. Штуксибус",
@@ -7780,13 +8603,15 @@
       "key.shtundex.norm_dash": "Рывок",
       "item.shtundex.raw_lead": "Сырой свинец",
       "item.shtundex.catsteel_apple": "Котосталевое яблоко",
-      "item.shtundex.netherite_circuit": "Netherite Circuit",
+      "item.shtundex.netherite_circuit": "Незеритовая микросхема",
       "item.shtundex.swordland.desc": "Dr.Shtuxibus Theme",
       "item.shtundex.circuit_prsss": "Пресс микросхемы",
+      "item.shtundex.dark_steel_ingot": "Темносталевый слиток",
       "item.shtundex.plate_press": "Пресс пластины",
       "item.shtundex.nano_helmet": "Шлем Nano",
       "item.shtundex.tin_dust": "Оловянная пыль",
       "item.shtundex.uranium_ingot": "Урановый слиток",
+      "item.shtundex.dark_pickaxe": "Темная кирка",
       "item.shtundex.shtux_sword": "Меч Штуксибуса",
       "effect.shtundex.chtuxlagor_presence": "Присутствие Штукс\u0027лаг\u0027ора",
       "item.shtundex.catsteel_nugget": "Котосталевый самородок",
@@ -7802,6 +8627,7 @@
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Котосталевый генератор",
       "death.attack.irradiated.item": "%1$s облучен %2$s используя %3$s",
       "block.shtundex.tin_block": "Блок олова",
+      "entity.shtundex.irradiated_slime": "Облученная масса",
       "effect.shtundex.htuc": "chs",
       "item.shtundex.shtuxian_energy": "Штуксианская энергия",
       "advancements.omniruler.title": "Высший правитель.",
@@ -7818,7 +8644,6 @@
       "item.shtundex.catsteel_ring": "Котосталевое кольцо",
       "death.attack.shtuxian_damage.player": "%1$s умер пытаясь убежать от судьбы",
       "item.shtundex.catsteel_stimulants": "Котосталевые стимулянты",
-      "effect.shtundex.ranec": "Ранец",
       "item.shtundex.shtunder_prism": "Штуксианская призма",
       "item.shtundex.cat_hight_tech_suit_boots": "Ботинки C.A.T",
       "item.shtundex.shtun_stone_sword": "Меч из штучиного камня",
@@ -7831,6 +8656,7 @@
       "entity.shtundex.chtuxlagor": "Штукс\u0027лаг\u0027ор",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "Панель управления миром",
       "item.shtundex.catsteel_armor_chestplate": "Котосталевый нагрудник",
+      "item.shtundex.dark_axe": "Темный топор",
       "block.shtundex.catsteel_grenerator": "Котосталевый реактор",
       "item.shtundex.chtuxlagor_kit": "Набор Штукс\u0027лаг\u0027ора",
       "item.shtundex.cloth": "Ткань",
@@ -7842,6 +8668,7 @@
       "gui.shtundex.shtux.label_empty": "",
       "gui.shtundex.staff_of_power.button_shtuk_mode": "Режим Ш.Т.У.Ка [WIP]",
       "item.shtundex.copper_dust": "Медная пыли",
+      "item.shtundex.dark_armor_chestplate": "Темный нагрудник",
       "item.shtundex.cat_clot_armor_boots": "Кототканевые сапоги",
       "advancements.shtuxian_machinery.descr": "Победить SHT-Q7 v3 и заполучить штуксианскую призму.",
       "item.shtundex.wrench": "Ключ",
@@ -7849,14 +8676,16 @@
       "block.shtundex.deepslate_tin_ore": "Глубинносланцевая оловянная руда",
       "block.shtundex.catsteel_ore": "Руда котостали",
       "item.shtundex.coal_dust": "Угольная пыль",
+      "item.shtundex.irradiated_slime_spawn_egg": "Яйцо призыва обученной массы",
+      "item.shtundex.dark_armor_helmet": "Темный шлем",
       "death.attack.cat_posion.item": "%1$s был убит %2$s используя поток реликтового излучения.",
       "item.shtundex.raw_tin": "Сырое олово",
       "item.shtundex.shtun_stone_shovel": "Лопата из штучиного камня",
       "item.shtundex.hazmat_helmet": "Защитный шлем",
       "death.attack.irradiated": "%1$s облучен.",
       "item.shtundex.catsteel_sword": "Котосталевый меч",
-      "entity.shtundex.shtuk": "Shtuk",
-      "item.shtundex.vampire_spawn_egg": "Vampire Spawn Egg",
+      "entity.shtundex.shtuk": "Ш.Т.У.К",
+      "item.shtundex.vampire_spawn_egg": "Яйцо призыва вампира",
       "item.shtundex.catsteel_coin": "Монета из котостали",
       "item.shtundex.cat_clot_armor_helmet": "Кототканевый капюшон",
       "effect.shtundex.radiation": "Радиация",
@@ -7873,10 +8702,12 @@
       "item.shtundex.catsteel_dust": "Котосталевая пыль",
       "item.shtundex.treasure_bag_1": "Ящик с сокровищами",
       "item.shtundex.treasure_bag_2": "Ящик с сокровищами",
+      "item.shtundex.dark_steel_dust": "Пыль темной стали",
       "subtitles.shtux2theme": "",
       "subtitles.theme_menu": "",
       "entity.shtundex.black_hole": "Черная дыра",
       "subtitles.swordland": "",
+      "item.shtundex.obsidian_dust": "Обсидиановая пыль",
       "item.shtundex.catsteel_blade": "Лезвие из котостали",
       "subtitles.shtux1teme": "",
       "block.shtundex.molten_catsteel": "Расплавленая котосталь",
@@ -7901,13 +8732,15 @@
       "item.shtundex.grinding_ball": "Измельчающий шарик",
       "biome.shtundex.shtuxian_forest": "Штуксианский лес",
       "block.shtundex.catsteel_workbench_block": "Котосталевый верстак",
+      "entity.shtundex.shtux_sword_proj": "Shtux Sword Proj",
+      "item.shtundex.refined_xenium_plate": "Пластина обработаного ксеномита",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Др. Штуксибус",
       "item.shtundex.hazmat_chestplate": "Защитный нагрудник ",
       "item.shtundex.geiger_count": "Счетчик гейгера",
       "entity.shtundex.dr_shtuxibus": "Др. Штуксибус",
-      "item.shtundex.traveler_boots": "Traveler Boots",
+      "item.shtundex.traveler_boots": "Ботинки путешественика",
       "gui.shtundex.staff_of_power.button_gm_0": "ГМ 0",
-      "item.shtundex.iron_gear": "Iron Gear",
+      "item.shtundex.iron_gear": "Железная шестерня",
       "gui.shtundex.staff_of_power.button_gm_1": "ГМ 1",
       "enchantment.shtundex.absolute_unbreaking": "Абсолютная неразрушимость",
       "item.shtundex.chtuxlagor_shard": "Осколок Штукс\u0027лаг\u0027ора",
@@ -7928,11 +8761,12 @@
       "item.shtundex.lead_dust": "Свинцовая пыль",
       "key.shtundex.shield_dash_key": "Рывок щита",
       "block.shtundex.deepslate_uranium_ore": "Глубинносланцевая урановая руда",
-      "item.shtundex.unfinished_netherite_circuit": "Unfinished Netherite Circuit",
+      "item.shtundex.unfinished_netherite_circuit": "Незаконченая незеритовая микросхема",
       "advancements.catsteel_catsteel.title": "Котосталь? Котосталь!",
       "item.shtundex.cat_hight_tech_suit_leggings": "Поножи C.A.T",
-      "item.shtundex.shtuk_spawn_egg": "Shtuk Spawn Egg",
+      "item.shtundex.shtuk_spawn_egg": "Яйцо призыва Ш.Т.У.Ка",
       "key.shtundex.backdash_key": "Рывок назад",
+      "item.shtundex.xenomite_shard": "Осколок ксеномита",
       "item.shtundex.lore_chtuxlagor": "История - Штукс\u0027лаг\u0027ор",
       "subtitles.shtux1": "",
       "subtitles.shtux2": "",
@@ -7948,11 +8782,10 @@
       "block.shtundex.catsteel_block": "Блок котостали",
       "effect.shtundex.catsteel_posion": "Реликтовое излучение котостали",
       "entity.shtundex.dr_shtuxibus_2": "Др. Штуксибус",
-      "block.shtundex.machine_casing": "Machine Casing",
+      "block.shtundex.machine_casing": "Основа машины",
       "item.shtundex.shtux_staff_of_power": "Посох Кошачей Силы",
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Взрывная штучиная кровь",
       "advancements.catsteel_catsteel.descr": "Сделайте первые шаги к абсолютной силе.",
-      "key.shtundex.jetpack": "Ранец",
       "item.shtundex.bronze_ingot": "Бронзовый слиток",
       "effect.shtundex.cooldown": "Перезарядка способности",
       "item.shtundex.depelleted_catsteel": "Распавшаяся котосталь",
@@ -7963,7 +8796,7 @@
       "key.shtundex.double_jump_key": "Двойной прыжок [WIP]",
       "item.shtundex.chalk": "Мел",
       "item.shtundex.shtundex_world_blessing": "Благославление Штундекса",
-      "entity.shtundex.human": "Human",
+      "entity.shtundex.human": "Человек",
       "item.shtundex.nether_star_staff": "Посох звезды незера",
       "advancements.shtuxian_machinery.title": "Штуксианская технология.",
       "key.shtundex.hotkry_ability_4": "Штучиная регенерация",
@@ -7975,24 +8808,28 @@
       "item.shtundex.catsteel_plate": "Котосталевая пластина",
       "item.shtundex.lead_plate": "Свинцовая пластина",
       "item.shtundex.shtuxian_kit": "Штучиный набор",
-      "item.shtundex.human_spawn_egg": "Human Spawn Egg",
+      "item.shtundex.human_spawn_egg": "Яйцо призыва человека",
+      "subtitles.shtq7theme": "",
       "fluid.shtundex.molten_catsteel": "Расплавленая котосталь",
       "item.shtundex.nanosaber_active": "Наносабля",
       "item.shtundex.netherite_gear": "Алмазная шестерня",
       "item.shtundex.nano_chestplate": "Нагрудник Nano",
       "key.shtundex.back_dash": "Рывок назад",
       "item.shtundex.the_stick": "The Палка",
+      "biome.shtundex.irradiated_wasteland": "Irradiated Wasteland",
       "biome.shtundex.shtuxian_outlands": "Штучиные пустоши",
       "item.shtundex.cat_clot_armor_chestplate": "Кототканевая мантия",
       "item.shtundex.cat_cloth": "Кототкань",
       "advancements.level_2_shtuk.descr": "Стань богом.",
       "block.shtundex.macerator": "Дробитель",
+      "item.shtundex.dark_armor_leggings": "Темные поножи",
       "item.shtundex.empty_syrgine": "Пустой шприц"
     },
     "en_us": {
       "item.shtundex.uranium_dust": "Uranium Dust",
       "item_group.shtundex.lore": "Lore",
       "item.shtundex.unfinished_catsteel_circuit": "Unfinished Catsteel Circuit",
+      "item.shtundex.dark_armor_boots": "Dark Boots",
       "item.shtundex.flour": "Flour",
       "item.shtundex.kotium": "Kotium",
       "advancements.i_reject_my_humanity.title": "I Reject My Humanity!",
@@ -8012,6 +8849,7 @@
       "curios.identifier.ram_shield": "Ram Shield",
       "item.shtundex.iron_dust": "Iron Dust",
       "death.attack.cat_posion": "%1$s was melted in bath of omega radiation.",
+      "item.shtundex.dark_sword": "Dark Sword",
       "block.shtundex.tin_ore": "Tin Ore",
       "gui.shtundex.macergui.label_macerator": "Macerator",
       "entity.shtundex.vampire": "Vampire",
@@ -8030,10 +8868,12 @@
       "item.shtundex.netherite_circuit": "Netherite Circuit",
       "item.shtundex.swordland.desc": "Dr.Shtuxibus Theme",
       "item.shtundex.circuit_prsss": "Circuit Prsss",
+      "item.shtundex.dark_steel_ingot": "Dark Steel Ingot",
       "item.shtundex.plate_press": "Plate Press",
       "item.shtundex.nano_helmet": "Nano helm",
       "item.shtundex.tin_dust": "Tin Dust",
       "item.shtundex.uranium_ingot": "Uranium Ingot",
+      "item.shtundex.dark_pickaxe": "Dark Pickaxe",
       "item.shtundex.shtux_sword": "Shtux Sword",
       "effect.shtundex.chtuxlagor_presence": "Chtux\u0027lag\u0027or\u0027s presence",
       "item.shtundex.catsteel_nugget": "Catsteel Nugget",
@@ -8049,6 +8889,7 @@
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Catsteel Generator",
       "death.attack.irradiated.item": "%1$s was irradiated by %2$s using %3$s",
       "block.shtundex.tin_block": "Block of Tin",
+      "entity.shtundex.irradiated_slime": "Irradiated mass",
       "effect.shtundex.htuc": "chs",
       "item.shtundex.shtuxian_energy": "Shtuxian Energy",
       "advancements.omniruler.title": "Omniruler",
@@ -8065,7 +8906,6 @@
       "item.shtundex.catsteel_ring": "Catsteel ring of Omniversal knowgle of Shtundex World",
       "death.attack.shtuxian_damage.player": "%1$s died whilst trying to escape his fate.",
       "item.shtundex.catsteel_stimulants": "Catsteel Stimulants",
-      "effect.shtundex.ranec": "Jetpack",
       "item.shtundex.cat_hight_tech_suit_boots": "C.A.T boots",
       "item.shtundex.shtunder_prism": "Shtunder Prism",
       "item.shtundex.shtun_stone_sword": "ShtunStone Sword",
@@ -8078,6 +8918,7 @@
       "entity.shtundex.chtuxlagor": "Chtuxlagor",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "World Control Panel",
       "item.shtundex.catsteel_armor_chestplate": "Catsteel Chestplate",
+      "item.shtundex.dark_axe": "Dark Axe",
       "block.shtundex.catsteel_grenerator": "Catsteel Grenerator [WIP]",
       "item.shtundex.chtuxlagor_kit": "Chtuxlagor Kit",
       "item.shtundex.cloth": "Cloth",
@@ -8089,6 +8930,7 @@
       "gui.shtundex.shtux.label_empty": "",
       "gui.shtundex.staff_of_power.button_shtuk_mode": "Recharge SE",
       "item.shtundex.copper_dust": "Copper Dust",
+      "item.shtundex.dark_armor_chestplate": "Dark Chestplate",
       "item.shtundex.cat_clot_armor_boots": "CatClot Boots",
       "advancements.shtuxian_machinery.descr": "Defeat Sht-Q7 v3 and obtain one of the most powerful materials.",
       "item.shtundex.wrench": "Wrench",
@@ -8096,6 +8938,8 @@
       "block.shtundex.deepslate_tin_ore": "Deepslate Tin Ore",
       "block.shtundex.catsteel_ore": "Catsteel Ore",
       "item.shtundex.coal_dust": "Coal Dust",
+      "item.shtundex.irradiated_slime_spawn_egg": "Irradiated mass Spawn Egg",
+      "item.shtundex.dark_armor_helmet": "Dark Helmet",
       "death.attack.cat_posion.item": "%1$s was killed by %2$s using omega radiation.",
       "item.shtundex.raw_tin": "Raw Tin",
       "item.shtundex.shtun_stone_shovel": "ShtunStone Shovel",
@@ -8120,10 +8964,12 @@
       "item.shtundex.catsteel_dust": "Catsteel Dust",
       "item.shtundex.treasure_bag_1": "Treasure Bag 1",
       "item.shtundex.treasure_bag_2": "Treasure Bag",
+      "item.shtundex.dark_steel_dust": "Dark Steel Dust",
       "subtitles.shtux2theme": "",
       "entity.shtundex.black_hole": "Black Hole",
       "subtitles.theme_menu": "",
       "subtitles.swordland": "",
+      "item.shtundex.obsidian_dust": "Obsidian Dust",
       "item.shtundex.catsteel_blade": "Catsteel Blade",
       "subtitles.shtux1teme": "",
       "block.shtundex.molten_catsteel": "Molten Catsteel",
@@ -8148,6 +8994,8 @@
       "item.shtundex.grinding_ball": "Grinding Ball",
       "biome.shtundex.shtuxian_forest": "Shtuxian Forest",
       "block.shtundex.catsteel_workbench_block": "Catsteel Workbench Block",
+      "entity.shtundex.shtux_sword_proj": "Shtux Sword Proj",
+      "item.shtundex.refined_xenium_plate": "Refined Xenium Plate",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Shtuxibus",
       "item.shtundex.hazmat_chestplate": "Нагрудник Hazmat",
       "item.shtundex.geiger_count": "Geiger Count",
@@ -8180,12 +9028,13 @@
       "item.shtundex.cat_hight_tech_suit_leggings": "C.A.T leggins",
       "item.shtundex.shtuk_spawn_egg": "Shtuk Spawn Egg",
       "key.shtundex.backdash_key": "Back dash",
+      "item.shtundex.xenomite_shard": "Xenomite Shard",
       "item.shtundex.lore_chtuxlagor": "Lore - Chtuxlagor",
       "subtitles.shtux1": "",
       "subtitles.shtux2": "",
       "item.minecraft.tipped_arrow.effect.shtuxian_blood": "Arrow of Shtuxian Blood",
       "effect.shtundex.invincibility": "Invinvibility",
-      "item.shtundex.cat_steel_drill": "Catsteel Drill",
+      "item.shtundex.cat_steel_drill": "Cat Steel Drill",
       "advancements.shtundex_ach.descr": "Achive access to the world of Shtuxian technologies.",
       "item.shtundex.lore_shtq_7v_3": "Lore - Sht-Q7 v3",
       "item.shtundex.catsteel_pickaxe": "Catsteel Pickaxe",
@@ -8199,7 +9048,6 @@
       "item.shtundex.shtux_staff_of_power": "Shtux Staff Of Power",
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Splash Shtuxian Blood",
       "advancements.catsteel_catsteel.descr": "Make your first steps in goal to become most powerful.",
-      "key.shtundex.jetpack": "Jetpack",
       "item.shtundex.bronze_ingot": "Bronze Ingot",
       "effect.shtundex.cooldown": "Ability cooldown",
       "item.shtundex.depelleted_catsteel": "Depelleted Catsteel",
@@ -8223,28 +9071,92 @@
       "item.shtundex.lead_plate": "Lead Plate",
       "item.shtundex.shtuxian_kit": "Shtuxian Kit",
       "item.shtundex.human_spawn_egg": "Human Spawn Egg",
+      "subtitles.shtq7theme": "",
       "fluid.shtundex.molten_catsteel": "Molten Catsteel",
       "item.shtundex.nanosaber_active": "Nanosaber",
       "item.shtundex.netherite_gear": "Diamond Gear",
       "item.shtundex.nano_chestplate": "Nano chestplate",
       "key.shtundex.back_dash": "Back dash",
       "item.shtundex.the_stick": "The Stick",
+      "biome.shtundex.irradiated_wasteland": "Irradiated Wasteland",
       "biome.shtundex.shtuxian_outlands": "Shtuxian Outlands",
       "item.shtundex.cat_clot_armor_chestplate": "CatClot Chestplate",
       "item.shtundex.cat_cloth": "Cat Cloth",
       "advancements.level_2_shtuk.descr": "Become a god.",
       "block.shtundex.macerator": "Macerator",
+      "item.shtundex.dark_armor_leggings": "Dark Leggings",
       "item.shtundex.empty_syrgine": "Empty Syrgine"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Shtuxibus",
+        "children": []
+      },
+      {
+        "name": "Materials",
+        "children": []
+      },
+      {
+        "name": "Crafts",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "S.H.T.U.K Mode",
+        "children": []
+      },
+      {
+        "name": "Chtuxlagor",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Accessories",
+        "children": []
+      },
+      {
+        "name": "Effects",
+        "children": []
+      },
+      {
+        "name": "Machines",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Abilities",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "shtundex",
     "modName": "Shtundex",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "author": "MaONAHK9955, StarlightCat, FormulaOak15915",
     "websiteURL": "https://modrinth.com/mod/shtundex-mod",
     "license": "GNU General Public License version 3 (GPLv3)",

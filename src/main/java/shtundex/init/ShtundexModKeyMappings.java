@@ -7,7 +7,6 @@ package shtundex.init;
 import shtundex.network.ZaWarduoMessage;
 import shtundex.network.ShieldDashKeyMessage;
 import shtundex.network.NormDashMessage;
-import shtundex.network.JetpackMessage;
 import shtundex.network.HotkryAbility4Message;
 import shtundex.network.HotkeyAbility2Message;
 import shtundex.network.HotkeyAbility1Message;
@@ -161,19 +160,6 @@ public class ShtundexModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping JETPACK = new KeyMapping("key.shtundex.jetpack", GLFW.GLFW_KEY_SPACE, "key.categories.movement") {
-		private boolean isDownOld = false;
-
-		@Override
-		public void setDown(boolean isDown) {
-			super.setDown(isDown);
-			if (isDownOld != isDown && isDown) {
-				ShtundexMod.PACKET_HANDLER.sendToServer(new JetpackMessage(0, 0));
-				JetpackMessage.pressAction(Minecraft.getInstance().player, 0, 0);
-			}
-			isDownOld = isDown;
-		}
-	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
@@ -187,7 +173,6 @@ public class ShtundexModKeyMappings {
 		event.register(HOTKRY_ABILITY_4);
 		event.register(SHIELD_DASH_KEY);
 		event.register(BACKDASH_KEY);
-		event.register(JETPACK);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -205,7 +190,6 @@ public class ShtundexModKeyMappings {
 				HOTKRY_ABILITY_4.consumeClick();
 				SHIELD_DASH_KEY.consumeClick();
 				BACKDASH_KEY.consumeClick();
-				JETPACK.consumeClick();
 			}
 		}
 	}

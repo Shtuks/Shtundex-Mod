@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "shtundex:irradiated_wasteland",
+  "spawners": {
+    "type": "shtundex:irradiated_slime",
+    "weight": 60,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

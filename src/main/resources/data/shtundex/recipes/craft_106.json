@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:xenomite_shard"
+    },
+    "b": {
+      "item": "shtundex:dark_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "shtundex:refined_xenium_plate",
+    "count": 4
+  }
+}

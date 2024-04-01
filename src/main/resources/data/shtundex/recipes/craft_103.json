@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:coal_dust"
+    },
+    {
+      "item": "shtundex:iron_dust"
+    },
+    {
+      "item": "shtundex:obsidian_dust"
+    }
+  ],
+  "result": {
+    "item": "shtundex:dark_steel_dust",
+    "count": 3
+  }
+}

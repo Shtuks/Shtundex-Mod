@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "shtundex:item/nethgear"
+    "layer0": "shtundex:item/diamond_gear"
   }
 }

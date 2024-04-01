@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:refined_xenium_plate"
+    },
+    "b": {
+      "item": "shtundex:energy_crystal"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "shtundex:dark_pickaxe",
+    "count": 1
+  }
+}

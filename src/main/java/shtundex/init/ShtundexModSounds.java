@@ -23,4 +23,5 @@ public class ShtundexModSounds {
 	public static final RegistryObject<SoundEvent> SHTUX1TEME = REGISTRY.register("shtux1teme", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("shtundex", "shtux1teme")));
 	public static final RegistryObject<SoundEvent> SHTUX2THEME = REGISTRY.register("shtux2theme", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("shtundex", "shtux2theme")));
 	public static final RegistryObject<SoundEvent> NANOACTIVE = REGISTRY.register("nanoactive", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("shtundex", "nanoactive")));
+	public static final RegistryObject<SoundEvent> SHTQ7THEME = REGISTRY.register("shtq7theme", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("shtundex", "shtq7theme")));
 }

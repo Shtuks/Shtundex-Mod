@@ -67,7 +67,7 @@ public abstract class NanoItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.2f;
+				return 0.3f;
 			}
 		}, type, properties);
 	}

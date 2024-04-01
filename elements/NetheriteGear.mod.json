@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "nethgear",
+    "texture": "diamond_gear",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

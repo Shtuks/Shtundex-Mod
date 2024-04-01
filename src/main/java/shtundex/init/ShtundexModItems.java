@@ -4,6 +4,7 @@
  */
 package shtundex.init;
 
+import shtundex.item.XenomiteShardItem;
 import shtundex.item.WrenchItem;
 import shtundex.item.VampiricAmuletItem;
 import shtundex.item.UraniumIngotItem;
@@ -35,11 +36,13 @@ import shtundex.item.ShtunStonePickaxeItem;
 import shtundex.item.ShtunStoneHoeItem;
 import shtundex.item.ShtunStoneAxeItem;
 import shtundex.item.ShtukCyberneticPartsItem;
+import shtundex.item.RefinedXeniumPlateItem;
 import shtundex.item.RechargerItem;
 import shtundex.item.RawUraniumItem;
 import shtundex.item.RawTinItem;
 import shtundex.item.RawLeadItem;
 import shtundex.item.PlatePressItem;
+import shtundex.item.ObsidianDustItem;
 import shtundex.item.NetheriteGearTrueItem;
 import shtundex.item.NetheriteGearItem;
 import shtundex.item.NetheriteCircuitItem;
@@ -70,6 +73,12 @@ import shtundex.item.EnergyCrystalItem;
 import shtundex.item.EmptySyrgineItem;
 import shtundex.item.DiamondDustItem;
 import shtundex.item.DepelletedCatsteelItem;
+import shtundex.item.DarkSwordItem;
+import shtundex.item.DarkSteelIngotItem;
+import shtundex.item.DarkSteelDustItem;
+import shtundex.item.DarkPickaxeItem;
+import shtundex.item.DarkAxeItem;
+import shtundex.item.DarkArmorItem;
 import shtundex.item.CursedCatsteelMechanismItem;
 import shtundex.item.CopperDustItem;
 import shtundex.item.CoinPressSchemeItem;
@@ -272,6 +281,19 @@ public class ShtundexModItems {
 	public static final RegistryObject<Item> MACHINE_CASING = block(ShtundexModBlocks.MACHINE_CASING);
 	public static final RegistryObject<Item> NETHERITE_CIRCUIT = REGISTRY.register("netherite_circuit", () -> new NetheriteCircuitItem());
 	public static final RegistryObject<Item> UNFINISHED_NETHERITE_CIRCUIT = REGISTRY.register("unfinished_netherite_circuit", () -> new UnfinishedNetheriteCircuitItem());
+	public static final RegistryObject<Item> IRRADIATED_SLIME_SPAWN_EGG = REGISTRY.register("irradiated_slime_spawn_egg", () -> new ForgeSpawnEggItem(ShtundexModEntities.IRRADIATED_SLIME, -6711040, -10053376, new Item.Properties()));
+	public static final RegistryObject<Item> XENOMITE_SHARD = REGISTRY.register("xenomite_shard", () -> new XenomiteShardItem());
+	public static final RegistryObject<Item> REFINED_XENIUM_PLATE = REGISTRY.register("refined_xenium_plate", () -> new RefinedXeniumPlateItem());
+	public static final RegistryObject<Item> DARK_STEEL_INGOT = REGISTRY.register("dark_steel_ingot", () -> new DarkSteelIngotItem());
+	public static final RegistryObject<Item> OBSIDIAN_DUST = REGISTRY.register("obsidian_dust", () -> new ObsidianDustItem());
+	public static final RegistryObject<Item> DARK_STEEL_DUST = REGISTRY.register("dark_steel_dust", () -> new DarkSteelDustItem());
+	public static final RegistryObject<Item> DARK_ARMOR_HELMET = REGISTRY.register("dark_armor_helmet", () -> new DarkArmorItem.Helmet());
+	public static final RegistryObject<Item> DARK_ARMOR_CHESTPLATE = REGISTRY.register("dark_armor_chestplate", () -> new DarkArmorItem.Chestplate());
+	public static final RegistryObject<Item> DARK_ARMOR_LEGGINGS = REGISTRY.register("dark_armor_leggings", () -> new DarkArmorItem.Leggings());
+	public static final RegistryObject<Item> DARK_ARMOR_BOOTS = REGISTRY.register("dark_armor_boots", () -> new DarkArmorItem.Boots());
+	public static final RegistryObject<Item> DARK_PICKAXE = REGISTRY.register("dark_pickaxe", () -> new DarkPickaxeItem());
+	public static final RegistryObject<Item> DARK_AXE = REGISTRY.register("dark_axe", () -> new DarkAxeItem());
+	public static final RegistryObject<Item> DARK_SWORD = REGISTRY.register("dark_sword", () -> new DarkSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

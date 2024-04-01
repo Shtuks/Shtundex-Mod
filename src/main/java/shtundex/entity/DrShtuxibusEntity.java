@@ -166,7 +166,7 @@ public class DrShtuxibusEntity extends Monster implements RangedAttackMob {
 	@Override
 	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
 		super.awardKillScore(entity, score, damageSource);
-		DrShtuxibusHealVampProcedure.execute(this.level(), entity);
+		DrShtuxibusHealVampProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entity);
 	}
 
 	@Override
@@ -219,7 +219,7 @@ public class DrShtuxibusEntity extends Monster implements RangedAttackMob {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 2000);
+		builder = builder.add(Attributes.MAX_HEALTH, 1000);
 		builder = builder.add(Attributes.ARMOR, 100);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 100);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 64);

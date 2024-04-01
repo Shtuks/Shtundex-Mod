@@ -36,6 +36,9 @@
     "onCrafted": {
       "name": "CatSteelDrillPriPoluchieniiPriedmietaPoRietsieptu"
     },
+    "onEntityHitWith": {
+      "name": "CatsteelSwordPriUdariePoSushchnostiInstrumientom"
+    },
     "onBlockDestroyedWithTool": {
       "name": "CatSteelDrillPriRazrushieniiBlokaInstrumientom"
     }
