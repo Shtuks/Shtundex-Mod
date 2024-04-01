@@ -119,7 +119,7 @@
       "name": "ShtQ7V3PriGibieliSushchnosti"
     },
     "whenThisMobKillsAnother": {
-      "name": "DrShtuxibusHealVamp"
+      "name": "BossDisappear"
     },
     "hasAI": true,
     "aiBase": "(none)",

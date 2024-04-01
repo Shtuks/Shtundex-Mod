@@ -163,6 +163,7 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.DARK_PICKAXE.get());
 				tabData.accept(ShtundexModItems.DARK_AXE.get());
 				tabData.accept(ShtundexModItems.DARK_SWORD.get());
+				tabData.accept(ShtundexModItems.PIZZA.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_SHTUXIBUS.get())).displayItems((parameters, tabData) -> {

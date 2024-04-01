@@ -2,7 +2,7 @@
 package shtundex.entity;
 
 import shtundex.procedures.ShtQ7V3PriGibieliSushchnostiProcedure;
-import shtundex.procedures.DrShtuxibusHealVampProcedure;
+import shtundex.procedures.BossDisappearProcedure;
 
 import shtundex.init.ShtundexModItems;
 import shtundex.init.ShtundexModEntities;
@@ -144,7 +144,7 @@ public class ShtQ7V3Entity extends Monster {
 	@Override
 	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
 		super.awardKillScore(entity, score, damageSource);
-		DrShtuxibusHealVampProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entity);
+		BossDisappearProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entity);
 	}
 
 	@Override

@@ -8442,6 +8442,56 @@
         ]
       },
       "path": "~/Entities"
+    },
+    {
+      "name": "BossDisappear",
+      "type": "procedure",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_disappear",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BossDisappearProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Pizza",
+      "type": "item",
+      "sortid": 507,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/pizza.json",
+          "src/main/java/shtundex/item/PizzaItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -8570,8 +8620,8 @@
       "item.shtundex.dark_armor_boots": "Темные ботинки",
       "item.shtundex.flour": "Мука",
       "item.shtundex.kotium": "Котий",
-      "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
       "advancements.shtundex_ach.title": "Штундекс!",
+      "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
       "item_group.shtundex.shtundex": "Штундекс",
       "curios.identifier.boots": "Ботинки",
       "item.shtundex.nanosaber": "Наносабля",
@@ -8585,9 +8635,9 @@
       "effect.shtundex.antirad": "Антирад",
       "subtitles.timeres": "",
       "curios.identifier.ram_shield": "Таранный щит",
-      "item.shtundex.iron_dust": "Железная пыль",
-      "death.attack.cat_posion": "%1$s был расплавлен в потоке реликтового излучения.",
       "item.shtundex.dark_sword": "Темный меч",
+      "death.attack.cat_posion": "%1$s был расплавлен в потоке реликтового излучения.",
+      "item.shtundex.iron_dust": "Железная пыль",
       "gui.shtundex.macergui.label_macerator": "Дробитель",
       "block.shtundex.tin_ore": "Оловянная руда",
       "entity.shtundex.vampire": "Вампир",
@@ -8605,11 +8655,11 @@
       "item.shtundex.catsteel_apple": "Котосталевое яблоко",
       "item.shtundex.netherite_circuit": "Незеритовая микросхема",
       "item.shtundex.swordland.desc": "Dr.Shtuxibus Theme",
-      "item.shtundex.circuit_prsss": "Пресс микросхемы",
       "item.shtundex.dark_steel_ingot": "Темносталевый слиток",
+      "item.shtundex.circuit_prsss": "Пресс микросхемы",
       "item.shtundex.plate_press": "Пресс пластины",
-      "item.shtundex.nano_helmet": "Шлем Nano",
       "item.shtundex.tin_dust": "Оловянная пыль",
+      "item.shtundex.nano_helmet": "Шлем Nano",
       "item.shtundex.uranium_ingot": "Урановый слиток",
       "item.shtundex.dark_pickaxe": "Темная кирка",
       "item.shtundex.shtux_sword": "Меч Штуксибуса",
@@ -8796,6 +8846,7 @@
       "key.shtundex.double_jump_key": "Двойной прыжок [WIP]",
       "item.shtundex.chalk": "Мел",
       "item.shtundex.shtundex_world_blessing": "Благославление Штундекса",
+      "item.shtundex.pizza": "Pizza",
       "entity.shtundex.human": "Человек",
       "item.shtundex.nether_star_staff": "Посох звезды незера",
       "advancements.shtuxian_machinery.title": "Штуксианская технология.",
@@ -8884,7 +8935,7 @@
       "item.shtundex.cursed_catsteel_mechanism": "Cursed Catsteel Mechanism",
       "item.shtundex.energy_crystal": "Energy Crystal",
       "entity.shtundex.test_banana": "Test Banana",
-      "item.shtundex.hazmat_boots": "Ботинки Hazmat",
+      "item.shtundex.hazmat_boots": "Hazmat boots",
       "item.shtundex.berry_pie": "Berry Pie",
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Catsteel Generator",
       "death.attack.irradiated.item": "%1$s was irradiated by %2$s using %3$s",
@@ -8943,7 +8994,7 @@
       "death.attack.cat_posion.item": "%1$s was killed by %2$s using omega radiation.",
       "item.shtundex.raw_tin": "Raw Tin",
       "item.shtundex.shtun_stone_shovel": "ShtunStone Shovel",
-      "item.shtundex.hazmat_helmet": "Шлем Hazmat",
+      "item.shtundex.hazmat_helmet": "Hazmat helmet",
       "death.attack.irradiated": "%1$s irradiated.",
       "item.shtundex.catsteel_sword": "Catsteel Sword",
       "entity.shtundex.shtuk": "Shtuk",
@@ -8975,7 +9026,7 @@
       "block.shtundex.molten_catsteel": "Molten Catsteel",
       "entity.shtundex.sht_q_7_v_3": "Sht-Q7 V 3",
       "item.shtundex.shtun_stone_axe": "ShtunStone Axe",
-      "item.shtundex.hazmat_leggings": "Поножи Hazmat",
+      "item.shtundex.hazmat_leggings": "Hazmat leggins",
       "subtitles.abilitysound": "",
       "item.minecraft.potion.effect.shtuxian_blood": "Shtuxian Blood",
       "item.shtundex.antirad_cloth": "Antirad Cloth",
@@ -8997,13 +9048,13 @@
       "entity.shtundex.shtux_sword_proj": "Shtux Sword Proj",
       "item.shtundex.refined_xenium_plate": "Refined Xenium Plate",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Shtuxibus",
-      "item.shtundex.hazmat_chestplate": "Нагрудник Hazmat",
+      "item.shtundex.hazmat_chestplate": "Hazmat chestplate",
       "item.shtundex.geiger_count": "Geiger Count",
       "entity.shtundex.dr_shtuxibus": "Dr Shtuxibus",
       "item.shtundex.traveler_boots": "Traveler Boots",
-      "gui.shtundex.staff_of_power.button_gm_0": "GM 1",
+      "gui.shtundex.staff_of_power.button_gm_0": "GM 0",
       "item.shtundex.iron_gear": "Iron Gear",
-      "gui.shtundex.staff_of_power.button_gm_1": "GM 0",
+      "gui.shtundex.staff_of_power.button_gm_1": "GM 1",
       "enchantment.shtundex.absolute_unbreaking": "Absolute Unbreaking",
       "item.shtundex.chtuxlagor_shard": "Chtux\u0027lag\u0027or Shard",
       "block.shtundex.crate": "Crate",
@@ -9058,6 +9109,7 @@
       "key.shtundex.double_jump_key": "Double Jump",
       "item.shtundex.chalk": "Chalk",
       "item.shtundex.shtundex_world_blessing": "Shtundex World Blessing",
+      "item.shtundex.pizza": "Pizza",
       "entity.shtundex.human": "Human",
       "item.shtundex.nether_star_staff": "Nether Star Staff",
       "advancements.shtuxian_machinery.title": "Shtuxian Machinery",

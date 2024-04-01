@@ -3,25 +3,25 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "lvlshtuk",
+    "texture": "kisspng-pizza-pixel-art-gif-image-tumblr-pixel-avatars-www-galleryhip-com-the-hipp-5b6d5d19cc86f8.5926239015338939138378",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Advanced Shtuk Parts",
-    "rarity": "EPIC",
+    "name": "Pizza",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Shtundex"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 0,
+    "useDuration": 32,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
@@ -29,7 +29,7 @@
     "specialInformation": {
       "fixedValue": [
         "- Developer Item -",
-        "- StarlightCat -"
+        "- ChefPeppinos3fps -"
       ]
     },
     "glowCondition": {
@@ -38,22 +38,19 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "BecomingaShtuk2"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
       "value": "CUSTOM:ShtuxianColider"
     },
-    "isFood": false,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "isFood": true,
+    "nutritionalValue": 999,
+    "saturation": 999.0,
     "eatResultItem": {
       "value": ""
     },
-    "isMeat": false,
-    "isAlwaysEdible": false,
-    "animation": "none"
+    "isMeat": true,
+    "isAlwaysEdible": true,
+    "animation": "eat"
   }
 }

@@ -42,6 +42,7 @@ import shtundex.item.RawUraniumItem;
 import shtundex.item.RawTinItem;
 import shtundex.item.RawLeadItem;
 import shtundex.item.PlatePressItem;
+import shtundex.item.PizzaItem;
 import shtundex.item.ObsidianDustItem;
 import shtundex.item.NetheriteGearTrueItem;
 import shtundex.item.NetheriteGearItem;
@@ -294,6 +295,7 @@ public class ShtundexModItems {
 	public static final RegistryObject<Item> DARK_PICKAXE = REGISTRY.register("dark_pickaxe", () -> new DarkPickaxeItem());
 	public static final RegistryObject<Item> DARK_AXE = REGISTRY.register("dark_axe", () -> new DarkAxeItem());
 	public static final RegistryObject<Item> DARK_SWORD = REGISTRY.register("dark_sword", () -> new DarkSwordItem());
+	public static final RegistryObject<Item> PIZZA = REGISTRY.register("pizza", () -> new PizzaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -34,7 +34,9 @@
       "fixedValue": [
         "From the heaven to hell, i am the superior.",
         "Night vision, Increaced swim speed",
-        "You will never need food."
+        "You will never need food.",
+        "- Developer Item -",
+        "- StarlightCat -"
       ]
     },
     "bodySpecialInformation": {
@@ -42,20 +44,26 @@
         "Now i became a death. A destroyer of the worlds.",
         "+16 base damage, Radiation protection",
         "Flight, +200% mining speed",
-        "+100% Damage Reduction, +30 absorbtion"
+        "+100% Damage Reduction, +30 absorbtion",
+        "- Developer Item  -",
+        "- StarlightCat -"
       ]
     },
     "leggingsSpecialInformation": {
       "fixedValue": [
         "Shtuxian technologies was too powerful. Enougth for gods to fear.",
         "+ 220% speed, extreme regeneration increacement",
-        "You move underwater same like on normal blocks, no water mining slowness"
+        "You move underwater same like on normal blocks, no water mining slowness",
+        "- Developer Item -",
+        "- StarlightCat -"
       ]
     },
     "bootsSpecialInformation": {
       "fixedValue": [
         "Nothing wait you in the end.",
-        "x2 jump hight"
+        "x2 jump hight",
+        "- Developer Item -",
+        "- StarlightCat -"
       ]
     },
     "helmetModelName": "Default",

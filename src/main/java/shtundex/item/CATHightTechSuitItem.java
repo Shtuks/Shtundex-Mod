@@ -81,6 +81,8 @@ public abstract class CATHightTechSuitItem extends ArmorItem {
 			list.add(Component.literal("From the heaven to hell, i am the superior."));
 			list.add(Component.literal("Night vision, Increaced swim speed"));
 			list.add(Component.literal("You will never need food."));
+			list.add(Component.literal("- Developer Item -"));
+			list.add(Component.literal("- StarlightCat -"));
 		}
 
 		@Override
@@ -114,6 +116,8 @@ public abstract class CATHightTechSuitItem extends ArmorItem {
 			list.add(Component.literal("+16 base damage, Radiation protection"));
 			list.add(Component.literal("Flight, +200% mining speed"));
 			list.add(Component.literal("+100% Damage Reduction, +30 absorbtion"));
+			list.add(Component.literal("- Developer Item  -"));
+			list.add(Component.literal("- StarlightCat -"));
 		}
 
 		@Override
@@ -146,6 +150,8 @@ public abstract class CATHightTechSuitItem extends ArmorItem {
 			list.add(Component.literal("Shtuxian technologies was too powerful. Enougth for gods to fear."));
 			list.add(Component.literal("+ 220% speed, extreme regeneration increacement"));
 			list.add(Component.literal("You move underwater same like on normal blocks, no water mining slowness"));
+			list.add(Component.literal("- Developer Item -"));
+			list.add(Component.literal("- StarlightCat -"));
 		}
 
 		@Override
@@ -177,6 +183,8 @@ public abstract class CATHightTechSuitItem extends ArmorItem {
 			super.appendHoverText(itemstack, world, list, flag);
 			list.add(Component.literal("Nothing wait you in the end."));
 			list.add(Component.literal("x2 jump hight"));
+			list.add(Component.literal("- Developer Item -"));
+			list.add(Component.literal("- StarlightCat -"));
 		}
 
 		@Override

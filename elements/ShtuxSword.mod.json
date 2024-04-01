@@ -28,7 +28,8 @@
     "damageVsEntity": 128.0,
     "specialInformation": {
       "fixedValue": [
-        "- Developer Item -"
+        "- Developer Item -",
+        "- StarlightCat -"
       ]
     },
     "glowCondition": {
