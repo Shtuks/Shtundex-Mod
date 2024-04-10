@@ -11,7 +11,7 @@ public class CaatHelmProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.CONDUIT_POWER, 60, 1, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.CONDUIT_POWER, 200, 1, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 2, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())

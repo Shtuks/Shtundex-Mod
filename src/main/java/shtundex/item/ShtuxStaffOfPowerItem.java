@@ -64,6 +64,8 @@ public class ShtuxStaffOfPowerItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u03A9 Chtux'lag'or Item \u03A9"));
+		list.add(Component.literal("Mine less than milisecond. Ersase any life being."));
+		list.add(Component.literal("Break bedrok and other unbreackable materials on right click."));
 	}
 
 	@Override
@@ -83,7 +85,7 @@ public class ShtuxStaffOfPowerItem extends Item {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		ShtuxStaffOfPowerPriUdariePoSushchnostiPriedmietomProcedure.execute(entity.level(), entity);
+		ShtuxStaffOfPowerPriUdariePoSushchnostiPriedmietomProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 		return retval;
 	}
 }

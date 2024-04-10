@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "shtundex:crimson_ore"
+  },
+  "result": "shtundex:crimson_ingot"
+}

@@ -178,7 +178,7 @@ public class ShtQ7V3Entity extends Monster {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.4);
 		builder = builder.add(Attributes.MAX_HEALTH, 1000);
 		builder = builder.add(Attributes.ARMOR, 100);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 50);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 55);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 32);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.6);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.2);

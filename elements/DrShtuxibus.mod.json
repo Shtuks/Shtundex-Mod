@@ -144,7 +144,7 @@
     "rangedAttackInterval": 7,
     "rangedAttackRadius": 128.0,
     "spawnThisMob": false,
-    "doesDespawnWhenIdle": false,
+    "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,

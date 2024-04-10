@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CrimsonArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:CrimsonArmor.body"
+      },
+      {
+        "value": "CUSTOM:CrimsonArmor.legs"
+      },
+      {
+        "value": "CUSTOM:CrimsonArmor.boots"
+      },
+      {
+        "value": "CUSTOM:CrimsonAxe"
+      },
+      {
+        "value": "CUSTOM:CrimsonSword"
+      },
+      {
+        "value": "Blocks.CRIMSON_FUNGUS"
+      },
+      {
+        "value": "CUSTOM:CrimsonPickaxe"
+      },
+      {
+        "value": "CUSTOM:CrimsonShovel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrimsonForce"
+    },
+    "name": "craft_128",
+    "namespace": "mod"
+  }
+}

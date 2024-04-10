@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "shtundex:catsteel_nugget"
+    }
+  },
+  "result": {
+    "item": "shtundex:pizza_box",
+    "count": 1
+  }
+}

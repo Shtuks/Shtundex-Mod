@@ -2,10 +2,10 @@
   "_fv": 57,
   "_type": "musicdisc",
   "definition": {
-    "name": "Swordland",
+    "name": "Music disc - 745",
     "rarity": "EPIC",
     "texture": "shtuxianplate",
-    "description": "Dr.Shtuxibus Theme",
+    "description": "Swordland",
     "creativeTab": {
       "value": "CUSTOM:Shtundex"
     },

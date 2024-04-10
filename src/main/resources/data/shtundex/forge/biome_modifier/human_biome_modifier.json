@@ -1,8 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "plains",
   "spawners": {
     "type": "shtundex:human",
     "weight": 10,

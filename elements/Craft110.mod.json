@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RefinedXeniumPlate"
+      },
+      {
+        "value": "CUSTOM:Circuit"
+      },
+      {
+        "value": "CUSTOM:ShtundexStone"
+      },
+      {
+        "value": "CUSTOM:ShtuxiteSoul"
+      },
+      {
+        "value": "CUSTOM:ShtunderPrism"
+      },
+      {
+        "value": "CUSTOM:ShtuxianEnergy"
+      },
+      {
+        "value": "CUSTOM:CatsteelBlock"
+      },
+      {
+        "value": "CUSTOM:CatCore"
+      },
+      {
+        "value": "CUSTOM:NetheriteGearTrue"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TinyChtuxlagorShard"
+    },
+    "name": "craft_110",
+    "namespace": "mod"
+  }
+}

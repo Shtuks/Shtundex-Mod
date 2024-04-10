@@ -66,7 +66,6 @@ public class DrShtuxibus2Entity extends Monster implements RangedAttackMob {
 		setMaxUpStep(0.4f);
 		xpReward = 32000;
 		setNoAi(false);
-		setPersistenceRequired();
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(ShtundexModItems.SHTUX_STAFF_OF_POWER.get()));
 		this.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(ShtundexModItems.CHTUXLAGOR_BLASTER.get()));
 		this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(ShtundexModItems.CAT_HIGHT_TECH_SUIT_CHESTPLATE.get()));
@@ -104,11 +103,6 @@ public class DrShtuxibus2Entity extends Monster implements RangedAttackMob {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
-	}
-
-	@Override
-	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
 	}
 
 	@Override
@@ -181,7 +175,7 @@ public class DrShtuxibus2Entity extends Monster implements RangedAttackMob {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		DrShtuxibus2PriNachalnomPrizyvieSushchnostiProcedure.execute(world, this.getX(), this.getY(), this.getZ());
+		DrShtuxibus2PriNachalnomPrizyvieSushchnostiProcedure.execute();
 		return retval;
 	}
 

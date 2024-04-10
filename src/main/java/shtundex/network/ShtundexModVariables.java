@@ -70,6 +70,18 @@ public class ShtundexModVariables {
 			clone.isshtuk = original.isshtuk;
 			clone.isadvancedshtuk = original.isadvancedshtuk;
 			clone.CatsteelShiel = original.CatsteelShiel;
+			clone.isgoldenforceequiped = original.isgoldenforceequiped;
+			clone.isnetheriteforceequiped = original.isnetheriteforceequiped;
+			clone.iscrimsonforceequiped = original.iscrimsonforceequiped;
+			clone.iscatsteelforceequiped = original.iscatsteelforceequiped;
+			clone.isdiamondforcequipped = original.isdiamondforcequipped;
+			clone.isshtuxianforcequipped = original.isshtuxianforcequipped;
+			clone.isminerforceequipped = original.isminerforceequipped;
+			clone.isshtq7forceequipped = original.isshtq7forceequipped;
+			clone.iswarpedforceequipped = original.iswarpedforceequipped;
+			clone.isemeraldforceequipped = original.isemeraldforceequipped;
+			clone.istinforceequipped = original.istinforceequipped;
+			clone.iscopperforceequipped = original.iscopperforceequipped;
 			if (!event.isWasDeath()) {
 				clone.Radiation = original.Radiation;
 				clone.isonblock = original.isonblock;
@@ -116,6 +128,18 @@ public class ShtundexModVariables {
 		public boolean CatsteelShiel = false;
 		public boolean isonblock = false;
 		public boolean ranech = false;
+		public boolean isgoldenforceequiped = false;
+		public boolean isnetheriteforceequiped = false;
+		public boolean iscrimsonforceequiped = false;
+		public boolean iscatsteelforceequiped = false;
+		public boolean isdiamondforcequipped = false;
+		public boolean isshtuxianforcequipped = false;
+		public boolean isminerforceequipped = false;
+		public boolean isshtq7forceequipped = false;
+		public boolean iswarpedforceequipped = false;
+		public boolean isemeraldforceequipped = false;
+		public boolean istinforceequipped = false;
+		public boolean iscopperforceequipped = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -131,6 +155,18 @@ public class ShtundexModVariables {
 			nbt.putBoolean("CatsteelShiel", CatsteelShiel);
 			nbt.putBoolean("isonblock", isonblock);
 			nbt.putBoolean("ranech", ranech);
+			nbt.putBoolean("isgoldenforceequiped", isgoldenforceequiped);
+			nbt.putBoolean("isnetheriteforceequiped", isnetheriteforceequiped);
+			nbt.putBoolean("iscrimsonforceequiped", iscrimsonforceequiped);
+			nbt.putBoolean("iscatsteelforceequiped", iscatsteelforceequiped);
+			nbt.putBoolean("isdiamondforcequipped", isdiamondforcequipped);
+			nbt.putBoolean("isshtuxianforcequipped", isshtuxianforcequipped);
+			nbt.putBoolean("isminerforceequipped", isminerforceequipped);
+			nbt.putBoolean("isshtq7forceequipped", isshtq7forceequipped);
+			nbt.putBoolean("iswarpedforceequipped", iswarpedforceequipped);
+			nbt.putBoolean("isemeraldforceequipped", isemeraldforceequipped);
+			nbt.putBoolean("istinforceequipped", istinforceequipped);
+			nbt.putBoolean("iscopperforceequipped", iscopperforceequipped);
 			return nbt;
 		}
 
@@ -143,6 +179,18 @@ public class ShtundexModVariables {
 			CatsteelShiel = nbt.getBoolean("CatsteelShiel");
 			isonblock = nbt.getBoolean("isonblock");
 			ranech = nbt.getBoolean("ranech");
+			isgoldenforceequiped = nbt.getBoolean("isgoldenforceequiped");
+			isnetheriteforceequiped = nbt.getBoolean("isnetheriteforceequiped");
+			iscrimsonforceequiped = nbt.getBoolean("iscrimsonforceequiped");
+			iscatsteelforceequiped = nbt.getBoolean("iscatsteelforceequiped");
+			isdiamondforcequipped = nbt.getBoolean("isdiamondforcequipped");
+			isshtuxianforcequipped = nbt.getBoolean("isshtuxianforcequipped");
+			isminerforceequipped = nbt.getBoolean("isminerforceequipped");
+			isshtq7forceequipped = nbt.getBoolean("isshtq7forceequipped");
+			iswarpedforceequipped = nbt.getBoolean("iswarpedforceequipped");
+			isemeraldforceequipped = nbt.getBoolean("isemeraldforceequipped");
+			istinforceequipped = nbt.getBoolean("istinforceequipped");
+			iscopperforceequipped = nbt.getBoolean("iscopperforceequipped");
 		}
 	}
 
@@ -174,6 +222,18 @@ public class ShtundexModVariables {
 					variables.CatsteelShiel = message.data.CatsteelShiel;
 					variables.isonblock = message.data.isonblock;
 					variables.ranech = message.data.ranech;
+					variables.isgoldenforceequiped = message.data.isgoldenforceequiped;
+					variables.isnetheriteforceequiped = message.data.isnetheriteforceequiped;
+					variables.iscrimsonforceequiped = message.data.iscrimsonforceequiped;
+					variables.iscatsteelforceequiped = message.data.iscatsteelforceequiped;
+					variables.isdiamondforcequipped = message.data.isdiamondforcequipped;
+					variables.isshtuxianforcequipped = message.data.isshtuxianforcequipped;
+					variables.isminerforceequipped = message.data.isminerforceequipped;
+					variables.isshtq7forceequipped = message.data.isshtq7forceequipped;
+					variables.iswarpedforceequipped = message.data.iswarpedforceequipped;
+					variables.isemeraldforceequipped = message.data.isemeraldforceequipped;
+					variables.istinforceequipped = message.data.istinforceequipped;
+					variables.iscopperforceequipped = message.data.iscopperforceequipped;
 				}
 			});
 			context.setPacketHandled(true);

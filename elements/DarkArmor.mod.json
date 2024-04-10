@@ -25,10 +25,14 @@
     "leggingsName": "Dark Leggings",
     "bootsName": "Dark Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Night vision"
+      ]
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "+ 20 damage resistance"
+      ]
     },
     "leggingsSpecialInformation": {
       "fixedValue": []

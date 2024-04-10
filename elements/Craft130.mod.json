@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CATHightTechSuit.helmet"
+      },
+      {
+        "value": "CUSTOM:CATHightTechSuit.body"
+      },
+      {
+        "value": "CUSTOM:CATHightTechSuit.boots"
+      },
+      {
+        "value": "CUSTOM:CATHightTechSuit.legs"
+      },
+      {
+        "value": "CUSTOM:ShtuxSword"
+      },
+      {
+        "value": "CUSTOM:CatSteelDrill"
+      },
+      {
+        "value": "CUSTOM:ShtuxianEnergy"
+      },
+      {
+        "value": "CUSTOM:CatsteelShield"
+      },
+      {
+        "value": "CUSTOM:TreasureBag1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ShtuxibusForce"
+    },
+    "name": "craft_130",
+    "namespace": "mod"
+  }
+}

@@ -27,6 +27,7 @@ public class ChtuxlagorShardItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal("\u03A9 Chtux'Lag'Or Item \u03A9"));
 		list.add(Component.literal("Multiverse in your hands."));
 	}
 }

@@ -48,7 +48,7 @@ public class BecomingAShtukProcedure {
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.CATSTEEL_POSION.get(), 1000, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.CATSTEEL_POSION.get(), 99999, 200, false, false));
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(ShtundexModItems.SHTUK_CYBERNETIC_PARTS.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());

@@ -28,7 +28,9 @@
     "damageVsEntity": 2.0,
     "specialInformation": {
       "fixedValue": [
-        "Ω Chtux'lag'or Item Ω"
+        "Ω Chtux'lag'or Item Ω",
+        "Mine less than milisecond. Ersase any life being.",
+        "Break bedrok and other unbreackable materials on right click."
       ]
     },
     "glowCondition": {

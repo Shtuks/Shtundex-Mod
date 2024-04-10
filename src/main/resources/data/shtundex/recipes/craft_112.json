@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:warped_ingot"
+    }
+  },
+  "result": {
+    "item": "shtundex:warped_armor_helmet",
+    "count": 1
+  }
+}

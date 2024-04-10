@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:crimson_armor_helmet"
+    },
+    {
+      "item": "shtundex:crimson_armor_chestplate"
+    },
+    {
+      "item": "shtundex:crimson_armor_leggings"
+    },
+    {
+      "item": "shtundex:crimson_armor_boots"
+    },
+    {
+      "item": "shtundex:crimson_axe"
+    },
+    {
+      "item": "shtundex:crimson_sword"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "shtundex:crimson_pickaxe"
+    },
+    {
+      "item": "shtundex:crimson_shovel"
+    }
+  ],
+  "result": {
+    "item": "shtundex:crimson_force",
+    "count": 1
+  }
+}

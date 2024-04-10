@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "curiosslot",
   "definition": {
-    "texture": "shielddd.png",
+    "texture": "sheildslot.png",
     "name": "Ram Shield",
     "amount": 1
   }

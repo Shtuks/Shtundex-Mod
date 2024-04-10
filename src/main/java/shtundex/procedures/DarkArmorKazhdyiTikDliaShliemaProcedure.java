@@ -10,6 +10,6 @@ public class DarkArmorKazhdyiTikDliaShliemaProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 120, 1, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 200, 1, false, false));
 	}
 }

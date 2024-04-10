@@ -19,7 +19,9 @@ import shtundex.block.LeadBlockBlock;
 import shtundex.block.DeepslateUraniumOreBlock;
 import shtundex.block.DeepslateTinOreBlock;
 import shtundex.block.DeepslateLeadOreBlock;
+import shtundex.block.CrimsonOreBlock;
 import shtundex.block.CrateBlock;
+import shtundex.block.CorruptedOreBlock;
 import shtundex.block.ChalkRitualBlock;
 import shtundex.block.CatsteelWorkbenchBlockBlock;
 import shtundex.block.CatsteelOreBlock;
@@ -59,4 +61,6 @@ public class ShtundexModBlocks {
 	public static final RegistryObject<Block> DEEPSLATE_LEAD_ORE = REGISTRY.register("deepslate_lead_ore", () -> new DeepslateLeadOreBlock());
 	public static final RegistryObject<Block> CHALK_RITUAL = REGISTRY.register("chalk_ritual", () -> new ChalkRitualBlock());
 	public static final RegistryObject<Block> MACHINE_CASING = REGISTRY.register("machine_casing", () -> new MachineCasingBlock());
+	public static final RegistryObject<Block> CRIMSON_ORE = REGISTRY.register("crimson_ore", () -> new CrimsonOreBlock());
+	public static final RegistryObject<Block> CORRUPTED_ORE = REGISTRY.register("corrupted_ore", () -> new CorruptedOreBlock());
 }

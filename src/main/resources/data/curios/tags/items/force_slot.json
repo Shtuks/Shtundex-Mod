@@ -1,0 +1,19 @@
+{
+  "replace": "false",
+  "values": [
+    "minecraft:air",
+    "shtundex:netherite_force",
+    "shtundex:golden_force",
+    "shtundex:crimson_force",
+    "shtundex:catsteel_force",
+    "shtundex:chtuxlagor_force",
+    "shtundex:diamond_force",
+    "shtundex:miner_force",
+    "shtundex:shtuxibus_force",
+    "shtundex:sht_q_7_force",
+    "shtundex:warped_force",
+    "shtundex:emerald_force",
+    "shtundex:tin_force",
+    "shtundex:copper_force"
+  ]
+}

@@ -10,7 +10,9 @@
     "blockingModelName": "Normal blocking",
     "name": "Nanosaber",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Inflict \"electrification\" on attacked entity for 10 seconds."
+      ]
     },
     "creativeTab": {
       "value": "No creative tab entry"
@@ -19,7 +21,7 @@
     "efficiency": 4.0,
     "attackSpeed": 2.0,
     "enchantability": 2,
-    "damageVsEntity": 25.0,
+    "damageVsEntity": 23.0,
     "usageCount": 1000,
     "blocksAffected": [],
     "glowCondition": {
@@ -31,6 +33,9 @@
     "damageOnCrafting": false,
     "onRightClickedInAir": {
       "name": "NanosaberActivePriShchielchkiePKM"
+    },
+    "onEntityHitWith": {
+      "name": "NanosaberActivePriUdariePoSushchnostiInstrumientom"
     }
   }
 }

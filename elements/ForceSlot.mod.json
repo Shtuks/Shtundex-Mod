@@ -1,0 +1,9 @@
+{
+  "_fv": 57,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "force.png",
+    "name": "Force Slot",
+    "amount": 2
+  }
+}

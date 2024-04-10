@@ -1,0 +1,42 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "warpedsword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Warped Sword",
+    "specialInformation": {
+      "fixedValue": [
+        "Throw ender pearl."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Shtundex"
+    },
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.6,
+    "enchantability": 21,
+    "damageVsEntity": 5.5,
+    "usageCount": 441,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:WarpedIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "WarpedSwordPriShchielchkiePKM"
+    }
+  }
+}

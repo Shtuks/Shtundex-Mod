@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 150,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:CrimsonOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:CrimsonIngot"
+    },
+    "name": "craft_121",
+    "namespace": "mod"
+  }
+}

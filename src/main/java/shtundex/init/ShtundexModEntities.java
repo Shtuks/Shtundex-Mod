@@ -15,6 +15,7 @@ import shtundex.entity.ShtQ7V3Entity;
 import shtundex.entity.ShtPrigaiteEntity;
 import shtundex.entity.IrradiatedSlimeEntity;
 import shtundex.entity.HumanEntity;
+import shtundex.entity.Hargeteir2Entity;
 import shtundex.entity.DrShtuxibusRematchEntity;
 import shtundex.entity.DrShtuxibusEntity;
 import shtundex.entity.DrShtuxibus2Entity;
@@ -81,6 +82,8 @@ public class ShtundexModEntities {
 			EntityType.Builder.<IrradiatedSlimeEntity>of(IrradiatedSlimeEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(IrradiatedSlimeEntity::new)
 
 					.sized(1f, 1f));
+	public static final RegistryObject<EntityType<Hargeteir2Entity>> HARGETEIR_2 = register("projectile_hargeteir_2",
+			EntityType.Builder.<Hargeteir2Entity>of(Hargeteir2Entity::new, MobCategory.MISC).setCustomClientFactory(Hargeteir2Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

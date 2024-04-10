@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:crimson_ingot"
+    }
+  },
+  "result": {
+    "item": "shtundex:crimson_armor_chestplate",
+    "count": 1
+  }
+}

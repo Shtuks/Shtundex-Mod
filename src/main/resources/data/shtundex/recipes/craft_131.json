@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:cat_core"
+    },
+    {
+      "item": "shtundex:shtuk_cybernetic_parts"
+    },
+    {
+      "item": "shtundex:netherite_gear_true"
+    },
+    {
+      "item": "shtundex:shtuxite_blaster"
+    },
+    {
+      "item": "shtundex:cat_clot_armor_helmet"
+    },
+    {
+      "item": "shtundex:circuit"
+    },
+    {
+      "item": "shtundex:cat_clot_armor_chestplate"
+    },
+    {
+      "item": "shtundex:cat_clot_armor_leggings"
+    },
+    {
+      "item": "shtundex:cat_clot_armor_boots"
+    }
+  ],
+  "result": {
+    "item": "shtundex:sht_q_7_force",
+    "count": 1
+  }
+}

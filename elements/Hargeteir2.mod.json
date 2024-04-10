@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:TestEmpty"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": true,
+    "power": 5.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsPlayer": {
+      "name": "Hargeteir2KoghdaSnariadPopadaietVSushchnost"
+    },
+    "onHitsEntity": {
+      "name": "Hargeteir2KoghdaSnariadPopadaietVSushchnost"
+    }
+  }
+}

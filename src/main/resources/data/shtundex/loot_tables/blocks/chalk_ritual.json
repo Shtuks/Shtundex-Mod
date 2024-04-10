@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "shtundex:blocks/chalk_ritual",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "shtundex:chalk_ritual"
+        }
+      ]
+    }
+  ]
+}

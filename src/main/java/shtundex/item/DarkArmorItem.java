@@ -78,6 +78,7 @@ public abstract class DarkArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("Night vision"));
 		}
 
 		@Override
@@ -107,6 +108,7 @@ public abstract class DarkArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("+ 20 damage resistance"));
 		}
 
 		@Override

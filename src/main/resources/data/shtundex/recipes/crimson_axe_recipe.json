@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:crimson_ingot"
+    },
+    "b": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "result": {
+    "item": "shtundex:crimson_axe",
+    "count": 1
+  }
+}

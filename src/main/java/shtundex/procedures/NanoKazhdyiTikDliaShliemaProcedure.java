@@ -10,6 +10,6 @@ public class NanoKazhdyiTikDliaShliemaProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.CONDUIT_POWER, 150, 1, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.CONDUIT_POWER, 200, 1, false, false));
 	}
 }

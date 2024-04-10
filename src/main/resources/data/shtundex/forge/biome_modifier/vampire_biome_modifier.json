@@ -1,8 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "dark_forest",
   "spawners": {
     "type": "shtundex:vampire",
     "weight": 12,

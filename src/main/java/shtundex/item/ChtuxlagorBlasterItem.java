@@ -25,6 +25,8 @@ public class ChtuxlagorBlasterItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u03A9 Chtux'lag'or \u03A9"));
+		list.add(Component.literal("Erase any life being. Shot projectiles that kill in creative mode."));
+		list.add(Component.literal("Invincibility while holding in hand."));
 	}
 
 	@Override

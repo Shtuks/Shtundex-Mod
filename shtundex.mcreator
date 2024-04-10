@@ -2603,22 +2603,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -3786,7 +3770,8 @@
           "src/main/resources/assets/shtundex/models/item/lore_shtq_7v_3.json",
           "src/main/java/shtundex/item/LoreShtq7v3Item.java"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "ChtuxlagorPiece",
@@ -6224,7 +6209,7 @@
           }
         ]
       },
-      "path": "~/Crafts"
+      "path": "~/Shtuxibus"
     },
     {
       "name": "DrShtuxibus2",
@@ -6252,24 +6237,7 @@
         "files": [
           "src/main/java/shtundex/procedures/DrShtuxibus2PriNachalnomPrizyvieSushchnostiProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Shtuxibus"
     },
@@ -6844,6 +6812,18 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
@@ -8492,6 +8472,2045 @@
           "src/main/java/shtundex/item/PizzaItem.java"
         ]
       }
+    },
+    {
+      "name": "CatsteelStaffPriVzmakhieSushchnostiPriedmietom",
+      "type": "procedure",
+      "sortid": 509,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_staff_pri_vzmakhie_sushchnosti_priedmietom",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelStaffPriVzmakhieSushchnostiPriedmietomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CatsteelStaff",
+      "type": "item",
+      "sortid": 510,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/catsteel_staff.json",
+          "src/main/java/shtundex/item/CatsteelStaffItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Hargeteir2",
+      "type": "projectile",
+      "sortid": 511,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hargeteir_2",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/entity/Hargeteir2Entity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Hargeteir2KoghdaSnariadPopadaietVSushchnost",
+      "type": "procedure",
+      "sortid": 512,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hargeteir_2_koghda_snariad_popadaiet_v_sushchnost",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/Hargeteir2KoghdaSnariadPopadaietVSushchnostProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "ArmorRechargeModulePriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 513,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_recharge_module_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ArmorRechargeModulePriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "ArmorRechargeModule",
+      "type": "item",
+      "sortid": 514,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_recharge_module",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/armor_recharge_module.json",
+          "src/main/java/shtundex/item/ArmorRechargeModuleItem.java"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "PizzaBox",
+      "type": "item",
+      "sortid": 515,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_box",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/PizzaBoxItem.java",
+          "src/main/resources/assets/shtundex/models/item/pizza_box.json"
+        ]
+      }
+    },
+    {
+      "name": "PizzaBoxPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 516,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_box_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/PizzaBoxPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Craft108",
+      "type": "recipe",
+      "sortid": 517,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_108",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_108.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Pizzaa",
+      "type": "procedure",
+      "sortid": 518,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzaa",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/PizzaaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Test1",
+      "type": "command",
+      "sortid": 519,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_1",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/command/Test1Command.java"
+        ]
+      }
+    },
+    {
+      "name": "Craft109",
+      "type": "recipe",
+      "sortid": 520,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_109",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_109.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "TinyChtuxlagorShard",
+      "type": "item",
+      "sortid": 521,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiny_chtuxlagor_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/TinyChtuxlagorShardItem.java",
+          "src/main/resources/assets/shtundex/models/item/tiny_chtuxlagor_shard.json"
+        ]
+      },
+      "path": "~/Chtuxlagor"
+    },
+    {
+      "name": "Craft110",
+      "type": "recipe",
+      "sortid": 522,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_110",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_110.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft111",
+      "type": "recipe",
+      "sortid": 523,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_111",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_111.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Nothing",
+      "type": "potioneffect",
+      "sortid": 524,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nothing",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/NothingMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "NothingKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "sortid": 525,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nothing_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/NothingKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "NothingPriNalozhieniiEffiekta",
+      "type": "procedure",
+      "sortid": 526,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nothing_pri_nalozhienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/NothingPriNalozhieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "ShtuxStaffOfPowerKazhdyiTikVRukie",
+      "type": "procedure",
+      "sortid": 527,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtux_staff_of_power_kazhdyi_tik_v_rukie",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtuxStaffOfPowerKazhdyiTikVRukieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chtuxlagor"
+    },
+    {
+      "name": "CrimsonOre",
+      "type": "block",
+      "sortid": 528,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/blockstates/crimson_ore.json",
+          "src/main/resources/assets/shtundex/models/item/crimson_ore.json",
+          "src/main/java/shtundex/block/CrimsonOreBlock.java",
+          "src/main/resources/assets/shtundex/models/block/crimson_ore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CorruptedOre",
+      "type": "block",
+      "sortid": 529,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/corrupted_ore.json",
+          "src/main/java/shtundex/block/CorruptedOreBlock.java",
+          "src/main/resources/assets/shtundex/blockstates/corrupted_ore.json",
+          "src/main/resources/assets/shtundex/models/block/corrupted_ore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CrimsonIngot",
+      "type": "item",
+      "sortid": 530,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/crimson_ingot.json",
+          "src/main/java/shtundex/item/CrimsonIngotItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WarpedIngot",
+      "type": "item",
+      "sortid": 531,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/warped_ingot.json",
+          "src/main/java/shtundex/item/WarpedIngotItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WarpedArmor",
+      "type": "armor",
+      "sortid": 532,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/warped_armor_chestplate.json",
+          "src/main/resources/assets/shtundex/models/item/warped_armor_helmet.json",
+          "src/main/java/shtundex/item/WarpedArmorItem.java",
+          "src/main/resources/assets/shtundex/models/item/warped_armor_boots.json",
+          "src/main/resources/assets/shtundex/models/item/warped_armor_leggings.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "CrimsonArmor",
+      "type": "armor",
+      "sortid": 533,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/crimson_armor_helmet.json",
+          "src/main/resources/assets/shtundex/models/item/crimson_armor_leggings.json",
+          "src/main/java/shtundex/item/CrimsonArmorItem.java",
+          "src/main/resources/assets/shtundex/models/item/crimson_armor_chestplate.json",
+          "src/main/resources/assets/shtundex/models/item/crimson_armor_boots.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "Cimsonarmorbonus",
+      "type": "procedure",
+      "sortid": 534,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cimsonarmorbonus",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CimsonarmorbonusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "CrimsonRegenerationPriIstiechieniiEffiekta",
+      "type": "procedure",
+      "sortid": 536,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_regeneration_pri_istiechienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CrimsonRegenerationPriIstiechieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "CrimsonRegeneration",
+      "type": "potioneffect",
+      "sortid": 537,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_regeneration",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/CrimsonRegenerationMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "CorruptedArmorBonus",
+      "type": "procedure",
+      "sortid": 538,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_armor_bonus",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CorruptedArmorBonusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "ForceSlot",
+      "type": "curiosslot",
+      "sortid": 539,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_slot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/force_slot.json"
+        ]
+      },
+      "path": "~/Accessories"
+    },
+    {
+      "name": "NetheriteForceWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "sortid": 540,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_force_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/NetheriteForceWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "NetheriteForce",
+      "type": "curiosbauble",
+      "sortid": 541,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_force",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/NetheriteForceItem.java",
+          "src/main/resources/assets/shtundex/models/item/netherite_force.json"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "GoldenForce",
+      "type": "curiosbauble",
+      "sortid": 542,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_force",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/GoldenForceItem.java",
+          "src/main/resources/assets/shtundex/models/item/golden_force.json"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "CrimsonForce",
+      "type": "curiosbauble",
+      "sortid": 543,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_force",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/crimson_force.json",
+          "src/main/java/shtundex/item/CrimsonForceItem.java"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "CrimsonForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 545,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CrimsonForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "CrimsonForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 546,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CrimsonForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "NetheriteForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 547,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/NetheriteForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "NetheriteForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 548,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/NetheriteForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "CatsteelForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 549,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "CatsteelForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 550,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "CatsteelForce",
+      "type": "curiosbauble",
+      "sortid": 551,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_force",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/CatsteelForceItem.java",
+          "src/main/resources/assets/shtundex/models/item/catsteel_force.json"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "ChtuxlagorForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 552,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chtuxlagor_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ChtuxlagorForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "ChtuxlagorForce",
+      "type": "curiosbauble",
+      "sortid": 553,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chtuxlagor_force",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/ChtuxlagorForceItem.java",
+          "src/main/resources/assets/shtundex/models/item/chtuxlagor_force.json"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "DiamondForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 554,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/DiamondForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "MinerForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 555,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/MinerForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "DiamondForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 556,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/DiamondForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "DiamondForce",
+      "type": "curiosbauble",
+      "sortid": 557,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_force",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/diamond_force.json",
+          "src/main/java/shtundex/item/DiamondForceItem.java"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "MinerForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 558,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/MinerForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "MinerForce",
+      "type": "curiosbauble",
+      "sortid": 559,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_force",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/miner_force.json",
+          "src/main/java/shtundex/item/MinerForceItem.java"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "Unequipcatforce",
+      "type": "procedure",
+      "sortid": 560,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unequipcatforce",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/UnequipcatforceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "ShtuxibusForce",
+      "type": "curiosbauble",
+      "sortid": 561,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuxibus_force",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/shtuxibus_force.json",
+          "src/main/java/shtundex/item/ShtuxibusForceItem.java"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "Craft112",
+      "type": "recipe",
+      "sortid": 562,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_112",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_112.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft113",
+      "type": "recipe",
+      "sortid": 563,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_113",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_113.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft114",
+      "type": "recipe",
+      "sortid": 564,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_114",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_114.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft115",
+      "type": "recipe",
+      "sortid": 565,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_115",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_115.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft116",
+      "type": "recipe",
+      "sortid": 566,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_116",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_116.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft117",
+      "type": "recipe",
+      "sortid": 567,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_117",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_117.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft118",
+      "type": "recipe",
+      "sortid": 568,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_118",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_118.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft119",
+      "type": "recipe",
+      "sortid": 569,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_119",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_119.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft120",
+      "type": "recipe",
+      "sortid": 570,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_120",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_120.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft121",
+      "type": "recipe",
+      "sortid": 571,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_121",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_121.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft122",
+      "type": "recipe",
+      "sortid": 572,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_122",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_122.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft123",
+      "type": "recipe",
+      "sortid": 573,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_123",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_123.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "ShtuxibusForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 574,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuxibus_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtuxibusForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "ShtuxibusForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 575,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuxibus_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtuxibusForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "ShtQ7ForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 576,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sht_q_7_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtQ7ForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "ShtQ7ForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 577,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sht_q_7_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtQ7ForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "ShtQ7Force",
+      "type": "curiosbauble",
+      "sortid": 578,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sht_q_7_force",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/ShtQ7ForceItem.java",
+          "src/main/resources/assets/shtundex/models/item/sht_q_7_force.json"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "WarpedForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 579,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/WarpedForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "WarpedForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 580,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/WarpedForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "WarpedForce",
+      "type": "curiosbauble",
+      "sortid": 581,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_force",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/WarpedForceItem.java",
+          "src/main/resources/assets/shtundex/models/item/warped_force.json"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "Craft124",
+      "type": "recipe",
+      "sortid": 582,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_124",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_124.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft125",
+      "type": "recipe",
+      "sortid": 583,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_125",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_125.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft126",
+      "type": "recipe",
+      "sortid": 584,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_126",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_126.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft127",
+      "type": "recipe",
+      "sortid": 585,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_127",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_127.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "CrimsonPickaxe",
+      "type": "tool",
+      "sortid": 591,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/CrimsonPickaxeItem.java",
+          "src/main/resources/assets/shtundex/models/item/crimson_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CrimsonAxe",
+      "type": "tool",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/crimson_axe.json",
+          "src/main/java/shtundex/item/CrimsonAxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CrimsonSword",
+      "type": "tool",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/CrimsonSwordItem.java",
+          "src/main/resources/assets/shtundex/models/item/crimson_sword.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CrimsonShovel",
+      "type": "tool",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/crimson_shovel.json",
+          "src/main/java/shtundex/item/CrimsonShovelItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CrimsonPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 586,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/crimson_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "CrimsonAxeRecipe",
+      "type": "recipe",
+      "sortid": 587,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/crimson_axe_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "CrimsonSwordRecipe",
+      "type": "recipe",
+      "sortid": 588,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/crimson_sword_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "CrimsonShovelRecipe",
+      "type": "recipe",
+      "sortid": 589,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/crimson_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft128",
+      "type": "recipe",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_128",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_128.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "WarpedPickaxe",
+      "type": "tool",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/WarpedPickaxeItem.java",
+          "src/main/resources/assets/shtundex/models/item/warped_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "WarpedAxe",
+      "type": "tool",
+      "sortid": 602,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/warped_axe.json",
+          "src/main/java/shtundex/item/WarpedAxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "WarpedSword",
+      "type": "tool",
+      "sortid": 603,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/WarpedSwordItem.java",
+          "src/main/resources/assets/shtundex/models/item/warped_sword.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "WarpedShovel",
+      "type": "tool",
+      "sortid": 604,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/WarpedShovelItem.java",
+          "src/main/resources/assets/shtundex/models/item/warped_shovel.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "WarpedPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/warped_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "WarpedAxeRecipe",
+      "type": "recipe",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/warped_axe_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "WarpedSwordRecipe",
+      "type": "recipe",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/warped_sword_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "WarpedShovelRecipe",
+      "type": "recipe",
+      "sortid": 599,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/warped_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "WarpedSwordPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 605,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_sword_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/WarpedSwordPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "BleedingUsloviieAktivnoghoSostoianiia",
+      "type": "procedure",
+      "sortid": 606,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_usloviie_aktivnogho_sostoianiia",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BleedingUsloviieAktivnoghoSostoianiiaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Bleeding",
+      "type": "potioneffect",
+      "sortid": 607,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/BleedingMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "CrimsonSwordPriUdariePoSushchnostiInstrumientom",
+      "type": "procedure",
+      "sortid": 608,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_sword_pri_udarie_po_sushchnosti_instrumientom",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CrimsonSwordPriUdariePoSushchnostiInstrumientomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Craft129",
+      "type": "recipe",
+      "sortid": 609,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_129",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_129.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft130",
+      "type": "recipe",
+      "sortid": 610,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_130",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_130.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft131",
+      "type": "recipe",
+      "sortid": 611,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_131",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_131.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft132",
+      "type": "recipe",
+      "sortid": 612,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_132",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_132.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "AntiCreativePriNalozhieniiEffiekta",
+      "type": "procedure",
+      "sortid": 613,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_creative_pri_nalozhienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/AntiCreativePriNalozhieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "AntiCreativePriIstiechieniiEffiekta",
+      "type": "procedure",
+      "sortid": 614,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_creative_pri_istiechienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/AntiCreativePriIstiechieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "AntiCreative",
+      "type": "potioneffect",
+      "sortid": 615,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_creative",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/AntiCreativeMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "EmeraldForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 616,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/EmeraldForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "EmeraldForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 617,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/EmeraldForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "EmeraldForce",
+      "type": "curiosbauble",
+      "sortid": 618,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_force",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/EmeraldForceItem.java",
+          "src/main/resources/assets/shtundex/models/item/emerald_force.json"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "TinForce",
+      "type": "curiosbauble",
+      "sortid": 619,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_force",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/TinForceItem.java",
+          "src/main/resources/assets/shtundex/models/item/tin_force.json"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "TinForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 620,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/TinForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "TinForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 621,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/TinForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "CopperForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 622,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CopperForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "CopperForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 623,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CopperForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "CopperForce",
+      "type": "curiosbauble",
+      "sortid": 624,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_force",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/CopperForceItem.java",
+          "src/main/resources/assets/shtundex/models/item/copper_force.json"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "Electricity",
+      "type": "damagetype",
+      "sortid": 625,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricity",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/damage_type/electricity.json"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "ElectrificationKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "sortid": 626,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrification_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ElectrificationKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Electrification",
+      "type": "potioneffect",
+      "sortid": 627,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrification",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/ElectrificationMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "NanosaberActivePriUdariePoSushchnostiInstrumientom",
+      "type": "procedure",
+      "sortid": 628,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nanosaber_active_pri_udarie_po_sushchnosti_instrumientom",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/NanosaberActivePriUdariePoSushchnostiInstrumientomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [
@@ -8535,6 +10554,78 @@
       "name": "ranech",
       "type": "logic",
       "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "isgoldenforceequiped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "isnetheriteforceequiped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "iscrimsonforceequiped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "iscatsteelforceequiped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "isdiamondforcequipped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "isshtuxianforcequipped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "isminerforceequipped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "isshtq7forceequipped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "iswarpedforceequipped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "isemeraldforceequipped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "istinforceequipped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "iscopperforceequipped",
+      "type": "logic",
+      "scope": "player_persistent",
       "value": "false"
     }
   ],
@@ -8615,46 +10706,57 @@
   "language_map": {
     "ru_ru": {
       "item.shtundex.uranium_dust": "Урановая пыль",
+      "item.shtundex.emerald_force": "Emerald Force",
       "item_group.shtundex.lore": "История",
+      "item.shtundex.warped_pickaxe": "Warped Pickaxe",
       "item.shtundex.unfinished_catsteel_circuit": "Незаконченая котосталевая мткросхема",
       "item.shtundex.dark_armor_boots": "Темные ботинки",
       "item.shtundex.flour": "Мука",
+      "death.attack.electricity": "%1$s was fried from electrical charge.",
       "item.shtundex.kotium": "Котий",
-      "advancements.shtundex_ach.title": "Штундекс!",
+      "item.shtundex.warped_shovel": "Warped Shovel",
       "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
+      "advancements.shtundex_ach.title": "Штундекс!",
       "item_group.shtundex.shtundex": "Штундекс",
       "curios.identifier.boots": "Ботинки",
       "item.shtundex.nanosaber": "Наносабля",
+      "item.shtundex.diamond_force": "Алмазная сила",
       "item.shtundex.cat_clot_armor_leggings": "Кототканевые шаровары",
+      "item.shtundex.warped_sword": "Warped Sword",
       "item.shtundex.shtuxian_curse": "Штуксианское проклятие",
       "item.shtundex.netherite_gear_true": "Незеритовая шестерня",
       "key.shtundex.hotkey_ability_1": "Штучиный щит",
       "item.shtundex.catsteel_axe": "Котосталевый топор",
       "item_group.shtundex.accessories": "Акскссуары",
-      "key.shtundex.dash_key": "Штучиный рывок",
+      "block.shtundex.corrupted_ore": "Искаженная руда",
       "effect.shtundex.antirad": "Антирад",
-      "subtitles.timeres": "",
+      "key.shtundex.dash_key": "Штучиный рывок",
       "curios.identifier.ram_shield": "Таранный щит",
+      "subtitles.timeres": "",
       "item.shtundex.dark_sword": "Темный меч",
       "death.attack.cat_posion": "%1$s был расплавлен в потоке реликтового излучения.",
       "item.shtundex.iron_dust": "Железная пыль",
       "gui.shtundex.macergui.label_macerator": "Дробитель",
       "block.shtundex.tin_ore": "Оловянная руда",
       "entity.shtundex.vampire": "Вампир",
-      "item.shtundex.human_cells": "Живые клетки",
       "item.shtundex.advanced_shtuk_parts": "Продвинутые части Ш.Т.У.К.а",
+      "item.shtundex.human_cells": "Живые клетки",
       "entity.shtundex.dr_shtuxibus_rematch": "Др. Штуксибус",
       "death.attack.cat_posion.player": "%1$s умер пытаясь обойти законы вселенной",
       "item.shtundex.coin_press_scheme": "Пресс монеты",
       "key.shtundex.hotkey_ability_2": "Штучиная ярость",
       "item.shtundex.tin_ingot": "Оловянный слиток",
+      "item.shtundex.tin_force": "Tin Force",
       "item.shtundex.catsteel_drill_handle": "Ручка котосталевого бура",
       "gui.shtundex.shtux.button_rematch": "Рематч [WIP]",
+      "item.shtundex.warped_armor_helmet": "Шлем Warped Armor",
       "key.shtundex.norm_dash": "Рывок",
       "item.shtundex.raw_lead": "Сырой свинец",
       "item.shtundex.catsteel_apple": "Котосталевое яблоко",
+      "item.shtundex.warped_ingot": "Warped Ingot",
       "item.shtundex.netherite_circuit": "Незеритовая микросхема",
-      "item.shtundex.swordland.desc": "Dr.Shtuxibus Theme",
+      "item.shtundex.crimson_sword": "Багряный меч",
+      "item.shtundex.swordland.desc": "",
       "item.shtundex.dark_steel_ingot": "Темносталевый слиток",
       "item.shtundex.circuit_prsss": "Пресс микросхемы",
       "item.shtundex.plate_press": "Пресс пластины",
@@ -8667,6 +10769,7 @@
       "item.shtundex.catsteel_nugget": "Котосталевый самородок",
       "item.shtundex.swordland": "Swordland",
       "painting.shtundex.shtundex_paint.title": "Shtundex",
+      "item.shtundex.crimson_pickaxe": "Багряная кирка",
       "item.shtundex.catsteel_drill_head": "Котосталевая буровая часть",
       "item.shtundex.nanofiber_cloth": "Углепластик",
       "item.shtundex.cursed_catsteel_mechanism": "Проклятый котосталевый механизм",
@@ -8675,6 +10778,7 @@
       "item.shtundex.hazmat_boots": "Защитные ботинки",
       "item.shtundex.berry_pie": "Ягодный пирог",
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Котосталевый генератор",
+      "item.shtundex.warped_armor_leggings": "Поножи Warped Armor",
       "death.attack.irradiated.item": "%1$s облучен %2$s используя %3$s",
       "block.shtundex.tin_block": "Блок олова",
       "entity.shtundex.irradiated_slime": "Облученная масса",
@@ -8683,37 +10787,50 @@
       "advancements.omniruler.title": "Высший правитель.",
       "block.shtundex.shtundex_stone": "Штучиный камень",
       "item.shtundex.chtuxlagor_piece": "Кусочек Штукс\u0027лаг\u0027ора",
+      "item.shtundex.sht_q_7_force": "Сила Sht-Q7 v3",
       "subtitles.timestopza": "",
       "item.shtundex.catsteel_armor_leggings": "Котосталевые поножи",
       "subtitles.blastsound": "",
       "item.shtundex.lore_catsteel": "История - Котосталь",
       "advancements.i_reject_my_humanity.descr": "Стань Ш.Т.У.Ком",
+      "block.shtundex.crimson_ore": "Багряная руда",
       "item.minecraft.lingering_potion.effect.shtuxian_blood": "Осядающая штучиная кровь",
       "advancements.level_2_shtuk.title": "Ш.Т.У.К 2го уровня",
       "item.shtundex.shtuk_cybernetic_parts": "Кибернетические запчасти Ш.Т.У.К.А",
+      "effect.shtundex.electrification": "Electrified",
       "item.shtundex.catsteel_ring": "Котосталевое кольцо",
+      "item.shtundex.warped_armor_chestplate": "Нагрудник Warped Armor",
+      "item.shtundex.catsteel_force": "Котосталевая сила",
       "death.attack.shtuxian_damage.player": "%1$s умер пытаясь убежать от судьбы",
+      "item.shtundex.crimson_armor_boots": "Багряные ботинки",
       "item.shtundex.catsteel_stimulants": "Котосталевые стимулянты",
       "item.shtundex.shtunder_prism": "Штуксианская призма",
       "item.shtundex.cat_hight_tech_suit_boots": "Ботинки C.A.T",
+      "death.attack.electricity.item": "%1$s was killed by %2$s using %3$s",
       "item.shtundex.shtun_stone_sword": "Меч из штучиного камня",
       "item.shtundex.catsteel_armor_boots": "Котосталевые сапоги",
+      "item.shtundex.golden_force": "Золотая сила",
       "item.shtundex.chtuxlagor_blaster": "Бластер Штукс\u0027лаг\u0027ора",
       "advancements.omniruler.descr": "Победить КОШАЧЕЕ БОЖЕСТВО и заполучить его меч.",
       "gui.shtundex.staff_of_power.button_god_mode": "Режим бога",
+      "effect.shtundex.crimson_regeneration": "Багряная регенерация",
       "item.shtundex.nano_boots": "Ботинки Nano",
       "item.shtundex.cat_core": "Кошачее ядро",
       "entity.shtundex.chtuxlagor": "Штукс\u0027лаг\u0027ор",
+      "item.shtundex.crimson_armor_chestplate": "Багряный нагрудник",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "Панель управления миром",
       "item.shtundex.catsteel_armor_chestplate": "Котосталевый нагрудник",
       "item.shtundex.dark_axe": "Темный топор",
+      "effect.shtundex.bleeding": "Кровотечение",
       "block.shtundex.catsteel_grenerator": "Котосталевый реактор",
       "item.shtundex.chtuxlagor_kit": "Набор Штукс\u0027лаг\u0027ора",
       "item.shtundex.cloth": "Ткань",
       "item.shtundex.diamond_dust": "Алмазная пыль",
+      "item.shtundex.armor_recharge_module": "Модуль перезарядки брони",
       "item.shtundex.shtun_stone_hoe": "Мотыга из штучиного камня",
       "block.shtundex.uranium_block": "Урановый блок",
       "death.attack.shtuxian_damage.item": "%1$s был стерт %2$s из реальности",
+      "item.shtundex.pizza_box": "Коробка пиццы",
       "item.shtundex.test_empty": "Test Empt",
       "gui.shtundex.shtux.label_empty": "",
       "gui.shtundex.staff_of_power.button_shtuk_mode": "Режим Ш.Т.У.Ка [WIP]",
@@ -8729,20 +10846,24 @@
       "item.shtundex.irradiated_slime_spawn_egg": "Яйцо призыва обученной массы",
       "item.shtundex.dark_armor_helmet": "Темный шлем",
       "death.attack.cat_posion.item": "%1$s был убит %2$s используя поток реликтового излучения.",
+      "death.attack.electricity.player": "%1$s electricified whilst trying to escape %2$s",
       "item.shtundex.raw_tin": "Сырое олово",
       "item.shtundex.shtun_stone_shovel": "Лопата из штучиного камня",
       "item.shtundex.hazmat_helmet": "Защитный шлем",
       "death.attack.irradiated": "%1$s облучен.",
+      "item.shtundex.crimson_armor_leggings": "Багряные поножи",
       "item.shtundex.catsteel_sword": "Котосталевый меч",
       "entity.shtundex.shtuk": "Ш.Т.У.К",
       "item.shtundex.vampire_spawn_egg": "Яйцо призыва вампира",
       "item.shtundex.catsteel_coin": "Монета из котостали",
       "item.shtundex.cat_clot_armor_helmet": "Кототканевый капюшон",
       "effect.shtundex.radiation": "Радиация",
+      "item.shtundex.chtuxlagor_force": "Сила Штукс\u0027лаг\u0027ора",
       "item.shtundex.shtuxite_soul": "Штукситовая душа",
       "item.shtundex.shtundex_world": "Мульти-измеренский пространственный активатор",
       "item.shtundex.catsteel_armor_helmet": "Котосталевый шлем",
       "death.attack.irradiated.player": "%1$s был облучен пытаясь избежать %2$s",
+      "item.shtundex.warped_force": "Warped Force",
       "item.shtundex.catsteel_shield": "Котосталевый щит",
       "key.shtundex.ability_hotkey_3": "Штучиный луч",
       "effect.shtundex.shtuk_mode_cd": "Перезарядка штучиной способности",
@@ -8764,12 +10885,14 @@
       "entity.shtundex.sht_q_7_v_3": "Sht-Q7 V 3",
       "item.shtundex.shtun_stone_axe": "Топор из штучиного камня",
       "item.shtundex.hazmat_leggings": "Защитныйе поножи",
+      "item.shtundex.netherite_force": "Незеритовая сила",
       "subtitles.abilitysound": "",
       "item.minecraft.potion.effect.shtuxian_blood": "Штучиная кровь",
       "item.shtundex.antirad_cloth": "Противорадиационная ткань",
       "gui.shtundex.staff_of_power.button_fly": "Полет",
       "subtitles.nanoactive": "",
       "item.shtundex.catsteel_bar": "Слиток котостали",
+      "item.shtundex.crimson_shovel": "Багряная лопата",
       "item.shtundex.cat_hight_tech_suit_helmet": "Шлем C.A.T",
       "item.shtundex.shtun_stone_pickaxe": "Кирка из штучиного камня",
       "item.shtundex.circuit": "Котосталевая микросхема",
@@ -8782,6 +10905,8 @@
       "item.shtundex.grinding_ball": "Измельчающий шарик",
       "biome.shtundex.shtuxian_forest": "Штуксианский лес",
       "block.shtundex.catsteel_workbench_block": "Котосталевый верстак",
+      "item.shtundex.catsteel_staff": "Котосталевый посох",
+      "item.shtundex.crimson_axe": "Багряный топор",
       "entity.shtundex.shtux_sword_proj": "Shtux Sword Proj",
       "item.shtundex.refined_xenium_plate": "Пластина обработаного ксеномита",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Др. Штуксибус",
@@ -8795,6 +10920,7 @@
       "enchantment.shtundex.absolute_unbreaking": "Абсолютная неразрушимость",
       "item.shtundex.chtuxlagor_shard": "Осколок Штукс\u0027лаг\u0027ора",
       "block.shtundex.crate": "Ящик",
+      "effect.shtundex.nothing": "Пустота",
       "gui.shtundex.catsteel_workbench.label_catsteel_workbench": "Котосталевый верстак",
       "item.shtundex.raw_uranium": "Сырой уран",
       "key.shtundex.za_warduo": "За Варррдуо! [WIP]",
@@ -8803,6 +10929,7 @@
       "block.shtundex.press": "Пресс",
       "block.shtundex.lead_block": "Блок свинца",
       "entity.shtundex.sht_prigaite": "Sht-Q7 V 3",
+      "item.shtundex.crimson_armor_helmet": "Багряный шлем ",
       "item.shtundex.shtuxian_handle": "Штуксианская рукоять",
       "curios.identifier.blessing": "Благославление",
       "death.attack.shtuxian_damage": "%1$s был раздавлен словно букашка, превосходящим существом.",
@@ -8835,18 +10962,25 @@
       "block.shtundex.machine_casing": "Основа машины",
       "item.shtundex.shtux_staff_of_power": "Посох Кошачей Силы",
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Взрывная штучиная кровь",
+      "item.shtundex.miner_force": "Сила шахтера",
       "advancements.catsteel_catsteel.descr": "Сделайте первые шаги к абсолютной силе.",
+      "item.shtundex.warped_armor_boots": "Ботинки Warped Armor",
       "item.shtundex.bronze_ingot": "Бронзовый слиток",
       "effect.shtundex.cooldown": "Перезарядка способности",
       "item.shtundex.depelleted_catsteel": "Распавшаяся котосталь",
       "block.shtundex.uranium_ore": "Урановая руда",
       "item.shtundex.catsteel_shovel": "Котосталевая лопата",
       "gui.shtundex.press_gui.label_press": "Персс",
+      "item.shtundex.crimson_force": "Багряная сила",
       "item.shtundex.recharger": "Зарядник",
+      "curios.identifier.force_slot": "Сила",
       "key.shtundex.double_jump_key": "Двойной прыжок [WIP]",
+      "item.shtundex.crimson_ingot": "Багряный слиток",
       "item.shtundex.chalk": "Мел",
       "item.shtundex.shtundex_world_blessing": "Благославление Штундекса",
-      "item.shtundex.pizza": "Pizza",
+      "effect.shtundex.anti_creative": "Creative disfunction",
+      "item.shtundex.tiny_chtuxlagor_shard": "Маленький осколок Штукс\u0027лаг\u0027ора",
+      "item.shtundex.pizza": "Пицца",
       "entity.shtundex.human": "Человек",
       "item.shtundex.nether_star_staff": "Посох звезды незера",
       "advancements.shtuxian_machinery.title": "Штуксианская технология.",
@@ -8860,6 +10994,8 @@
       "item.shtundex.lead_plate": "Свинцовая пластина",
       "item.shtundex.shtuxian_kit": "Штучиный набор",
       "item.shtundex.human_spawn_egg": "Яйцо призыва человека",
+      "item.shtundex.shtuxibus_force": "Сила Штуксибуса",
+      "item.shtundex.copper_force": "Copper Force",
       "subtitles.shtq7theme": "",
       "fluid.shtundex.molten_catsteel": "Расплавленая котосталь",
       "item.shtundex.nanosaber_active": "Наносабля",
@@ -8874,70 +11010,84 @@
       "advancements.level_2_shtuk.descr": "Стань богом.",
       "block.shtundex.macerator": "Дробитель",
       "item.shtundex.dark_armor_leggings": "Темные поножи",
+      "item.shtundex.warped_axe": "Warped Axe",
       "item.shtundex.empty_syrgine": "Пустой шприц"
     },
     "en_us": {
       "item.shtundex.uranium_dust": "Uranium Dust",
+      "item.shtundex.emerald_force": "Emerald Force",
       "item_group.shtundex.lore": "Lore",
+      "item.shtundex.warped_pickaxe": "Warped Pickaxe",
       "item.shtundex.unfinished_catsteel_circuit": "Unfinished Catsteel Circuit",
       "item.shtundex.dark_armor_boots": "Dark Boots",
       "item.shtundex.flour": "Flour",
+      "death.attack.electricity": "%1$s was fried from electrical charge.",
       "item.shtundex.kotium": "Kotium",
-      "advancements.i_reject_my_humanity.title": "I Reject My Humanity!",
+      "item.shtundex.warped_shovel": "Warped Shovel",
       "advancements.shtundex_ach.title": "Shtundex!",
+      "advancements.i_reject_my_humanity.title": "I Reject My Humanity!",
       "item_group.shtundex.shtundex": "Shtundex",
       "curios.identifier.boots": "Boots",
       "item.shtundex.nanosaber": "Nanosaber",
+      "item.shtundex.diamond_force": "Diamond Force",
       "item.shtundex.cat_clot_armor_leggings": "CatClot Leggings",
+      "item.shtundex.warped_sword": "Warped Sword",
       "item.shtundex.shtuxian_curse": "Shtuxian Curse",
-      "item.shtundex.netherite_gear_true": "Netherite Gear",
+      "item.shtundex.netherite_gear_true": "Netherite Gear True",
       "key.shtundex.hotkey_ability_1": "Shtuxian Shield",
       "item.shtundex.catsteel_axe": "Catsteel Axe",
       "item_group.shtundex.accessories": "Accessories",
       "key.shtundex.dash_key": "Shtuxian dash",
       "effect.shtundex.antirad": "Antirad",
+      "block.shtundex.corrupted_ore": "Warped ore",
       "subtitles.timeres": "",
       "curios.identifier.ram_shield": "Ram Shield",
-      "item.shtundex.iron_dust": "Iron Dust",
-      "death.attack.cat_posion": "%1$s was melted in bath of omega radiation.",
       "item.shtundex.dark_sword": "Dark Sword",
+      "death.attack.cat_posion": "%1$s was melted in bath of omega radiation.",
+      "item.shtundex.iron_dust": "Iron Dust",
       "block.shtundex.tin_ore": "Tin Ore",
       "gui.shtundex.macergui.label_macerator": "Macerator",
       "entity.shtundex.vampire": "Vampire",
-      "item.shtundex.human_cells": "Organic Cells",
       "item.shtundex.advanced_shtuk_parts": "Advanced Shtuk Parts",
+      "item.shtundex.human_cells": "Organic Cells",
       "entity.shtundex.dr_shtuxibus_rematch": "Dr Shtuxibus",
       "death.attack.cat_posion.player": "%1$s died whilst trying to escape nature laws.",
       "item.shtundex.coin_press_scheme": "Coin Press Scheme",
       "key.shtundex.hotkey_ability_2": "Shtuxian Rage",
       "item.shtundex.tin_ingot": "Tin",
+      "item.shtundex.tin_force": "Tin Force",
       "item.shtundex.catsteel_drill_handle": "Catsteel Drill Handle",
       "gui.shtundex.shtux.button_rematch": "Rematch",
+      "item.shtundex.warped_armor_helmet": "Шлем Warped Armor",
       "key.shtundex.norm_dash": "Dash",
       "item.shtundex.raw_lead": "Raw Lead",
       "item.shtundex.catsteel_apple": "Catsteel Apple",
+      "item.shtundex.warped_ingot": "Warped Ingot",
       "item.shtundex.netherite_circuit": "Netherite Circuit",
-      "item.shtundex.swordland.desc": "Dr.Shtuxibus Theme",
-      "item.shtundex.circuit_prsss": "Circuit Prsss",
+      "item.shtundex.crimson_sword": "Crimson Sword",
+      "item.shtundex.swordland.desc": "Swordland",
       "item.shtundex.dark_steel_ingot": "Dark Steel Ingot",
+      "item.shtundex.circuit_prsss": "Circuit Prsss",
       "item.shtundex.plate_press": "Plate Press",
-      "item.shtundex.nano_helmet": "Nano helm",
       "item.shtundex.tin_dust": "Tin Dust",
+      "item.shtundex.nano_helmet": "Nano helm",
       "item.shtundex.uranium_ingot": "Uranium Ingot",
       "item.shtundex.dark_pickaxe": "Dark Pickaxe",
       "item.shtundex.shtux_sword": "Shtux Sword",
       "effect.shtundex.chtuxlagor_presence": "Chtux\u0027lag\u0027or\u0027s presence",
       "item.shtundex.catsteel_nugget": "Catsteel Nugget",
-      "item.shtundex.swordland": "Swordland",
+      "item.shtundex.swordland": "Music disc - 745",
       "painting.shtundex.shtundex_paint.title": "Shtundex",
+      "item.shtundex.crimson_pickaxe": "Crimson Pickaxe",
       "item.shtundex.catsteel_drill_head": "Catsteel Drill Head",
       "item.shtundex.nanofiber_cloth": "Nanofiber Cloth",
       "item.shtundex.cursed_catsteel_mechanism": "Cursed Catsteel Mechanism",
       "item.shtundex.energy_crystal": "Energy Crystal",
       "entity.shtundex.test_banana": "Test Banana",
-      "item.shtundex.hazmat_boots": "Hazmat boots",
+      "item.shtundex.hazmat_boots": "Ботинки Hazmat",
       "item.shtundex.berry_pie": "Berry Pie",
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Catsteel Generator",
+      "item.shtundex.warped_armor_leggings": "Поножи Warped Armor",
       "death.attack.irradiated.item": "%1$s was irradiated by %2$s using %3$s",
       "block.shtundex.tin_block": "Block of Tin",
       "entity.shtundex.irradiated_slime": "Irradiated mass",
@@ -8946,37 +11096,50 @@
       "advancements.omniruler.title": "Omniruler",
       "block.shtundex.shtundex_stone": "Shtundex Stone",
       "item.shtundex.chtuxlagor_piece": "Chtuxlagor Piece",
+      "item.shtundex.sht_q_7_force": "Sht Q 7 Force",
       "subtitles.timestopza": "",
       "item.shtundex.catsteel_armor_leggings": "Catsteel Leggings",
       "item.shtundex.lore_catsteel": "Lore - Catsteel",
       "subtitles.blastsound": "",
       "advancements.i_reject_my_humanity.descr": "Become a S.H.T.U.K.",
+      "block.shtundex.crimson_ore": "Crimson Ore",
       "item.minecraft.lingering_potion.effect.shtuxian_blood": "Lingering Shtuxian Blood",
       "advancements.level_2_shtuk.title": "Level 2 Shtuk",
       "item.shtundex.shtuk_cybernetic_parts": "Shtuk Cybernetic Parts",
+      "effect.shtundex.electrification": "Electrified",
       "item.shtundex.catsteel_ring": "Catsteel ring of Omniversal knowgle of Shtundex World",
+      "item.shtundex.warped_armor_chestplate": "Нагрудник Warped Armor",
+      "item.shtundex.catsteel_force": "Catsteel Force",
       "death.attack.shtuxian_damage.player": "%1$s died whilst trying to escape his fate.",
+      "item.shtundex.crimson_armor_boots": "Ботинки Crimson Armor",
       "item.shtundex.catsteel_stimulants": "Catsteel Stimulants",
       "item.shtundex.cat_hight_tech_suit_boots": "C.A.T boots",
       "item.shtundex.shtunder_prism": "Shtunder Prism",
+      "death.attack.electricity.item": "%1$s was killed by %2$s using %3$s",
       "item.shtundex.shtun_stone_sword": "ShtunStone Sword",
       "item.shtundex.catsteel_armor_boots": "Catsteel Boots",
+      "item.shtundex.golden_force": "Golden Force",
       "item.shtundex.chtuxlagor_blaster": "Chtuxlagor Blaster",
       "advancements.omniruler.descr": "Defeat GOD OF CATS and get his blade.",
       "gui.shtundex.staff_of_power.button_god_mode": "God Mode",
+      "effect.shtundex.crimson_regeneration": "CrimsonRegeneration",
       "item.shtundex.nano_boots": "Nano boots",
       "item.shtundex.cat_core": "Cat Core",
       "entity.shtundex.chtuxlagor": "Chtuxlagor",
+      "item.shtundex.crimson_armor_chestplate": "Нагрудник Crimson Armor",
       "gui.shtundex.staff_of_power.label_chtuxlagor": "World Control Panel",
       "item.shtundex.catsteel_armor_chestplate": "Catsteel Chestplate",
       "item.shtundex.dark_axe": "Dark Axe",
+      "effect.shtundex.bleeding": "Bleeding",
       "block.shtundex.catsteel_grenerator": "Catsteel Grenerator [WIP]",
       "item.shtundex.chtuxlagor_kit": "Chtuxlagor Kit",
       "item.shtundex.cloth": "Cloth",
       "item.shtundex.diamond_dust": "Diamond Dust",
+      "item.shtundex.armor_recharge_module": "Armor Recharge Module",
       "item.shtundex.shtun_stone_hoe": "ShtunStone Hoe",
       "block.shtundex.uranium_block": "Block of Uranium",
       "death.attack.shtuxian_damage.item": "%1$s was erased by %2$s using \"PAWS OF OMINVERSAL DESTRUCTION\"",
+      "item.shtundex.pizza_box": "Pizza Box",
       "item.shtundex.test_empty": "Test Empty",
       "gui.shtundex.shtux.label_empty": "",
       "gui.shtundex.staff_of_power.button_shtuk_mode": "Recharge SE",
@@ -8992,20 +11155,24 @@
       "item.shtundex.irradiated_slime_spawn_egg": "Irradiated mass Spawn Egg",
       "item.shtundex.dark_armor_helmet": "Dark Helmet",
       "death.attack.cat_posion.item": "%1$s was killed by %2$s using omega radiation.",
+      "death.attack.electricity.player": "%1$s electricified whilst trying to escape %2$s",
       "item.shtundex.raw_tin": "Raw Tin",
       "item.shtundex.shtun_stone_shovel": "ShtunStone Shovel",
-      "item.shtundex.hazmat_helmet": "Hazmat helmet",
+      "item.shtundex.hazmat_helmet": "Шлем Hazmat",
       "death.attack.irradiated": "%1$s irradiated.",
+      "item.shtundex.crimson_armor_leggings": "Поножи Crimson Armor",
       "item.shtundex.catsteel_sword": "Catsteel Sword",
       "entity.shtundex.shtuk": "Shtuk",
       "item.shtundex.vampire_spawn_egg": "Vampire Spawn Egg",
       "item.shtundex.catsteel_coin": "Catsteel Coin",
       "item.shtundex.cat_clot_armor_helmet": "CatClot Helmet",
       "effect.shtundex.radiation": "Radiation",
+      "item.shtundex.chtuxlagor_force": "Chtuxlagor Force",
       "item.shtundex.shtuxite_soul": "Shtuxite Soul",
       "item.shtundex.shtundex_world": "Shtundex World Portal Igniter",
       "item.shtundex.catsteel_armor_helmet": "Catsteel Helmet",
       "death.attack.irradiated.player": "%1$s irradiated whilst trying to escape %2$s",
+      "item.shtundex.warped_force": "Warped Force",
       "item.shtundex.catsteel_shield": "Catsteel Shield",
       "key.shtundex.ability_hotkey_3": "Shtuxian ray",
       "effect.shtundex.shtuk_mode_cd": "Shtuk Ability CD",
@@ -9026,13 +11193,15 @@
       "block.shtundex.molten_catsteel": "Molten Catsteel",
       "entity.shtundex.sht_q_7_v_3": "Sht-Q7 V 3",
       "item.shtundex.shtun_stone_axe": "ShtunStone Axe",
-      "item.shtundex.hazmat_leggings": "Hazmat leggins",
+      "item.shtundex.hazmat_leggings": "Поножи Hazmat",
+      "item.shtundex.netherite_force": "Netherite Force",
       "subtitles.abilitysound": "",
       "item.minecraft.potion.effect.shtuxian_blood": "Shtuxian Blood",
       "item.shtundex.antirad_cloth": "Antirad Cloth",
       "gui.shtundex.staff_of_power.button_fly": "Fly",
       "subtitles.nanoactive": "",
       "item.shtundex.catsteel_bar": "Catsteel Bar",
+      "item.shtundex.crimson_shovel": "Crimson Shovel",
       "item.shtundex.cat_hight_tech_suit_helmet": "C.A.T Helmet",
       "item.shtundex.shtun_stone_pickaxe": "ShtunStone Pickaxe",
       "item.shtundex.circuit": "Circuit",
@@ -9045,19 +11214,22 @@
       "item.shtundex.grinding_ball": "Grinding Ball",
       "biome.shtundex.shtuxian_forest": "Shtuxian Forest",
       "block.shtundex.catsteel_workbench_block": "Catsteel Workbench Block",
+      "item.shtundex.catsteel_staff": "Catsteel Staff",
+      "item.shtundex.crimson_axe": "Crimson Axe",
       "entity.shtundex.shtux_sword_proj": "Shtux Sword Proj",
       "item.shtundex.refined_xenium_plate": "Refined Xenium Plate",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Shtuxibus",
-      "item.shtundex.hazmat_chestplate": "Hazmat chestplate",
+      "item.shtundex.hazmat_chestplate": "Нагрудник Hazmat",
       "item.shtundex.geiger_count": "Geiger Count",
       "entity.shtundex.dr_shtuxibus": "Dr Shtuxibus",
       "item.shtundex.traveler_boots": "Traveler Boots",
-      "gui.shtundex.staff_of_power.button_gm_0": "GM 0",
+      "gui.shtundex.staff_of_power.button_gm_0": "GM 1",
       "item.shtundex.iron_gear": "Iron Gear",
-      "gui.shtundex.staff_of_power.button_gm_1": "GM 1",
+      "gui.shtundex.staff_of_power.button_gm_1": "GM 0",
       "enchantment.shtundex.absolute_unbreaking": "Absolute Unbreaking",
       "item.shtundex.chtuxlagor_shard": "Chtux\u0027lag\u0027or Shard",
       "block.shtundex.crate": "Crate",
+      "effect.shtundex.nothing": "Void",
       "gui.shtundex.catsteel_workbench.label_catsteel_workbench": "Catsteel Workbench",
       "item.shtundex.raw_uranium": "Raw Uranium",
       "key.shtundex.za_warduo": "Za Warduo",
@@ -9066,6 +11238,7 @@
       "block.shtundex.press": "Press",
       "block.shtundex.lead_block": "Block of Lead",
       "entity.shtundex.sht_prigaite": "Sht-Q7 V 3",
+      "item.shtundex.crimson_armor_helmet": "Шлем Crimson Armor",
       "item.shtundex.shtuxian_handle": "Shtuxian Handle",
       "curios.identifier.blessing": "Blessing",
       "death.attack.shtuxian_damage": "%1$s was crushed like a bug by superior being.",
@@ -9098,17 +11271,24 @@
       "block.shtundex.machine_casing": "Machine Casing",
       "item.shtundex.shtux_staff_of_power": "Shtux Staff Of Power",
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Splash Shtuxian Blood",
+      "item.shtundex.miner_force": "Miner Force",
       "advancements.catsteel_catsteel.descr": "Make your first steps in goal to become most powerful.",
+      "item.shtundex.warped_armor_boots": "Ботинки Warped Armor",
       "item.shtundex.bronze_ingot": "Bronze Ingot",
       "effect.shtundex.cooldown": "Ability cooldown",
       "item.shtundex.depelleted_catsteel": "Depelleted Catsteel",
       "block.shtundex.uranium_ore": "Uranium Ore",
       "item.shtundex.catsteel_shovel": "Catsteel Shovel",
       "gui.shtundex.press_gui.label_press": "Press",
+      "item.shtundex.crimson_force": "Crimson Force",
       "item.shtundex.recharger": "Recharger",
+      "curios.identifier.force_slot": "Force Slot",
       "key.shtundex.double_jump_key": "Double Jump",
+      "item.shtundex.crimson_ingot": "Crimson Ingot",
       "item.shtundex.chalk": "Chalk",
       "item.shtundex.shtundex_world_blessing": "Shtundex World Blessing",
+      "effect.shtundex.anti_creative": "Creative disfunction",
+      "item.shtundex.tiny_chtuxlagor_shard": "Tiny Chtux\u0027lag\u0027or Shard",
       "item.shtundex.pizza": "Pizza",
       "entity.shtundex.human": "Human",
       "item.shtundex.nether_star_staff": "Nether Star Staff",
@@ -9123,6 +11303,8 @@
       "item.shtundex.lead_plate": "Lead Plate",
       "item.shtundex.shtuxian_kit": "Shtuxian Kit",
       "item.shtundex.human_spawn_egg": "Human Spawn Egg",
+      "item.shtundex.shtuxibus_force": "Shtuxibus Force",
+      "item.shtundex.copper_force": "Copper Force",
       "subtitles.shtq7theme": "",
       "fluid.shtundex.molten_catsteel": "Molten Catsteel",
       "item.shtundex.nanosaber_active": "Nanosaber",
@@ -9137,6 +11319,7 @@
       "advancements.level_2_shtuk.descr": "Become a god.",
       "block.shtundex.macerator": "Macerator",
       "item.shtundex.dark_armor_leggings": "Dark Leggings",
+      "item.shtundex.warped_axe": "Warped Axe",
       "item.shtundex.empty_syrgine": "Empty Syrgine"
     }
   },
@@ -9181,7 +11364,12 @@
       },
       {
         "name": "Accessories",
-        "children": []
+        "children": [
+          {
+            "name": "Forces",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Effects",
@@ -9208,7 +11396,7 @@
   "workspaceSettings": {
     "modid": "shtundex",
     "modName": "Shtundex",
-    "version": "0.1.4",
+    "version": "0.1.6",
     "author": "MaONAHK9955, StarlightCat, FormulaOak15915",
     "websiteURL": "https://modrinth.com/mod/shtundex-mod",
     "license": "GNU General Public License version 3 (GPLv3)",

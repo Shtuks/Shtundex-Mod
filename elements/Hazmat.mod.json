@@ -25,7 +25,9 @@
       "fixedValue": []
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Armor bonus: radiation resistance"
+      ]
     },
     "leggingsSpecialInformation": {
       "fixedValue": []
@@ -74,10 +76,10 @@
       "fixedValue": false
     },
     "maxDamage": 15,
-    "damageValueHelmet": 3,
-    "damageValueBody": 8,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 3,
+    "damageValueHelmet": 1,
+    "damageValueBody": 1,
+    "damageValueLeggings": 1,
+    "damageValueBoots": 1,
     "enchantability": 0,
     "toughness": 2.0,
     "knockbackResistance": 0.1,

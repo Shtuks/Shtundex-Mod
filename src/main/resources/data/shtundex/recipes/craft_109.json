@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "ccb"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:catsteel_bar"
+    },
+    "b": {
+      "item": "shtundex:nanofiber_cloth"
+    },
+    "c": {
+      "item": "shtundex:dark_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "shtundex:armor_recharge_module",
+    "count": 4
+  }
+}

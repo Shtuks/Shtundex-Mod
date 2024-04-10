@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:refined_xenium_plate"
+    },
+    "b": {
+      "item": "shtundex:circuit"
+    },
+    "c": {
+      "item": "shtundex:shtundex_stone"
+    },
+    "d": {
+      "item": "shtundex:shtuxite_soul"
+    },
+    "e": {
+      "item": "shtundex:shtunder_prism"
+    },
+    "f": {
+      "item": "shtundex:shtuxian_energy"
+    },
+    "g": {
+      "item": "shtundex:catsteel_block"
+    },
+    "h": {
+      "item": "shtundex:cat_core"
+    },
+    "i": {
+      "item": "shtundex:netherite_gear_true"
+    }
+  },
+  "result": {
+    "item": "shtundex:tiny_chtuxlagor_shard",
+    "count": 1
+  }
+}

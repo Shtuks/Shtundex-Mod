@@ -92,6 +92,8 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.PLATE_PRESS.get());
 				tabData.accept(ShtundexModBlocks.PRESS.get().asItem());
 				tabData.accept(ShtundexModBlocks.CATSTEEL_WORKBENCH_BLOCK.get().asItem());
+				tabData.accept(ShtundexModBlocks.TIN_ORE.get().asItem());
+				tabData.accept(ShtundexModBlocks.TIN_BLOCK.get().asItem());
 				tabData.accept(ShtundexModItems.TIN_INGOT.get());
 				tabData.accept(ShtundexModItems.TIN_DUST.get());
 				tabData.accept(ShtundexModItems.COPPER_DUST.get());
@@ -143,7 +145,6 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.ENERGY_CRYSTAL.get());
 				tabData.accept(ShtundexModItems.SHTUXIAN_KIT.get());
 				tabData.accept(ShtundexModItems.CHTUXLAGOR_KIT.get());
-				tabData.accept(ShtundexModBlocks.CHALK_RITUAL.get().asItem());
 				tabData.accept(ShtundexModItems.CHALK.get());
 				tabData.accept(ShtundexModItems.CAT_CORE.get());
 				tabData.accept(ShtundexModItems.NETHERITE_GEAR_TRUE.get());
@@ -164,6 +165,30 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.DARK_AXE.get());
 				tabData.accept(ShtundexModItems.DARK_SWORD.get());
 				tabData.accept(ShtundexModItems.PIZZA.get());
+				tabData.accept(ShtundexModItems.CATSTEEL_STAFF.get());
+				tabData.accept(ShtundexModItems.ARMOR_RECHARGE_MODULE.get());
+				tabData.accept(ShtundexModItems.PIZZA_BOX.get());
+				tabData.accept(ShtundexModItems.TINY_CHTUXLAGOR_SHARD.get());
+				tabData.accept(ShtundexModBlocks.CRIMSON_ORE.get().asItem());
+				tabData.accept(ShtundexModBlocks.CORRUPTED_ORE.get().asItem());
+				tabData.accept(ShtundexModItems.CRIMSON_INGOT.get());
+				tabData.accept(ShtundexModItems.WARPED_INGOT.get());
+				tabData.accept(ShtundexModItems.WARPED_ARMOR_HELMET.get());
+				tabData.accept(ShtundexModItems.WARPED_ARMOR_CHESTPLATE.get());
+				tabData.accept(ShtundexModItems.WARPED_ARMOR_LEGGINGS.get());
+				tabData.accept(ShtundexModItems.WARPED_ARMOR_BOOTS.get());
+				tabData.accept(ShtundexModItems.CRIMSON_ARMOR_HELMET.get());
+				tabData.accept(ShtundexModItems.CRIMSON_ARMOR_CHESTPLATE.get());
+				tabData.accept(ShtundexModItems.CRIMSON_ARMOR_LEGGINGS.get());
+				tabData.accept(ShtundexModItems.CRIMSON_ARMOR_BOOTS.get());
+				tabData.accept(ShtundexModItems.CRIMSON_PICKAXE.get());
+				tabData.accept(ShtundexModItems.CRIMSON_AXE.get());
+				tabData.accept(ShtundexModItems.CRIMSON_SWORD.get());
+				tabData.accept(ShtundexModItems.CRIMSON_SHOVEL.get());
+				tabData.accept(ShtundexModItems.WARPED_PICKAXE.get());
+				tabData.accept(ShtundexModItems.WARPED_AXE.get());
+				tabData.accept(ShtundexModItems.WARPED_SWORD.get());
+				tabData.accept(ShtundexModItems.WARPED_SHOVEL.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_SHTUXIBUS.get())).displayItems((parameters, tabData) -> {
@@ -183,17 +208,25 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.CATSTEEL_RING.get());
 				tabData.accept(ShtundexModItems.VAMPIRIC_AMULET.get());
 				tabData.accept(ShtundexModItems.TRAVELER_BOOTS.get());
+				tabData.accept(ShtundexModItems.NETHERITE_FORCE.get());
+				tabData.accept(ShtundexModItems.GOLDEN_FORCE.get());
+				tabData.accept(ShtundexModItems.CRIMSON_FORCE.get());
+				tabData.accept(ShtundexModItems.CATSTEEL_FORCE.get());
+				tabData.accept(ShtundexModItems.CHTUXLAGOR_FORCE.get());
+				tabData.accept(ShtundexModItems.DIAMOND_FORCE.get());
+				tabData.accept(ShtundexModItems.MINER_FORCE.get());
+				tabData.accept(ShtundexModItems.SHTUXIBUS_FORCE.get());
+				tabData.accept(ShtundexModItems.SHT_Q_7_FORCE.get());
+				tabData.accept(ShtundexModItems.WARPED_FORCE.get());
+				tabData.accept(ShtundexModItems.EMERALD_FORCE.get());
+				tabData.accept(ShtundexModItems.TIN_FORCE.get());
+				tabData.accept(ShtundexModItems.COPPER_FORCE.get());
 			})
 
 					.build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-
-		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(ShtundexModBlocks.TIN_ORE.get().asItem());
-			tabData.accept(ShtundexModBlocks.TIN_BLOCK.get().asItem());
-		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(ShtundexModItems.VAMPIRE_SPAWN_EGG.get());

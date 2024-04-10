@@ -61,7 +61,6 @@ public class DrShtuxibusRematchEntity extends Monster implements RangedAttackMob
 		setMaxUpStep(0.4f);
 		xpReward = 32000;
 		setNoAi(false);
-		setPersistenceRequired();
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(ShtundexModItems.SHTUX_SWORD.get()));
 		this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(ShtundexModItems.CAT_HIGHT_TECH_SUIT_CHESTPLATE.get()));
 		this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(ShtundexModItems.CAT_HIGHT_TECH_SUIT_LEGGINGS.get()));
@@ -92,11 +91,6 @@ public class DrShtuxibusRematchEntity extends Monster implements RangedAttackMob
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
-	}
-
-	@Override
-	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
 	}
 
 	@Override

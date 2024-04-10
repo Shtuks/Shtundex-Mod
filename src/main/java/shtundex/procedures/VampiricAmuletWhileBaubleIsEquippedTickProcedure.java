@@ -13,12 +13,12 @@ public class VampiricAmuletWhileBaubleIsEquippedTickProcedure {
 		if (entity == null)
 			return;
 		if (!world.canSeeSkyFromBelowWater(BlockPos.containing(x, y, z)) || !world.getLevelData().isRaining() || !(world instanceof Level _lvl2 && _lvl2.isDay())) {
-			entity.setSecondsOnFire(15);
-		} else {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 120, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 1, false, false));
+		} else {
+			entity.setSecondsOnFire(15);
 		}
 	}
 }

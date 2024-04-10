@@ -2,6 +2,7 @@
 package shtundex.item;
 
 import shtundex.procedures.CatsteelSwordPriUdariePoSushchnostiInstrumientomProcedure;
+import shtundex.procedures.CatsteelArmorKazhdyiTikDliaShliemaProcedure;
 
 import shtundex.init.ShtundexModItems;
 
@@ -13,6 +14,7 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
@@ -57,5 +59,11 @@ public class CatsteelSwordItem extends SwordItem {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("Inflict \"catsteel posion\" at attacked entity for 10 seconds"));
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		CatsteelArmorKazhdyiTikDliaShliemaProcedure.execute(itemstack);
 	}
 }

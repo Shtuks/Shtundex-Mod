@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:warped_ingot"
+    },
+    "b": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "result": {
+    "item": "shtundex:warped_shovel",
+    "count": 1
+  }
+}

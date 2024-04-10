@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CatCore"
+      },
+      {
+        "value": "CUSTOM:ShtukCyberneticParts"
+      },
+      {
+        "value": "CUSTOM:NetheriteGearTrue"
+      },
+      {
+        "value": "CUSTOM:ShtuxiteBlaster"
+      },
+      {
+        "value": "CUSTOM:CatClotArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:Circuit"
+      },
+      {
+        "value": "CUSTOM:CatClotArmor.body"
+      },
+      {
+        "value": "CUSTOM:CatClotArmor.legs"
+      },
+      {
+        "value": "CUSTOM:CatClotArmor.boots"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ShtQ7Force"
+    },
+    "name": "craft_131",
+    "namespace": "mod"
+  }
+}

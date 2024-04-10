@@ -34,7 +34,7 @@ public abstract class HazmatItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{3, 6, 8, 3}[type.getSlot().getIndex()];
+				return new int[]{1, 1, 1, 1}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -98,6 +98,7 @@ public abstract class HazmatItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
+			list.add(Component.literal("Armor bonus: radiation resistance"));
 		}
 
 		@Override

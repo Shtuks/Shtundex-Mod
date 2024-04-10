@@ -28,7 +28,9 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Ω Chtux'lag'or Ω"
+        "Ω Chtux'lag'or Ω",
+        "Erase any life being. Shot projectiles that kill in creative mode.",
+        "Invincibility while holding in hand."
       ]
     },
     "glowCondition": {

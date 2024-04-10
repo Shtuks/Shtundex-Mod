@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:catsteel_armor_helmet"
+    },
+    {
+      "item": "shtundex:catsteel_armor_chestplate"
+    },
+    {
+      "item": "shtundex:catsteel_armor_leggings"
+    },
+    {
+      "item": "shtundex:catsteel_armor_boots"
+    },
+    {
+      "item": "shtundex:catsteel_sword"
+    },
+    {
+      "item": "shtundex:catsteel_pickaxe"
+    },
+    {
+      "item": "shtundex:catsteel_apple"
+    },
+    {
+      "item": "shtundex:catsteel_shovel"
+    },
+    {
+      "item": "shtundex:catsteel_axe"
+    }
+  ],
+  "result": {
+    "item": "shtundex:catsteel_force",
+    "count": 1
+  }
+}
