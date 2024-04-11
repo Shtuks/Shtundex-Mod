@@ -1,5 +1,7 @@
 package shtundex.procedures;
 
+import shtundex.network.ShtundexModVariables;
+
 import shtundex.init.ShtundexModMobEffects;
 
 import net.minecraft.world.phys.Vec3;
@@ -13,13 +15,15 @@ public class NormdasshProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (!(entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(ShtundexModMobEffects.COOLDOWN.get()))) {
-			entity.setDeltaMovement(new Vec3((1.3 * entity.getLookAngle().x), (1.2 * entity.getLookAngle().y), (1.3 * entity.getLookAngle().z)));
-			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.COOLDOWN.get(), 60, 1, false, false));
-		} else {
-			if (!world.isClientSide() && world.getServer() != null)
-				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("Ability on cooldown."), false);
+		if (ShtundexModVariables.WorldVariables.get(world).InfinityMode == true) {
+			if (!(entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(ShtundexModMobEffects.COOLDOWN.get()))) {
+				entity.setDeltaMovement(new Vec3((1.3 * entity.getLookAngle().x), (1.2 * entity.getLookAngle().y), (1.3 * entity.getLookAngle().z)));
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.COOLDOWN.get(), 60, 1, false, false));
+			} else {
+				if (!world.isClientSide() && world.getServer() != null)
+					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("Ability on cooldown."), false);
+			}
 		}
 	}
 }

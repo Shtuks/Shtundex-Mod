@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:GoldenForce"
+        "value": ""
       },
       {
-        "value": "CUSTOM:WarpedForce"
+        "value": ""
       },
       {
-        "value": "CUSTOM:DiamondForce"
+        "value": ""
       },
       {
         "value": "CUSTOM:ShtuxibusForce"
       },
       {
-        "value": "CUSTOM:MinerForce"
+        "value": ""
       },
       {
         "value": "CUSTOM:ShtQ7Force"
       },
       {
-        "value": "CUSTOM:NetheriteForce"
+        "value": ""
       },
       {
-        "value": "CUSTOM:CrimsonForce"
+        "value": ""
       },
       {
-        "value": "CUSTOM:CatsteelForce"
+        "value": ""
       }
     ],
     "recipeReturnStack": {

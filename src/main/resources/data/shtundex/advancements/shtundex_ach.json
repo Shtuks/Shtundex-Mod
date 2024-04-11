@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "shtundex:kotium"
     },
@@ -28,5 +27,6 @@
     "loot": [
       "shtundex:ach_2"
     ]
-  }
+  },
+  "parent": "shtundex:begining"
 }

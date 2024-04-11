@@ -2,37 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "abc",
-    "def",
-    "ghi"
+    "a b"
   ],
   "key": {
     "a": {
-      "item": "shtundex:golden_force"
-    },
-    "b": {
-      "item": "shtundex:warped_force"
-    },
-    "c": {
-      "item": "shtundex:diamond_force"
-    },
-    "d": {
       "item": "shtundex:shtuxibus_force"
     },
-    "e": {
-      "item": "shtundex:miner_force"
-    },
-    "f": {
+    "b": {
       "item": "shtundex:sht_q_7_force"
-    },
-    "g": {
-      "item": "shtundex:netherite_force"
-    },
-    "h": {
-      "item": "shtundex:crimson_force"
-    },
-    "i": {
-      "item": "shtundex:catsteel_force"
     }
   },
   "result": {

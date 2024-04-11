@@ -172,7 +172,7 @@ public class BlackHoleEntity extends Monster {
 	@Override
 	public void playerTouch(Player sourceentity) {
 		super.playerTouch(sourceentity);
-		BlackHolePriStolknovieniiIghrokaSSushchnostiuProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		BlackHolePriStolknovieniiIghrokaSSushchnostiuProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

@@ -189,6 +189,9 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.WARPED_AXE.get());
 				tabData.accept(ShtundexModItems.WARPED_SWORD.get());
 				tabData.accept(ShtundexModItems.WARPED_SHOVEL.get());
+				tabData.accept(ShtundexModItems.INFINITY_MODE_CHANGER.get());
+				tabData.accept(ShtundexModBlocks.BOSS_ALTAR.get().asItem());
+				tabData.accept(ShtundexModItems.TRERRAFORMING_DIRT_STAFF.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_SHTUXIBUS.get())).displayItems((parameters, tabData) -> {
@@ -197,6 +200,7 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.LORE_CHTUXLAGOR.get());
 				tabData.accept(ShtundexModItems.LORE_SHTUNDEX_WORLD.get());
 				tabData.accept(ShtundexModItems.LORE_SHTQ_7V_3.get());
+				tabData.accept(ShtundexModItems.LORE_AWAKENING.get());
 			})
 
 					.build());
@@ -219,8 +223,9 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.SHT_Q_7_FORCE.get());
 				tabData.accept(ShtundexModItems.WARPED_FORCE.get());
 				tabData.accept(ShtundexModItems.EMERALD_FORCE.get());
-				tabData.accept(ShtundexModItems.TIN_FORCE.get());
 				tabData.accept(ShtundexModItems.COPPER_FORCE.get());
+				tabData.accept(ShtundexModItems.LAPIS_FORCE.get());
+				tabData.accept(ShtundexModItems.MATERIAL_FORCE.get());
 			})
 
 					.build());

@@ -44,6 +44,10 @@ public class NetheriteForceWhileBaubleIsEquippedTickProcedure {
 		if ((entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).iscrimsonforceequiped == true) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.CRIMSON_REGENERATION.get(), 40, 1, false, false));
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.WITHER);
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.POISON);
 		}
 		if ((entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).iscatsteelforceequiped == true) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
@@ -67,7 +71,7 @@ public class NetheriteForceWhileBaubleIsEquippedTickProcedure {
 		}
 		if ((entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).isshtuxianforcequipped == true) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 40, 29, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 40, 19, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.FLIGHT.get(), 40, 0, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
@@ -81,7 +85,7 @@ public class NetheriteForceWhileBaubleIsEquippedTickProcedure {
 		}
 		if ((entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).isshtq7forceequipped == true) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 40, 19, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 40, 9, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 4, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
@@ -102,6 +106,10 @@ public class NetheriteForceWhileBaubleIsEquippedTickProcedure {
 		if ((entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).iscopperforceequipped == true) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeEffect(ShtundexModMobEffects.ELECTRIFICATION.get());
+		}
+		if ((entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).islapisforceequipped == true) {
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.CONDUIT_POWER, 40, 0, false, false));
 		}
 	}
 }

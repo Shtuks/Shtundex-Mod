@@ -18,6 +18,13 @@ public class UnequipcatforceProcedure {
 		{
 			boolean _setval = false;
 			entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+				capability.CatsteelShiel = _setval;
+				capability.syncPlayerVariables(entity);
+			});
+		}
+		{
+			boolean _setval = false;
+			entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 				capability.isgoldenforceequiped = _setval;
 				capability.syncPlayerVariables(entity);
 			});
@@ -33,6 +40,13 @@ public class UnequipcatforceProcedure {
 			boolean _setval = false;
 			entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 				capability.iscopperforceequipped = _setval;
+				capability.syncPlayerVariables(entity);
+			});
+		}
+		{
+			boolean _setval = false;
+			entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+				capability.isminerforceequipped = _setval;
 				capability.syncPlayerVariables(entity);
 			});
 		}

@@ -1,6 +1,7 @@
 
 package shtundex.item;
 
+import shtundex.procedures.ShtuxStaffOfPowerKazhdyiTikVInvientarieProcedure;
 import shtundex.procedures.ChtuxlagorBlasterPriUdariePoSushchnostiPriedmietomProcedure;
 import shtundex.procedures.ChtuxlagorBlasterPriShchielchkiePKProcedure;
 import shtundex.procedures.ChtuxlagorBlasterPriShchielchkiePKMProcedure;
@@ -48,5 +49,6 @@ public class ChtuxlagorBlasterItem extends Item {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
 			ChtuxlagorBlasterPriShchielchkiePKProcedure.execute(entity);
+		ShtuxStaffOfPowerKazhdyiTikVInvientarieProcedure.execute(world, itemstack);
 	}
 }

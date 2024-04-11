@@ -16,6 +16,7 @@ import shtundex.potion.CrimsonRegenerationMobEffect;
 import shtundex.potion.CooldownMobEffect;
 import shtundex.potion.ChtuxlagorPresenceMobEffect;
 import shtundex.potion.CatsteelPosionMobEffect;
+import shtundex.potion.BossalifeMobEffect;
 import shtundex.potion.BleedingMobEffect;
 import shtundex.potion.AntiradMobEffect;
 import shtundex.potion.AntiCreativeMobEffect;
@@ -45,4 +46,5 @@ public class ShtundexModMobEffects {
 	public static final RegistryObject<MobEffect> BLEEDING = REGISTRY.register("bleeding", () -> new BleedingMobEffect());
 	public static final RegistryObject<MobEffect> ANTI_CREATIVE = REGISTRY.register("anti_creative", () -> new AntiCreativeMobEffect());
 	public static final RegistryObject<MobEffect> ELECTRIFICATION = REGISTRY.register("electrification", () -> new ElectrificationMobEffect());
+	public static final RegistryObject<MobEffect> BOSSALIFE = REGISTRY.register("bossalife", () -> new BossalifeMobEffect());
 }

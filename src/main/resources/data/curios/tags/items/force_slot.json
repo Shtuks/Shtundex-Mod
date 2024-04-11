@@ -14,6 +14,8 @@
     "shtundex:warped_force",
     "shtundex:emerald_force",
     "shtundex:tin_force",
-    "shtundex:copper_force"
+    "shtundex:copper_force",
+    "shtundex:lapis_force",
+    "shtundex:material_force"
   ]
 }

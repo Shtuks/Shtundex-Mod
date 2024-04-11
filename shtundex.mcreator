@@ -2969,6 +2969,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -6361,6 +6365,10 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -10511,6 +10519,951 @@
         ]
       },
       "path": "~/Tools"
+    },
+    {
+      "name": "InfinityModeChanger",
+      "type": "item",
+      "sortid": 629,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinity_mode_changer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/infinity_mode_changer.json",
+          "src/main/java/shtundex/item/InfinityModeChangerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "InfinityDisplayUsloviiePokazaNalozhieniia",
+      "type": "procedure",
+      "sortid": 630,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinity_display_usloviie_pokaza_nalozhieniia",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/shtundex/procedures/InfinityDisplayUsloviiePokazaNalozhieniiaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfinityDisplay",
+      "type": "overlay",
+      "sortid": 631,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinity_display",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/client/screens/InfinityDisplayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "InfinityModeChangerPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 632,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinity_mode_changer_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/InfinityModeChangerPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShtuxianTeleportPriNazhatiiKlavishi",
+      "type": "procedure",
+      "sortid": 633,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuxian_teleport_pri_nazhatii_klavishi",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtuxianTeleportPriNazhatiiKlavishiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/S.H.T.U.K Mode"
+    },
+    {
+      "name": "ShtuxianTeleport",
+      "type": "keybind",
+      "sortid": 634,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuxian_teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/network/ShtuxianTeleportMessage.java"
+        ]
+      },
+      "path": "~/S.H.T.U.K Mode"
+    },
+    {
+      "name": "ShtuxStaffOfPowerKazhdyiTikVInvientarie",
+      "type": "procedure",
+      "sortid": 635,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtux_staff_of_power_kazhdyi_tik_v_invientarie",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtuxStaffOfPowerKazhdyiTikVInvientarieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chtuxlagor"
+    },
+    {
+      "name": "Craft133",
+      "type": "recipe",
+      "sortid": 636,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_133",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_133.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft134",
+      "type": "recipe",
+      "sortid": 637,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_134",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_134.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "LoreAwakening",
+      "type": "item",
+      "sortid": 638,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lore_awakening",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/LoreAwakeningItem.java",
+          "src/main/resources/assets/shtundex/models/item/lore_awakening.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "StartKit",
+      "type": "loottable",
+      "sortid": 639,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_kit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/loot_tables/blocks/start_kit.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Begining",
+      "type": "achievement",
+      "sortid": 640,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "begining",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/advancements/begining.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Starting",
+      "type": "procedure",
+      "sortid": 641,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starting",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/StartingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "CopperGaga",
+      "type": "procedure",
+      "sortid": 642,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_gaga",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CopperGagaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "TeleportPriNazhatiiKlavishi",
+      "type": "procedure",
+      "sortid": 643,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_pri_nazhatii_klavishi",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/TeleportPriNazhatiiKlavishiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "Teleport",
+      "type": "keybind",
+      "sortid": 644,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/network/TeleportMessage.java"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "LapisForceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 645,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_force_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/LapisForceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "LapisForceBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 646,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_force_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/LapisForceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "LapisForce",
+      "type": "curiosbauble",
+      "sortid": 647,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_force",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/lapis_force.json",
+          "src/main/java/shtundex/item/LapisForceItem.java"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "MaterialForce",
+      "type": "curiosbauble",
+      "sortid": 648,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "material_force",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/material_force.json",
+          "src/main/java/shtundex/item/MaterialForceItem.java"
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "Craft135",
+      "type": "recipe",
+      "sortid": 649,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_135",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_135.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft136",
+      "type": "recipe",
+      "sortid": 650,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_136",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_136.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Matforceequip",
+      "type": "procedure",
+      "sortid": 651,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "matforceequip",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/MatforceequipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "Matforceunequip",
+      "type": "procedure",
+      "sortid": 652,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "matforceunequip",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/MatforceunequipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Accessories/Forces"
+    },
+    {
+      "name": "BossAltar",
+      "type": "block",
+      "sortid": 653,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_altar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/block/boss_altar.json",
+          "src/main/java/shtundex/block/BossAltarBlock.java",
+          "src/main/resources/assets/shtundex/blockstates/boss_altar.json",
+          "src/main/resources/assets/shtundex/models/item/boss_altar.json"
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "BossalifePriIstiechieniiEffiekta",
+      "type": "procedure",
+      "sortid": 654,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bossalife_pri_istiechienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BossalifePriIstiechieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "Bossalifeon",
+      "type": "procedure",
+      "sortid": 655,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bossalifeon",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BossalifeonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "Bossalife",
+      "type": "potioneffect",
+      "sortid": 656,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bossalife",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/BossalifeMobEffect.java"
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "BossCheck",
+      "type": "procedure",
+      "sortid": 657,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_check",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BossCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "BossAltarObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 658,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_altar_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BossAltarObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "Unbosss",
+      "type": "procedure",
+      "sortid": 659,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unbosss",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/UnbosssProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "Bosskill",
+      "type": "command",
+      "sortid": 660,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bosskill",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/command/BosskillCommand.java"
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "BossArenaBlock",
+      "type": "block",
+      "sortid": 661,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_arena_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/blockstates/boss_arena_block.json",
+          "src/main/java/shtundex/block/BossArenaBlockBlock.java",
+          "src/main/resources/assets/shtundex/models/item/boss_arena_block.json",
+          "src/main/resources/assets/shtundex/models/block/boss_arena_block.json"
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "DirtProjectileKoghdaSnariadPopadaietVBlok",
+      "type": "procedure",
+      "sortid": 662,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_projectile_koghda_snariad_popadaiet_v_blok",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/DirtProjectileKoghdaSnariadPopadaietVBlokProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "DirtProjectile",
+      "type": "projectile",
+      "sortid": 663,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/entity/DirtProjectileEntity.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "TrerraformingDirtStaffPriVzmakhieSushchnostiPriedmietom",
+      "type": "procedure",
+      "sortid": 664,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trerraforming_dirt_staff_pri_vzmakhie_sushchnosti_priedmietom",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/TrerraformingDirtStaffPriVzmakhieSushchnostiPriedmietomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "TrerraformingDirtStaff",
+      "type": "item",
+      "sortid": 665,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trerraforming_dirt_staff",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/TrerraformingDirtStaffItem.java",
+          "src/main/resources/assets/shtundex/models/item/trerraforming_dirt_staff.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Bordering",
+      "type": "procedure",
+      "sortid": 666,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bordering",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BorderingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "Bordering2",
+      "type": "procedure",
+      "sortid": 667,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bordering_2",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/Bordering2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "Bordering3",
+      "type": "procedure",
+      "sortid": 668,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bordering_3",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/Bordering3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "BossArenaBlockObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 669,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_arena_block_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BossArenaBlockObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "GaiaReefrence",
+      "type": "particle",
+      "sortid": 670,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaia_reefrence",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/client/particle/GaiaReefrenceParticle.java",
+          "src/main/resources/assets/shtundex/particles/gaia_reefrence.json"
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "Gigi2",
+      "type": "particle",
+      "sortid": 671,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gigi_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/particles/gigi_2.json",
+          "src/main/java/shtundex/client/particle/Gigi2Particle.java"
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "Gai3",
+      "type": "particle",
+      "sortid": 672,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gai_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/particles/gai_3.json",
+          "src/main/java/shtundex/client/particle/Gai3Particle.java"
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "Gog4",
+      "type": "particle",
+      "sortid": 673,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gog_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/particles/gog_4.json",
+          "src/main/java/shtundex/client/particle/Gog4Particle.java"
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "Gei5",
+      "type": "particle",
+      "sortid": 674,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gei_5",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/client/particle/Gei5Particle.java",
+          "src/main/resources/assets/shtundex/particles/gei_5.json"
+        ]
+      },
+      "path": "~/Shtuxibus"
     }
   ],
   "variable_elements": [
@@ -10627,6 +11580,48 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "InfinityMode",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "islapisforceequipped",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "bossalife",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "shtuxibusdefeated",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "shtuxhealed",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "shtuxteleported",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "arenaup",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -10705,15 +11700,15 @@
   ],
   "language_map": {
     "ru_ru": {
+      "item.shtundex.emerald_force": "Изумрудная сила",
       "item.shtundex.uranium_dust": "Урановая пыль",
-      "item.shtundex.emerald_force": "Emerald Force",
       "item_group.shtundex.lore": "История",
       "item.shtundex.warped_pickaxe": "Warped Pickaxe",
       "item.shtundex.unfinished_catsteel_circuit": "Незаконченая котосталевая мткросхема",
       "item.shtundex.dark_armor_boots": "Темные ботинки",
       "item.shtundex.flour": "Мука",
-      "death.attack.electricity": "%1$s was fried from electrical charge.",
       "item.shtundex.kotium": "Котий",
+      "death.attack.electricity": "%1$s was fried from electrical charge.",
       "item.shtundex.warped_shovel": "Warped Shovel",
       "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
       "advancements.shtundex_ach.title": "Штундекс!",
@@ -10748,6 +11743,7 @@
       "item.shtundex.tin_ingot": "Оловянный слиток",
       "item.shtundex.tin_force": "Tin Force",
       "item.shtundex.catsteel_drill_handle": "Ручка котосталевого бура",
+      "item.shtundex.lore_awakening": "История - Появление",
       "gui.shtundex.shtux.button_rematch": "Рематч [WIP]",
       "item.shtundex.warped_armor_helmet": "Шлем Warped Armor",
       "key.shtundex.norm_dash": "Рывок",
@@ -10774,7 +11770,9 @@
       "item.shtundex.nanofiber_cloth": "Углепластик",
       "item.shtundex.cursed_catsteel_mechanism": "Проклятый котосталевый механизм",
       "item.shtundex.energy_crystal": "Энергетический кристалл",
+      "item.shtundex.lapis_force": "Лазуротовая сила",
       "entity.shtundex.test_banana": "Test Banana",
+      "effect.shtundex.bossalife": "Boss existance",
       "item.shtundex.hazmat_boots": "Защитные ботинки",
       "item.shtundex.berry_pie": "Ягодный пирог",
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Котосталевый генератор",
@@ -10787,6 +11785,7 @@
       "advancements.omniruler.title": "Высший правитель.",
       "block.shtundex.shtundex_stone": "Штучиный камень",
       "item.shtundex.chtuxlagor_piece": "Кусочек Штукс\u0027лаг\u0027ора",
+      "advancements.begining.descr": "Начало твоего путешествия в этом мире.",
       "item.shtundex.sht_q_7_force": "Сила Sht-Q7 v3",
       "subtitles.timestopza": "",
       "item.shtundex.catsteel_armor_leggings": "Котосталевые поножи",
@@ -10797,7 +11796,7 @@
       "item.minecraft.lingering_potion.effect.shtuxian_blood": "Осядающая штучиная кровь",
       "advancements.level_2_shtuk.title": "Ш.Т.У.К 2го уровня",
       "item.shtundex.shtuk_cybernetic_parts": "Кибернетические запчасти Ш.Т.У.К.А",
-      "effect.shtundex.electrification": "Electrified",
+      "effect.shtundex.electrification": "Электрифицирован",
       "item.shtundex.catsteel_ring": "Котосталевое кольцо",
       "item.shtundex.warped_armor_chestplate": "Нагрудник Warped Armor",
       "item.shtundex.catsteel_force": "Котосталевая сила",
@@ -10897,7 +11896,9 @@
       "item.shtundex.shtun_stone_pickaxe": "Кирка из штучиного камня",
       "item.shtundex.circuit": "Котосталевая микросхема",
       "block.shtundex.lead_ore": "Свинцовая руда",
+      "key.shtundex.shtuxian_teleport": "Shtuxian Teleport",
       "item.shtundex.vampiric_amulet": "Вампирский амулет",
+      "item.shtundex.trerraforming_dirt_staff": "Trerraforming Dirt Staff",
       "block.shtundex.deepslate_lead_ore": "Глубинносланцевая свинцовая руда",
       "effect.shtundex.flight": "Полет",
       "item.shtundex.cat_hight_tech_suit_chestplate": "Нагрудник C.A.T",
@@ -10907,6 +11908,7 @@
       "block.shtundex.catsteel_workbench_block": "Котосталевый верстак",
       "item.shtundex.catsteel_staff": "Котосталевый посох",
       "item.shtundex.crimson_axe": "Багряный топор",
+      "block.shtundex.boss_arena_block": "Boss Arena Block",
       "entity.shtundex.shtux_sword_proj": "Shtux Sword Proj",
       "item.shtundex.refined_xenium_plate": "Пластина обработаного ксеномита",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Др. Штуксибус",
@@ -10953,7 +11955,9 @@
       "advancements.shtundex_ach.descr": "Получите доступ к миру штучиных высоких технологий",
       "item.shtundex.lore_shtq_7v_3": "История - Sht-Q7 v3",
       "item.shtundex.catsteel_pickaxe": "Котосталевая кирка",
+      "item.shtundex.infinity_mode_changer": "Переключатель режима бесконечности",
       "entity.shtundex.shtuxibus_ex": "Shtuxibus EX",
+      "key.shtundex.teleport": "Teleport",
       "item.shtundex.chtuxlagor_mantle_chestplate": "Мантия Штукс\u0027лаг\u0027ора",
       "item.shtundex.catsteel_pill": "Котосталевая пеллета",
       "block.shtundex.catsteel_block": "Блок котостали",
@@ -10968,6 +11972,7 @@
       "item.shtundex.bronze_ingot": "Бронзовый слиток",
       "effect.shtundex.cooldown": "Перезарядка способности",
       "item.shtundex.depelleted_catsteel": "Распавшаяся котосталь",
+      "item.shtundex.material_force": "Сила майнкрафта",
       "block.shtundex.uranium_ore": "Урановая руда",
       "item.shtundex.catsteel_shovel": "Котосталевая лопата",
       "gui.shtundex.press_gui.label_press": "Персс",
@@ -11008,6 +12013,8 @@
       "item.shtundex.cat_clot_armor_chestplate": "Кототканевая мантия",
       "item.shtundex.cat_cloth": "Кототкань",
       "advancements.level_2_shtuk.descr": "Стань богом.",
+      "advancements.begining.title": "Начало",
+      "block.shtundex.boss_altar": "Boss Altar",
       "block.shtundex.macerator": "Дробитель",
       "item.shtundex.dark_armor_leggings": "Темные поножи",
       "item.shtundex.warped_axe": "Warped Axe",
@@ -11057,6 +12064,7 @@
       "item.shtundex.tin_ingot": "Tin",
       "item.shtundex.tin_force": "Tin Force",
       "item.shtundex.catsteel_drill_handle": "Catsteel Drill Handle",
+      "item.shtundex.lore_awakening": "Lore Awakening",
       "gui.shtundex.shtux.button_rematch": "Rematch",
       "item.shtundex.warped_armor_helmet": "Шлем Warped Armor",
       "key.shtundex.norm_dash": "Dash",
@@ -11083,7 +12091,9 @@
       "item.shtundex.nanofiber_cloth": "Nanofiber Cloth",
       "item.shtundex.cursed_catsteel_mechanism": "Cursed Catsteel Mechanism",
       "item.shtundex.energy_crystal": "Energy Crystal",
+      "item.shtundex.lapis_force": "Lapis Force",
       "entity.shtundex.test_banana": "Test Banana",
+      "effect.shtundex.bossalife": "Boss existance",
       "item.shtundex.hazmat_boots": "Ботинки Hazmat",
       "item.shtundex.berry_pie": "Berry Pie",
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Catsteel Generator",
@@ -11096,6 +12106,7 @@
       "advancements.omniruler.title": "Omniruler",
       "block.shtundex.shtundex_stone": "Shtundex Stone",
       "item.shtundex.chtuxlagor_piece": "Chtuxlagor Piece",
+      "advancements.begining.descr": "Start of your journey in this world.",
       "item.shtundex.sht_q_7_force": "Sht Q 7 Force",
       "subtitles.timestopza": "",
       "item.shtundex.catsteel_armor_leggings": "Catsteel Leggings",
@@ -11206,7 +12217,9 @@
       "item.shtundex.shtun_stone_pickaxe": "ShtunStone Pickaxe",
       "item.shtundex.circuit": "Circuit",
       "block.shtundex.lead_ore": "Lead Ore",
+      "key.shtundex.shtuxian_teleport": "Shtuxian Teleport",
       "item.shtundex.vampiric_amulet": "Vampiric Amulet",
+      "item.shtundex.trerraforming_dirt_staff": "Trerraforming Dirt Staff",
       "block.shtundex.deepslate_lead_ore": "Lead Ore",
       "effect.shtundex.flight": "Flight",
       "item.shtundex.cat_hight_tech_suit_chestplate": "C.A.T Chestplate",
@@ -11216,6 +12229,7 @@
       "block.shtundex.catsteel_workbench_block": "Catsteel Workbench Block",
       "item.shtundex.catsteel_staff": "Catsteel Staff",
       "item.shtundex.crimson_axe": "Crimson Axe",
+      "block.shtundex.boss_arena_block": "Boss Arena Block",
       "entity.shtundex.shtux_sword_proj": "Shtux Sword Proj",
       "item.shtundex.refined_xenium_plate": "Refined Xenium Plate",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Shtuxibus",
@@ -11262,7 +12276,9 @@
       "advancements.shtundex_ach.descr": "Achive access to the world of Shtuxian technologies.",
       "item.shtundex.lore_shtq_7v_3": "Lore - Sht-Q7 v3",
       "item.shtundex.catsteel_pickaxe": "Catsteel Pickaxe",
+      "item.shtundex.infinity_mode_changer": "Infinity Mode Changer",
       "entity.shtundex.shtuxibus_ex": "Shtuxibus EX",
+      "key.shtundex.teleport": "Teleport",
       "item.shtundex.chtuxlagor_mantle_chestplate": "Chtux\u0027lag\u0027or Mantle",
       "item.shtundex.catsteel_pill": "Catsteel Pill",
       "block.shtundex.catsteel_block": "Catsteel Block",
@@ -11277,6 +12293,7 @@
       "item.shtundex.bronze_ingot": "Bronze Ingot",
       "effect.shtundex.cooldown": "Ability cooldown",
       "item.shtundex.depelleted_catsteel": "Depelleted Catsteel",
+      "item.shtundex.material_force": "Material Force",
       "block.shtundex.uranium_ore": "Uranium Ore",
       "item.shtundex.catsteel_shovel": "Catsteel Shovel",
       "gui.shtundex.press_gui.label_press": "Press",
@@ -11317,6 +12334,8 @@
       "item.shtundex.cat_clot_armor_chestplate": "CatClot Chestplate",
       "item.shtundex.cat_cloth": "Cat Cloth",
       "advancements.level_2_shtuk.descr": "Become a god.",
+      "advancements.begining.title": "Begining",
+      "block.shtundex.boss_altar": "Boss Altar",
       "block.shtundex.macerator": "Macerator",
       "item.shtundex.dark_armor_leggings": "Dark Leggings",
       "item.shtundex.warped_axe": "Warped Axe",

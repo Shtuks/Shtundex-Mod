@@ -19,6 +19,7 @@ import shtundex.entity.Hargeteir2Entity;
 import shtundex.entity.DrShtuxibusRematchEntity;
 import shtundex.entity.DrShtuxibusEntity;
 import shtundex.entity.DrShtuxibus2Entity;
+import shtundex.entity.DirtProjectileEntity;
 import shtundex.entity.ChtuxlagorEntity;
 import shtundex.entity.BlasterProjEntity;
 import shtundex.entity.BlackHoleEntity;
@@ -54,8 +55,8 @@ public class ShtundexModEntities {
 			.setCustomClientFactory(ShtuxibusProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<ShtPrigaiteEntity>> SHT_PRIGAITE = register("sht_prigaite", EntityType.Builder.<ShtPrigaiteEntity>of(ShtPrigaiteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(ShtPrigaiteEntity::new).fireImmune().sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<BlackHoleEntity>> BLACK_HOLE = register("black_hole", EntityType.Builder.<BlackHoleEntity>of(BlackHoleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128)
-			.setUpdateInterval(3).setCustomClientFactory(BlackHoleEntity::new).fireImmune().sized(0.4f, 0.7f));
+	public static final RegistryObject<EntityType<BlackHoleEntity>> BLACK_HOLE = register("black_hole",
+			EntityType.Builder.<BlackHoleEntity>of(BlackHoleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(BlackHoleEntity::new).fireImmune().sized(1f, 1f));
 	public static final RegistryObject<EntityType<DrShtuxibusRematchEntity>> DR_SHTUXIBUS_REMATCH = register("dr_shtuxibus_rematch", EntityType.Builder.<DrShtuxibusRematchEntity>of(DrShtuxibusRematchEntity::new, MobCategory.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(DrShtuxibusRematchEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<DrShtuxibus2Entity>> DR_SHTUXIBUS_2 = register("dr_shtuxibus_2", EntityType.Builder.<DrShtuxibus2Entity>of(DrShtuxibus2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
@@ -84,6 +85,8 @@ public class ShtundexModEntities {
 					.sized(1f, 1f));
 	public static final RegistryObject<EntityType<Hargeteir2Entity>> HARGETEIR_2 = register("projectile_hargeteir_2",
 			EntityType.Builder.<Hargeteir2Entity>of(Hargeteir2Entity::new, MobCategory.MISC).setCustomClientFactory(Hargeteir2Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<DirtProjectileEntity>> DIRT_PROJECTILE = register("projectile_dirt_projectile",
+			EntityType.Builder.<DirtProjectileEntity>of(DirtProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(DirtProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

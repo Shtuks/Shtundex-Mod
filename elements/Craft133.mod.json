@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WarpedArmor.boots"
+      },
+      {
+        "value": "CUSTOM:WarpedArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:WarpedArmor.legs"
+      },
+      {
+        "value": "CUSTOM:WarpedSword"
+      },
+      {
+        "value": "CUSTOM:WarpedPickaxe"
+      },
+      {
+        "value": "CUSTOM:WarpedArmor.body"
+      },
+      {
+        "value": "CUSTOM:WarpedSword"
+      },
+      {
+        "value": "CUSTOM:WarpedShovel"
+      },
+      {
+        "value": "Blocks.WARPED_FUNGUS"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WarpedForce"
+    },
+    "name": "craft_133",
+    "namespace": "mod"
+  }
+}

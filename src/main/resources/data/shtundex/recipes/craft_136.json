@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:warped_force"
+    },
+    {
+      "item": "shtundex:lapis_force"
+    },
+    {
+      "item": "shtundex:netherite_force"
+    },
+    {
+      "item": "shtundex:golden_force"
+    },
+    {
+      "item": "shtundex:crimson_force"
+    },
+    {
+      "item": "shtundex:catsteel_force"
+    },
+    {
+      "item": "shtundex:emerald_force"
+    },
+    {
+      "item": "shtundex:diamond_force"
+    },
+    {
+      "item": "shtundex:copper_force"
+    }
+  ],
+  "result": {
+    "item": "shtundex:material_force",
+    "count": 1
+  }
+}

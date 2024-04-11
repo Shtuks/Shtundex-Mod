@@ -16,6 +16,7 @@ package shtundex;
 import shtundex.init.ShtundexModTabs;
 import shtundex.init.ShtundexModSounds;
 import shtundex.init.ShtundexModPotions;
+import shtundex.init.ShtundexModParticleTypes;
 import shtundex.init.ShtundexModPaintings;
 import shtundex.init.ShtundexModMobEffects;
 import shtundex.init.ShtundexModMenus;
@@ -71,6 +72,7 @@ public class ShtundexMod {
 		ShtundexModMobEffects.REGISTRY.register(bus);
 		ShtundexModPotions.REGISTRY.register(bus);
 		ShtundexModPaintings.REGISTRY.register(bus);
+		ShtundexModParticleTypes.REGISTRY.register(bus);
 
 		ShtundexModMenus.REGISTRY.register(bus);
 		ShtundexModFluids.REGISTRY.register(bus);

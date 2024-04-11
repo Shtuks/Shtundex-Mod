@@ -12,7 +12,7 @@
             "price1": {
               "value": "Items.EMERALD"
             },
-            "countPrice1": 1,
+            "countPrice1": 64,
             "price2": {
               "value": "CUSTOM:EmptySyrgine"
             },
@@ -21,9 +21,9 @@
               "value": "CUSTOM:HumanCells"
             },
             "countOffer": 1,
-            "level": 1,
-            "maxTrades": 10,
-            "xp": 5,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 999,
             "priceMultiplier": 0.05
           }
         ]

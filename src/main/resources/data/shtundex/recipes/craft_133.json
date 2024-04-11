@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shtundex:warped_armor_boots"
+    },
+    {
+      "item": "shtundex:warped_armor_helmet"
+    },
+    {
+      "item": "shtundex:warped_armor_leggings"
+    },
+    {
+      "item": "shtundex:warped_sword"
+    },
+    {
+      "item": "shtundex:warped_pickaxe"
+    },
+    {
+      "item": "shtundex:warped_armor_chestplate"
+    },
+    {
+      "item": "shtundex:warped_sword"
+    },
+    {
+      "item": "shtundex:warped_shovel"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    }
+  ],
+  "result": {
+    "item": "shtundex:warped_force",
+    "count": 1
+  }
+}

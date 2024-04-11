@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "shtundex:lore_awakening"
+    },
+    "title": {
+      "translate": "advancements.begining.title"
+    },
+    "description": {
+      "translate": "advancements.begining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "begining": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "shtundex:blocks/start_kit"
+    ]
+  }
+}

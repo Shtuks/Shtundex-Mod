@@ -48,6 +48,9 @@
     "onEntityHitWith": {
       "name": "ShtuxStaffOfPowerPriUdariePoSushchnostiPriedmietom"
     },
+    "onItemInInventoryTick": {
+      "name": "ShtuxStaffOfPowerKazhdyiTikVInvientarie"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {

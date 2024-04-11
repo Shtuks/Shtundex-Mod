@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WarpedForce"
+      },
+      {
+        "value": "CUSTOM:LapisForce"
+      },
+      {
+        "value": "CUSTOM:NetheriteForce"
+      },
+      {
+        "value": "CUSTOM:GoldenForce"
+      },
+      {
+        "value": "CUSTOM:CrimsonForce"
+      },
+      {
+        "value": "CUSTOM:CatsteelForce"
+      },
+      {
+        "value": "CUSTOM:EmeraldForce"
+      },
+      {
+        "value": "CUSTOM:DiamondForce"
+      },
+      {
+        "value": "CUSTOM:CopperForce"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MaterialForce"
+    },
+    "name": "craft_136",
+    "namespace": "mod"
+  }
+}

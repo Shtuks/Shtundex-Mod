@@ -1,0 +1,71 @@
+{
+  "_fv": 57,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "universesoul1",
+    "customModelName": "Normal",
+    "name": "Material Force",
+    "rarity": "RARE",
+    "slotType": "ForceSlot",
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "creativeTab": {
+      "value": "CUSTOM:Accessories"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "addSlot": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "Immunity to wither, poision, catsteel poision.",
+        "Teleport on binded key, flight, piglins become neutral.",
+        "Reduced cost of trades, armor twise as effective.",
+        "+ 12 base damage but slowing you.",
+        "+ 20 defence when in liquid, + 20% damage resistance",
+        "+ 30% speed and night vision.",
+        "Armor and item in hand are unbreakable.",
+        "+ 5 block reach and instant mining speed."
+      ]
+    },
+    "hasGlow": true,
+    "customProperties": {},
+    "states": [],
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "slotAmount": 1,
+    "onEquip": {
+      "name": "Matforceequip"
+    },
+    "onUnequip": {
+      "name": "Matforceunequip"
+    },
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "rotateModel": false,
+    "translateModel": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": false,
+    "animation": "none"
+  }
+}

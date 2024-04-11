@@ -115,8 +115,8 @@
       "value": ""
     },
     "entityDataEntries": [],
-    "whenMobDies": {
-      "name": "ShtQ7V3PriGibieliSushchnosti"
+    "whenThisMobKillsAnother": {
+      "name": "DrShtuxibusHealVamp"
     },
     "hasAI": true,
     "aiBase": "(none)",

@@ -24,7 +24,8 @@ public class WarpedForceItem extends Item implements ICurioItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("You will have half of health and + 12 base damage"));
+		list.add(Component.literal("You will be slowed and + 12 base damage"));
+		list.add(Component.literal("Teleport on key bind."));
 	}
 
 	@Override

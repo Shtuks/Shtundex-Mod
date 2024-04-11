@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "keybind",
   "definition": {
-    "triggerKey": "NUMPAD3",
+    "triggerKey": "NONE",
     "keyBindingName": "Za Warduo",
     "keyBindingCategoryKey": "misc",
     "onKeyPressed": {

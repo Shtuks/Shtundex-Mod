@@ -1,7 +1,10 @@
 package shtundex.procedures;
 
+import shtundex.network.ShtundexModVariables;
+
 import shtundex.init.ShtundexModMobEffects;
 
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
@@ -10,7 +13,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 
 public class ChtuxlagorMantleEffProcedure {
-	public static void execute(Entity entity, ItemStack itemstack) {
+	public static void execute(LevelAccessor world, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player) {
@@ -40,5 +43,8 @@ public class ChtuxlagorMantleEffProcedure {
 			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 60, 99, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.HTUC.get(), 60, 99, false, false));
+		if (ShtundexModVariables.WorldVariables.get(world).InfinityMode == false) {
+			itemstack.shrink(1);
+		}
 	}
 }

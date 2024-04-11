@@ -24,7 +24,7 @@ public class CopperForceItem extends Item implements ICurioItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Additional electical damage."));
+		list.add(Component.literal("Shot lightnings on hitted entities."));
 		list.add(Component.literal("Immunity to \"electrification\""));
 	}
 

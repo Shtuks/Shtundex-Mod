@@ -77,7 +77,7 @@
     },
     "maxDamage": 1024,
     "damageValueHelmet": 2,
-    "damageValueBody": 1024,
+    "damageValueBody": 1,
     "damageValueLeggings": 5,
     "damageValueBoots": 2,
     "enchantability": 100,

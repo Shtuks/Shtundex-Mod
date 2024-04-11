@@ -1,6 +1,9 @@
 package shtundex.procedures;
 
+import shtundex.network.ShtundexModVariables;
+
 import shtundex.init.ShtundexModItems;
+import shtundex.init.ShtundexModBlocks;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
@@ -23,25 +26,34 @@ public class DrShtuxibusUsloviieGienieratsiiSushchnostiProcedure {
 		double enchant_levels = 0;
 		ItemStack emeralds = ItemStack.EMPTY;
 		ItemStack tool = ItemStack.EMPTY;
-		if (!world.isClientSide() && world.getServer() != null)
-			world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> Hm? Finaly we met. You slain everything on your path... Just to feel blink of power Chtux'lag'or have. You no diffrent from me."), false);
-		if (world instanceof ServerLevel _level)
-			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"title @a title {\"text\":\"GOD OF CATS\",\"bold\":true}");
-		if (world instanceof ServerLevel _level)
-			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"title @a subtitle {\"text\":\"SHTUXIBUS\",\"color\":\"red\",\"italic\":true}");
-		if (world instanceof ServerLevel _level) {
-			LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
-			entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));;
-			_level.addFreshEntity(entityToSpawn);
-		}
-		if (world instanceof ServerLevel _level)
-			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + 1), z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"summon shtundex:dr_shtuxibus");
-		if (entity instanceof Player _player) {
-			ItemStack _stktoremove = new ItemStack(ShtundexModItems.SHTUXIAN_CURSE.get());
-			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == ShtundexModBlocks.BOSS_ALTAR.get()) {
+			ShtundexModVariables.WorldVariables.get(world).bossalife = true;
+			ShtundexModVariables.WorldVariables.get(world).syncData(world);
+			ShtundexModVariables.WorldVariables.get(world).shtuxhealed = false;
+			ShtundexModVariables.WorldVariables.get(world).syncData(world);
+			if (!world.isClientSide() && world.getServer() != null)
+				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> Hm? Finaly we met. You slain everything on your path... Just to feel blink of power Chtux'lag'or have. You no diffrent from me."), false);
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"title @a title {\"text\":\"GOD OF CATS\",\"bold\":true}");
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"title @a subtitle {\"text\":\"SHTUXIBUS\",\"color\":\"red\",\"italic\":true}");
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));;
+				_level.addFreshEntity(entityToSpawn);
+			}
+			BorderingProcedure.execute(world, x, y, z);
+			Bordering2Procedure.execute(world, x, y, z);
+			Bordering3Procedure.execute(world, x, y, z);
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + 1), z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"summon shtundex:dr_shtuxibus");
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(ShtundexModItems.SHTUXIAN_CURSE.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
 		}
 	}
 }

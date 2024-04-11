@@ -49,5 +49,6 @@ public class ShtundexModEntityRenderers {
 		event.registerEntityRenderer(ShtundexModEntities.SHTUX_SWORD_PROJ.get(), ShtuxSwordProjRenderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.IRRADIATED_SLIME.get(), IrradiatedSlimeRenderer::new);
 		event.registerEntityRenderer(ShtundexModEntities.HARGETEIR_2.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(ShtundexModEntities.DIRT_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }

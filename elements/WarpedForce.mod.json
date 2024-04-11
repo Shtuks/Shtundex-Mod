@@ -30,7 +30,8 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "You will have half of health and + 12 base damage"
+        "You will be slowed and + 12 base damage",
+        "Teleport on key bind."
       ]
     },
     "hasGlow": false,

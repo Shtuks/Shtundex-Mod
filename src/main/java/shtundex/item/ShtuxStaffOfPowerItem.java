@@ -4,6 +4,7 @@ package shtundex.item;
 import shtundex.procedures.ShtuxStaffOfPowerPriVzmakhieSushchnostiPriedmietomProcedure;
 import shtundex.procedures.ShtuxStaffOfPowerPriUdariePoSushchnostiPriedmietomProcedure;
 import shtundex.procedures.ShtuxStaffOfPowerPriShchielchkiePKMProcedure;
+import shtundex.procedures.ShtuxStaffOfPowerKazhdyiTikVInvientarieProcedure;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
@@ -18,6 +19,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
@@ -87,5 +89,11 @@ public class ShtuxStaffOfPowerItem extends Item {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
 		ShtuxStaffOfPowerPriUdariePoSushchnostiPriedmietomProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 		return retval;
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		ShtuxStaffOfPowerKazhdyiTikVInvientarieProcedure.execute(world, itemstack);
 	}
 }

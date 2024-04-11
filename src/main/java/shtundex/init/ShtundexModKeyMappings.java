@@ -5,6 +5,8 @@
 package shtundex.init;
 
 import shtundex.network.ZaWarduoMessage;
+import shtundex.network.TeleportMessage;
+import shtundex.network.ShtuxianTeleportMessage;
 import shtundex.network.ShieldDashKeyMessage;
 import shtundex.network.NormDashMessage;
 import shtundex.network.HotkryAbility4Message;
@@ -56,7 +58,7 @@ public class ShtundexModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping ZA_WARDUO = new KeyMapping("key.shtundex.za_warduo", GLFW.GLFW_KEY_KP_3, "key.categories.misc") {
+	public static final KeyMapping ZA_WARDUO = new KeyMapping("key.shtundex.za_warduo", GLFW.GLFW_KEY_UNKNOWN, "key.categories.misc") {
 		private boolean isDownOld = false;
 
 		@Override
@@ -160,6 +162,32 @@ public class ShtundexModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping SHTUXIAN_TELEPORT = new KeyMapping("key.shtundex.shtuxian_teleport", GLFW.GLFW_KEY_KP_3, "key.categories.misc") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				ShtundexMod.PACKET_HANDLER.sendToServer(new ShtuxianTeleportMessage(0, 0));
+				ShtuxianTeleportMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
+	public static final KeyMapping TELEPORT = new KeyMapping("key.shtundex.teleport", GLFW.GLFW_KEY_UNKNOWN, "key.categories.movement") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				ShtundexMod.PACKET_HANDLER.sendToServer(new TeleportMessage(0, 0));
+				TeleportMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
@@ -173,6 +201,8 @@ public class ShtundexModKeyMappings {
 		event.register(HOTKRY_ABILITY_4);
 		event.register(SHIELD_DASH_KEY);
 		event.register(BACKDASH_KEY);
+		event.register(SHTUXIAN_TELEPORT);
+		event.register(TELEPORT);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -190,6 +220,8 @@ public class ShtundexModKeyMappings {
 				HOTKRY_ABILITY_4.consumeClick();
 				SHIELD_DASH_KEY.consumeClick();
 				BACKDASH_KEY.consumeClick();
+				SHTUXIAN_TELEPORT.consumeClick();
+				TELEPORT.consumeClick();
 			}
 		}
 	}

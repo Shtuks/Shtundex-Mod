@@ -30,7 +30,7 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Additional electical damage.",
+        "Shot lightnings on hitted entities.",
         "Immunity to \"electrification\""
       ]
     },

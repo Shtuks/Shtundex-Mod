@@ -13,9 +13,9 @@ public class BlackHolePriObnovlieniiTikaSushchnostiProcedure {
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) <= 100) {
 			if (world instanceof Level _level && !_level.isClientSide())
-				_level.explode(null, x, y, z, 10, Level.ExplosionInteraction.TNT);
+				_level.explode(null, x, y, z, 3, Level.ExplosionInteraction.NONE);
 		}
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles(ParticleTypes.SCULK_CHARGE_POP, x, y, z, 1000, 1, 1, 1, 1);
+			_level.sendParticles(ParticleTypes.SONIC_BOOM, x, y, z, 1000, 1, 1, 1, 1);
 	}
 }

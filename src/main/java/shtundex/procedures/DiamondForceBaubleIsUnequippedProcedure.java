@@ -24,6 +24,6 @@ public class DiamondForceBaubleIsUnequippedProcedure {
 		}
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"attribute @p minecraft:generic.armor_toughness base set 10");
+					"attribute @p minecraft:generic.armor_toughness base set 0");
 	}
 }

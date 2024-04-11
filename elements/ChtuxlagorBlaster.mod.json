@@ -42,6 +42,9 @@
     "onEntityHitWith": {
       "name": "ChtuxlagorBlasterPriUdariePoSushchnostiPriedmietom"
     },
+    "onItemInInventoryTick": {
+      "name": "ShtuxStaffOfPowerKazhdyiTikVInvientarie"
+    },
     "onItemInUseTick": {
       "name": "ChtuxlagorBlasterPriShchielchkiePK"
     },

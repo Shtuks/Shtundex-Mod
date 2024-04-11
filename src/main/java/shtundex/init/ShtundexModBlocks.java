@@ -27,6 +27,8 @@ import shtundex.block.CatsteelWorkbenchBlockBlock;
 import shtundex.block.CatsteelOreBlock;
 import shtundex.block.CatsteelGreneratorBlock;
 import shtundex.block.CatsteelBlockBlock;
+import shtundex.block.BossArenaBlockBlock;
+import shtundex.block.BossAltarBlock;
 import shtundex.block.AlphaltBlock;
 
 import shtundex.ShtundexMod;
@@ -63,4 +65,6 @@ public class ShtundexModBlocks {
 	public static final RegistryObject<Block> MACHINE_CASING = REGISTRY.register("machine_casing", () -> new MachineCasingBlock());
 	public static final RegistryObject<Block> CRIMSON_ORE = REGISTRY.register("crimson_ore", () -> new CrimsonOreBlock());
 	public static final RegistryObject<Block> CORRUPTED_ORE = REGISTRY.register("corrupted_ore", () -> new CorruptedOreBlock());
+	public static final RegistryObject<Block> BOSS_ALTAR = REGISTRY.register("boss_altar", () -> new BossAltarBlock());
+	public static final RegistryObject<Block> BOSS_ARENA_BLOCK = REGISTRY.register("boss_arena_block", () -> new BossArenaBlockBlock());
 }

@@ -46,7 +46,7 @@ public abstract class ChtuxlagorMantleItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{2, 5, 1024, 2}[type.getSlot().getIndex()];
+				return new int[]{2, 5, 1, 2}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -124,7 +124,7 @@ public abstract class ChtuxlagorMantleItem extends ArmorItem {
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				ChtuxlagorMantleEffProcedure.execute(entity, itemstack);
+				ChtuxlagorMantleEffProcedure.execute(world, entity, itemstack);
 			}
 		}
 	}

@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.EXPOSED_COPPER"
+      },
+      {
+        "value": "Blocks.WEATHERED_COPPER"
+      },
+      {
+        "value": "Blocks.OXIDIZED_COPPER"
+      },
+      {
+        "value": "Blocks.LIGHTNING_ROD"
+      },
+      {
+        "value": "Blocks.CUT_COPPER"
+      },
+      {
+        "value": "Blocks.OXIDIZED_CUT_COPPER"
+      },
+      {
+        "value": "Blocks.WEATHERED_CUT_COPPER"
+      },
+      {
+        "value": "Blocks.EXPOSED_CUT_COPPER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CopperForce"
+    },
+    "name": "craft_134",
+    "namespace": "mod"
+  }
+}
