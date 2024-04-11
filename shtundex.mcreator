@@ -11174,9 +11174,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/shtundex/blockstates/boss_arena_block.json",
+          "src/main/resources/assets/shtundex/models/block/boss_arena_block_side_tall.json",
+          "src/main/resources/assets/shtundex/models/block/boss_arena_block_inventory.json",
           "src/main/java/shtundex/block/BossArenaBlockBlock.java",
           "src/main/resources/assets/shtundex/models/item/boss_arena_block.json",
-          "src/main/resources/assets/shtundex/models/block/boss_arena_block.json"
+          "src/main/resources/assets/shtundex/models/block/boss_arena_block.json",
+          "src/main/resources/assets/shtundex/models/block/boss_arena_block_post.json"
         ]
       },
       "path": "~/Shtuxibus"
@@ -11242,6 +11245,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -11464,6 +11471,81 @@
         ]
       },
       "path": "~/Shtuxibus"
+    },
+    {
+      "name": "CompressedDirt",
+      "type": "block",
+      "sortid": 675,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/compressed_dirt.json",
+          "src/main/java/shtundex/block/CompressedDirtBlock.java",
+          "src/main/resources/assets/shtundex/models/block/compressed_dirt.json",
+          "src/main/resources/assets/shtundex/blockstates/compressed_dirt.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MusicFixerPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 676,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_fixer_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/MusicFixerPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicFixer",
+      "type": "item",
+      "sortid": 677,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_fixer",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/MusicFixerItem.java",
+          "src/main/resources/assets/shtundex/models/item/music_fixer.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft137",
+      "type": "recipe",
+      "sortid": 678,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_137",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_137.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11614,13 +11696,19 @@
     {
       "name": "shtuxteleported",
       "type": "logic",
-      "scope": "map",
+      "scope": "world",
       "value": "false"
     },
     {
       "name": "arenaup",
       "type": "logic",
-      "scope": "map",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "shtuxPhase3LAST",
+      "type": "logic",
+      "scope": "world",
       "value": "false"
     }
   ],
@@ -11706,6 +11794,7 @@
       "item.shtundex.warped_pickaxe": "Warped Pickaxe",
       "item.shtundex.unfinished_catsteel_circuit": "Незаконченая котосталевая мткросхема",
       "item.shtundex.dark_armor_boots": "Темные ботинки",
+      "block.shtundex.compressed_dirt": "Compressed dirt",
       "item.shtundex.flour": "Мука",
       "item.shtundex.kotium": "Котий",
       "death.attack.electricity": "%1$s was fried from electrical charge.",
@@ -11956,6 +12045,7 @@
       "item.shtundex.lore_shtq_7v_3": "История - Sht-Q7 v3",
       "item.shtundex.catsteel_pickaxe": "Котосталевая кирка",
       "item.shtundex.infinity_mode_changer": "Переключатель режима бесконечности",
+      "item.shtundex.music_fixer": "Music Fixer",
       "entity.shtundex.shtuxibus_ex": "Shtuxibus EX",
       "key.shtundex.teleport": "Teleport",
       "item.shtundex.chtuxlagor_mantle_chestplate": "Мантия Штукс\u0027лаг\u0027ора",
@@ -12027,6 +12117,7 @@
       "item.shtundex.warped_pickaxe": "Warped Pickaxe",
       "item.shtundex.unfinished_catsteel_circuit": "Unfinished Catsteel Circuit",
       "item.shtundex.dark_armor_boots": "Dark Boots",
+      "block.shtundex.compressed_dirt": "Compressed dirt",
       "item.shtundex.flour": "Flour",
       "death.attack.electricity": "%1$s was fried from electrical charge.",
       "item.shtundex.kotium": "Kotium",
@@ -12277,6 +12368,7 @@
       "item.shtundex.lore_shtq_7v_3": "Lore - Sht-Q7 v3",
       "item.shtundex.catsteel_pickaxe": "Catsteel Pickaxe",
       "item.shtundex.infinity_mode_changer": "Infinity Mode Changer",
+      "item.shtundex.music_fixer": "Music Fixer",
       "entity.shtundex.shtuxibus_ex": "Shtuxibus EX",
       "key.shtundex.teleport": "Teleport",
       "item.shtundex.chtuxlagor_mantle_chestplate": "Chtux\u0027lag\u0027or Mantle",

@@ -124,6 +124,9 @@ public class ShtundexModVariables {
 		public boolean bossalife = false;
 		public boolean shtuxibusdefeated = false;
 		public boolean shtuxhealed = false;
+		public boolean shtuxteleported = false;
+		public boolean arenaup = false;
+		public boolean shtuxPhase3LAST = false;
 
 		public static WorldVariables load(CompoundTag tag) {
 			WorldVariables data = new WorldVariables();
@@ -136,6 +139,9 @@ public class ShtundexModVariables {
 			bossalife = nbt.getBoolean("bossalife");
 			shtuxibusdefeated = nbt.getBoolean("shtuxibusdefeated");
 			shtuxhealed = nbt.getBoolean("shtuxhealed");
+			shtuxteleported = nbt.getBoolean("shtuxteleported");
+			arenaup = nbt.getBoolean("arenaup");
+			shtuxPhase3LAST = nbt.getBoolean("shtuxPhase3LAST");
 		}
 
 		@Override
@@ -144,6 +150,9 @@ public class ShtundexModVariables {
 			nbt.putBoolean("bossalife", bossalife);
 			nbt.putBoolean("shtuxibusdefeated", shtuxibusdefeated);
 			nbt.putBoolean("shtuxhealed", shtuxhealed);
+			nbt.putBoolean("shtuxteleported", shtuxteleported);
+			nbt.putBoolean("arenaup", arenaup);
+			nbt.putBoolean("shtuxPhase3LAST", shtuxPhase3LAST);
 			return nbt;
 		}
 
@@ -166,8 +175,6 @@ public class ShtundexModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "shtundex_mapvars";
-		public boolean shtuxteleported = false;
-		public boolean arenaup = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -176,14 +183,10 @@ public class ShtundexModVariables {
 		}
 
 		public void read(CompoundTag nbt) {
-			shtuxteleported = nbt.getBoolean("shtuxteleported");
-			arenaup = nbt.getBoolean("arenaup");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
-			nbt.putBoolean("shtuxteleported", shtuxteleported);
-			nbt.putBoolean("arenaup", arenaup);
 			return nbt;
 		}
 

@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "infinity",
+    "texture": "musicfix",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Infinity Mode Changer",
-    "rarity": "EPIC",
+    "name": "Music Fixer",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Shtundex"
     },
@@ -21,18 +21,14 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Activate basic mobility abilities.",
-        "Unlock some items.",
-        "Bosses inflict debuffs.",
-        "S.H.T.U.K buffs are nerfed.",
-        "(Recomended to reenter world after using.)"
+        "Use if music from boss lagging."
       ]
     },
     "glowCondition": {
@@ -42,7 +38,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "InfinityModeChangerPriShchielchkiePKM"
+      "name": "MusicFixerPriShchielchkiePKM"
     },
     "enableRanged": false,
     "shootConstantly": false,

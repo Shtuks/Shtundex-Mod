@@ -10,8 +10,8 @@ import java.util.Map;
 
 public class DirtProjectileKoghdaSnariadPopadaietVBlokProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		int horizontalRadiusSphere = (int) 5 - 1;
-		int verticalRadiusSphere = (int) 5 - 1;
+		int horizontalRadiusSphere = (int) 4 - 1;
+		int verticalRadiusSphere = (int) 4 - 1;
 		int yIterationsSphere = verticalRadiusSphere;
 		for (int i = -yIterationsSphere; i <= yIterationsSphere; i++) {
 			for (int xi = -horizontalRadiusSphere; xi <= horizontalRadiusSphere; xi++) {

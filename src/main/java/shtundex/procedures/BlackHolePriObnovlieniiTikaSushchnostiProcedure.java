@@ -16,6 +16,6 @@ public class BlackHolePriObnovlieniiTikaSushchnostiProcedure {
 				_level.explode(null, x, y, z, 3, Level.ExplosionInteraction.NONE);
 		}
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles(ParticleTypes.SONIC_BOOM, x, y, z, 1000, 1, 1, 1, 1);
+			_level.sendParticles(ParticleTypes.SONIC_BOOM, x, y, z, 1000, 0.5, 0.5, 0.5, 0);
 	}
 }

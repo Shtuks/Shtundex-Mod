@@ -1,7 +1,7 @@
 
 package shtundex.item;
 
-import shtundex.procedures.InfinityModeChangerPriShchielchkiePKMProcedure;
+import shtundex.procedures.MusicFixerPriShchielchkiePKMProcedure;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.TooltipFlag;
@@ -15,25 +15,21 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class InfinityModeChangerItem extends Item {
-	public InfinityModeChangerItem() {
-		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC));
+public class MusicFixerItem extends Item {
+	public MusicFixerItem() {
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Activate basic mobility abilities."));
-		list.add(Component.literal("Unlock some items."));
-		list.add(Component.literal("Bosses inflict debuffs."));
-		list.add(Component.literal("S.H.T.U.K buffs are nerfed."));
-		list.add(Component.literal("(Recomended to reenter world after using.)"));
+		list.add(Component.literal("Use if music from boss lagging."));
 	}
 
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		InfinityModeChangerPriShchielchkiePKMProcedure.execute(world);
+		MusicFixerPriShchielchkiePKMProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
 		return ar;
 	}
 }

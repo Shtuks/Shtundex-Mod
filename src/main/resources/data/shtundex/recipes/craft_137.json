@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:wool"
+    },
+    "b": {
+      "item": "minecraft:jukebox"
+    }
+  },
+  "result": {
+    "item": "shtundex:music_fixer",
+    "count": 1
+  }
+}

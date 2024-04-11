@@ -66,6 +66,7 @@ import shtundex.item.NanosaberItem;
 import shtundex.item.NanosaberActiveItem;
 import shtundex.item.NanofiberClothItem;
 import shtundex.item.NanoItem;
+import shtundex.item.MusicFixerItem;
 import shtundex.item.MoltenCatsteelItem;
 import shtundex.item.MinerForceItem;
 import shtundex.item.MaterialForceItem;
@@ -374,6 +375,8 @@ public class ShtundexModItems {
 	public static final RegistryObject<Item> BOSS_ALTAR = block(ShtundexModBlocks.BOSS_ALTAR);
 	public static final RegistryObject<Item> BOSS_ARENA_BLOCK = block(ShtundexModBlocks.BOSS_ARENA_BLOCK);
 	public static final RegistryObject<Item> TRERRAFORMING_DIRT_STAFF = REGISTRY.register("trerraforming_dirt_staff", () -> new TrerraformingDirtStaffItem());
+	public static final RegistryObject<Item> COMPRESSED_DIRT = block(ShtundexModBlocks.COMPRESSED_DIRT);
+	public static final RegistryObject<Item> MUSIC_FIXER = REGISTRY.register("music_fixer", () -> new MusicFixerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -22,6 +22,7 @@ import shtundex.block.DeepslateLeadOreBlock;
 import shtundex.block.CrimsonOreBlock;
 import shtundex.block.CrateBlock;
 import shtundex.block.CorruptedOreBlock;
+import shtundex.block.CompressedDirtBlock;
 import shtundex.block.ChalkRitualBlock;
 import shtundex.block.CatsteelWorkbenchBlockBlock;
 import shtundex.block.CatsteelOreBlock;
@@ -67,4 +68,5 @@ public class ShtundexModBlocks {
 	public static final RegistryObject<Block> CORRUPTED_ORE = REGISTRY.register("corrupted_ore", () -> new CorruptedOreBlock());
 	public static final RegistryObject<Block> BOSS_ALTAR = REGISTRY.register("boss_altar", () -> new BossAltarBlock());
 	public static final RegistryObject<Block> BOSS_ARENA_BLOCK = REGISTRY.register("boss_arena_block", () -> new BossArenaBlockBlock());
+	public static final RegistryObject<Block> COMPRESSED_DIRT = REGISTRY.register("compressed_dirt", () -> new CompressedDirtBlock());
 }

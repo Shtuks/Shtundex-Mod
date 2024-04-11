@@ -27,8 +27,10 @@ public class DrShtuxibu2phaseProcedure {
 		}
 		ShtundexModVariables.WorldVariables.get(world).bossalife = false;
 		ShtundexModVariables.WorldVariables.get(world).syncData(world);
-		ShtundexModVariables.MapVariables.get(world).shtuxteleported = false;
-		ShtundexModVariables.MapVariables.get(world).syncData(world);
+		ShtundexModVariables.WorldVariables.get(world).shtuxteleported = false;
+		ShtundexModVariables.WorldVariables.get(world).syncData(world);
+		ShtundexModVariables.WorldVariables.get(world).shtuxPhase3LAST = false;
+		ShtundexModVariables.WorldVariables.get(world).syncData(world);
 		ShtundexModVariables.WorldVariables.get(world).shtuxibusdefeated = true;
 		ShtundexModVariables.WorldVariables.get(world).syncData(world);
 	}

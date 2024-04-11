@@ -14,7 +14,7 @@ import java.util.Comparator;
 
 public class BossAltarObnovlieniieTikaProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (ShtundexModVariables.WorldVariables.get(world).shtuxhealed == false && ShtundexModVariables.MapVariables.get(world).shtuxteleported == false) {
+		if (ShtundexModVariables.WorldVariables.get(world).shtuxhealed == false && ShtundexModVariables.WorldVariables.get(world).shtuxteleported == false) {
 			{
 				Entity _ent = ((Entity) world.getEntitiesOfClass(DrShtuxibusEntity.class, AABB.ofSize(new Vec3(x, y, z), 12, 12, 12), e -> true).stream().sorted(new Object() {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
@@ -25,8 +25,8 @@ public class BossAltarObnovlieniieTikaProcedure {
 				if (_ent instanceof ServerPlayer _serverPlayer)
 					_serverPlayer.connection.teleport(x, (y + 2), z, _ent.getYRot(), _ent.getXRot());
 			}
-			ShtundexModVariables.MapVariables.get(world).shtuxteleported = true;
-			ShtundexModVariables.MapVariables.get(world).syncData(world);
+			ShtundexModVariables.WorldVariables.get(world).shtuxteleported = true;
+			ShtundexModVariables.WorldVariables.get(world).syncData(world);
 		}
 	}
 }

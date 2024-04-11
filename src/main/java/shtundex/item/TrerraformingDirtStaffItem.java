@@ -26,7 +26,7 @@ public class TrerraformingDirtStaffItem extends Item {
 	@Override
 	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
 		boolean retval = super.onEntitySwing(itemstack, entity);
-		TrerraformingDirtStaffPriVzmakhieSushchnostiPriedmietomProcedure.execute(entity);
+		TrerraformingDirtStaffPriVzmakhieSushchnostiPriedmietomProcedure.execute(entity.level(), entity);
 		return retval;
 	}
 }
