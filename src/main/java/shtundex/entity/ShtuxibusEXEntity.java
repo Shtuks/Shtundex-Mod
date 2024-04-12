@@ -168,7 +168,7 @@ public class ShtuxibusEXEntity extends PathfinderMob implements RangedAttackMob 
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		ShtuxibusEXPriObnovlieniiTikaSushchnostiProcedure.execute(this);
+		ShtuxibusEXPriObnovlieniiTikaSushchnostiProcedure.execute(this.level(), this);
 	}
 
 	@Override

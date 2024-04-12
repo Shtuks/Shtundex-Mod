@@ -2,6 +2,8 @@ package shtundex.procedures;
 
 import shtundex.network.ShtundexModVariables;
 
+import shtundex.init.ShtundexModMobEffects;
+import shtundex.init.ShtundexModItems;
 import shtundex.init.ShtundexModEntities;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -11,7 +13,9 @@ import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
@@ -35,14 +39,30 @@ public class DrShtuxibusCheckProcedure {
 			return;
 		boolean finale = false;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 60) {
-			finale = true;
+			ShtundexModVariables.MapVariables.get(world).finale = true;
+			ShtundexModVariables.MapVariables.get(world).syncData(world);
 		}
-		if (finale == true) {
+		if (ShtundexModVariables.MapVariables.get(world).finale == true) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"particle shtundex:molnia ~ ~ ~ 0.5 0.5 0.5 0 2");
 			entity.makeStuckInBlock(Blocks.AIR.defaultBlockState(), new Vec3(0.25, 0.05, 0.25));
-			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC_KILL)), 10);
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 60, 10, false, false));
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.BLEEDING.get(), 60, 10, false, false));
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC_KILL)), 20);
+			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 30) {
+				if (world instanceof ServerLevel _level) {
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(ShtundexModItems.TREASURE_BAG_1.get()));
+					entityToSpawn.setPickUpDelay(10);
+					entityToSpawn.setUnlimitedLifetime();
+					_level.addFreshEntity(entityToSpawn);
+				}
+				PlayerDeathProcedure.execute(world, x, y, z, entity);
+				if (!entity.level().isClientSide())
+					entity.discard();
+			}
 			if (ShtundexModVariables.WorldVariables.get(world).shtuxPhase3LAST == false) {
 				if (!world.isClientSide() && world.getServer() != null)
 					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> It's not over yet."), false);
@@ -52,6 +72,16 @@ public class DrShtuxibusCheckProcedure {
 				}
 				if (entity instanceof LivingEntity _entity)
 					_entity.setHealth(1000);
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							"stopsound @a neutral");
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("shtundex:shtux2theme")), SoundSource.MASTER, 1, 1);
+					} else {
+						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("shtundex:shtux2theme")), SoundSource.MASTER, 1, 1, false);
+					}
+				}
 				ShtundexModVariables.WorldVariables.get(world).shtuxPhase3LAST = true;
 				ShtundexModVariables.WorldVariables.get(world).syncData(world);
 			}

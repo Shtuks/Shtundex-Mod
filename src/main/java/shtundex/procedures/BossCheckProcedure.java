@@ -12,6 +12,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 
 import javax.annotation.Nullable;
@@ -35,6 +36,8 @@ public class BossCheckProcedure {
 		if (ShtundexModVariables.WorldVariables.get(world).bossalife == true) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.BOSSALIFE.get(), 40, 0, false, false));
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.JUMP);
 		}
 	}
 }

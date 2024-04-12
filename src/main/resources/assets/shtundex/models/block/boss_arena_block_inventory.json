@@ -1,8 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "shtundex:block/null",
-    "particle": "shtundex:block/null"
-  },
-  "render_type": "cutout"
-}

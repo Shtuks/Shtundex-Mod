@@ -1,7 +1,7 @@
 {
-  "parent": "block/template_wall_side",
+  "parent": "block/cube_all",
   "textures": {
-    "wall": "shtundex:block/null",
+    "all": "shtundex:block/null",
     "particle": "shtundex:block/null"
   },
   "render_type": "cutout"

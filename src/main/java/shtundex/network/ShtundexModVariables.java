@@ -175,6 +175,7 @@ public class ShtundexModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "shtundex_mapvars";
+		public boolean finale = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -183,10 +184,12 @@ public class ShtundexModVariables {
 		}
 
 		public void read(CompoundTag nbt) {
+			finale = nbt.getBoolean("finale");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
+			nbt.putBoolean("finale", finale);
 			return nbt;
 		}
 

@@ -22,6 +22,8 @@ public class DrShtuxibusHealVampProcedure {
 		ShtundexModVariables.WorldVariables.get(world).syncData(world);
 		ShtundexModVariables.WorldVariables.get(world).bossalife = false;
 		ShtundexModVariables.WorldVariables.get(world).syncData(world);
+		ShtundexModVariables.MapVariables.get(world).finale = false;
+		ShtundexModVariables.MapVariables.get(world).syncData(world);
 		ShtundexModVariables.WorldVariables.get(world).shtuxPhase3LAST = false;
 		ShtundexModVariables.WorldVariables.get(world).syncData(world);
 		if (world instanceof ServerLevel _level)
