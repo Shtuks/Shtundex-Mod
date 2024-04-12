@@ -49,6 +49,9 @@ public class DrShtuxibusUsloviieGienieratsiiSushchnostiProcedure {
 			BorderingProcedure.execute(world, x, y, z);
 			Bordering2Procedure.execute(world, x, y, z);
 			Bordering3Procedure.execute(world, x, y, z);
+			BorderingUpProcedure.execute(world, x, y, z);
+			BorderingUp2Procedure.execute(world, x, y, z);
+			BorderingUp3Procedure.execute(world, x, y, z);
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, (y + 1), z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"summon shtundex:dr_shtuxibus");

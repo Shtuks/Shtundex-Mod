@@ -33,6 +33,29 @@ public class DrShtuxibusCheckProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		boolean finale = false;
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 60) {
+			finale = true;
+		}
+		if (finale == true) {
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"particle shtundex:molnia ~ ~ ~ 0.5 0.5 0.5 0 2");
+			entity.makeStuckInBlock(Blocks.AIR.defaultBlockState(), new Vec3(0.25, 0.05, 0.25));
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC_KILL)), 10);
+			if (ShtundexModVariables.WorldVariables.get(world).shtuxPhase3LAST == false) {
+				if (!world.isClientSide() && world.getServer() != null)
+					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> It's not over yet."), false);
+				if (entity instanceof Player _player) {
+					_player.getAbilities().invulnerable = true;
+					_player.onUpdateAbilities();
+				}
+				if (entity instanceof LivingEntity _entity)
+					_entity.setHealth(1000);
+				ShtundexModVariables.WorldVariables.get(world).shtuxPhase3LAST = true;
+				ShtundexModVariables.WorldVariables.get(world).syncData(world);
+			}
+		}
 		if (Math.random() < 0.005) {
 			if (!world.isClientSide() && world.getServer() != null)
 				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> Laharope'eh goh..."), false);
@@ -90,24 +113,6 @@ public class DrShtuxibusCheckProcedure {
 				_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 60, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 5, false, false));
-		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 100) {
-			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"particle shtundex:gigi_2 ~ ~ ~ 0.5 0.5 0.5 0 2");
-			entity.makeStuckInBlock(Blocks.AIR.defaultBlockState(), new Vec3(0.25, 0.05, 0.25));
-			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC_KILL)), 10);
-			if (ShtundexModVariables.WorldVariables.get(world).shtuxPhase3LAST == false) {
-				if (!world.isClientSide() && world.getServer() != null)
-					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> It's not over yet."), false);
-				if (entity instanceof Player _player) {
-					_player.getAbilities().invulnerable = true;
-					_player.onUpdateAbilities();
-				}
-				if (entity instanceof LivingEntity _entity)
-					_entity.setHealth(1000);
-				ShtundexModVariables.WorldVariables.get(world).shtuxPhase3LAST = true;
-				ShtundexModVariables.WorldVariables.get(world).syncData(world);
-			}
 		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 200) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 1, false, false));

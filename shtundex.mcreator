@@ -11174,6 +11174,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/shtundex/blockstates/boss_arena_block.json",
+          "src/main/resources/assets/shtundex/models/block/boss_arena_block_side_tall.json",
           "src/main/resources/assets/shtundex/models/block/boss_arena_block_inventory.json",
           "src/main/java/shtundex/block/BossArenaBlockBlock.java",
           "src/main/resources/assets/shtundex/models/item/boss_arena_block.json",
@@ -11575,6 +11576,134 @@
         ]
       },
       "path": "~/Shtuxibus"
+    },
+    {
+      "name": "BorderingUp",
+      "type": "procedure",
+      "sortid": 681,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bordering_up",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BorderingUpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "BorderingUp2",
+      "type": "procedure",
+      "sortid": 682,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bordering_up_2",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BorderingUp2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "BorderingUp3",
+      "type": "procedure",
+      "sortid": 683,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bordering_up_3",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BorderingUp3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
+    },
+    {
+      "name": "PlayerDeath",
+      "type": "procedure",
+      "sortid": 684,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_death",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/PlayerDeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shtuxibus"
     }
   ],
   "variable_elements": [
@@ -11817,16 +11946,16 @@
   ],
   "language_map": {
     "ru_ru": {
-      "item.shtundex.emerald_force": "Изумрудная сила",
       "item.shtundex.uranium_dust": "Урановая пыль",
+      "item.shtundex.emerald_force": "Изумрудная сила",
       "item_group.shtundex.lore": "История",
       "item.shtundex.warped_pickaxe": "Warped Pickaxe",
       "item.shtundex.unfinished_catsteel_circuit": "Незаконченая котосталевая мткросхема",
       "item.shtundex.dark_armor_boots": "Темные ботинки",
       "block.shtundex.compressed_dirt": "Compressed dirt",
       "item.shtundex.flour": "Мука",
-      "item.shtundex.kotium": "Котий",
       "death.attack.electricity": "%1$s was fried from electrical charge.",
+      "item.shtundex.kotium": "Котий",
       "item.shtundex.warped_shovel": "Warped Shovel",
       "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
       "advancements.shtundex_ach.title": "Штундекс!",
@@ -12140,16 +12269,16 @@
       "item.shtundex.empty_syrgine": "Пустой шприц"
     },
     "en_us": {
-      "item.shtundex.uranium_dust": "Uranium Dust",
       "item.shtundex.emerald_force": "Emerald Force",
+      "item.shtundex.uranium_dust": "Uranium Dust",
       "item_group.shtundex.lore": "Lore",
       "item.shtundex.warped_pickaxe": "Warped Pickaxe",
       "item.shtundex.unfinished_catsteel_circuit": "Unfinished Catsteel Circuit",
       "item.shtundex.dark_armor_boots": "Dark Boots",
       "block.shtundex.compressed_dirt": "Compressed dirt",
       "item.shtundex.flour": "Flour",
-      "death.attack.electricity": "%1$s was fried from electrical charge.",
       "item.shtundex.kotium": "Kotium",
+      "death.attack.electricity": "%1$s was fried from electrical charge.",
       "item.shtundex.warped_shovel": "Warped Shovel",
       "advancements.shtundex_ach.title": "Shtundex!",
       "advancements.i_reject_my_humanity.title": "I Reject My Humanity!",
@@ -12536,7 +12665,7 @@
   "workspaceSettings": {
     "modid": "shtundex",
     "modName": "Shtundex",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "author": "MaONAHK9955, StarlightCat, FormulaOak15915",
     "websiteURL": "https://modrinth.com/mod/shtundex-mod",
     "license": "GNU General Public License version 3 (GPLv3)",

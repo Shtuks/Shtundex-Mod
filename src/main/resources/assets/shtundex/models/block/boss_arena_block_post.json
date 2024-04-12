@@ -1,7 +1,7 @@
 {
-  "parent": "block/fence_post",
+  "parent": "block/template_wall_post",
   "textures": {
-    "texture": "shtundex:block/null",
+    "wall": "shtundex:block/null",
     "particle": "shtundex:block/null"
   },
   "render_type": "cutout"

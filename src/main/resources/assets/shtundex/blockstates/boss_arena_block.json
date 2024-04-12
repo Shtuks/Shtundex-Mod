@@ -1,13 +1,16 @@
 {
   "multipart": [
     {
+      "when": {
+        "up": "true"
+      },
       "apply": {
         "model": "shtundex:block/boss_arena_block_post"
       }
     },
     {
       "when": {
-        "north": "true"
+        "north": "low"
       },
       "apply": {
         "model": "shtundex:block/boss_arena_block",
@@ -16,7 +19,17 @@
     },
     {
       "when": {
-        "south": "true"
+        "east": "low"
+      },
+      "apply": {
+        "model": "shtundex:block/boss_arena_block",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "low"
       },
       "apply": {
         "model": "shtundex:block/boss_arena_block",
@@ -26,7 +39,7 @@
     },
     {
       "when": {
-        "west": "true"
+        "west": "low"
       },
       "apply": {
         "model": "shtundex:block/boss_arena_block",
@@ -36,11 +49,40 @@
     },
     {
       "when": {
-        "east": "true"
+        "north": "tall"
       },
       "apply": {
-        "model": "shtundex:block/boss_arena_block",
+        "model": "shtundex:block/boss_arena_block_side_tall",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "tall"
+      },
+      "apply": {
+        "model": "shtundex:block/boss_arena_block_side_tall",
         "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "tall"
+      },
+      "apply": {
+        "model": "shtundex:block/boss_arena_block_side_tall",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "tall"
+      },
+      "apply": {
+        "model": "shtundex:block/boss_arena_block_side_tall",
+        "y": 270,
         "uvlock": true
       }
     }
