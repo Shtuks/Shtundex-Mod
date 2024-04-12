@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:catsteel_bar"
+    },
+    "b": {
+      "item": "minecraft:enchanting_table"
+    },
+    "c": {
+      "item": "shtundex:cat_core"
+    }
+  },
+  "result": {
+    "item": "shtundex:boss_altar",
+    "count": 1
+  }
+}

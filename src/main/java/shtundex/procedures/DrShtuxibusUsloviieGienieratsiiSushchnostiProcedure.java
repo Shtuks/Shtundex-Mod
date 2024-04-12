@@ -29,6 +29,8 @@ public class DrShtuxibusUsloviieGienieratsiiSushchnostiProcedure {
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == ShtundexModBlocks.BOSS_ALTAR.get()) {
 			ShtundexModVariables.WorldVariables.get(world).bossalife = true;
 			ShtundexModVariables.WorldVariables.get(world).syncData(world);
+			ShtundexModVariables.WorldVariables.get(world).shtuxPhase3LAST = false;
+			ShtundexModVariables.WorldVariables.get(world).syncData(world);
 			ShtundexModVariables.WorldVariables.get(world).shtuxhealed = false;
 			ShtundexModVariables.WorldVariables.get(world).syncData(world);
 			if (!world.isClientSide() && world.getServer() != null)

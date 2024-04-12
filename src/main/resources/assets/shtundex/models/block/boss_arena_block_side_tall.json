@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_side_tall",
-  "textures": {
-    "wall": "shtundex:block/null",
-    "particle": "shtundex:block/null"
-  },
-  "render_type": "cutout"
-}

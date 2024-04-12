@@ -36,10 +36,14 @@ public class DrShtuxibusCheckProcedure {
 		if (Math.random() < 0.005) {
 			if (!world.isClientSide() && world.getServer() != null)
 				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> Laharope'eh goh..."), false);
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 60, 10, false, false));
 		}
 		if (Math.random() < 0.005) {
 			if (!world.isClientSide() && world.getServer() != null)
 				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> Garlah ol'he har..."), false);
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 10, false, false));
 		}
 		if (Math.random() < 0.0025) {
 			if (!world.isClientSide() && world.getServer() != null)
@@ -62,7 +66,7 @@ public class DrShtuxibusCheckProcedure {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 100, 200, false, false));
 				if (entity instanceof LivingEntity _entity)
-					_entity.setHealth(700);
+					_entity.setHealth(900);
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							"stopsound @a neutral");
@@ -77,16 +81,16 @@ public class DrShtuxibusCheckProcedure {
 				ShtundexModVariables.WorldVariables.get(world).syncData(world);
 			}
 		}
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 50) {
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 160) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 6, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 2, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 60, 2, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 60, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 5, false, false));
-		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 30) {
+		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 100) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"particle shtundex:gigi_2 ~ ~ ~ 0.5 0.5 0.5 0 2");
@@ -104,21 +108,21 @@ public class DrShtuxibusCheckProcedure {
 				ShtundexModVariables.WorldVariables.get(world).shtuxPhase3LAST = true;
 				ShtundexModVariables.WorldVariables.get(world).syncData(world);
 			}
-		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 100) {
+		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 200) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 5, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 60, 2, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 60, 1, false, false));
 		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 500) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 4, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 3, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 60, 1, false, false));
 		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) < 700) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 3, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 60, 2, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 60, 1, false, false));
 		}

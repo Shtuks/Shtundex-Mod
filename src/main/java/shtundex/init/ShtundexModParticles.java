@@ -4,6 +4,7 @@
  */
 package shtundex.init;
 
+import shtundex.client.particle.MolniaParticle;
 import shtundex.client.particle.Gog4Particle;
 import shtundex.client.particle.Gigi2Particle;
 import shtundex.client.particle.Gei5Particle;
@@ -24,5 +25,6 @@ public class ShtundexModParticles {
 		event.registerSpriteSet(ShtundexModParticleTypes.GAI_3.get(), Gai3Particle::provider);
 		event.registerSpriteSet(ShtundexModParticleTypes.GOG_4.get(), Gog4Particle::provider);
 		event.registerSpriteSet(ShtundexModParticleTypes.GEI_5.get(), Gei5Particle::provider);
+		event.registerSpriteSet(ShtundexModParticleTypes.MOLNIA.get(), MolniaParticle::provider);
 	}
 }

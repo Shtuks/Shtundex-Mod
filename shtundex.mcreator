@@ -11174,7 +11174,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/shtundex/blockstates/boss_arena_block.json",
-          "src/main/resources/assets/shtundex/models/block/boss_arena_block_side_tall.json",
           "src/main/resources/assets/shtundex/models/block/boss_arena_block_inventory.json",
           "src/main/java/shtundex/block/BossArenaBlockBlock.java",
           "src/main/resources/assets/shtundex/models/item/boss_arena_block.json",
@@ -11545,7 +11544,37 @@
         "files": [
           "src/main/resources/data/shtundex/recipes/craft_137.json"
         ]
-      }
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft138",
+      "type": "recipe",
+      "sortid": 679,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_138",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_138.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Molnia",
+      "type": "particle",
+      "sortid": 680,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molnia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/particles/molnia.json",
+          "src/main/java/shtundex/client/particle/MolniaParticle.java"
+        ]
+      },
+      "path": "~/Shtuxibus"
     }
   ],
   "variable_elements": [

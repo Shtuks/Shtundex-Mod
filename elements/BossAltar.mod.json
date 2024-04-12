@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "altar",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

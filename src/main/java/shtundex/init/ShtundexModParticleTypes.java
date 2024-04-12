@@ -20,4 +20,5 @@ public class ShtundexModParticleTypes {
 	public static final RegistryObject<SimpleParticleType> GAI_3 = REGISTRY.register("gai_3", () -> new SimpleParticleType(true));
 	public static final RegistryObject<SimpleParticleType> GOG_4 = REGISTRY.register("gog_4", () -> new SimpleParticleType(true));
 	public static final RegistryObject<SimpleParticleType> GEI_5 = REGISTRY.register("gei_5", () -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> MOLNIA = REGISTRY.register("molnia", () -> new SimpleParticleType(false));
 }
