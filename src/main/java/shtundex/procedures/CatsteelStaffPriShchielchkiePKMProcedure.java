@@ -27,7 +27,7 @@ public class CatsteelStaffPriShchielchkiePKMProcedure {
 						entityToSpawn.setSecondsOnFire(100);
 						return entityToSpawn;
 					}
-				}.getArrow(projectileLevel, entity, 10, 1);
+				}.getArrow(projectileLevel, entity, 15, 1);
 				_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
 				_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 8, 0);
 				projectileLevel.addFreshEntity(_entityToSpawn);

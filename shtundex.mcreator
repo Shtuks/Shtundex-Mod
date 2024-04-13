@@ -7433,20 +7433,6 @@
       }
     },
     {
-      "name": "PressType",
-      "type": "jeirecipetype",
-      "sortid": 438,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "press_type",
-      "metadata": {
-        "files": [
-          "src/main/java/shtundex/jei_recipes/PressTypeRecipeCategory.java",
-          "src/main/java/shtundex/jei_recipes/PressTypeRecipe.java"
-        ]
-      }
-    },
-    {
       "name": "ChtuxlagorPriNachalnomPrizyvieSushchnosti",
       "type": "procedure",
       "sortid": 439,
@@ -11927,7 +11913,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "Deathmark",
@@ -11940,7 +11927,8 @@
         "files": [
           "src/main/java/shtundex/potion/DeathmarkMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Effects"
     },
     {
       "name": "CatsteelStaffPriShchielchkiePKM",
@@ -11981,22 +11969,6 @@
           {
             "name": "itemstack",
             "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -12022,6 +11994,84 @@
             "name": "itemstack",
             "type": "itemstack"
           }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CatsteelSwordPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 695,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_sword_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelSwordPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "SpecialAttackPriNazhatiiKlavishi",
+      "type": "procedure",
+      "sortid": 696,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "special_attack_pri_nazhatii_klavishi",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/SpecialAttackPriNazhatiiKlavishiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "SpecialAttack",
+      "type": "keybind",
+      "sortid": 697,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "special_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/network/SpecialAttackMessage.java"
         ]
       },
       "path": "~/Tools"
@@ -12195,6 +12245,12 @@
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "priority",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -12276,14 +12332,14 @@
       "item.shtundex.uranium_dust": "Урановая пыль",
       "item.shtundex.emerald_force": "Изумрудная сила",
       "item_group.shtundex.lore": "История",
-      "item.shtundex.warped_pickaxe": "Warped Pickaxe",
+      "item.shtundex.warped_pickaxe": "Искаженный слиток",
       "item.shtundex.unfinished_catsteel_circuit": "Незаконченая котосталевая мткросхема",
       "item.shtundex.dark_armor_boots": "Темные ботинки",
-      "block.shtundex.compressed_dirt": "Compressed dirt",
+      "block.shtundex.compressed_dirt": "Спрессованая грязь",
       "item.shtundex.flour": "Мука",
       "death.attack.electricity": "%1$s was fried from electrical charge.",
       "item.shtundex.kotium": "Котий",
-      "item.shtundex.warped_shovel": "Warped Shovel",
+      "item.shtundex.warped_shovel": "Искаженная лопата",
       "advancements.i_reject_my_humanity.title": "Я отвергаю свою человечность!",
       "advancements.shtundex_ach.title": "Штундекс!",
       "item_group.shtundex.shtundex": "Штундекс",
@@ -12291,7 +12347,7 @@
       "item.shtundex.nanosaber": "Наносабля",
       "item.shtundex.diamond_force": "Алмазная сила",
       "item.shtundex.cat_clot_armor_leggings": "Кототканевые шаровары",
-      "item.shtundex.warped_sword": "Warped Sword",
+      "item.shtundex.warped_sword": "Искаженный меч",
       "item.shtundex.shtuxian_curse": "Штуксианское проклятие",
       "item.shtundex.netherite_gear_true": "Незеритовая шестерня",
       "key.shtundex.hotkey_ability_1": "Штучиный щит",
@@ -12315,15 +12371,15 @@
       "item.shtundex.coin_press_scheme": "Пресс монеты",
       "key.shtundex.hotkey_ability_2": "Штучиная ярость",
       "item.shtundex.tin_ingot": "Оловянный слиток",
-      "item.shtundex.tin_force": "Tin Force",
+      "item.shtundex.tin_force": "Оловянная сила",
       "item.shtundex.catsteel_drill_handle": "Ручка котосталевого бура",
       "item.shtundex.lore_awakening": "История - Появление",
       "gui.shtundex.shtux.button_rematch": "Рематч [WIP]",
-      "item.shtundex.warped_armor_helmet": "Шлем Warped Armor",
+      "item.shtundex.warped_armor_helmet": "Искаженный шлем",
       "key.shtundex.norm_dash": "Рывок",
       "item.shtundex.raw_lead": "Сырой свинец",
       "item.shtundex.catsteel_apple": "Котосталевое яблоко",
-      "item.shtundex.warped_ingot": "Warped Ingot",
+      "item.shtundex.warped_ingot": "Искаженный слиток",
       "item.shtundex.netherite_circuit": "Незеритовая микросхема",
       "item.shtundex.crimson_sword": "Багряный меч",
       "item.shtundex.swordland.desc": "",
@@ -12346,11 +12402,11 @@
       "item.shtundex.energy_crystal": "Энергетический кристалл",
       "item.shtundex.lapis_force": "Лазуротовая сила",
       "entity.shtundex.test_banana": "Test Banana",
-      "effect.shtundex.bossalife": "Boss existance",
+      "effect.shtundex.bossalife": "Присктствие босса",
       "item.shtundex.hazmat_boots": "Защитные ботинки",
       "item.shtundex.berry_pie": "Ягодный пирог",
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Котосталевый генератор",
-      "item.shtundex.warped_armor_leggings": "Поножи Warped Armor",
+      "item.shtundex.warped_armor_leggings": "Искаженные поножи",
       "death.attack.irradiated.item": "%1$s облучен %2$s используя %3$s",
       "block.shtundex.tin_block": "Блок олова",
       "entity.shtundex.irradiated_slime": "Облученная масса",
@@ -12372,7 +12428,7 @@
       "item.shtundex.shtuk_cybernetic_parts": "Кибернетические запчасти Ш.Т.У.К.А",
       "effect.shtundex.electrification": "Электрифицирован",
       "item.shtundex.catsteel_ring": "Котосталевое кольцо",
-      "item.shtundex.warped_armor_chestplate": "Нагрудник Warped Armor",
+      "item.shtundex.warped_armor_chestplate": "Искаженный нагрудник",
       "item.shtundex.catsteel_force": "Котосталевая сила",
       "death.attack.shtuxian_damage.player": "%1$s умер пытаясь убежать от судьбы",
       "item.shtundex.crimson_armor_boots": "Багряные ботинки",
@@ -12433,10 +12489,11 @@
       "effect.shtundex.radiation": "Радиация",
       "item.shtundex.chtuxlagor_force": "Сила Штукс\u0027лаг\u0027ора",
       "item.shtundex.shtuxite_soul": "Штукситовая душа",
+      "key.shtundex.special_attack": "Специальная атака",
       "item.shtundex.shtundex_world": "Мульти-измеренский пространственный активатор",
       "item.shtundex.catsteel_armor_helmet": "Котосталевый шлем",
       "death.attack.irradiated.player": "%1$s был облучен пытаясь избежать %2$s",
-      "item.shtundex.warped_force": "Warped Force",
+      "item.shtundex.warped_force": "Искаженная сила",
       "item.shtundex.catsteel_shield": "Котосталевый щит",
       "key.shtundex.ability_hotkey_3": "Штучиный луч",
       "effect.shtundex.shtuk_mode_cd": "Перезарядка штучиной способности",
@@ -12470,9 +12527,9 @@
       "item.shtundex.shtun_stone_pickaxe": "Кирка из штучиного камня",
       "item.shtundex.circuit": "Котосталевая микросхема",
       "block.shtundex.lead_ore": "Свинцовая руда",
-      "key.shtundex.shtuxian_teleport": "Shtuxian Teleport",
+      "key.shtundex.shtuxian_teleport": "Штучиный телепорт",
       "item.shtundex.vampiric_amulet": "Вампирский амулет",
-      "item.shtundex.trerraforming_dirt_staff": "Trerraforming Dirt Staff",
+      "item.shtundex.trerraforming_dirt_staff": "Терраформирующий земляной посох",
       "block.shtundex.deepslate_lead_ore": "Глубинносланцевая свинцовая руда",
       "effect.shtundex.flight": "Полет",
       "item.shtundex.cat_hight_tech_suit_chestplate": "Нагрудник C.A.T",
@@ -12482,7 +12539,7 @@
       "block.shtundex.catsteel_workbench_block": "Котосталевый верстак",
       "item.shtundex.catsteel_staff": "Котосталевый посох",
       "item.shtundex.crimson_axe": "Багряный топор",
-      "block.shtundex.boss_arena_block": "Boss Arena Block",
+      "block.shtundex.boss_arena_block": "Блок арены",
       "entity.shtundex.shtux_sword_proj": "Shtux Sword Proj",
       "item.shtundex.refined_xenium_plate": "Пластина обработаного ксеномита",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Др. Штуксибус",
@@ -12530,9 +12587,9 @@
       "item.shtundex.lore_shtq_7v_3": "История - Sht-Q7 v3",
       "item.shtundex.catsteel_pickaxe": "Котосталевая кирка",
       "item.shtundex.infinity_mode_changer": "Переключатель режима бесконечности",
-      "item.shtundex.music_fixer": "Music Fixer",
+      "item.shtundex.music_fixer": "Убрать музыку",
       "entity.shtundex.shtuxibus_ex": "Shtuxibus EX",
-      "key.shtundex.teleport": "Teleport",
+      "key.shtundex.teleport": "Телепорт",
       "item.shtundex.chtuxlagor_mantle_chestplate": "Мантия Штукс\u0027лаг\u0027ора",
       "item.shtundex.catsteel_pill": "Котосталевая пеллета",
       "block.shtundex.catsteel_block": "Блок котостали",
@@ -12543,7 +12600,7 @@
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Взрывная штучиная кровь",
       "item.shtundex.miner_force": "Сила шахтера",
       "advancements.catsteel_catsteel.descr": "Сделайте первые шаги к абсолютной силе.",
-      "item.shtundex.warped_armor_boots": "Ботинки Warped Armor",
+      "item.shtundex.warped_armor_boots": "Искаженные ботинки",
       "item.shtundex.bronze_ingot": "Бронзовый слиток",
       "effect.shtundex.cooldown": "Перезарядка способности",
       "item.shtundex.depelleted_catsteel": "Распавшаяся котосталь",
@@ -12558,7 +12615,7 @@
       "item.shtundex.crimson_ingot": "Багряный слиток",
       "item.shtundex.chalk": "Мел",
       "item.shtundex.shtundex_world_blessing": "Благославление Штундекса",
-      "effect.shtundex.anti_creative": "Creative disfunction",
+      "effect.shtundex.anti_creative": "Антикреативность",
       "item.shtundex.tiny_chtuxlagor_shard": "Маленький осколок Штукс\u0027лаг\u0027ора",
       "item.shtundex.pizza": "Пицца",
       "entity.shtundex.human": "Человек",
@@ -12572,7 +12629,7 @@
       "painting.shtundex.shtundex_paint.author": "StarlightCat",
       "item.shtundex.catsteel_plate": "Котосталевая пластина",
       "item.shtundex.lead_plate": "Свинцовая пластина",
-      "effect.shtundex.deathmark": "Deathmark",
+      "effect.shtundex.deathmark": "Марка смерти",
       "item.shtundex.shtuxian_kit": "Штучиный набор",
       "item.shtundex.human_spawn_egg": "Яйцо призыва человека",
       "item.shtundex.shtuxibus_force": "Сила Штуксибуса",
@@ -12590,23 +12647,23 @@
       "item.shtundex.cat_cloth": "Кототкань",
       "advancements.level_2_shtuk.descr": "Стань богом.",
       "advancements.begining.title": "Начало",
-      "block.shtundex.boss_altar": "Boss Altar",
+      "block.shtundex.boss_altar": "Алтарь Штуксибуса",
       "block.shtundex.macerator": "Дробитель",
       "item.shtundex.dark_armor_leggings": "Темные поножи",
-      "item.shtundex.warped_axe": "Warped Axe",
+      "item.shtundex.warped_axe": "Искаженный топор",
       "item.shtundex.empty_syrgine": "Пустой шприц"
     },
     "en_us": {
-      "item.shtundex.emerald_force": "Emerald Force",
       "item.shtundex.uranium_dust": "Uranium Dust",
+      "item.shtundex.emerald_force": "Emerald Force",
       "item_group.shtundex.lore": "Lore",
       "item.shtundex.warped_pickaxe": "Warped Pickaxe",
       "item.shtundex.unfinished_catsteel_circuit": "Unfinished Catsteel Circuit",
       "item.shtundex.dark_armor_boots": "Dark Boots",
       "block.shtundex.compressed_dirt": "Compressed dirt",
       "item.shtundex.flour": "Flour",
-      "item.shtundex.kotium": "Kotium",
       "death.attack.electricity": "%1$s was fried from electrical charge.",
+      "item.shtundex.kotium": "Kotium",
       "item.shtundex.warped_shovel": "Warped Shovel",
       "advancements.shtundex_ach.title": "Shtundex!",
       "advancements.i_reject_my_humanity.title": "I Reject My Humanity!",
@@ -12757,6 +12814,7 @@
       "effect.shtundex.radiation": "Radiation",
       "item.shtundex.chtuxlagor_force": "Chtuxlagor Force",
       "item.shtundex.shtuxite_soul": "Shtuxite Soul",
+      "key.shtundex.special_attack": "Special Attack",
       "item.shtundex.shtundex_world": "Shtundex World Portal Igniter",
       "item.shtundex.catsteel_armor_helmet": "Catsteel Helmet",
       "death.attack.irradiated.player": "%1$s irradiated whilst trying to escape %2$s",

@@ -35,6 +35,9 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "CatsteelSwordPriShchielchkiePKM"
+    },
     "onEntityHitWith": {
       "name": "CatsteelSwordPriUdariePoSushchnostiInstrumientom"
     },

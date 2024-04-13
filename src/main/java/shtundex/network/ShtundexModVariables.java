@@ -127,6 +127,7 @@ public class ShtundexModVariables {
 		public boolean shtuxteleported = false;
 		public boolean arenaup = false;
 		public boolean shtuxPhase3LAST = false;
+		public boolean priority = false;
 
 		public static WorldVariables load(CompoundTag tag) {
 			WorldVariables data = new WorldVariables();
@@ -142,6 +143,7 @@ public class ShtundexModVariables {
 			shtuxteleported = nbt.getBoolean("shtuxteleported");
 			arenaup = nbt.getBoolean("arenaup");
 			shtuxPhase3LAST = nbt.getBoolean("shtuxPhase3LAST");
+			priority = nbt.getBoolean("priority");
 		}
 
 		@Override
@@ -153,6 +155,7 @@ public class ShtundexModVariables {
 			nbt.putBoolean("shtuxteleported", shtuxteleported);
 			nbt.putBoolean("arenaup", arenaup);
 			nbt.putBoolean("shtuxPhase3LAST", shtuxPhase3LAST);
+			nbt.putBoolean("priority", priority);
 			return nbt;
 		}
 

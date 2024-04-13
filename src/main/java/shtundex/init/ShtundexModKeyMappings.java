@@ -6,6 +6,7 @@ package shtundex.init;
 
 import shtundex.network.ZaWarduoMessage;
 import shtundex.network.TeleportMessage;
+import shtundex.network.SpecialAttackMessage;
 import shtundex.network.ShtuxianTeleportMessage;
 import shtundex.network.ShieldDashKeyMessage;
 import shtundex.network.NormDashMessage;
@@ -188,6 +189,19 @@ public class ShtundexModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping SPECIAL_ATTACK = new KeyMapping("key.shtundex.special_attack", GLFW.GLFW_KEY_X, "key.categories.misc") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				ShtundexMod.PACKET_HANDLER.sendToServer(new SpecialAttackMessage(0, 0));
+				SpecialAttackMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
@@ -203,6 +217,7 @@ public class ShtundexModKeyMappings {
 		event.register(BACKDASH_KEY);
 		event.register(SHTUXIAN_TELEPORT);
 		event.register(TELEPORT);
+		event.register(SPECIAL_ATTACK);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -222,6 +237,7 @@ public class ShtundexModKeyMappings {
 				BACKDASH_KEY.consumeClick();
 				SHTUXIAN_TELEPORT.consumeClick();
 				TELEPORT.consumeClick();
+				SPECIAL_ATTACK.consumeClick();
 			}
 		}
 	}
