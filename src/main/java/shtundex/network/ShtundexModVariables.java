@@ -128,6 +128,7 @@ public class ShtundexModVariables {
 		public boolean arenaup = false;
 		public boolean shtuxPhase3LAST = false;
 		public boolean priority = false;
+		public boolean jjcactive = false;
 
 		public static WorldVariables load(CompoundTag tag) {
 			WorldVariables data = new WorldVariables();
@@ -144,6 +145,7 @@ public class ShtundexModVariables {
 			arenaup = nbt.getBoolean("arenaup");
 			shtuxPhase3LAST = nbt.getBoolean("shtuxPhase3LAST");
 			priority = nbt.getBoolean("priority");
+			jjcactive = nbt.getBoolean("jjcactive");
 		}
 
 		@Override
@@ -156,6 +158,7 @@ public class ShtundexModVariables {
 			nbt.putBoolean("arenaup", arenaup);
 			nbt.putBoolean("shtuxPhase3LAST", shtuxPhase3LAST);
 			nbt.putBoolean("priority", priority);
+			nbt.putBoolean("jjcactive", jjcactive);
 			return nbt;
 		}
 

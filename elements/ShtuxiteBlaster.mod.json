@@ -42,7 +42,7 @@
       "name": "CatsteelSwordPriUdariePoSushchnostiInstrumientom"
     },
     "onItemInUseTick": {
-      "name": "CatsteelStaffKazhdyiTikVRukie"
+      "name": "JJCCheck"
     },
     "onEntitySwing": {
       "name": "Blasterswing"

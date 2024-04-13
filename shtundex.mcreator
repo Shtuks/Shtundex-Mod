@@ -11761,6 +11761,10 @@
             "type": "entity"
           },
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -11801,42 +11805,6 @@
       "path": "~/Entities"
     },
     {
-      "name": "CatsteelStaffKazhdyiTikVRukie",
-      "type": "procedure",
-      "sortid": 687,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "catsteel_staff_kazhdyi_tik_v_rukie",
-      "metadata": {
-        "files": [
-          "src/main/java/shtundex/procedures/CatsteelStaffKazhdyiTikVRukieProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Tools"
-    },
-    {
       "name": "ShtQ7V3PriObnovlieniiTikaSushchnosti",
       "type": "procedure",
       "sortid": 688,
@@ -11855,42 +11823,6 @@
         ]
       },
       "path": "~/Entities"
-    },
-    {
-      "name": "CatsteelSwordKazhdyiTikVRukie",
-      "type": "procedure",
-      "sortid": 689,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "catsteel_sword_kazhdyi_tik_v_rukie",
-      "metadata": {
-        "files": [
-          "src/main/java/shtundex/procedures/CatsteelSwordKazhdyiTikVRukieProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Tools"
     },
     {
       "name": "DeathmarkKazhdyiTikVoVriemiaEffiekta",
@@ -12075,6 +12007,80 @@
         ]
       },
       "path": "~/Tools"
+    },
+    {
+      "name": "JJCActive",
+      "type": "procedure",
+      "sortid": 698,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jjc_active",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/JJCActiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Shtuxianpriority",
+      "type": "command",
+      "sortid": 699,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuxianpriority",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/command/ShtuxianpriorityCommand.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "JJCCheck",
+      "type": "procedure",
+      "sortid": 700,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jjc_check",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/JJCCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [
@@ -12248,6 +12254,12 @@
     },
     {
       "name": "priority",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "jjcactive",
       "type": "logic",
       "scope": "world",
       "value": "false"
@@ -12700,7 +12712,7 @@
       "item.shtundex.catsteel_drill_handle": "Catsteel Drill Handle",
       "item.shtundex.lore_awakening": "Lore Awakening",
       "gui.shtundex.shtux.button_rematch": "Rematch",
-      "item.shtundex.warped_armor_helmet": "Warped helmet",
+      "item.shtundex.warped_armor_helmet": "Шлем Warped Armor",
       "key.shtundex.norm_dash": "Dash",
       "item.shtundex.raw_lead": "Raw Lead",
       "item.shtundex.catsteel_apple": "Catsteel Apple",
@@ -12728,10 +12740,10 @@
       "item.shtundex.lapis_force": "Lapis Force",
       "entity.shtundex.test_banana": "Test Banana",
       "effect.shtundex.bossalife": "Boss existance",
-      "item.shtundex.hazmat_boots": "Hazmat boots",
+      "item.shtundex.hazmat_boots": "Ботинки Hazmat",
       "item.shtundex.berry_pie": "Berry Pie",
       "gui.shtundex.catsteelgengui.label_catsteel_generator": "Catsteel Generator",
-      "item.shtundex.warped_armor_leggings": "Warped leggins",
+      "item.shtundex.warped_armor_leggings": "Поножи Warped Armor",
       "death.attack.irradiated.item": "%1$s was irradiated by %2$s using %3$s",
       "block.shtundex.tin_block": "Block of Tin",
       "entity.shtundex.irradiated_slime": "Irradiated mass",
@@ -12753,7 +12765,7 @@
       "item.shtundex.shtuk_cybernetic_parts": "Shtuk Cybernetic Parts",
       "effect.shtundex.electrification": "Electrified",
       "item.shtundex.catsteel_ring": "Catsteel ring of Omniversal knowgle of Shtundex World",
-      "item.shtundex.warped_armor_chestplate": "Warped chestplate",
+      "item.shtundex.warped_armor_chestplate": "Нагрудник Warped Armor",
       "item.shtundex.catsteel_force": "Catsteel Force",
       "death.attack.shtuxian_damage.player": "%1$s died whilst trying to escape his fate.",
       "item.shtundex.crimson_armor_boots": "Ботинки Crimson Armor",
@@ -12803,7 +12815,7 @@
       "death.attack.electricity.player": "%1$s electricified whilst trying to escape %2$s",
       "item.shtundex.raw_tin": "Raw Tin",
       "item.shtundex.shtun_stone_shovel": "ShtunStone Shovel",
-      "item.shtundex.hazmat_helmet": "Hazmat helmet",
+      "item.shtundex.hazmat_helmet": "Шлем Hazmat",
       "death.attack.irradiated": "%1$s irradiated.",
       "item.shtundex.crimson_armor_leggings": "Поножи Crimson Armor",
       "item.shtundex.catsteel_sword": "Catsteel Sword",
@@ -12839,7 +12851,7 @@
       "block.shtundex.molten_catsteel": "Molten Catsteel",
       "entity.shtundex.sht_q_7_v_3": "Sht-Q7 V 3",
       "item.shtundex.shtun_stone_axe": "ShtunStone Axe",
-      "item.shtundex.hazmat_leggings": "Hazmat leggins",
+      "item.shtundex.hazmat_leggings": "Поножи Hazmat",
       "item.shtundex.netherite_force": "Netherite Force",
       "subtitles.abilitysound": "",
       "item.minecraft.potion.effect.shtuxian_blood": "Shtuxian Blood",
@@ -12868,7 +12880,7 @@
       "entity.shtundex.shtux_sword_proj": "Shtux Sword Proj",
       "item.shtundex.refined_xenium_plate": "Refined Xenium Plate",
       "gui.shtundex.shtux.label_dr_arseniy_shtuxibus": "Shtuxibus",
-      "item.shtundex.hazmat_chestplate": "Hazmat chestplate",
+      "item.shtundex.hazmat_chestplate": "Нагрудник Hazmat",
       "item.shtundex.geiger_count": "Geiger Count",
       "entity.shtundex.dr_shtuxibus": "Dr Shtuxibus",
       "item.shtundex.traveler_boots": "Traveler Boots",
@@ -12925,7 +12937,7 @@
       "item.minecraft.splash_potion.effect.shtuxian_blood": "Splash Shtuxian Blood",
       "item.shtundex.miner_force": "Miner Force",
       "advancements.catsteel_catsteel.descr": "Make your first steps in goal to become most powerful.",
-      "item.shtundex.warped_armor_boots": "Warped armor",
+      "item.shtundex.warped_armor_boots": "Ботинки Warped Armor",
       "item.shtundex.bronze_ingot": "Bronze Ingot",
       "effect.shtundex.cooldown": "Ability cooldown",
       "item.shtundex.depelleted_catsteel": "Depelleted Catsteel",

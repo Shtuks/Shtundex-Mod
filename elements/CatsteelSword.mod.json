@@ -45,7 +45,7 @@
       "name": "CatsteelArmorKazhdyiTikDliaShliema"
     },
     "onItemInUseTick": {
-      "name": "CatsteelSwordKazhdyiTikVRukie"
+      "name": "JJCCheck"
     }
   }
 }

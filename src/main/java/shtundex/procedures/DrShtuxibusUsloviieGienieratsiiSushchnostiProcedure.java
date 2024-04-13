@@ -36,7 +36,9 @@ public class DrShtuxibusUsloviieGienieratsiiSushchnostiProcedure {
 			ShtundexModVariables.WorldVariables.get(world).shtuxhealed = false;
 			ShtundexModVariables.WorldVariables.get(world).syncData(world);
 			if (!world.isClientSide() && world.getServer() != null)
-				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> Hm? Finaly we met. You slain everything on your path... Just to feel blink of power Chtux'lag'or have. You no diffrent from me."), false);
+				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> Hm? Finaly we met. You slain everything on your path... You no diffrent from me."), false);
+			if (!world.isClientSide() && world.getServer() != null)
+				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Shtuxibus> Burn in flames in shtuxian abyss!"), false);
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"title @a title {\"text\":\"GOD OF CATS\",\"bold\":true}");

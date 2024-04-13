@@ -36,6 +36,9 @@
     },
     "onEntityHitWith": {
       "name": "NanosaberActivePriUdariePoSushchnostiInstrumientom"
+    },
+    "onItemInUseTick": {
+      "name": "JJCCheck"
     }
   }
 }

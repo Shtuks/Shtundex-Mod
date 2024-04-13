@@ -2,8 +2,8 @@
 package shtundex.item;
 
 import shtundex.procedures.ShtuxiteBlasterPriVzmakhieSushchnostiPriedmietomProcedure;
+import shtundex.procedures.JJCCheckProcedure;
 import shtundex.procedures.CatsteelSwordPriUdariePoSushchnostiInstrumientomProcedure;
-import shtundex.procedures.CatsteelStaffKazhdyiTikVRukieProcedure;
 import shtundex.procedures.BlasterswingProcedure;
 
 import net.minecraft.world.level.Level;
@@ -85,6 +85,6 @@ public class ShtuxiteBlasterItem extends Item {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			CatsteelStaffKazhdyiTikVRukieProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), itemstack);
+			JJCCheckProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
 	}
 }

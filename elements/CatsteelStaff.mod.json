@@ -39,7 +39,7 @@
       "name": "CatsteelStaffPriVzmakhieSushchnostiPriedmietom"
     },
     "onItemInUseTick": {
-      "name": "CatsteelStaffKazhdyiTikVRukie"
+      "name": "JJCCheck"
     },
     "onEntitySwing": {
       "name": "CatsteelStaffPriShchielchkiePKM"

@@ -1,9 +1,9 @@
 
 package shtundex.item;
 
+import shtundex.procedures.JJCCheckProcedure;
 import shtundex.procedures.CatsteelStaffPriVzmakhieSushchnostiPriedmietomProcedure;
 import shtundex.procedures.CatsteelStaffPriShchielchkiePKMProcedure;
-import shtundex.procedures.CatsteelStaffKazhdyiTikVRukieProcedure;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.TooltipFlag;
@@ -71,6 +71,6 @@ public class CatsteelStaffItem extends Item {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			CatsteelStaffKazhdyiTikVRukieProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), itemstack);
+			JJCCheckProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
 	}
 }
