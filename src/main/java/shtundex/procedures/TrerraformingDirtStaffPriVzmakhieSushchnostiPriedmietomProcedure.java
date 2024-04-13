@@ -11,6 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
@@ -18,7 +19,7 @@ public class TrerraformingDirtStaffPriVzmakhieSushchnostiPriedmietomProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ShtundexModBlocks.COMPRESSED_DIRT.get())) : false) {
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == ShtundexModBlocks.COMPRESSED_DIRT.get().asItem()) {
 			{
 				Entity _shootFrom = entity;
 				Level projectileLevel = _shootFrom.level();

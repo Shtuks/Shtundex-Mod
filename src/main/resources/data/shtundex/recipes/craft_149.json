@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:catsteel_plate"
+    },
+    "b": {
+      "item": "shtundex:catsteel_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:bedrock",
+    "count": 1
+  }
+}

@@ -5,7 +5,10 @@
 package shtundex.init;
 
 import shtundex.potion.TimeStopMobEffect;
+import shtundex.potion.ShtuxianRevivalMobEffect;
 import shtundex.potion.ShtukModeCDMobEffect;
+import shtundex.potion.RevivalCooldownMobEffect;
+import shtundex.potion.RevievedMobEffect;
 import shtundex.potion.RadiationMobEffect;
 import shtundex.potion.NothingMobEffect;
 import shtundex.potion.InvincibilityMobEffect;
@@ -49,4 +52,7 @@ public class ShtundexModMobEffects {
 	public static final RegistryObject<MobEffect> ELECTRIFICATION = REGISTRY.register("electrification", () -> new ElectrificationMobEffect());
 	public static final RegistryObject<MobEffect> BOSSALIFE = REGISTRY.register("bossalife", () -> new BossalifeMobEffect());
 	public static final RegistryObject<MobEffect> DEATHMARK = REGISTRY.register("deathmark", () -> new DeathmarkMobEffect());
+	public static final RegistryObject<MobEffect> REVIEVED = REGISTRY.register("revieved", () -> new RevievedMobEffect());
+	public static final RegistryObject<MobEffect> SHTUXIAN_REVIVAL = REGISTRY.register("shtuxian_revival", () -> new ShtuxianRevivalMobEffect());
+	public static final RegistryObject<MobEffect> REVIVAL_COOLDOWN = REGISTRY.register("revival_cooldown", () -> new RevivalCooldownMobEffect());
 }

@@ -12021,6 +12021,10 @@
         ],
         "dependencies": [
           {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -12081,6 +12085,357 @@
         ]
       },
       "path": "~/Tools"
+    },
+    {
+      "name": "TeleporterPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 701,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/TeleporterPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeleporterPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 702,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/TeleporterPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Teleporter",
+      "type": "item",
+      "sortid": 703,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/TeleporterItem.java",
+          "src/main/resources/assets/shtundex/models/item/teleporter.json"
+        ]
+      }
+    },
+    {
+      "name": "Craft139",
+      "type": "recipe",
+      "sortid": 704,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_139",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_139.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "TotemOfChtuxlagorKazhdyiTikVRukie",
+      "type": "procedure",
+      "sortid": 705,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_chtuxlagor_kazhdyi_tik_v_rukie",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/TotemOfChtuxlagorKazhdyiTikVRukieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemOfChtuxlagor",
+      "type": "item",
+      "sortid": 706,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_chtuxlagor",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/TotemOfChtuxlagorItem.java",
+          "src/main/resources/assets/shtundex/models/item/totem_of_chtuxlagor.json"
+        ]
+      }
+    },
+    {
+      "name": "Revieved",
+      "type": "potioneffect",
+      "sortid": 707,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revieved",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/RevievedMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "ShtuxianRevival",
+      "type": "potioneffect",
+      "sortid": 708,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuxian_revival",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/ShtuxianRevivalMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "RevivalCooldown",
+      "type": "potioneffect",
+      "sortid": 709,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revival_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/RevivalCooldownMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Craft140",
+      "type": "recipe",
+      "sortid": 710,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_140",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_140.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft141",
+      "type": "recipe",
+      "sortid": 711,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_141",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_141.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft142",
+      "type": "recipe",
+      "sortid": 712,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_142",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_142.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft143",
+      "type": "recipe",
+      "sortid": 713,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_143",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_143.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Carft143",
+      "type": "recipe",
+      "sortid": 714,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carft_143",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/carft_143.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft144",
+      "type": "recipe",
+      "sortid": 715,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_144",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_144.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft145",
+      "type": "recipe",
+      "sortid": 716,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_145",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_145.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft146",
+      "type": "recipe",
+      "sortid": 717,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_146",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_146.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft147",
+      "type": "recipe",
+      "sortid": 718,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_147",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_147.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft148",
+      "type": "recipe",
+      "sortid": 719,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_148",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_148.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft149",
+      "type": "recipe",
+      "sortid": 720,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_149",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_149.json"
+        ]
+      },
+      "path": "~/Crafts"
     }
   ],
   "variable_elements": [
@@ -12442,6 +12797,7 @@
       "item.shtundex.catsteel_ring": "Котосталевое кольцо",
       "item.shtundex.warped_armor_chestplate": "Искаженный нагрудник",
       "item.shtundex.catsteel_force": "Котосталевая сила",
+      "item.shtundex.totem_of_chtuxlagor": "Totem Of Chtuxlagor",
       "death.attack.shtuxian_damage.player": "%1$s умер пытаясь убежать от судьбы",
       "item.shtundex.crimson_armor_boots": "Багряные ботинки",
       "item.shtundex.catsteel_stimulants": "Котосталевые стимулянты",
@@ -12500,6 +12856,7 @@
       "item.shtundex.cat_clot_armor_helmet": "Кототканевый капюшон",
       "effect.shtundex.radiation": "Радиация",
       "item.shtundex.chtuxlagor_force": "Сила Штукс\u0027лаг\u0027ора",
+      "effect.shtundex.revival_cooldown": "Revival cooldown",
       "item.shtundex.shtuxite_soul": "Штукситовая душа",
       "key.shtundex.special_attack": "Специальная атака",
       "item.shtundex.shtundex_world": "Мульти-измеренский пространственный активатор",
@@ -12594,6 +12951,7 @@
       "subtitles.shtux2": "",
       "item.minecraft.tipped_arrow.effect.shtuxian_blood": "Стрела штучиной крови",
       "effect.shtundex.invincibility": "Неуязвимость",
+      "item.shtundex.teleporter": "Teleporter",
       "item.shtundex.cat_steel_drill": "Котосталевый бур",
       "advancements.shtundex_ach.descr": "Получите доступ к миру штучиных высоких технологий",
       "item.shtundex.lore_shtq_7v_3": "История - Sht-Q7 v3",
@@ -12641,9 +12999,11 @@
       "painting.shtundex.shtundex_paint.author": "StarlightCat",
       "item.shtundex.catsteel_plate": "Котосталевая пластина",
       "item.shtundex.lead_plate": "Свинцовая пластина",
+      "effect.shtundex.shtuxian_revival": "Shtuxian revival",
       "effect.shtundex.deathmark": "Марка смерти",
       "item.shtundex.shtuxian_kit": "Штучиный набор",
       "item.shtundex.human_spawn_egg": "Яйцо призыва человека",
+      "effect.shtundex.revieved": "Revieved",
       "item.shtundex.shtuxibus_force": "Сила Штуксибуса",
       "item.shtundex.copper_force": "Copper Force",
       "subtitles.shtq7theme": "",
@@ -12767,6 +13127,7 @@
       "item.shtundex.catsteel_ring": "Catsteel ring of Omniversal knowgle of Shtundex World",
       "item.shtundex.warped_armor_chestplate": "Нагрудник Warped Armor",
       "item.shtundex.catsteel_force": "Catsteel Force",
+      "item.shtundex.totem_of_chtuxlagor": "Totem Of Chtuxlagor",
       "death.attack.shtuxian_damage.player": "%1$s died whilst trying to escape his fate.",
       "item.shtundex.crimson_armor_boots": "Ботинки Crimson Armor",
       "item.shtundex.catsteel_stimulants": "Catsteel Stimulants",
@@ -12825,6 +13186,7 @@
       "item.shtundex.cat_clot_armor_helmet": "CatClot Helmet",
       "effect.shtundex.radiation": "Radiation",
       "item.shtundex.chtuxlagor_force": "Chtuxlagor Force",
+      "effect.shtundex.revival_cooldown": "Revival cooldown",
       "item.shtundex.shtuxite_soul": "Shtuxite Soul",
       "key.shtundex.special_attack": "Special Attack",
       "item.shtundex.shtundex_world": "Shtundex World Portal Igniter",
@@ -12919,6 +13281,7 @@
       "subtitles.shtux2": "",
       "item.minecraft.tipped_arrow.effect.shtuxian_blood": "Arrow of Shtuxian Blood",
       "effect.shtundex.invincibility": "Invinvibility",
+      "item.shtundex.teleporter": "Teleporter",
       "item.shtundex.cat_steel_drill": "Cat Steel Drill",
       "advancements.shtundex_ach.descr": "Achive access to the world of Shtuxian technologies.",
       "item.shtundex.lore_shtq_7v_3": "Lore - Sht-Q7 v3",
@@ -12966,9 +13329,11 @@
       "painting.shtundex.shtundex_paint.author": "StarlightCat",
       "item.shtundex.catsteel_plate": "Catsteel Plate",
       "item.shtundex.lead_plate": "Lead Plate",
+      "effect.shtundex.shtuxian_revival": "Shtuxian revival",
       "effect.shtundex.deathmark": "Deathmark",
       "item.shtundex.shtuxian_kit": "Shtuxian Kit",
       "item.shtundex.human_spawn_egg": "Human Spawn Egg",
+      "effect.shtundex.revieved": "Revieved",
       "item.shtundex.shtuxibus_force": "Shtuxibus Force",
       "item.shtundex.copper_force": "Copper Force",
       "subtitles.shtq7theme": "",

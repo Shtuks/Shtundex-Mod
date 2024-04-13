@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dde"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:energy_crystal"
+    },
+    "b": {
+      "item": "minecraft:ender_pearl"
+    },
+    "c": {
+      "item": "shtundex:refined_xenium_plate"
+    },
+    "d": {
+      "item": "shtundex:catsteel_plate"
+    },
+    "e": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "shtundex:teleporter",
+    "count": 1
+  }
+}

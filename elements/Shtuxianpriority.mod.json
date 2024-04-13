@@ -2,9 +2,9 @@
   "_fv": 57,
   "_type": "command",
   "definition": {
-    "commandName": "shtuxian_compatibility",
+    "commandName": "shtundexcompatibility",
     "type": "STANDARD",
     "permissionLevel": "No requirement",
-    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"call_procedure\"><field name=\"procedure\">JJCActive</field></block></next></block></xml>"
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"logic\"><field name=\"name\">logic</field><statement name=\"args\"><block type=\"old_command\"><field name=\"procedure\">JJCActive</field></block></statement></block></next></block></xml>"
   }
 }

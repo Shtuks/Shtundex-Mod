@@ -22,12 +22,14 @@ import shtundex.item.TrerraformingDirtStaffItem;
 import shtundex.item.TreasureBag2Item;
 import shtundex.item.TreasureBag1Item;
 import shtundex.item.TravelerBootsItem;
+import shtundex.item.TotemOfChtuxlagorItem;
 import shtundex.item.TinyChtuxlagorShardItem;
 import shtundex.item.TinIngotItem;
 import shtundex.item.TinForceItem;
 import shtundex.item.TinDustItem;
 import shtundex.item.TheStickItem;
 import shtundex.item.TestEmptyItem;
+import shtundex.item.TeleporterItem;
 import shtundex.item.SwordlandItem;
 import shtundex.item.ShtuxiteSoulItem;
 import shtundex.item.ShtuxiteBlasterItem;
@@ -377,6 +379,8 @@ public class ShtundexModItems {
 	public static final RegistryObject<Item> TRERRAFORMING_DIRT_STAFF = REGISTRY.register("trerraforming_dirt_staff", () -> new TrerraformingDirtStaffItem());
 	public static final RegistryObject<Item> COMPRESSED_DIRT = block(ShtundexModBlocks.COMPRESSED_DIRT);
 	public static final RegistryObject<Item> MUSIC_FIXER = REGISTRY.register("music_fixer", () -> new MusicFixerItem());
+	public static final RegistryObject<Item> TELEPORTER = REGISTRY.register("teleporter", () -> new TeleporterItem());
+	public static final RegistryObject<Item> TOTEM_OF_CHTUXLAGOR = REGISTRY.register("totem_of_chtuxlagor", () -> new TotemOfChtuxlagorItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

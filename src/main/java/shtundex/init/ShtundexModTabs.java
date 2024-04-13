@@ -194,6 +194,8 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.TRERRAFORMING_DIRT_STAFF.get());
 				tabData.accept(ShtundexModBlocks.COMPRESSED_DIRT.get().asItem());
 				tabData.accept(ShtundexModItems.MUSIC_FIXER.get());
+				tabData.accept(ShtundexModItems.TELEPORTER.get());
+				tabData.accept(ShtundexModItems.TOTEM_OF_CHTUXLAGOR.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_SHTUXIBUS.get())).displayItems((parameters, tabData) -> {
