@@ -1,5 +1,7 @@
 package shtundex.procedures;
 
+import shtundex.network.ShtundexModVariables;
+
 import shtundex.init.ShtundexModParticleTypes;
 import shtundex.init.ShtundexModMobEffects;
 import shtundex.init.ShtundexModItems;
@@ -17,6 +19,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -91,6 +94,15 @@ public class TotemOfChtuxlagorKazhdyiTikVRukieProcedure {
 				_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 200, 0, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 400, 29, false, false));
+			if (ShtundexModVariables.WorldVariables.get(world).InfinityMode == true) {
+				{
+					ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+					if (_ist.hurt(1, RandomSource.create(), null)) {
+						_ist.shrink(1);
+						_ist.setDamageValue(0);
+					}
+				}
+			}
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.TOTEM_OF_UNDYING, x, y, z, 100, 3, 3, 3, 1);
 			if (world instanceof Level _level) {
@@ -119,8 +131,15 @@ public class TotemOfChtuxlagorKazhdyiTikVRukieProcedure {
 				_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 200, 0, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 400, 29, false, false));
-			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.TOTEM_OF_UNDYING, x, y, z, 100, 3, 3, 3, 1);
+			if (ShtundexModVariables.WorldVariables.get(world).InfinityMode == true) {
+				{
+					ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY);
+					if (_ist.hurt(1, RandomSource.create(), null)) {
+						_ist.shrink(1);
+						_ist.setDamageValue(0);
+					}
+				}
+			}
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.totem.use")), SoundSource.NEUTRAL, 1, 1);
@@ -128,6 +147,8 @@ public class TotemOfChtuxlagorKazhdyiTikVRukieProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.totem.use")), SoundSource.NEUTRAL, 1, 1, false);
 				}
 			}
+			if (world instanceof ServerLevel _level)
+				_level.sendParticles(ParticleTypes.TOTEM_OF_UNDYING, x, y, z, 100, 3, 3, 3, 1);
 		}
 	}
 }
