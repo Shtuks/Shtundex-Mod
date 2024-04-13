@@ -65,7 +65,7 @@ public class ShtuxSwordItem extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		ShtuxSwordPriShchielchkiePKMProcedure.execute(entity);
+		ShtuxSwordPriShchielchkiePKMProcedure.execute(entity, ar.getObject());
 		return ar;
 	}
 
@@ -87,6 +87,6 @@ public class ShtuxSwordItem extends Item {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			ShtuxSwordKazhdyiTikVRukieProcedure.execute(entity);
+			ShtuxSwordKazhdyiTikVRukieProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
 	}
 }

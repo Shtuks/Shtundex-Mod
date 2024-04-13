@@ -1,6 +1,8 @@
 
 package shtundex.entity;
 
+import shtundex.procedures.ShtukPriObnovlieniiTikaSushchnostiProcedure;
+
 import shtundex.init.ShtundexModItems;
 import shtundex.init.ShtundexModEntities;
 
@@ -65,15 +67,15 @@ public class ShtukEntity extends Monster {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, false) {
+		this.targetSelector.addGoal(1, new HurtByTargetGoal(this));
+		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 1));
 		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(6, new FloatGoal(this));
 	}
@@ -130,6 +132,12 @@ public class ShtukEntity extends Monster {
 		if (damagesource.is(DamageTypes.WITHER_SKULL))
 			return false;
 		return super.hurt(damagesource, amount);
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		ShtukPriObnovlieniiTikaSushchnostiProcedure.execute(this);
 	}
 
 	public static void init() {

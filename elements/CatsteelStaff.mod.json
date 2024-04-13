@@ -35,8 +35,14 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onEntitySwing": {
+    "onRightClickedInAir": {
       "name": "CatsteelStaffPriVzmakhieSushchnostiPriedmietom"
+    },
+    "onItemInUseTick": {
+      "name": "CatsteelStaffKazhdyiTikVRukie"
+    },
+    "onEntitySwing": {
+      "name": "CatsteelStaffPriShchielchkiePKM"
     },
     "enableRanged": false,
     "shootConstantly": false,

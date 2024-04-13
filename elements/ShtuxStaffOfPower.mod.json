@@ -51,6 +51,9 @@
     "onItemInInventoryTick": {
       "name": "ShtuxStaffOfPowerKazhdyiTikVInvientarie"
     },
+    "onItemInUseTick": {
+      "name": "ShtuxStaffOfPowerKazhdyiTikVRuki"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {

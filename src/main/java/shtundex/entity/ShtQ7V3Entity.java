@@ -1,6 +1,7 @@
 
 package shtundex.entity;
 
+import shtundex.procedures.ShtQ7V3PriObnovlieniiTikaSushchnostiProcedure;
 import shtundex.procedures.ShtQ7V3PriGibieliSushchnostiProcedure;
 import shtundex.procedures.BossDisappearProcedure;
 
@@ -145,6 +146,12 @@ public class ShtQ7V3Entity extends Monster {
 	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
 		super.awardKillScore(entity, score, damageSource);
 		BossDisappearProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entity);
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		ShtQ7V3PriObnovlieniiTikaSushchnostiProcedure.execute(this);
 	}
 
 	@Override

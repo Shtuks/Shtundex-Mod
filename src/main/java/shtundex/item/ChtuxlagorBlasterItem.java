@@ -48,7 +48,7 @@ public class ChtuxlagorBlasterItem extends Item {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			ChtuxlagorBlasterPriShchielchkiePKProcedure.execute(entity);
+			ChtuxlagorBlasterPriShchielchkiePKProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 		ShtuxStaffOfPowerKazhdyiTikVInvientarieProcedure.execute(world, itemstack);
 	}
 }

@@ -1507,6 +1507,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       },
@@ -1902,6 +1906,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -3841,6 +3865,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -6842,18 +6882,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -8516,6 +8544,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       },
@@ -11725,6 +11757,274 @@
         ]
       },
       "path": "~/Shtuxibus"
+    },
+    {
+      "name": "ShtuxStaffOfPowerKazhdyiTikVRuki",
+      "type": "procedure",
+      "sortid": 685,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtux_staff_of_power_kazhdyi_tik_v_ruki",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtuxStaffOfPowerKazhdyiTikVRukiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chtuxlagor"
+    },
+    {
+      "name": "ShtukPriObnovlieniiTikaSushchnosti",
+      "type": "procedure",
+      "sortid": 686,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuk_pri_obnovlienii_tika_sushchnosti",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtukPriObnovlieniiTikaSushchnostiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CatsteelStaffKazhdyiTikVRukie",
+      "type": "procedure",
+      "sortid": 687,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_staff_kazhdyi_tik_v_rukie",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelStaffKazhdyiTikVRukieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "ShtQ7V3PriObnovlieniiTikaSushchnosti",
+      "type": "procedure",
+      "sortid": 688,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sht_q_7_v_3_pri_obnovlienii_tika_sushchnosti",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtQ7V3PriObnovlieniiTikaSushchnostiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CatsteelSwordKazhdyiTikVRukie",
+      "type": "procedure",
+      "sortid": 689,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_sword_kazhdyi_tik_v_rukie",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelSwordKazhdyiTikVRukieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "DeathmarkKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "sortid": 690,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathmark_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/DeathmarkKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Deathmark",
+      "type": "potioneffect",
+      "sortid": 691,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathmark",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/DeathmarkMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "CatsteelStaffPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 692,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel_staff_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatsteelStaffPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "NetherStarStaffPriVzmakhieSushchnostiPriedmieom",
+      "type": "procedure",
+      "sortid": 693,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_staff_pri_vzmakhie_sushchnosti_priedmieom",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/NetherStarStaffPriVzmakhieSushchnostiPriedmieomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "ShtuxiteBlasterPriVzmakhieSushchnostiPriedmietom",
+      "type": "procedure",
+      "sortid": 694,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuxite_blaster_pri_vzmakhie_sushchnosti_priedmietom",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtuxiteBlasterPriVzmakhieSushchnostiPriedmietomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [
@@ -12272,6 +12572,7 @@
       "painting.shtundex.shtundex_paint.author": "StarlightCat",
       "item.shtundex.catsteel_plate": "Котосталевая пластина",
       "item.shtundex.lead_plate": "Свинцовая пластина",
+      "effect.shtundex.deathmark": "Deathmark",
       "item.shtundex.shtuxian_kit": "Штучиный набор",
       "item.shtundex.human_spawn_egg": "Яйцо призыва человека",
       "item.shtundex.shtuxibus_force": "Сила Штуксибуса",
@@ -12595,6 +12896,7 @@
       "painting.shtundex.shtundex_paint.author": "StarlightCat",
       "item.shtundex.catsteel_plate": "Catsteel Plate",
       "item.shtundex.lead_plate": "Lead Plate",
+      "effect.shtundex.deathmark": "Deathmark",
       "item.shtundex.shtuxian_kit": "Shtuxian Kit",
       "item.shtundex.human_spawn_egg": "Human Spawn Egg",
       "item.shtundex.shtuxibus_force": "Shtuxibus Force",

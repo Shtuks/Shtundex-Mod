@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "shtundex:block/boss_altar"
+    },
+    "facing=east": {
+      "model": "shtundex:block/boss_altar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "shtundex:block/boss_altar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "shtundex:block/boss_altar",
+      "y": 270
     }
   }
 }

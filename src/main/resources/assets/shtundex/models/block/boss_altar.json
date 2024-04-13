@@ -1,8 +1,9 @@
 {
-  "parent": "block/cube_all",
+  "parent": "shtundex:custom/altar",
   "textures": {
     "all": "shtundex:block/test",
-    "particle": "shtundex:block/test"
+    "particle": "shtundex:block/test",
+    "0": "shtundex:block/base"
   },
   "render_type": "solid"
 }

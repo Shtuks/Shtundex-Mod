@@ -40,6 +40,9 @@
     },
     "onItemInInventoryTick": {
       "name": "CatsteelArmorKazhdyiTikDliaShliema"
+    },
+    "onItemInUseTick": {
+      "name": "CatsteelSwordKazhdyiTikVRukie"
     }
   }
 }

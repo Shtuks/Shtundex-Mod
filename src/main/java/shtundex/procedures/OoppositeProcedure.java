@@ -74,6 +74,8 @@ public class OoppositeProcedure {
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 500, 10, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.DEATHMARK.get(), 360, 1, false, false));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.CATSTEEL_POSION.get(), 500, 20, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.RADIATION.get(), 500, 10, false, false));

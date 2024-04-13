@@ -10,5 +10,6 @@ public class ShtuxStaffOfPowerKazhdyiTikVInvientarieProcedure {
 		if (ShtundexModVariables.WorldVariables.get(world).InfinityMode == false) {
 			itemstack.shrink(1);
 		}
+		itemstack.getOrCreateTag().putDouble("CursePower", 99999999);
 	}
 }

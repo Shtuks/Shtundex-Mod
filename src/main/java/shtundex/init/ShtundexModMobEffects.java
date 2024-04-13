@@ -12,6 +12,7 @@ import shtundex.potion.InvincibilityMobEffect;
 import shtundex.potion.HtucMobEffect;
 import shtundex.potion.FlightMobEffect;
 import shtundex.potion.ElectrificationMobEffect;
+import shtundex.potion.DeathmarkMobEffect;
 import shtundex.potion.CrimsonRegenerationMobEffect;
 import shtundex.potion.CooldownMobEffect;
 import shtundex.potion.ChtuxlagorPresenceMobEffect;
@@ -47,4 +48,5 @@ public class ShtundexModMobEffects {
 	public static final RegistryObject<MobEffect> ANTI_CREATIVE = REGISTRY.register("anti_creative", () -> new AntiCreativeMobEffect());
 	public static final RegistryObject<MobEffect> ELECTRIFICATION = REGISTRY.register("electrification", () -> new ElectrificationMobEffect());
 	public static final RegistryObject<MobEffect> BOSSALIFE = REGISTRY.register("bossalife", () -> new BossalifeMobEffect());
+	public static final RegistryObject<MobEffect> DEATHMARK = REGISTRY.register("deathmark", () -> new DeathmarkMobEffect());
 }

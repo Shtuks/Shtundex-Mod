@@ -2,6 +2,7 @@
 package shtundex.item;
 
 import shtundex.procedures.CatsteelSwordPriUdariePoSushchnostiInstrumientomProcedure;
+import shtundex.procedures.CatsteelSwordKazhdyiTikVRukieProcedure;
 import shtundex.procedures.CatsteelArmorKazhdyiTikDliaShliemaProcedure;
 
 import shtundex.init.ShtundexModItems;
@@ -64,6 +65,8 @@ public class CatsteelSwordItem extends SwordItem {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
+		if (selected)
+			CatsteelSwordKazhdyiTikVRukieProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), itemstack);
 		CatsteelArmorKazhdyiTikDliaShliemaProcedure.execute(itemstack);
 	}
 }
