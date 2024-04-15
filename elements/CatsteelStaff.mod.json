@@ -2,9 +2,9 @@
   "_fv": 57,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "catstaff",
-    "customModelName": "Normal",
+    "customModelName": "staffa3:default",
     "customProperties": {},
     "states": [],
     "name": "Catsteel Staff",

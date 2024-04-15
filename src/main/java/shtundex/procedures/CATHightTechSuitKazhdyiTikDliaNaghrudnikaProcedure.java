@@ -27,6 +27,8 @@ public class CATHightTechSuitKazhdyiTikDliaNaghrudnikaProcedure {
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 					"particle shtundex:molnia ~ ~ ~ 0.5 0.5 0.5 0 2");
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.SHT_ARMOR.get(), 60, 0, false, false));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.FLIGHT.get(), 40, 1, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 60, 5, false, false));

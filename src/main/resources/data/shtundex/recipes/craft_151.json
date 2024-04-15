@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "shtundex:chtuxlagor_piece"
+    },
+    "b": {
+      "item": "shtundex:the_stick"
+    }
+  },
+  "result": {
+    "item": "shtundex:great_sword_of_manipulation",
+    "count": 1
+  }
+}

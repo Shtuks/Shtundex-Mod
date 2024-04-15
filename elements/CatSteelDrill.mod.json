@@ -33,6 +33,9 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "CatSteelDrillPriShchielchkiePKM"
+    },
     "onCrafted": {
       "name": "CatSteelDrillPriPoluchieniiPriedmietaPoRietsieptu"
     },

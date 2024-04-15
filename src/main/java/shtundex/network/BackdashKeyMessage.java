@@ -53,7 +53,7 @@ public class BackdashKeyMessage {
 			return;
 		if (type == 0) {
 
-			BackdshProcedure.execute(world, entity);
+			BackdshProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

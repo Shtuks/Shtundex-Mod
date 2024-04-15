@@ -53,7 +53,7 @@ public class ZaWarduoMessage {
 			return;
 		if (type == 0) {
 
-			TimestopprocProcedure.execute(world, entity);
+			TimestopprocProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

@@ -53,7 +53,7 @@ public class NormDashMessage {
 			return;
 		if (type == 0) {
 
-			NormdasshProcedure.execute(world, entity);
+			NormdasshProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

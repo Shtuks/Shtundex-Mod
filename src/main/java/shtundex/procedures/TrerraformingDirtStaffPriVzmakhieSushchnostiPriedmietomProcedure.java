@@ -45,7 +45,7 @@ public class TrerraformingDirtStaffPriVzmakhieSushchnostiPriedmietomProcedure {
 			}
 		} else {
 			if (!world.isClientSide() && world.getServer() != null)
-				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("You need compressed dirt to use this item."), false);
+				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("You need compressed dirt in left hand to use this item."), false);
 		}
 	}
 }

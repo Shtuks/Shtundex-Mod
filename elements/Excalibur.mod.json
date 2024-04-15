@@ -1,0 +1,41 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "xcallibur",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Excalibur",
+    "specialInformation": {
+      "fixedValue": [
+        "+10 damage against undead."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Shtundex"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 2,
+    "damageVsEntity": 7.0,
+    "usageCount": 4000,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "ExcaliburPriPoluchieniiPriedmietaPoRietsieptu"
+    },
+    "onEntityHitWith": {
+      "name": "ExcaliburPriUdariePoSushchnostiInstrumientom"
+    }
+  }
+}

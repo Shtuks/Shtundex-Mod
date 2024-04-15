@@ -3,6 +3,7 @@ package shtundex.potion;
 
 import shtundex.procedures.TimeStopPriNalozhieniiEffiektaProcedure;
 import shtundex.procedures.TimeStopPriIstiechieniiEffiektaProcedure;
+import shtundex.procedures.TimeStopKazhdyiTikVoVriemiaEffiektaProcedure;
 
 import net.minecraftforge.client.extensions.common.IClientMobEffectExtensions;
 
@@ -27,6 +28,11 @@ public class TimeStopMobEffect extends MobEffect {
 	@Override
 	public void addAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
 		TimeStopPriNalozhieniiEffiektaProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+	}
+
+	@Override
+	public void applyEffectTick(LivingEntity entity, int amplifier) {
+		TimeStopKazhdyiTikVoVriemiaEffiektaProcedure.execute(entity);
 	}
 
 	@Override

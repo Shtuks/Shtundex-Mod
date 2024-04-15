@@ -30,6 +30,8 @@ public class CaatnagrudProcedure {
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 60, 19, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.CATCLOTHARMO.get(), 60, 0, false, false));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.ANTIRAD.get(), 60, 1, false, false));
 		itemstack.setDamageValue(0);
 	}

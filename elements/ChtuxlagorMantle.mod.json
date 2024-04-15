@@ -26,7 +26,9 @@
     },
     "bodySpecialInformation": {
       "fixedValue": [
-        "Ω Chtux'Lag'Or Item Ω"
+        "Ω Chtux'Lag'Or Item Ω",
+        "You can't take damage.",
+        "Even from kill or void."
       ]
     },
     "leggingsSpecialInformation": {

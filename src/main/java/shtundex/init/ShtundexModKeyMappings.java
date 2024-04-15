@@ -85,7 +85,7 @@ public class ShtundexModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping NORM_DASH = new KeyMapping("key.shtundex.norm_dash", GLFW.GLFW_KEY_KP_6, "key.categories.movement") {
+	public static final KeyMapping NORM_DASH = new KeyMapping("key.shtundex.norm_dash", GLFW.GLFW_KEY_W, "key.categories.movement") {
 		private boolean isDownOld = false;
 
 		@Override
@@ -150,7 +150,7 @@ public class ShtundexModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping BACKDASH_KEY = new KeyMapping("key.shtundex.backdash_key", GLFW.GLFW_KEY_KP_7, "key.categories.movement") {
+	public static final KeyMapping BACKDASH_KEY = new KeyMapping("key.shtundex.backdash_key", GLFW.GLFW_KEY_S, "key.categories.movement") {
 		private boolean isDownOld = false;
 
 		@Override

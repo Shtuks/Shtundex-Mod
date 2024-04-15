@@ -108,6 +108,8 @@ public abstract class ChtuxlagorMantleItem extends ArmorItem {
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
 			list.add(Component.literal("\u03A9 Chtux'Lag'Or Item \u03A9"));
+			list.add(Component.literal("You can't take damage."));
+			list.add(Component.literal("Even from kill or void."));
 		}
 
 		@Override

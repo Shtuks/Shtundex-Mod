@@ -71,6 +71,8 @@ public class NetheriteForceWhileBaubleIsEquippedTickProcedure {
 		}
 		if ((entity.getCapability(ShtundexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ShtundexModVariables.PlayerVariables())).isshtuxianforcequipped == true) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.SHTUXIAN_REVIVAL.get(), 40, 0, false, false));
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 40, 19, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(ShtundexModMobEffects.FLIGHT.get(), 40, 0, false, false));

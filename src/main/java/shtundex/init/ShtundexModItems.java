@@ -89,10 +89,12 @@ import shtundex.item.InfinityModeChangerItem;
 import shtundex.item.HumanCellsItem;
 import shtundex.item.HazmatItem;
 import shtundex.item.GrindingBallItem;
+import shtundex.item.GreatSwordOfManipulationItem;
 import shtundex.item.GoldenForceItem;
 import shtundex.item.GoldDustItem;
 import shtundex.item.GeigerCountItem;
 import shtundex.item.FlourItem;
+import shtundex.item.ExcaliburItem;
 import shtundex.item.EnergyCrystalItem;
 import shtundex.item.EmptySyrgineItem;
 import shtundex.item.EmeraldForceItem;
@@ -381,6 +383,8 @@ public class ShtundexModItems {
 	public static final RegistryObject<Item> MUSIC_FIXER = REGISTRY.register("music_fixer", () -> new MusicFixerItem());
 	public static final RegistryObject<Item> TELEPORTER = REGISTRY.register("teleporter", () -> new TeleporterItem());
 	public static final RegistryObject<Item> TOTEM_OF_CHTUXLAGOR = REGISTRY.register("totem_of_chtuxlagor", () -> new TotemOfChtuxlagorItem());
+	public static final RegistryObject<Item> EXCALIBUR = REGISTRY.register("excalibur", () -> new ExcaliburItem());
+	public static final RegistryObject<Item> GREAT_SWORD_OF_MANIPULATION = REGISTRY.register("great_sword_of_manipulation", () -> new GreatSwordOfManipulationItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

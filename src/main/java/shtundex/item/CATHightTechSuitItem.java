@@ -81,6 +81,8 @@ public abstract class CATHightTechSuitItem extends ArmorItem {
 			list.add(Component.literal("From the heaven to hell, i am the superior."));
 			list.add(Component.literal("Night vision, Increaced swim speed"));
 			list.add(Component.literal("You will never need food."));
+			list.add(Component.literal("10 sheild points, each recharge in 3 seconds."));
+			list.add(Component.literal("Shtuxian revival with cooldown in 1 minute."));
 			list.add(Component.literal("- Developer Item -"));
 			list.add(Component.literal("- StarlightCat -"));
 		}

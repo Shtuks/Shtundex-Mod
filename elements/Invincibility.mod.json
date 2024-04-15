@@ -12,12 +12,6 @@
     "isBad": false,
     "isBenefitical": true,
     "renderStatusInInventory": true,
-    "renderStatusInHUD": true,
-    "onStarted": {
-      "name": "InvincibilityPriNalozhieniiEffiekta"
-    },
-    "onExpired": {
-      "name": "InvincibilityPriIstiechieniiEffiekta"
-    }
+    "renderStatusInHUD": true
   }
 }

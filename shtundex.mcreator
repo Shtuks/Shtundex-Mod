@@ -1242,20 +1242,6 @@
       "path": "~/Crafts"
     },
     {
-      "name": "AnyCatsteel",
-      "type": "tag",
-      "sortid": 77,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "any_catsteel",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/items/any_catsteel.json"
-        ]
-      },
-      "path": "~/Materials"
-    },
-    {
       "name": "Craft15",
       "type": "recipe",
       "sortid": 78,
@@ -1555,7 +1541,28 @@
         "files": [
           "src/main/java/shtundex/procedures/CatSteelDrillPriRazrushieniiBlokaInstrumientomProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/Tools"
     },
@@ -2066,6 +2073,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2346,6 +2357,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -2406,6 +2429,18 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
@@ -7273,6 +7308,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -12021,16 +12068,11 @@
         ],
         "dependencies": [
           {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
             "name": "world",
             "type": "world"
           }
         ]
-      },
-      "path": "~/Tools"
+      }
     },
     {
       "name": "Shtuxianpriority",
@@ -12043,8 +12085,7 @@
         "files": [
           "src/main/java/shtundex/command/ShtuxianpriorityCommand.java"
         ]
-      },
-      "path": "~/Tools"
+      }
     },
     {
       "name": "JJCCheck",
@@ -12083,8 +12124,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Tools"
+      }
     },
     {
       "name": "TeleporterPriShchielchkiePKMPoBloku",
@@ -12436,6 +12476,588 @@
         ]
       },
       "path": "~/Crafts"
+    },
+    {
+      "name": "RevievedKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "sortid": 721,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revieved_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/RevievedKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "DamageReflection",
+      "type": "procedure",
+      "sortid": 722,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_reflection",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/DamageReflectionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Catsteel",
+      "type": "tag",
+      "sortid": 723,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catsteel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/catsteel.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "Tin",
+      "type": "tag",
+      "sortid": 724,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/tin.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "Bronze",
+      "type": "tag",
+      "sortid": 725,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/bronze.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "Uranium",
+      "type": "tag",
+      "sortid": 726,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/uranium.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "Lead",
+      "type": "tag",
+      "sortid": 727,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/lead.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "ShieldWork",
+      "type": "procedure",
+      "sortid": 728,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shield_work",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShieldWorkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "EnergyShielding",
+      "type": "potioneffect",
+      "sortid": 729,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_shielding",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/EnergyShieldingMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "EnergyShieldingKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "sortid": 730,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_shielding_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/EnergyShieldingKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "ShtArmorPriNalozhieniiEffiekta",
+      "type": "procedure",
+      "sortid": 731,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sht_armor_pri_nalozhienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtArmorPriNalozhieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "ShtArmorPriIstiechieniiEffiekta",
+      "type": "procedure",
+      "sortid": 732,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sht_armor_pri_istiechienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ShtArmorPriIstiechieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "ShtArmor",
+      "type": "potioneffect",
+      "sortid": 733,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sht_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/ShtArmorMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "CatclothArmorun",
+      "type": "procedure",
+      "sortid": 735,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catcloth_armorun",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatclothArmorunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Catclothon",
+      "type": "procedure",
+      "sortid": 737,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catclothon",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatclothonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Catclotharmo",
+      "type": "potioneffect",
+      "sortid": 736,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catclotharmo",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/potion/CatclotharmoMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "CatSteelDrillPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 738,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_steel_drill_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/CatSteelDrillPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "ExcaliburPriUdariePoSushchnostiInstrumientom",
+      "type": "procedure",
+      "sortid": 739,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excalibur_pri_udarie_po_sushchnosti_instrumientom",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ExcaliburPriUdariePoSushchnostiInstrumientomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Excalibur",
+      "type": "tool",
+      "sortid": 740,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excalibur",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shtundex/models/item/excalibur.json",
+          "src/main/java/shtundex/item/ExcaliburItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "GreatSwordOfManipulationPriUdariePoSushchnostiPriedmietom",
+      "type": "procedure",
+      "sortid": 741,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_sword_of_manipulation_pri_udarie_po_sushchnosti_priedmietom",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/GreatSwordOfManipulationPriUdariePoSushchnostiPriedmietomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "GreatSwordOfManipulationPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 742,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_sword_of_manipulation_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/GreatSwordOfManipulationPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "GreatSwordOfManipulation",
+      "type": "item",
+      "sortid": 743,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_sword_of_manipulation",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/item/GreatSwordOfManipulationItem.java",
+          "src/main/resources/assets/shtundex/models/item/great_sword_of_manipulation.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "TimeStopKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "sortid": 744,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_stop_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/TimeStopKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/S.H.T.U.K Mode"
+    },
+    {
+      "name": "BaneOfIllagers",
+      "type": "enchantment",
+      "sortid": 745,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bane_of_illagers",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/enchantment/BaneOfIllagersEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Baneofill",
+      "type": "procedure",
+      "sortid": 746,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baneofill",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/BaneofillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Craft150",
+      "type": "recipe",
+      "sortid": 747,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_150",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_150.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Craft151",
+      "type": "recipe",
+      "sortid": 748,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_151",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shtundex/recipes/craft_151.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "JJCDisactive",
+      "type": "procedure",
+      "sortid": 750,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jjc_disactive",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/JJCDisactiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shtuxcompoff",
+      "type": "command",
+      "sortid": 749,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shtuxcompoff",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/command/ShtuxcompoffCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ExcaliburPriPoluchieniiPriedmietaPoRietsieptu",
+      "type": "procedure",
+      "sortid": 751,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excalibur_pri_poluchienii_priedmieta_po_rietsieptu",
+      "metadata": {
+        "files": [
+          "src/main/java/shtundex/procedures/ExcaliburPriPoluchieniiPriedmietaPoRietsieptuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [
@@ -12618,6 +13240,18 @@
       "type": "logic",
       "scope": "world",
       "value": "false"
+    },
+    {
+      "name": "shieldammount",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "maxshield",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -12808,6 +13442,8 @@
       "item.shtundex.catsteel_armor_boots": "Котосталевые сапоги",
       "item.shtundex.golden_force": "Золотая сила",
       "item.shtundex.chtuxlagor_blaster": "Бластер Штукс\u0027лаг\u0027ора",
+      "effect.shtundex.catclotharmo": "Catcloth Armor",
+      "effect.shtundex.catcloth_armor": "CatclothArmor",
       "advancements.omniruler.descr": "Победить КОШАЧЕЕ БОЖЕСТВО и заполучить его меч.",
       "gui.shtundex.staff_of_power.button_god_mode": "Режим бога",
       "effect.shtundex.crimson_regeneration": "Багряная регенерация",
@@ -12841,6 +13477,7 @@
       "block.shtundex.catsteel_ore": "Руда котостали",
       "item.shtundex.coal_dust": "Угольная пыль",
       "item.shtundex.irradiated_slime_spawn_egg": "Яйцо призыва обученной массы",
+      "item.shtundex.great_sword_of_manipulation": "Great Sword Of Manipulation",
       "item.shtundex.dark_armor_helmet": "Темный шлем",
       "death.attack.cat_posion.item": "%1$s был убит %2$s используя поток реликтового излучения.",
       "death.attack.electricity.player": "%1$s electricified whilst trying to escape %2$s",
@@ -12856,6 +13493,7 @@
       "item.shtundex.cat_clot_armor_helmet": "Кототканевый капюшон",
       "effect.shtundex.radiation": "Радиация",
       "item.shtundex.chtuxlagor_force": "Сила Штукс\u0027лаг\u0027ора",
+      "effect.shtundex.sht_armor": "shtarmor",
       "effect.shtundex.revival_cooldown": "Revival cooldown",
       "item.shtundex.shtuxite_soul": "Штукситовая душа",
       "key.shtundex.special_attack": "Специальная атака",
@@ -12876,6 +13514,7 @@
       "subtitles.shtux2theme": "",
       "subtitles.theme_menu": "",
       "entity.shtundex.black_hole": "Черная дыра",
+      "effect.shtundex.energy_shielding": "EnergyShield",
       "subtitles.swordland": "",
       "item.shtundex.obsidian_dust": "Обсидиановая пыль",
       "item.shtundex.catsteel_blade": "Лезвие из котостали",
@@ -12925,6 +13564,7 @@
       "effect.shtundex.nothing": "Пустота",
       "gui.shtundex.catsteel_workbench.label_catsteel_workbench": "Котосталевый верстак",
       "item.shtundex.raw_uranium": "Сырой уран",
+      "enchantment.shtundex.bane_of_illagers": "Bane Of Illagers",
       "key.shtundex.za_warduo": "За Варррдуо! [WIP]",
       "effect.shtundex.time_stop": "Остановка времени",
       "block.shtundex.alphalt": "Асфальт",
@@ -12996,6 +13636,7 @@
       "gui.shtundex.staff_of_power.button_test": "Тест",
       "item.shtundex.molten_catsteel_bucket": "Капсула с расплавленой котосталью",
       "item.shtundex.bronze_dust": "Бронзовая пыль",
+      "item.shtundex.excalibur": "Excalibur",
       "painting.shtundex.shtundex_paint.author": "StarlightCat",
       "item.shtundex.catsteel_plate": "Котосталевая пластина",
       "item.shtundex.lead_plate": "Свинцовая пластина",
@@ -13138,6 +13779,8 @@
       "item.shtundex.catsteel_armor_boots": "Catsteel Boots",
       "item.shtundex.golden_force": "Golden Force",
       "item.shtundex.chtuxlagor_blaster": "Chtuxlagor Blaster",
+      "effect.shtundex.catclotharmo": "Catcloth Armor",
+      "effect.shtundex.catcloth_armor": "CatclothArmor",
       "advancements.omniruler.descr": "Defeat GOD OF CATS and get his blade.",
       "gui.shtundex.staff_of_power.button_god_mode": "God Mode",
       "effect.shtundex.crimson_regeneration": "CrimsonRegeneration",
@@ -13171,6 +13814,7 @@
       "block.shtundex.catsteel_ore": "Catsteel Ore",
       "item.shtundex.coal_dust": "Coal Dust",
       "item.shtundex.irradiated_slime_spawn_egg": "Irradiated mass Spawn Egg",
+      "item.shtundex.great_sword_of_manipulation": "Great Sword Of Manipulation",
       "item.shtundex.dark_armor_helmet": "Dark Helmet",
       "death.attack.cat_posion.item": "%1$s was killed by %2$s using omega radiation.",
       "death.attack.electricity.player": "%1$s electricified whilst trying to escape %2$s",
@@ -13186,6 +13830,7 @@
       "item.shtundex.cat_clot_armor_helmet": "CatClot Helmet",
       "effect.shtundex.radiation": "Radiation",
       "item.shtundex.chtuxlagor_force": "Chtuxlagor Force",
+      "effect.shtundex.sht_armor": "shtarmor",
       "effect.shtundex.revival_cooldown": "Revival cooldown",
       "item.shtundex.shtuxite_soul": "Shtuxite Soul",
       "key.shtundex.special_attack": "Special Attack",
@@ -13206,6 +13851,7 @@
       "subtitles.shtux2theme": "",
       "entity.shtundex.black_hole": "Black Hole",
       "subtitles.theme_menu": "",
+      "effect.shtundex.energy_shielding": "EnergyShield",
       "subtitles.swordland": "",
       "item.shtundex.obsidian_dust": "Obsidian Dust",
       "item.shtundex.catsteel_blade": "Catsteel Blade",
@@ -13255,6 +13901,7 @@
       "effect.shtundex.nothing": "Void",
       "gui.shtundex.catsteel_workbench.label_catsteel_workbench": "Catsteel Workbench",
       "item.shtundex.raw_uranium": "Raw Uranium",
+      "enchantment.shtundex.bane_of_illagers": "Bane Of Illagers",
       "key.shtundex.za_warduo": "Za Warduo",
       "effect.shtundex.time_stop": "Time stop",
       "block.shtundex.alphalt": "Alphalt",
@@ -13326,6 +13973,7 @@
       "gui.shtundex.staff_of_power.button_test": "TEST",
       "item.shtundex.molten_catsteel_bucket": "Molten Catsteel Capsule",
       "item.shtundex.bronze_dust": "Bronze Dust",
+      "item.shtundex.excalibur": "Excalibur",
       "painting.shtundex.shtundex_paint.author": "StarlightCat",
       "item.shtundex.catsteel_plate": "Catsteel Plate",
       "item.shtundex.lead_plate": "Lead Plate",

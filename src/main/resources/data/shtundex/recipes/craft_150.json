@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "abc",
+    "adc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:redstone"
+    },
+    "b": {
+      "item": "minecraft:gold_block"
+    },
+    "c": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "d": {
+      "item": "shtundex:the_stick"
+    }
+  },
+  "result": {
+    "item": "shtundex:excalibur",
+    "count": 1
+  }
+}

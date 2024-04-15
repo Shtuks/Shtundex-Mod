@@ -1,6 +1,7 @@
 
 package shtundex.potion;
 
+import shtundex.procedures.RevievedKazhdyiTikVoVriemiaEffiektaProcedure;
 import shtundex.procedures.InvincibilityPriNalozhieniiEffiektaProcedure;
 import shtundex.procedures.InvincibilityPriIstiechieniiEffiektaProcedure;
 
@@ -22,6 +23,11 @@ public class RevievedMobEffect extends MobEffect {
 	@Override
 	public void addAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
 		InvincibilityPriNalozhieniiEffiektaProcedure.execute(entity);
+	}
+
+	@Override
+	public void applyEffectTick(LivingEntity entity, int amplifier) {
+		RevievedKazhdyiTikVoVriemiaEffiektaProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
 	}
 
 	@Override

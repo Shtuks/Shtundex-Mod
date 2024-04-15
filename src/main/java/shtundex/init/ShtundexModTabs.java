@@ -196,6 +196,8 @@ public class ShtundexModTabs {
 				tabData.accept(ShtundexModItems.MUSIC_FIXER.get());
 				tabData.accept(ShtundexModItems.TELEPORTER.get());
 				tabData.accept(ShtundexModItems.TOTEM_OF_CHTUXLAGOR.get());
+				tabData.accept(ShtundexModItems.EXCALIBUR.get());
+				tabData.accept(ShtundexModItems.GREAT_SWORD_OF_MANIPULATION.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> LORE = REGISTRY.register("lore",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.shtundex.lore")).icon(() -> new ItemStack(ShtundexModItems.LORE_SHTUXIBUS.get())).displayItems((parameters, tabData) -> {

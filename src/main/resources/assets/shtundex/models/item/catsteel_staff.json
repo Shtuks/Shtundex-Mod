@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "shtundex:custom/staffa3",
   "textures": {
-    "layer0": "shtundex:item/catstaff"
+    "0": "shtundex:block/stoff",
+    "particle": "shtundex:item/catstaff"
   }
 }

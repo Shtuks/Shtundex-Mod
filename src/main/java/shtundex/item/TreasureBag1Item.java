@@ -29,7 +29,7 @@ public class TreasureBag1Item extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		TreasureBag1PriShchielchkiePKMProcedure.execute(entity);
+		TreasureBag1PriShchielchkiePKMProcedure.execute(world, entity);
 		return ar;
 	}
 }

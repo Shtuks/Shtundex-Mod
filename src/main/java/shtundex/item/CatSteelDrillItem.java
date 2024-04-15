@@ -2,6 +2,7 @@
 package shtundex.item;
 
 import shtundex.procedures.CatsteelSwordPriUdariePoSushchnostiInstrumientomProcedure;
+import shtundex.procedures.CatSteelDrillPriShchielchkiePKMProcedure;
 import shtundex.procedures.CatSteelDrillPriRazrushieniiBlokaInstrumientomProcedure;
 import shtundex.procedures.CatSteelDrillPriPoluchieniiPriedmietaPoRietsieptuProcedure;
 
@@ -15,6 +16,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
@@ -54,7 +57,7 @@ public class CatSteelDrillItem extends PickaxeItem {
 	@Override
 	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 		boolean retval = super.mineBlock(itemstack, world, blockstate, pos, entity);
-		CatSteelDrillPriRazrushieniiBlokaInstrumientomProcedure.execute();
+		CatSteelDrillPriRazrushieniiBlokaInstrumientomProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), itemstack);
 		return retval;
 	}
 
@@ -63,6 +66,13 @@ public class CatSteelDrillItem extends PickaxeItem {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
 		CatsteelSwordPriUdariePoSushchnostiInstrumientomProcedure.execute(entity);
 		return retval;
+	}
+
+	@Override
+	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
+		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
+		CatSteelDrillPriShchielchkiePKMProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), ar.getObject());
+		return ar;
 	}
 
 	@Override

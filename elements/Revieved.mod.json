@@ -16,6 +16,9 @@
     "onStarted": {
       "name": "InvincibilityPriNalozhieniiEffiekta"
     },
+    "onActiveTick": {
+      "name": "RevievedKazhdyiTikVoVriemiaEffiekta"
+    },
     "onExpired": {
       "name": "InvincibilityPriIstiechieniiEffiekta"
     }

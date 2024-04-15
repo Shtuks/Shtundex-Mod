@@ -16,6 +16,9 @@
     "onStarted": {
       "name": "TimeStopPriNalozhieniiEffiekta"
     },
+    "onActiveTick": {
+      "name": "TimeStopKazhdyiTikVoVriemiaEffiekta"
+    },
     "onExpired": {
       "name": "TimeStopPriIstiechieniiEffiekta"
     }

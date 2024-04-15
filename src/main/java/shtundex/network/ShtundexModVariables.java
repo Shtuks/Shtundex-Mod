@@ -89,6 +89,8 @@ public class ShtundexModVariables {
 			clone.istinforceequipped = original.istinforceequipped;
 			clone.iscopperforceequipped = original.iscopperforceequipped;
 			clone.islapisforceequipped = original.islapisforceequipped;
+			clone.shieldammount = original.shieldammount;
+			clone.maxshield = original.maxshield;
 			if (!event.isWasDeath()) {
 				clone.Radiation = original.Radiation;
 				clone.isonblock = original.isonblock;
@@ -308,6 +310,8 @@ public class ShtundexModVariables {
 		public boolean istinforceequipped = false;
 		public boolean iscopperforceequipped = false;
 		public boolean islapisforceequipped = false;
+		public double shieldammount = 0;
+		public double maxshield = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -336,6 +340,8 @@ public class ShtundexModVariables {
 			nbt.putBoolean("istinforceequipped", istinforceequipped);
 			nbt.putBoolean("iscopperforceequipped", iscopperforceequipped);
 			nbt.putBoolean("islapisforceequipped", islapisforceequipped);
+			nbt.putDouble("shieldammount", shieldammount);
+			nbt.putDouble("maxshield", maxshield);
 			return nbt;
 		}
 
@@ -361,6 +367,8 @@ public class ShtundexModVariables {
 			istinforceequipped = nbt.getBoolean("istinforceequipped");
 			iscopperforceequipped = nbt.getBoolean("iscopperforceequipped");
 			islapisforceequipped = nbt.getBoolean("islapisforceequipped");
+			shieldammount = nbt.getDouble("shieldammount");
+			maxshield = nbt.getDouble("maxshield");
 		}
 	}
 
@@ -405,6 +413,8 @@ public class ShtundexModVariables {
 					variables.istinforceequipped = message.data.istinforceequipped;
 					variables.iscopperforceequipped = message.data.iscopperforceequipped;
 					variables.islapisforceequipped = message.data.islapisforceequipped;
+					variables.shieldammount = message.data.shieldammount;
+					variables.maxshield = message.data.maxshield;
 				}
 			});
 			context.setPacketHandled(true);
